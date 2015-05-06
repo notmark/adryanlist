@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+    <name>Acestreams</name>
+    <thumbnail>http://i.imgur.com/MWSXNtp.png</thumbnail>
+    <fanart>http://i.imgur.com/ycfHPQv.jpg</fanart>
+        <items>
+           <items_info> <!-- this is opitonal -->
+      <title>Adryan List </title>
+      <genre>Tv Live</genre>
+      <description>: Lista de Canales para el Livestreamspro :</description>
+      <thumbnail>http://i.imgur.com/MWSXNtp.png</thumbnail>
+      <fanart>http://i.imgur.com/6ld0Wx5.jpg</fanart>
+      <date>03.02.2015</date>
+      <credits>adryan</credits>
+    </items_info>
+			
+
+			
+			
+			
+			
+			<item>
+			<title>Arenavision 01  [COLOR orange] para el Addon p2p-Streams [COLOR] - [COLOR gray] multieventos [/COLOR]</title> 
+			<link>plugin://plugin.video.p2p-streams/?url=9aecdf25fbe7dcf945304b3b5d9e76027924f924&amp;mode=1&amp;name=BT+Sport+1</link>
+			<thumbnail>http://gradajoven.es/logo/logo/all/ARENAVISION%203.png</thumbnail>
+			</item>
+			
+			<item>
+			<title>Arenavision 02  [COLOR orange] para el Addon p2p-Streams [COLOR] - [COLOR gray] multieventos [/COLOR]</title> 
+			<link>plugin://plugin.video.p2p-streams/?url=20ab5cb6c537180924ca585563bb36792b85e1a1&amp;mode=1&amp;name=BT+Sport+1</link>
+			<thumbnail>http://gradajoven.es/logo/logo/all/ARENAVISION%203.png</thumbnail>
+			</item>
+			
+			
+			<item>
+			<title>Arenavision 03  [COLOR orange] para el Addon p2p-Streams [COLOR] - [COLOR gray] multieventos [/COLOR]</title> 
+			<link>plugin://plugin.video.p2p-streams/?url=b96a2ef93ab88e25063e4fd6350a0a45bd5e7fd9&amp;mode=1&amp;name=BT+Sport+1</link>
+			<thumbnail>http://gradajoven.es/logo/logo/all/ARENAVISION%203.png</thumbnail>
+			</item>
+			
+			
+			<item>
+			<title>Arenavision 04  [COLOR orange] para el Addon p2p-Streams [COLOR] - [COLOR gray] multieventos [/COLOR]</title> 
+			<link>plugin://plugin.video.p2p-streams/?url=586a2d2a08eac2fc2085c6f5496858d0d1ee1597&amp;mode=1&amp;name=BT+Sport+1</link>
+			<thumbnail>http://gradajoven.es/logo/logo/all/ARENAVISION%203.png</thumbnail>
+			</item>
+			
+			
+			<item>
+			<title>Arenavision 05  [COLOR orange] para el Addon p2p-Streams [COLOR] - [COLOR gray] multieventos [/COLOR]</title> 
+			<link>plugin://plugin.video.p2p-streams/?url=0c535cd6eabc2aa6ce6e6ba6b04af8258e92473e&amp;mode=1&amp;name=BT+Sport+1</link>
+			<thumbnail>http://gradajoven.es/logo/logo/all/ARENAVISION%203.png</thumbnail>
+			</item>
+	<item>
+			<title>Arenavision 06  [COLOR orange] para el Addon p2p-Streams [COLOR] - [COLOR gray] multieventos [/COLOR]</title> 
+			<link>plugin://plugin.video.p2p-streams/?url=e0b02e0874acc016ccc4bca559dc3657d779e78a&amp;mode=1&amp;name=BT+Sport+1</link>
+			<thumbnail>http://gradajoven.es/logo/logo/all/ARENAVISION%203.png</thumbnail>
+			</item>
+			
+			<item>
+			<title>Arenavision 15  [COLOR orange] para el Addon p2p-Streams [COLOR] - [COLOR gray] multieventos [/COLOR]</title> 
+			<link>plugin://plugin.video.p2p-streams/?url=012017935361b8796d51428016a1f23867d8ecb9&amp;mode=1&amp;name=BT+Sport+1</link>
+			<thumbnail>http://gradajoven.es/logo/logo/all/ARENAVISION%203.png</thumbnail>
+			</item>
+			
+			
+			
+			
+	
+			<item>
+			<title>Arenavision 07 -SOPCAST-  [COLOR orange] para el Addon p2p-Streams [COLOR] - [COLOR gray] multieventos [/COLOR]</title> 
+			<link>plugin://plugin.video.p2p-streams/?url=sop://broker.sopcast.com:3912/257222&amp;mode=2&amp;name=title+sopcast</link>
+			<thumbnail>http://gradajoven.es/logo/logo/all/ARENAVISION%203.png</thumbnail>
+			</item>
+			
+			<item>
+			<title>Arenavision 08 -SOPCAST-  [COLOR orange] para el Addon p2p-Streams [COLOR] - [COLOR gray] multieventos [/COLOR]</title> 
+			<link>plugin://plugin.video.p2p-streams/?url=sop://broker.sopcast.com:3912/257223&amp;mode=2&amp;name=title+sopcast</link>
+			<thumbnail>http://gradajoven.es/logo/logo/all/ARENAVISION%203.png</thumbnail>
+			</item>
+			
+			<item>
+			<title>Arenavision 09 -SOPCAST-  [COLOR orange] para el Addon p2p-Streams [COLOR] - [COLOR gray] multieventos [/COLOR]</title> 
+			<link>plugin://plugin.video.p2p-streams/?url=sop://broker.sopcast.com:3912/257224&amp;mode=2&amp;name=title+sopcast</link>
+			<thumbnail>http://gradajoven.es/logo/logo/all/ARENAVISION%203.png</thumbnail>
+			</item>
+			
+			<item>
+			<title>Arenavision 10 -SOPCAST-  [COLOR orange] para el Addon p2p-Streams [COLOR] - [COLOR gray] multieventos [/COLOR]</title> 
+			<link>plugin://plugin.video.p2p-streams/?url=sop://broker.sopcast.com:3912/257225&amp;mode=2&amp;name=title+sopcast</link>
+			<thumbnail>http://gradajoven.es/logo/logo/all/ARENAVISION%203.png</thumbnail>
+			</item>
+			
+			<item>
+			<title>Arenavision 11 -SOPCAST-  [COLOR orange] para el Addon p2p-Streams [COLOR] - [COLOR gray] multieventos [/COLOR]</title> 
+			<link>plugin://plugin.video.p2p-streams/?url=sop://broker.sopcast.com:3912/257226&amp;mode=2&amp;name=title+sopcast</link>
+			<thumbnail>http://gradajoven.es/logo/logo/all/ARENAVISION%203.png</thumbnail>
+			</item>
+	
+	<item>
+			<title>Arenavision 12 -SOPCAST-  [COLOR orange] para el Addon p2p-Streams [COLOR] - [COLOR gray] multieventos [/COLOR]</title> 
+			<link>plugin://plugin.video.p2p-streams/?url=sop://broker.sopcast.com:3912/257227&amp;mode=2&amp;name=title+sopcast</link>
+			<thumbnail>http://gradajoven.es/logo/logo/all/ARENAVISION%203.png</thumbnail>
+			</item>
+	
+	
+	<item>
+			<title>Arenavision 16 -SOPCAST-  [COLOR orange] para el Addon p2p-Streams [COLOR] - [COLOR gray] multieventos [/COLOR]</title> 
+			<link>plugin://plugin.video.p2p-streams/?url=sop://broker.sopcast.com:3912/257228&amp;mode=2&amp;name=title+sopcast</link>
+			<thumbnail>http://gradajoven.es/logo/logo/all/ARENAVISION%203.png</thumbnail>
+			</item>
+	
+	
+	
+	
+	
+			<item>
+			<title>[COLOR yellow]Canal Toros HD[/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=12349</page>
+			<referer></referer></regex></item>
+			
+	
+	
+	
+	
+		
+			<item>
+			<title>Canal+ 1 HD [COLOR orange] para el Addon p2p-Streams [COLOR] - [COLOR gray] multieventos [/COLOR]</title> 
+			<link>plugin://plugin.video.p2p-streams/?url=24bd330264818af27091d43d5e8c3f5d4049e949&amp;mode=1&amp;name=BT+Sport+1</link>
+			<thumbnail>http://gradajoven.es/logo/logo/all/ARENAVISION%203.png</thumbnail>
+			</item>
+	
+	
+	
+			
+		
+		
+			
+			
+			
+		
+			<item>
+			<title>F1 Movistar [COLOR orange] para el Addon p2p-Streams [COLOR] - [COLOR gray] multieventos [/COLOR]</title> 
+			<link>plugin://plugin.video.p2p-streams/?url=4c7b83f20ea64b61c30050c857842d14eec25f54&amp;mode=1&amp;name=BT+Sport+1</link>
+			<thumbnail>http://gradajoven.es/logo/logo/all/ARENAVISION%203.png</thumbnail>
+			</item>
+	
+	
+			
+			
+			<item>	<title>[COLOR lime]Canal +1 Liga[/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=9387</page>
+			<referer></referer></regex></item>
+			
+		
+			
+			
+				<item>	<title>[COLOR lime]Canal+ Liga de Campeones[/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=12376</page>
+			<referer></referer></regex></item>
+			
+			
+			<item>	<title>[COLOR lime]Moto GP[/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=b1f713948a35ada66022d7df26651a4376096dcb&amp;mode=1&amp;name=Sportmania</link>
+			</item>
+			
+			
+				<item>	<title>[COLOR lime]Sky Sports F1[/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=9299</page>
+			<referer></referer></regex></item>
+		
+			
+			<item>	<title>[COLOR lime]Teledeporte HD[/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=11139</page>
+			<referer></referer></regex></item>
+			
+			
+			<item>	<title>[COLOR lime]La Liga[/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=7889394a083203f4ddddf571ab7b52d34e8e9b3a&amp;mode=1&amp;name=Sportmania</link>
+			</item>
+			
+			<item>	<title>[COLOR lime]Canal+ 1[/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=c06ee4206da9f52e00cb62023dde60fc62da64cc&amp;mode=1&amp;name=Sportmania</link>
+			</item>
+			<item>	<title>[COLOR lime]La Liga Campeones[/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=7d8cd8a8f5feac300db5917db833790c34af99e0&amp;mode=1&amp;name=Sportmania</link>
+			</item>
+			
+			
+			
+			<item>	<title>[COLOR lime]c+ Deportes[/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=c6a63af65366c00a79b1116418a8261e7f0e02ee&amp;mode=1&amp;name=Sportmania</link>
+			</item>
+			
+			<item>	<title>[COLOR lime]MotoGp : Sport Klub HD[/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=50a90c1d0830b959f854337d9c196e3fcaff549a&amp;mode=1&amp;name=Sportmania</link>
+			</item>
+			
+			<item>	<title>[COLOR lime]NTV 1 HD Futbol[/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=0d3d2649f240675bc8051db1b0a85e47c1c5d196&amp;mode=1&amp;name=Sportmania</link>
+			</item>
+			
+			
+			<item>	<title>[COLOR lime]NTV 2 HD Futbol[/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=aa52be1286177312537320597b5e118d5bab0a91&amp;mode=1&amp;name=Sportmania</link>
+			</item>
+			
+			<item>	<title>[COLOR lime]NTV 3 HD Futbol[/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=aa52be1286177312537320597b5e118d5bab0a91&amp;mode=1&amp;name=Sportmania</link>
+			</item>
+			
+			
+			<item>	<title>[COLOR lime]C+ More Tennis[/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=999e6a959f43178fd5482021c54d1f2035ba5e99&amp;mode=1&amp;name=Sportmania</link>
+			</item>
+			
+			
+			
+			<item>	<title>[COLOR red]Canal+ Sport Francia[/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=11667</page>
+			<referer></referer></regex></item>
+			
+			
+			
+			<item>
+			<title>[COLOR blue] MOTOR  [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=0a6329542da7d11695c8b09fb698fa0173d96606&amp;mode=1&amp;name=Test</link>
+			<thumbnail>http://www.ragemotorsport.com/CLI/RMS001/Images/Lydden%20Hill%20-%20MotorTV.JPG</thumbnail>
+			<fanart>http://www.ragemotorsport.com/CLI/RMS001/Images/Lydden%20Hill%20-%20MotorTV.JPG</fanart>
+			</item>
+			
+			
+			<item>	<title>[COLOR lila]Eurosport HD[/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://allfon.tv/?id=24#11</page>
+			<referer></referer></regex></item>
+			
+			<item>	<title>[COLOR lila]Eurosport 2 HD[/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=11777</page>
+			<referer></referer></regex></item>
+			
+			<item>	<title>[COLOR lila]Eurosport 2[/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=11748</page>
+			<referer></referer></regex></item>
+			
+			
+			
+			
+			
+			<item>	<title>[COLOR lila]BoxNation [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=ea376ca535922f820d78cb0957b72095d19ee86a&amp;mode=1&amp;name=Sportmania</link>
+			</item>
+			
+			
+				
+			<item>	<title>[COLOR lila]NBA TV[/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=20f586f024788e9faaa56de3c4ba5977af8b5071&amp;mode=1&amp;name=Sportmania</link>
+			</item>
+			
+			
+			
+			
+			<item>	<title>[COLOR lila]Sky Sports 3 [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=6909</page>
+			<referer></referer></regex></item>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+				<item>	<title>[COLOR lila]Skyp Sport HD1  - Alemania[/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=11584</page>
+			<referer></referer></regex></item>
+			
+				<item>	<title>[COLOR lila]Sky Sports F1  [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=9299</page>
+			<referer></referer></regex></item>
+			
+				<item>	<title>[COLOR lila] Sky Sports Italia [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=11158</page>
+			<referer></referer></regex></item>
+			
+				<item>	<title>[COLOR lila]Sky News UK[/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=9191</page>
+			<referer></referer></regex></item>
+			
+			
+			
+			
+				<item>	<title>[COLOR lila]Arenasports 1 [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=11644</page>
+			<referer></referer></regex></item>
+			
+				<item>	<title>[COLOR lila]Arenasports 2 [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=11266</page>
+			<referer></referer></regex></item>
+			
+				<item>	<title>[COLOR lila]Arenasports 3 [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=10984</page>
+			<referer></referer></regex></item>
+			
+				<item>	<title>[COLOR lila]Arenasports 4 [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=11464</page>
+			<referer></referer></regex></item>
+			
+			
+			
+			
+			
+			
+				<item>	<title>[COLOR lila]Bein 1 HD Francia [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=11681</page>
+			<referer></referer></regex></item>
+			
+				<item>	<title>[COLOR lila]Bein 2 HD Francia [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=11680</page>
+			<referer></referer></regex></item>
+			
+			
+				<item>	<title>[COLOR lila]Bein 3 HD Francia [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=11864</page>
+			<referer></referer></regex></item>
+			
+			
+			
+				<item>	<title>[COLOR lila]BT Sports 1 [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=10344</page>
+			<referer></referer></regex></item>
+			
+				<item>	<title>[COLOR lila]Motor TV [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=1483</page>
+			<referer></referer></regex></item>
+			
+				<item>	<title>[COLOR lila]NBA HD [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=9727</page>
+			<referer></referer></regex></item>
+			
+				<item>	<title>[COLOR lila]NBA TV [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=9446</page>
+			<referer></referer></regex></item>
+			
+				<item>	<title>[COLOR lila]Teledeporte HD [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=11139</page>
+			<referer></referer></regex></item>
+			
+				<item>	<title>[COLOR lila]Travel Channel [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=1439</page>
+			<referer></referer></regex></item>
+			
+				<item>	<title>[COLOR lila]Premier Sports [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://torrent-tv.ru/torrent-online.php?translation=6972</page>
+			<referer></referer></regex></item>
+			
+		
+				<item>	<title>[COLOR yellow]Musica: MTV Dance [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://allfon.tv/?id=97</page>
+			<referer></referer></regex></item>
+			
+			
+				<item>	<title>[COLOR yellow]Musica: MTV Hits [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://allfon.tv/?id=112</page>
+			<referer></referer></regex></item>
+				<item>	<title>[COLOR yellow]Musica: MTV Rock [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://allfon.tv/?id=98</page>
+			<referer></referer></regex></item>
+				<item>	<title>[COLOR yellow]Musica: VH1 Classics [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://allfon.tv/?id=111</page>
+			<referer></referer></regex></item>
+				<item>	<title>[COLOR yellow]Musica: VH1 Europa [/COLOR]</title>
+			<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Sportmania</link>
+			<regex><name>url</name> <expres>this.loadPlayer\("([^"]*)</expres>
+			<page>http://allfon.tv/?id=110</page>
+			<referer></referer></regex></item>
+			
+			
+			
+			
+			
+</items>
