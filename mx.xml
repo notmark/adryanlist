@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+
+
+	<channel>
+    <name>[COLOR=green]-----[/COLOR][COLOR=orange]► C A N A L E S  -  M E X I C O [COLOR gray] Locales : El Canal de las estrellas • Canal 5 • Azteca 7 • Azteca 13 • Foro TV • Gala TV • Teleformula  [/COLOR][/COLOR][COLOR=green]-----[/COLOR]</name>
+    <thumbnail>http://i.imgur.com/MWSXNtp.png</thumbnail>
+    <fanart>http://i.imgur.com/6ld0Wx5.jpg</fanart>
+        <items>
+            
+			<items_info> <!-- this is opitonal -->
+      <title>Adryan List </title>
+      <genre>Tv Live</genre>
+      <description>: Lista de Canales para el Livestreamspro :</description>
+      <thumbnail>http://i.imgur.com/MWSXNtp.png</thumbnail>
+      <fanart>http://i.imgur.com/vnB7jHv.jpg</fanart>
+      <date>03.02.2015</date>
+      <credits>adryan</credits>
+    </items_info>
+			
+			
+			
+			<item>
+			<title>Canal de las Estrellas (HD) </title>
+			<link>http://tvsawpdvr-lh.akamaihd.net/i/stch02wp_1@119660/index_648_av-p.m3u8</link>
+			
+			<thumbnail></thumbnail>
+			</item>
+			
+			
+			
+			
+			<item>
+			<title>Azteca 13 HD *</title>
+			<link>http://aztecalive-lh.akamaihd.net/i/0oxnvzh8a_1@175671/index_3_av-b.m3u8</link>
+			</item>
+			
+			
+			<item>
+			<title>Azteca Noticias HD</title>
+			<link>http://urtmpkal-f.akamaihd.net/i/077zoqxzy_1@130091/index_3_av-p.m3u8</link>
+			</item>
+			
+			<item>
+			<title>proyecto 40</title>
+			<link>http://urtmpkal-f.akamaihd.net/i/05i15qzql_1@149710/index_2_av-p.m3u8</link>
+			</item>
+			
+			<item>
+			<title>proyecto 40</title>
+			<link>rtmp://66.90.93.18:0/canal091.stream</link>
+			</item>
+			
+			<item>
+				<title>Azteca 7</title>
+				<link>rtmp://$doregex[rtmpip]/live playpath=azteca7feb2015?id=22175 conn=S:OK swfUrl=http://www.mipsplayer.com/content/scripts/fplayer.swf pageUrl=http://www.mipsplayer.com live=1 timeout=20</link>
+				<regex>
+					<name>rtmpip</name>
+					<expres>redirect=(.*)</expres>
+					<page>http://www.mipsplayer.com:1935/loadbalancer?22175</page>
+					<referer>http://www.mipsplayer.com/content/scripts/fplayer.swf</referer>
+				</regex>
+				<thumbnail></thumbnail>
+			</item>
+			
+			
+			
+			<item>
+				<title>Canal Cinco</title>
+				<link>rtmp://$doregex[rtmpip]/live playpath=zinko22abr2015?id=227506 conn=S:OK swfUrl=http://www.mipsplayer.com/content/scripts/fplayer.swf pageUrl=http://www.mipsplayer.com live=1 timeout=20</link>
+				<regex>
+					<name>rtmpip</name>
+					<expres>redirect=(.*)</expres>
+					<page>http://www.mipsplayer.com:1935/loadbalancer?227506</page>
+					<referer>http://www.mipsplayer.com/content/scripts/fplayer.swf</referer>
+				</regex>
+				<thumbnail></thumbnail>
+			</item>
+			
+			
+
+			
+			<item>
+			<title>Multimedios</title>
+			<link>http://200.76.77.237/LIVE/H01/CANAL167/PROFILE03.m3u8?</link>
+			</item>
+			
+			<item>
+			<title>test2</title>
+			<link>http://brightcove03-f.akamaihd.net/multimedios_tv_612k@55732?videoId=1266736350001&lineUpId=&pubId=1221954060001&playerId=1266656281001&affiliateId</link>
+			</item>
+			
+			<item>
+			<title>Foro TV</title>
+			<link>http://185417-f.akamaihd.net/i/n0tf0r0_1@81283/index_1200_av-b.m3u8?sd=10&rebase=on</link>
+			</item>
+			
+									
+			<item>
+			<title>Teleformula</title>
+			<link>rtmp://72.233.78.178/live/ playpath=A swfUrl=http://www.jaxe.net/player/player-old.swf?file=A&type=flv&streamer=rtmp://72.233.78.178/live/&autostart=true&stretching=exactfit&mute=false&skin=http://www.jaxe.net/player/dangdang.swf live=1 pageUrl=http://televall.com.mx/teleformula.html</link>
+			<thumbnail></thumbnail>
+			</item>
+			
+					
+			<item> 
+			<title>Canal Mexico</title>
+			<link>rtmp://50.7.98.234/rtv/videortv</link>
+			<thumbnail></thumbnail>
+			</item>
+
+			<item> 
+			<title>Canal 22</title>
+			<link>rtmp://origen.cloudapp.net:1935/live/envivopc playpath=envivopc swfUrl=http://www.enlinea.canal22.org.mx/strobemediaplayback.swf live=1 pageUrl=http://tv-canalestelevall.blogspot.com.es/2013/03/canal-22-mexico.html conn=S:OK --live</link>
+			<thumbnail></thumbnail>
+			</item> 
+			
+			
+			
+			
+			
+			<item> 
+			<title>Info 7 Nuevo Leon</title>
+			<link>http://38.104.228.230:1938/info7/smil:Stream_Info7_NL/chunklist_w1338486895_b320000_slesp.m3u8</link>
+			<thumbnail></thumbnail>
+			</item> 
+			
+			<item> 
+			<title>TVC</title>
+			<link>rtmp://204.107.26.252:8086/live/213.high.stream</link>
+			<thumbnail></thumbnail>
+			</item> 
+			
+			<item> 
+			<title>TVC</title>
+			<link>rtmp://204.107.26.252:8086/live/713.high.stream</link>
+			<thumbnail></thumbnail>
+			</item> 
+			
+			<item> 
+			<title>TVC</title>
+			<link>http://198.179.31.196/live/713.high.stream</link>
+			<thumbnail></thumbnail>
+			</item> 
+			
+			<item> 
+			<title>TVC</title>
+			<link>http://198.179.31.196:8086/live/713.high.stream</link>
+			<thumbnail></thumbnail>
+			</item> 
+			
+
+			<item> 
+			<title>Multimedios *</title>
+			<link>http://brightcove03-f.akamaihd.net/multimedios_tv_612k@55732?file=ChelTV_m3u8 Conn=S:OK</link>
+			<thumbnail></thumbnail>
+			</item> 
+			
+			
+			
+			<item>
+			<title>Gala TV - Merida </title>
+			<link>$doregex[get-page]$doregex[get-initsesion]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+			<regex>
+			<name>get-initsesion</name>
+			<expres></expres>
+			<page>$doregex[get-page]</page>
+			<agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+			<cookieJar></cookieJar>
+			</regex>
+			<regex>
+			<name>get-page</name>
+			<expres>"m3u8_url":"(.*?)"</expres>
+			<page>http://new.livestream.com/galatvmerida/events/2992659</page>
+			<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a Safari/9537.53</agent>
+			<cookieJar></cookieJar>
+			</regex>
+			</item>
+			
+			
+			<item>
+			<title>Gala TV - Cancun </title>
+			<link>$doregex[get-page]$doregex[get-initsesion]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+			<regex>
+			<name>get-initsesion</name>
+			<expres></expres>
+			<page>$doregex[get-page]</page>
+			<agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+			<cookieJar></cookieJar>
+			</regex>
+			<regex>
+			<name>get-page</name>
+			<expres>"m3u8_url":"(.*?)"</expres>
+			<page>http://new.livestream.com/galatvcancun/envivo</page>
+			<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a Safari/9537.53</agent>
+			<cookieJar></cookieJar>
+			</regex>
+			</item>
+			
+			
+			
+			
+			
+			
+			
+			<item> 
+			<title>Tv Mas</title>
+			<link>rtmp://50.7.98.234/rtv/videortv</link>
+			<thumbnail></thumbnail>
+			</item> 
+			
+			
+			
+			<item>
+			<title>Hogar Util </title>
+			<link>http://brightcove03-f.akamaihd.net/HOGARUTIL_1_1100@117573</link>
+			<thumbnail></thumbnail>
+			</item>
+			
+			<item>
+			<title>Multimedio Monterrey </title>
+			<link>http://brightcove03-f.akamaihd.net/multimedios_tv_612k@55732?file=ChelTV_m3u8</link>
+			<thumbnail></thumbnail>
+			</item>
+			
+			<item>
+			<title>TeleMax </title>
+			<link>rtmp://204.45.15.50/telemax/telemax</link>
+			<thumbnail></thumbnail>
+			</item>
+			
+			<item>
+			<title>Sony Six </title>
+			<link>http://103.3.229.147:8084/r_sonysix/01.m3u8</link>
+			<thumbnail></thumbnail>
+			</item>
+			
+			<item>
+			<title>Ocho TV </title>
+			<link>http://s3.amazonaws.com/com-wooblue-ochotv/prog_index.m3u8</link>
+			<thumbnail></thumbnail>
+			</item>
+			
+			<item><title>OCHO TV (Mex)
+</title><link>http://201.130.193.150:1935/codecsys/smil:ocho.smil/master.m3u8</link></item>
+			
+			<item>
+			<title>Azteca 7 </title>
+			<link>http://urtmpkal-f.akamaihd.net/i/077zoqxzy_1@130091/index_3_av-p.m3u8</link>
+			<thumbnail></thumbnail>
+			</item>
+			
+			<item>
+			<title>Milenio Centro </title>
+			<link>http://brightcove03-f.akamaihd.net/milenio_centro_512k@101956</link>
+			<thumbnail></thumbnail>
+			</item>
+			<item>
+			<title>Telemax Sonora</title><!-- rivxs.ucoz.com/ch1.html -->
+			<link>$doregex[get-link]</link>
+			<regex>
+			<name>get-link</name>
+			<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/91125/streams/live/playlist.m3u8')</expres>
+			<page></page>
+			</regex> 
+			</item>
+			
+			
+			<item><title>TDN HD</title><link>http://187.247.255.139/Apple/TDNHD4500.m3u8</link></item>
+			
+			<item><title>Gala HD</title><link>http://187.247.255.139/Apple/GALAHD4500.m3u8</link></item>
+			
+			
+
+  <item><title>CineMexicano</title><link>http://187.247.255.139/Apple/CMC.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title>CineMexicano </title><link>http://187.247.255.139/Apple/CMC1200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title>CineMexicano </title><link>http://187.247.255.139/Apple/CMC150.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title>CineMexicano </title><link>http://187.247.255.139/Apple/CMC150_audio.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title>CineMexicano  </title><link>http://187.247.255.139/Apple/CMC1800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title>CineMexicano  </title><link>http://187.247.255.139/Apple/CMC200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title>CineMexicano  </title><link>http://187.247.255.139/Apple/CMC2500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title>CineMexicano  </title><link>http://187.247.255.139/Apple/CMC400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title>CineMexicano  </title><link>http://187.247.255.139/Apple/CMC600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title>CineMexicano  </title><link>http://187.247.255.139/Apple/CMC800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+  <item><title>CNN Español </title><link>http://187.247.255.139/Apple/CNNEspanol.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title>CNN Español  </title><link>http://187.247.255.139/Apple/CNNEspanol1200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title>CNN Español  </title><link>http://187.247.255.139/Apple/CNNEspanol150.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title>CNN Español  </title><link>http://187.247.255.139/Apple/CNNEspanol150_audio.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title>CNN Español  </title><link>http://187.247.255.139/Apple/CNNEspanol1800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title>CNN Español  </title><link>http://187.247.255.139/Apple/CNNEspanol200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title>CNN Español  </title><link>http://187.247.255.139/Apple/CNNEspanol2500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title>CNN Español  </title><link>http://187.247.255.139/Apple/CNNEspanol400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title>CNN Español  </title><link>http://187.247.255.139/Apple/CNNEspanol600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title>CNN Español  </title><link>http://187.247.255.139/Apple/CNNEspanol800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+  <item><title>Discovery Kids </title><link>http://187.247.255.139/Apple/DCHKHD.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/DCHKHD1200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/DCHKHD150.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/DCHKHD150_audio.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/DCHKHD1800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/DCHKHD200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/DCHKHD2500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/DCHKHD400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/DCHKHD4500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/DCHKHD600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+  <item><title> </title><link>http://187.247.255.139/Apple/Discovery.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title>Discovery </title><link>http://187.247.255.139/Apple/Discovery1200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/Discovery150.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/Discovery150_audio.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/Discovery1800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/Discovery200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/Discovery2500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/Discovery400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/Discovery600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/Discovery800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+  <item><title>Espn 2 </title><link>http://187.247.255.139/Apple/ESPN2.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPN21200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPN2150.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+ 
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPN2150_audio.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPN21800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+ 
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPN2200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPN22500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPN2400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPN2600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPN2800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+  <item><title>Espn 3 </title><link>http://187.247.255.139/Apple/ESPN3HD.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPN3HD1200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPN3HD150.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPN3HD150_audio.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPN3HD1800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPN3HD200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPN3HD2500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPN3HD400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPN3HD4500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+			
+
+
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPN3HD600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+  <item><title>Espn HD </title><link>http://187.247.255.139/Apple/ESPNHD.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPNHD1200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPNHD1800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPNHD2500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPNHD400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPNHD4500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/ESPNHD600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+  <item><title>Fox </title><link>http://187.247.255.139/Apple/FOX.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/FOX1200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/FOX150.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/FOX150_audio.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/FOX1800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/FOX200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/FOX2500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/FOX400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/FOX600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/FOX800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+  <item><title>Fox Sports </title><link>http://187.247.255.139/Apple/FOXSPHD.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/FOXSPHD1200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/FOXSPHD1800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/FOXSPHD2500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/FOXSPHD400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/FOXSPHD4500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/FOXSPHD600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+  <item><title>Gala HD </title><link>http://187.247.255.139/Apple/GALAHD.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/GALAHD1200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/GALAHD150.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/GALAHD150_audio.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/GALAHD1800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/GALAHD200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/GALAHD2500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/GALAHD400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/GALAHD4500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/GALAHD600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+ 
+ 
+  <item><title>History HD </title><link>http://187.247.255.139/Apple/HistoryHD.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/HistoryHD1200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/HistoryHD200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/HistoryHD2500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/HistoryHD400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/HistoryHD4500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/HistoryHD600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+  <item><title>MEga Canal </title><link>http://187.247.255.139/Apple/Megacanal.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/Megacanal1200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/Megacanal1800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/Megacanal200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/Megacanal2500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/Megacanal400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/Megacanal600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/Megacanal800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title>Nick HD </title><link>http://187.247.255.139/Apple/NICKHD.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/NICKHD1200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+ 
+  <item><title> </title><link>http://187.247.255.139/Apple/NICKHD150.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/NICKHD150_audio.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/NICKHD1800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/NICKHD200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/NICKHD2500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/NICKHD400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/NICKHD4500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/NICKHD600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+  <item><title>Nick Jr </title><link>http://187.247.255.139/Apple/NickJr.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/NickJr1200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/NickJr150.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/NickJr150_audio.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/NickJr1800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/NickJr200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/NickJr2500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/NickJr400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/NickJr600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/NickJr800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+  <item><title>Platino HD </title><link>http://187.247.255.139/Apple/PLATINOSD.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/PLATINOSD1200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/PLATINOSD150.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/PLATINOSD150_audio.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/PLATINOSD1800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/PLATINOSD200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/PLATINOSD2500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/PLATINOSD400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/PLATINOSD600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/PLATINOSD800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+  <item><title>TDN </title><link>http://187.247.255.139/Apple/TDNHD.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TDNHD1200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TDNHD1800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TDNHD200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TDNHD2500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TDNHD400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TDNHD4500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TDNHD600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+  <item><title>Telehit </title><link>http://187.247.255.139/Apple/THITHD.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/THITHD1200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/THITHD150.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/THITHD150_audio.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/THITHD1800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/THITHD200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/THITHD2500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/THITHD400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/THITHD4500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/THITHD600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+  <item><title>TVC </title><link>http://187.247.255.139/Apple/TVC.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TVC1200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TVC150.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TVC150_audio.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TVC1800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TVC200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TVC2500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TVC400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TVC600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TVC800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+  <item><title>TVC Deportes </title><link>http://187.247.255.139/Apple/TVCDeportes.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TVCDeportes1200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TVCDeportes150.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TVCDeportes1800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TVCDeportes200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TVCDeportes2500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TVCDeportes400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TVCDeportes600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/TVCDeportes800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+  <item><title>Unicable </title><link>http://187.247.255.139/Apple/UNICAHD.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/UNICAHD1200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/UNICAHD150.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/UNICAHD150_audio.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/UNICAHD1800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/UNICAHD200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/UNICAHD2500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/UNICAHD400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/UNICAHD4500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/UNICAHD600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+  <item><title>Uni HD </title><link>http://187.247.255.139/Apple/UNIHD.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/UNIHD1200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/UNIHD200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/UNIHD2500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/UNIHD400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/UNIHD4500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/UNIHD600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title>VideoRola </title><link>http://187.247.255.139/Apple/VROLAHD.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/VROLAHD1200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/VROLAHD150.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/VROLAHD150_audio.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/VROLAHD200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/VROLAHD2500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/VROLAHD400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/VROLAHD4500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/VROLAHD600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+  <item><title>Warner HD </title><link>http://187.247.255.139/Apple/WarnerHD.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/WarnerHD1000.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/WarnerHD2000.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/WarnerHD400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/WarnerHD4000.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/WarnerHD400_audio.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/WarnerHD600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/WarnerHD800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/WarnerHD800_audio.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title>Canal de las Estrellas </title><link>http://187.247.255.139/Apple/XEWHD.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/XEWHD1200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/XEWHD150.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/XEWHD150_audio.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/XEWHD1800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/XEWHD200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/XEWHD2500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/XEWHD400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/XEWHD4500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/XEWHD600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+  <item><title>Canal Cinco </title><link>http://187.247.255.139/Apple/XHGCHD.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/XHGCHD1200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/XHGCHD150.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/XHGCHD150_audio.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/XHGCHD1800.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/XHGCHD200.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/XHGCHD2500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/XHGCHD400.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/XHGCHD4500.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+  <item><title> </title><link>http://187.247.255.139/Apple/XHGCHD600.m3u8</link></item><!---  http://blog.adryanlist.info --- si lo compartes se discreto para que no los tumben  pasalos por privado ----->
+
+			
+			
+			
+			
+			
+			
+			
+			
+					
+        </items>
+    </channel>
