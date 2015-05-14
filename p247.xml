@@ -4,7 +4,7 @@
 	<channel>
     <name>[COLOR=green]-----[/COLOR][COLOR=orange]► P E L I C U L A S  -  24/7 - TODO EL DIA [/COLOR][COLOR gray]Audio Latino: Canales con Peliculas de Todos Los generos.. Estrenos mas recientes !!!  [/COLOR][COLOR=green]-----[/COLOR]</name>
     <thumbnail>http://i.imgur.com/MWSXNtp.png</thumbnail>
-    <fanart>http://i.imgur.com/6ld0Wx5.jpg</fanart>
+    <fanart>http://i.imgur.com/7izulmv.jpg</fanart>
         <items>
             
 			<item><title>[COLOR=green]-----[/COLOR][COLOR=orange]P E L I C U L A S  - 24/7  (AUDIO LATINO)[/COLOR][COLOR=green]-----[/COLOR]</title><link>http://about.me/adryan</link></item>
@@ -20,7 +20,7 @@
 			</regex>
 			<regex>
 			<name>getCODE</name>
-			<expres>vsVars.*= "0m0(.*?)"<expres>
+			<expres>vsVars.*= "0n0(.*?)"<expres>
 			<page>http://vaughnlive.tv/mega_kids</page>
 			</regex>
 			</item>
@@ -35,7 +35,7 @@
 			</regex>
 			<regex>
 			<name>getCODE</name>
-			<expres>vsVars.*= "0m0(.*?)"<expres>
+			<expres>vsVars.*= "0n0(.*?)"<expres>
 			<page>http://vaughnlive.tv/katyhd</page>
 			</regex>
 			</item>
@@ -50,7 +50,7 @@
 			</regex>
 			<regex>
 			<name>getCODE</name>
-			<expres>vsVars.*= "0m0(.*?)"<expres>
+			<expres>vsVars.*= "0n0(.*?)"<expres>
 			<page>http://vaughnlive.tv/sebastiann24</page>
 			</regex>
 			</item>
@@ -65,7 +65,7 @@
 			</regex>
 			<regex>
 			<name>getCODE</name>
-			<expres>vsVars.*= "0m0(.*?)"<expres>
+			<expres>vsVars.*= "0n0(.*?)"<expres>
 			<page>http://vaughnlive.tv/300movies</page>
 			</regex>
 			</item>
@@ -82,7 +82,7 @@
 			</regex>
 			<regex>
 			<name>getCODE</name>
-			<expres>vsVars.*= "0m0(.*?)"<expres>
+			<expres>vsVars.*= "0n0(.*?)"<expres>
 			<page>http://vaughnlive.tv/vitatotv</page>
 			</regex>
 			</item>
@@ -105,7 +105,7 @@
 			</regex>
 			<regex>
 			<name>getCODE</name>
-			<expres>vsVars.*= "0m0(.*?)"<expres>
+			<expres>vsVars.*= "0n0(.*?)"<expres>
 			<page>http://vaughnlive.tv/mega_extremo</page>
 			</regex>
 			</item>
@@ -122,7 +122,7 @@
 			</regex>
 			<regex>
 			<name>getCODE</name>
-			<expres>vsVars.*= "0m0(.*?)"<expres>
+			<expres>vsVars.*= "0n0(.*?)"<expres>
 			<page>http://vaughnlive.tv/livetvlatina</page>
 			</regex>
 			</item>
@@ -139,7 +139,7 @@
 			</regex>
 			<regex>
 			<name>getCODE</name>
-			<expres>vsVars.*= "0m0(.*?)"<expres>
+			<expres>vsVars.*= "0n0(.*?)"<expres>
 			<page>http://vaughnlive.tv/cinemalatinohd01</page>
 			</regex>
 			</item>
@@ -155,7 +155,7 @@
 			</regex>
 			<regex>
 			<name>getCODE</name>
-			<expres>vsVars.*= "0m0(.*?)"<expres>
+			<expres>vsVars.*= "0n0(.*?)"<expres>
 			<page>http://vaughnlive.tv/cinecanalhdlatino</page>
 			</regex>
 			</item>
@@ -172,7 +172,7 @@
 			</regex>
 			<regex>
 			<name>getCODE</name>
-			<expres>vsVars.*= "0m0(.*?)"<expres>
+			<expres>vsVars.*= "0n0(.*?)"<expres>
 			<page>http://vaughnlive.tv/lcreme_staff</page>
 			</regex>
 			</item>
@@ -190,7 +190,7 @@
 			</regex>
 			<regex>
 			<name>getCODE</name>
-			<expres>vsVars.*= "0m0(.*?)"<expres>
+			<expres>vsVars.*= "0n0(.*?)"<expres>
 			<page>http://vaughnlive.tv/letzfetz</page>
 			</regex>
 			</item>
@@ -207,7 +207,7 @@
 			</regex>
 			<regex>
 			<name>getCODE</name>
-			<expres>vsVars.*= "0m0(.*?)"<expres>
+			<expres>vsVars.*= "0n0(.*?)"<expres>
 			<page>http://vaughnlive.tv/cinescape</page>
 			</regex>
 			</item>
@@ -223,7 +223,7 @@
 			</regex>
 			<regex>
 			<name>getCODE</name>
-			<expres>vsVars.*= "0m0(.*?)"<expres>
+			<expres>vsVars.*= "0n0(.*?)"<expres>
 			<page>http://vaughnlive.tv/mega_movieshd</page>
 			</regex>
 			</item>
@@ -240,7 +240,7 @@
 			</regex>
 			<regex>
 			<name>getCODE</name>
-			<expres>vsVars.*= "0m0(.*?)"<expres>
+			<expres>vsVars.*= "0n0(.*?)"<expres>
 			<page>http://vaughnlive.tv/universal_movies</page>
 			</regex>
 			</item>
@@ -257,7 +257,7 @@
 			</regex>
 			<regex>
 			<name>getCODE</name>
-			<expres>vsVars.*= "0m0(.*?)"<expres>
+			<expres>vsVars.*= "0n0(.*?)"<expres>
 			<page>http://vaughnlive.tv/zonafilms</page>
 			</regex>
 			</item>
@@ -273,7 +273,7 @@
 			</regex>
 			<regex>
 			<name>getCODE</name>
-			<expres>vsVars.*= "0m0(.*?)"<expres>
+			<expres>vsVars.*= "0n0(.*?)"<expres>
 			<page>http://vaughnlive.tv/lobos_tv</page>
 			</regex>
 			</item>
@@ -289,7 +289,7 @@
 			</regex>
 			<regex>
 			<name>getCODE</name>
-			<expres>vsVars.*= "0m0(.*?)"<expres>
+			<expres>vsVars.*= "0n0(.*?)"<expres>
 			<page>http://vaughnlive.tv/fearterror</page>
 			</regex>
 			</item>
@@ -306,7 +306,7 @@
 			</regex>
 			<regex>
 			<name>getCODE</name>
-			<expres>vsVars.*= "0m0(.*?)"<expres>
+			<expres>vsVars.*= "0n0(.*?)"<expres>
 			<page>http://vaughnlive.tv/club_terror</page>
 			</regex>
 			</item>
@@ -323,7 +323,7 @@
 			</regex>
 			<regex>
 			<name>getCODE</name>
-			<expres>vsVars.*= "0m0(.*?)"<expres>
+			<expres>vsVars.*= "0n0(.*?)"<expres>
 			<page>http://vaughnlive.tv/morena_channels12</page>
 			</regex>
 			</item>
@@ -340,7 +340,7 @@
 			</regex>
 			<regex>
 			<name>getCODE</name>
-			<expres>vsVars.*= "0m0(.*?)"<expres>
+			<expres>vsVars.*= "0n0(.*?)"<expres>
 			<page>http://vaughnlive.tv/entretenimientohd1</page>
 			</regex>
 			</item>
