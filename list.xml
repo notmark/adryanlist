@@ -24,11 +24,49 @@
 					
 					www.adryanlist.info
 					
-					LISTA DE CANALES PARA EL ADDON LIVESTREAMSPRO
+					LISTA DE CANALES PARA KODI
 					
 					
 					
+
+
 					
+
+					
+					1. instalar el Addon AdryanList 
+						Descargar: http://addon.adryanlist.info
+						Mirror Mediafire: http://bit.ly/addonal
+
+					2.- tambien puedes buscar el addon RobinHood  o Livestreamspro
+						2.1: en el Livestreamspro agregar la url http://adryanlist.info
+
+
+					3.- Disfrutar ! 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 					
 					
 					
@@ -135,7 +173,54 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 -->
+
 
 
 <items>
@@ -143,8 +228,8 @@
       <title>Adryan List </title> 
       <genre>Tv Live</genre>
       <description>: Lista de Canales para el Livestreamspro :</description>
-      <thumbnail>http://i.imgur.com/MWSXNtp.png</thumbnail>
-      <fanart>http://i.imgur.com/6ld0Wx5.jpg</fanart>
+      <thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail>
+      <fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
       <date>13.02.2015</date>
       <credits>adryan</credits>
     </items_info>
@@ -153,27 +238,23 @@
 	
 		
 	
-	<item>
-<title>[COLOR=lime]Si te gusta la lista, invitame un Cafe mediante una [I](Donación)[/I] a [COLOR=red]PAYPAL: [/COLOR][COLOR=yellow][B]adrian.bu@gmail.com[/B][/COLOR] Ayuda/Soporte twitter:[COLOR yellow]@adryan[/COLOR] • Whatsapp [COLOR yellow]+52 1 [B][I]462 130 40 49[/I][/B][/COLOR][/COLOR]  </title>
-<link>http://ignorame</link><thumbnail>http://i.imgur.com/MWSXNtp.png</thumbnail><fanart>http://i.imgur.com/6ld0Wx5.jpg</fanart>
-<externallink></externallink>
-</item>
+	
+
+
 
 <item>
-<title>                      [COLOR orange][B][I]http://www.adryanlist.info[/I][/B][/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://i.imgur.com/MWSXNtp.png</thumbnail><fanart>http://i.imgur.com/6ld0Wx5.jpg</fanart>
-
-<description>Lista de Canales de adryan</description>
+<title>                                [COLOR skyblue][B]A D R Y A N [/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR]</title>
+<link>http://shadowcrew.info/adryan/liist.xml</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
 </item>
+
+
+
+
+
 <item>
-<title>                      [COLOR gray]   update: [COLOR lime]06[/COLOR] • [COLOR yellow]Mayo[/COLOR] • [COLOR lime]2015[/COLOR][/COLOR]      </title>
-<link>http://ignorame</link><thumbnail>http://i.imgur.com/MWSXNtp.png</thumbnail><fanart>http://i.imgur.com/6ld0Wx5.jpg</fanart>
+<title>                     [COLOR lightblue]   update: [COLOR orange]8[/COLOR] • Septiembre • 2015[/COLOR]      </title>
+<link>http://shadowcrew.info/adryan/liist.xml</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
 </item>
-
-
-
-
-
 
 
 
@@ -187,92 +268,117 @@
 
 
 <item>
-<title>[COLOR orange]  •[/COLOR][COLOR cyan]    Deportes[/COLOR] </title>
-<link>http://ignorame</link><thumbnail>http://i.imgur.com/MWSXNtp.png</thumbnail><fanart>http://i.imgur.com/6ld0Wx5.jpg</fanart>
-<externallink>https://dl.dropboxusercontent.com/u/32066381/deportes_adryan_list.xml</externallink>
+<title>[COLOR lime]  •[/COLOR][COLOR deepskyblue]    Deportes[/COLOR] </title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+<externallink>http://shadowcrew.info/adryan/deportes_adryan_list.xml</externallink>
 </item>
 <item>
-<title>[COLOR orange]  •[/COLOR][COLOR cyan]    España [/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://i.imgur.com/MWSXNtp.png</thumbnail><fanart>http://i.imgur.com/6ld0Wx5.jpg</fanart>
-<externallink>https://dl.dropboxusercontent.com/u/32066381/esp.xml</externallink>
+<title>[COLOR lime]  •[/COLOR][COLOR deepskyblue]    [B]Sports[/B]   [/COLOR][COLOR skyblue][p2p@Plexus] [/COLOR]</title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+<externallink>http://shadowcrew.info/adryan/ace.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR lime]  •[/COLOR][COLOR deepskyblue]    España [/COLOR]</title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+<externallink>http://shadowcrew.info/adryan/esp.xml</externallink>
 </item>
 <item>
-<title>[COLOR orange]  •[/COLOR][COLOR cyan]    Mexico[/COLOR] </title>
-<link>http://ignorame</link><thumbnail>http://i.imgur.com/MWSXNtp.png</thumbnail><fanart>http://i.imgur.com/6ld0Wx5.jpg</fanart>
-<externallink>https://dl.dropboxusercontent.com/u/32066381/mx.xml</externallink>
+<title>[COLOR lime]  •[/COLOR][COLOR deepskyblue]    Mexico[/COLOR] </title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+<externallink>http://shadowcrew.info/adryan/mx.xml</externallink>
+</item>
+<!--
+<item>
+<title>[COLOR gray]  •[/COLOR][COLOR deepskyblue]    [B]T[/B]otal[B]P[/B]lay   [/COLOR] [COLOR skyblue][01] [/COLOR]  </title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+<externallink>http://shadowcrew.info/adryan/tp_d.xml</externallink>
 </item>
 <item>
-<title>[COLOR orange]  •[/COLOR][COLOR cyan]    Canales TP[/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://i.imgur.com/MWSXNtp.png</thumbnail><fanart>http://i.imgur.com/6ld0Wx5.jpg</fanart>
-<externallink>https://dl.dropboxusercontent.com/u/32066381/tp.xml</externallink>
+<title>[COLOR gray]  •[/COLOR][COLOR deepskyblue]    [B]T[/B]otal[B]P[/B]lay   [/COLOR] [COLOR skyblue][02] [/COLOR]  </title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+<externallink>http://shadowcrew.info/adryan/tp3.xml</externallink>
+</item>
+-->
+<item>
+<title>[COLOR lime]  •[/COLOR][COLOR deepskyblue]    TotalPlay    [/COLOR] [COLOR skyblue][Solo para Mexico] [/COLOR]  </title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+<externallink>http://shadowcrew.info/adryan/totalp.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR lime]  •[/COLOR][COLOR deepskyblue]    Entretenimiento[/COLOR] [COLOR skyblue][ TotalPlay 2 ] [/COLOR]  </title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+<externallink>http://shadowcrew.info/adryan/ent.xml</externallink>
 </item>
 <item>
-<title>[COLOR orange]  •[/COLOR][COLOR cyan]    Peliculas 24/7[/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://i.imgur.com/MWSXNtp.png</thumbnail><fanart>http://i.imgur.com/6ld0Wx5.jpg</fanart>
-<externallink>https://dl.dropboxusercontent.com/u/32066381/p247.xml</externallink>
+<title>[COLOR lime]  •[/COLOR][COLOR deepskyblue]    Peliculas & [B]Series de TV [COLOR skyblue]24/7[/COLOR][/B][/COLOR] [COLOR green] [/COLOR]</title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+<externallink>http://shadowcrew.info/adryan/p247.xml</externallink>
 </item>
 <item>
-<title>[COLOR orange]  •[/COLOR][COLOR cyan]    Entretenimiento[/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://i.imgur.com/MWSXNtp.png</thumbnail><fanart>http://i.imgur.com/6ld0Wx5.jpg</fanart>
-<externallink>https://dl.dropboxusercontent.com/u/32066381/ent.xml</externallink>
+<title>[COLOR lime]  •[/COLOR][COLOR deepskyblue]    Peliculas [/COLOR]   [COLOR lime] [/COLOR] </title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+<externallink>http://shadowcrew.info/adryan/peliculas.xml</externallink>
 </item>
 <item>
-<title>[COLOR orange]  •[/COLOR][COLOR cyan]    Musica[/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://i.imgur.com/MWSXNtp.png</thumbnail><fanart>http://i.imgur.com/6ld0Wx5.jpg</fanart>
-<externallink>https://dl.dropboxusercontent.com/u/32066381/musi.xml</externallink>
+<title>[COLOR lime]  •[/COLOR][COLOR deepskyblue]    Series de TV [/COLOR]   [COLOR gray] [/COLOR]  </title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+<externallink>http://shadowcrew.info/adryan/tv.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR lime]  •[/COLOR][COLOR deepskyblue]    Musica[/COLOR]</title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+<externallink>http://shadowcrew.info/adryan/musi.xml</externallink>
 </item>
 <item>
-<title>[COLOR orange]  •[/COLOR][COLOR cyan]    Paises[/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://i.imgur.com/MWSXNtp.png</thumbnail><fanart>http://i.imgur.com/6ld0Wx5.jpg</fanart>
-<externallink>https://dl.dropboxusercontent.com/u/32066381/paises.xml</externallink>
+<title>[COLOR lime]  •[/COLOR][COLOR deepskyblue]    Paises[/COLOR]</title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+<externallink>http://shadowcrew.info/adryan/paises.xml</externallink>
 </item>
 <item>
-<title>[COLOR orange]  •[/COLOR][COLOR cyan]    Internacionales[/COLOR] </title>
-<link>http://ignorame</link><thumbnail>http://i.imgur.com/MWSXNtp.png</thumbnail><fanart>http://i.imgur.com/6ld0Wx5.jpg</fanart>
-<externallink>https://dl.dropboxusercontent.com/u/32066381/inter.xml</externallink>
+<title>[COLOR lime]  •[/COLOR][COLOR deepskyblue]    Internacionales[/COLOR] </title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+<externallink>http://shadowcrew.info/adryan/inter.xml</externallink>
 </item>
-<item>
-<title>[COLOR orange]  •[/COLOR][COLOR cyan]    Canales Acestreams (p2p)[/COLOR] </title>
-<link>http://ignorame</link><thumbnail>http://i.imgur.com/MWSXNtp.png</thumbnail><fanart>http://i.imgur.com/6ld0Wx5.jpg</fanart>
-<externallink>https://dl.dropboxusercontent.com/u/32066381/ace.xml</externallink>
-</item>
-<item>
-<title>[COLOR orange]  •[/COLOR][COLOR cyan]    Listas Amigas[/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://i.imgur.com/MWSXNtp.png</thumbnail><fanart>http://i.imgur.com/6ld0Wx5.jpg</fanart>
-<externallink>https://dl.dropboxusercontent.com/u/32066381/lists.xml</externallink>
-</item>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <item>
-<title>[COLOR orange]  •[/COLOR][COLOR lime]  LA SECCION DE ESPAÑA ESTAN FALLANDO MUCHO LOS CANALES, SIGOTRABAJANDO EN CONSEGUIR NUEVOS ENLACES.  [/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://i.imgur.com/MWSXNtp.png</thumbnail><fanart>http://i.imgur.com/6ld0Wx5.jpg</fanart>
-<externallink>https://dl.dropboxusercontent.com/u/32066381/list.xml</externallink>
+<title>[COLOR lime]  •[/COLOR][COLOR deepskyblue]    Listas Amigas[/COLOR]</title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+<externallink>http://shadowcrew.info/adryan/lists.xml</externallink>
 </item>
 
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>             </title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+<externallink>http://shadowcrew.info/adryan/iptvstalker.m3u</externallink>
+</item>
+
+
+
+
+<item>
+<title>        [COLOR orange]  + [/COLOR][COLOR white]Member of [B]ShadowCrew[/B] / RobinHood [/COLOR]</title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+<externallink>http://shadowcrew.info/adryan/liist..xml</externallink>
+</item>
 
 
 
 
 </items>
+
