@@ -75,10 +75,6 @@
 	
 	
 
-<item>
-<title>[COLOR yellow][B]!!! DESCARGA E INSTALA !!![/B] [COLOR lime][I]Actualizacion [COLOR orange]http://bit.ly/addon-adryanlist[/COLOR] o http://addon.adryanlist.info[/I][/COLOR][/COLOR]</title>
-<link>http://kodistream.info/adryan/liist.xml</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
-</item>
 
 <item>
 <title>                                [COLOR skyblue][B]A D R Y A N [/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR]</title>
@@ -90,7 +86,7 @@
 
 
 <item>
-<title>                     [COLOR lightblue]   update: [COLOR orange]08[/COLOR] • Octubre • 2015[/COLOR]      </title>
+<title>                     [COLOR lightblue]   update: [COLOR orange]10[/COLOR] • Octubre • 2015[/COLOR]      </title>
 <link>http://kodistream.info/adryan/liist.xml</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
 </item>
 
@@ -139,11 +135,6 @@
 </item>
 
 
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  IPTV+   [/COLOR] [COLOR skyblue][Stalker][/COLOR]  </title>
-<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
-<externallink>http://adrian.kodistream.info/adryan/stalker001.m3u</externallink>
-</item>
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  TotalPlay    [/COLOR] [COLOR skyblue][Solo para Mexico] [/COLOR]  </title>
@@ -192,5 +183,11 @@
 <externallink>http://adrian.kodistream.info/adryan/lists.xml</externallink>
 </item>
 
+
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  IPTV+   [/COLOR] [COLOR skyblue][Stalker][/COLOR]  </title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+<externallink>http://adrian.kodistream.info/adryan/stalker001.m3u</externallink>
+</item>
 
 </items>
