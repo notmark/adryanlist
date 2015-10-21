@@ -107,7 +107,7 @@
 
 
 
-<item><title>[COLOR orange]•[/COLOR][COLOR deepskyblue]  Volver al Futuro I[/COLOR]</title>
+<item><title>[COLOR orange]•  Volver al Futuro I[/COLOR]</title>
 <link>$doregex[id]</link>
 <regex>
 <name>id</name>
@@ -119,7 +119,7 @@
      <fanart>https://image.tmdb.org/t/p/original/x4N74cycZvKu5k3KDERJay4ajR3.jpg</fanart>
 </item>
 
-<item><title>[COLOR yellow]•[/COLOR][COLOR deepskyblue]  Volver al Futuro II[/COLOR]</title>
+<item><title>[COLOR yellow]•  Volver al Futuro II[/COLOR]</title>
 <link>$doregex[id]</link>
 <regex>
 <name>id</name>
@@ -131,7 +131,7 @@
      <fanart>https://image.tmdb.org/t/p/original/snLFUFzWUZCdYkAbhZlaGJxiY3I.jpg</fanart>
 </item>
 
-<item><title>[COLOR green]•[/COLOR][COLOR deepskyblue]  Volver al Futuro III[/COLOR]</title>
+<item><title>[COLOR green]•  Volver al Futuro III[/COLOR]</title>
 <link>$doregex[id]</link>
 <regex>
 <name>id</name>
