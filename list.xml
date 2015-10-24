@@ -89,7 +89,7 @@
 
 
 <item>
-<title>                     [COLOR deepskyblue]   update: [COLOR yellow]22[/COLOR] • Octubre • 2015[/COLOR]      </title>
+<title>                     [COLOR deepskyblue]   update: [COLOR yellow]24[/COLOR] • Octubre • 2015[/COLOR]      </title>
 <link>http://adrian.kodistream.info/adryan/liist.xml</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
 </item>
 
@@ -104,46 +104,6 @@
 
 
 
-
-<!--
-
-<item><title>[COLOR orange]•  Volver al Futuro I[/COLOR]</title>
-<link>$doregex[id]</link>
-<regex>
-<name>id</name>
-<expres>file:'(.*)'</expres>
-<page>http://streamin.to/embed-hkz7ng69f5b7-740x360.html</page>
-<referer>http://streamin.to</referer>
-</regex>
-<thumbnail>https://image.tmdb.org/t/p/w500/9CYWEV0SzZ3W0F8QCALlTgyTjHD.jpg</thumbnail>
-     <fanart>https://image.tmdb.org/t/p/original/x4N74cycZvKu5k3KDERJay4ajR3.jpg</fanart>
-</item>
-
-<item><title>[COLOR yellow]•  Volver al Futuro II[/COLOR]</title>
-<link>$doregex[id]</link>
-<regex>
-<name>id</name>
-<expres>file:'(.*)'</expres>
-<page>http://streamin.to/embed-27lobqv8s0eq-740x360.html</page>
-<referer>http://streamin.to</referer>
-</regex>
-<thumbnail>https://image.tmdb.org/t/p/w500/tbeSxSqJGM9dfoaOakgHPZ27waQ.jpg</thumbnail>
-     <fanart>https://image.tmdb.org/t/p/original/snLFUFzWUZCdYkAbhZlaGJxiY3I.jpg</fanart>
-</item>
-
-<item><title>[COLOR green]•  Volver al Futuro III[/COLOR]</title>
-<link>$doregex[id]</link>
-<regex>
-<name>id</name>
-<expres>file:'(.*)'</expres>
-<page>http://streamin.to/embed-m6q50a9upwce-740x360.html</page>
-<referer>http://streamin.to</referer>
-</regex>
-    <thumbnail>https://image.tmdb.org/t/p/w500/qi6ztG5EbhtRokOALYMeDSEr7uB.jpg</thumbnail>
-     <fanart>https://image.tmdb.org/t/p/original/pP2a4MBQbIeZMbErBWMjxTT5Npb.jpg</fanart>
-</item>
-
--->
 
 
 
@@ -200,6 +160,13 @@
 <link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
 <externallink>http://adrian.kodistream.info/adryan/ent.xml</externallink>
 </item>
+
+
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  IPTV+   [/COLOR] [COLOR skyblue][/COLOR]  </title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
+<externallink>http://adrian.kodistream.info/adryan/stalker001.m3u</externallink>
+</item>
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Peliculas & [B]Series de TV [COLOR skyblue]24/7[/COLOR][/B][/COLOR] [COLOR green] [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
@@ -239,13 +206,8 @@
 <externallink>http://adrian.kodistream.info/adryan/lists.xml</externallink>
 </item>
 
-<!--
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  IPTV+   [/COLOR] [COLOR skyblue][Stalker][/COLOR]  </title>
-<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
-<externallink>http://adrian.kodistream.info/adryan/stalker001.m3u</externallink>
-</item>
--->
+
+
 
 <item>
 <title>[COLOR gray]Si te Gusta la Lista Considera hacer una DONACION, para apoyarme y seguirla actualizando.[/COLOR]</title>
