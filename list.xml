@@ -89,7 +89,7 @@
 
 
 <item>
-<title>                     [COLOR deepskyblue]   update: [COLOR skyblue]26[/COLOR] • Octubre • 2015[/COLOR]      </title>
+<title>                   [COLOR deepskyblue]   update: [COLOR skyblue]28[/COLOR] • Octubre • 2015[/COLOR]      </title>
 <link>http://adrian.kodistream.info/adryan/liist.xml</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
 </item>
 
@@ -141,15 +141,10 @@
 <externallink>http://adrian.kodistream.info/adryan/nescafe.xml</externallink>
 </item>
 
-<!---->
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  TotalPlay    [/COLOR] [COLOR skyblue][Server 01] [/COLOR]  </title>
-<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
-<externallink>http://adrian.kodistream.info/adryan/total.xml</externallink>
-</item>
+
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  TotalPlay    [/COLOR] [COLOR skyblue][Server 02] [/COLOR]  </title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  TotalPlay    [/COLOR] [COLOR skyblue] [/COLOR]  </title>
 <link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
 <externallink>http://adrian.kodistream.info/adryan/totalp.xml</externallink>
 </item>
