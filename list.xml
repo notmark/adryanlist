@@ -79,10 +79,7 @@
 </item>	
 -->
 
-<item>
-<title>                   [COLOR red][B]FELIZ [/COLOR][COLOR orange]CUMPLEAÑOS[/B][/COLOR][COLOR yellow]  [B]A MI[/B][/COLOR]</title>
-<link>http://adrian.kodistream.info/adryan/liist.xml</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
-</item>
+
 
 
 
@@ -96,7 +93,7 @@
 
 
 <item>
-<title>               [COLOR deepskyblue]   update: [COLOR yellow]17[/COLOR] • Noviembre • 2015[/COLOR]      </title>
+<title>               [COLOR deepskyblue]   update: [COLOR yellow]18[/COLOR] • Noviembre • 2015[/COLOR]      </title>
 <link>http://adrian.kodistream.info/adryan/liist.xml</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
 </item>
 
@@ -120,7 +117,7 @@
 
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Deportes[/COLOR] </title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Deportes[/COLOR] [COLOR skyblue][Sports] [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
 <externallink>http://adrian.kodistream.info/adryan/deportes_adryan_list.xml</externallink>
 </item>
@@ -223,14 +220,5 @@
 
 </items>
 
-
-<!-- Histats.com  START (hidden counter)-->
-<script type="text/javascript">document.write(unescape("%3Cscript src=%27http://s10.histats.com/js15.js%27 type=%27text/javascript%27%3E%3C/script%3E"));</script>
-<script  type="text/javascript" >
-try {Histats.start(1,3235444,4,0,0,0,"");
-Histats.track_hits();} catch(err){};
-</script>
-<noscript></noscript>
-<!-- Histats.com  END  -->
 
 
