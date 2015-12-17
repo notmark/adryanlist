@@ -93,7 +93,7 @@
 </item>
 
 <item>
-<title>              [COLOR gray]   update: [COLOR skyblue]15[/COLOR] • Diciembre • 2015[/COLOR]      </title>
+<title>              [COLOR gray]   update: [COLOR white]17[/COLOR] • Diciembre • 2015[/COLOR]      </title>
 <link>http://adrian.kodistream.info/adryan/liist.xml</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 </item>
 
@@ -111,7 +111,11 @@
 
 
 
-
+<item>
+<title>[COLOR cyan]•[/COLOR][COLOR yellow]  S T A R  [/COLOR] [COLOR gold] W A R S     [/COLOR] [COLOR gray][seccion especial SAGA COMPLETA][/COLOR]</title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
+<externallink>http://adrian.kodistream.info/adryan/starwars.xml</externallink>
+</item>
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Deportes[/COLOR] [COLOR skyblue][Sports] [/COLOR]</title>
