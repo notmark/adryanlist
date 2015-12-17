@@ -80,12 +80,12 @@
 
 
 
-
+<!--
 <item>
 <title>             [B][COLOR red]Feliz[/COLOR] [COLOR white]Navidad  [/COLOR]   •    [COLOR red]Feliz[/COLOR] [COLOR white]Año[/COLOR]  [COLOR red]2016[/COLOR][/B]</title>
 <link>http://adrian.kodistream.info/adryan/in.xml</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 </item>	
-
+-->
 
 <item>
 <title>                           [COLOR skyblue][B]A D R Y A N [/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR]</title>
@@ -109,13 +109,14 @@
 
 
 
-
+<!--
 
 <item>
-<title>[COLOR cyan]•[/COLOR][COLOR yellow]  S T A R  [/COLOR] [COLOR gold] W A R S     [/COLOR] [COLOR gray][seccion especial SAGA COMPLETA][/COLOR]</title>
+<title>[COLOR cyan]•[/COLOR][COLOR yellow]  ** S T A R  [/COLOR] [COLOR gold] W A R S  ** [/COLOR] [COLOR gray][seccion especial SAGA COMPLETA][/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 <externallink>http://adrian.kodistream.info/adryan/starwars.xml</externallink>
 </item>
+-->
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Deportes[/COLOR] [COLOR skyblue][Sports] [/COLOR]</title>
