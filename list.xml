@@ -92,7 +92,7 @@
 </item>
 
 <item>
-<title>              [COLOR gray]          update: [COLOR white]25[/COLOR] • Enero • 2016[/COLOR]      </title>
+<title>              [COLOR gray]          update: [COLOR white]26[/COLOR] • Enero • 2016[/COLOR]      </title>
 <link>http://adrian.kodistream.info/adryan/liist.xml</link><thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 </item>
 
@@ -162,6 +162,27 @@
 <link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 <externallink>http://adrian.kodistream.info/adryan/iptv.m3u</externallink>
 </item>
+
+
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  IPTV[B]Canales[/B]   [/COLOR] [COLOR skyblue][/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<item>
+<title>[COLOR white][/COLOR][COLOR lime][makelist.param1][/COLOR]</title>
+<link>http://iptvcanales.com/xw/canales/canal1.m3u8?canal=[makelist.param2]&amp;profile=3|Referer=http://iptvcanales.com/hls/grindplayer/flashlsOSMF.swf</link>
+<thumbnail>[makelist.param3]</thumbnail>
+</item>
+]]></listrepeat>
+<expres>canal=(.*?)&[\w\W\s]{0,4}n_canal=(.*?)"[\w\W\s]{0,6}src="(.*?)"</expres>
+<page>http://iptvcanales.com</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
+
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR coral]  [B]AloFlix [/B]  [/COLOR] [COLOR skyblue] [Peliculas en SD y HD Audio Latino][/COLOR]  </title>
