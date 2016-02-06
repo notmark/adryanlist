@@ -90,7 +90,7 @@
 </item>
 
 <item>
-<title>              [COLOR gray]        update: [COLOR white]03[/COLOR] • Febrero • 2016[/COLOR]      </title>
+<title>              [COLOR gray]        update: [COLOR white]06[/COLOR] • Febrero • 2016[/COLOR]      </title>
 <link>http://adrian.kodistream.info/adryan/liist.xml</link><thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 </item>
 
@@ -150,11 +150,11 @@
 
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  TotalPlay    [/COLOR] [COLOR darkwhite] [/COLOR]  </title>
+<title>[COLOR lime]•[/COLOR][COLOR gray]  TotalPlay    [/COLOR] [COLOR darkwhite] [/COLOR]  </title>
 <link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 <externallink>http://adrian.kodistream.info/adryan/totalp.xml</externallink>
 </item>
-
+<!--
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  IPTV[B]+[/B]   [/COLOR] [COLOR skyblue][/COLOR]  </title>
 <link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
@@ -180,7 +180,7 @@
 <cookieJar></cookieJar>
 </regex>
 </item>
-
+-->
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR coral]  [B]AloFlix [/B]  [/COLOR] [COLOR skyblue] [Peliculas en SD y HD Audio Latino][/COLOR]  </title>
