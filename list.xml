@@ -90,7 +90,7 @@
 </item>
 
 <item>
-<title>              [COLOR gray]        update: [COLOR white]06[/COLOR] • Febrero • 2016[/COLOR]      </title>
+<title>              [COLOR gray]        update: [COLOR white]09[/COLOR] • Febrero • 2016[/COLOR]      </title>
 <link>http://adrian.kodistream.info/adryan/liist.xml</link><thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 </item>
 
@@ -113,7 +113,7 @@
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Deportes[/COLOR] [COLOR skyblue] [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
-<externallink>http://adrian.kodistream.info/adryan/deportes_adryan_list.xml</externallink>
+<externallink>http://adryanlist.org/adryan/deportes_adryan_list.xml</externallink>
 </item>
 
 <item>
@@ -142,7 +142,7 @@
 
 
 <item>
-<title>[COLOR red]•[/COLOR][COLOR gray]  Stalker   [/COLOR][COLOR gray][Caido][/COLOR] </title>
+<title>[COLOR red]•[/COLOR][COLOR gray]  Stalker   [/COLOR][COLOR gray][Offline][/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 <externallink>http://adrian.kodistream.info/adryan/nescafe.xml</externallink>
 </item>
@@ -150,7 +150,7 @@
 
 
 <item>
-<title>[COLOR red]•[/COLOR][COLOR gray]  TotalPlay    [/COLOR] [COLOR darkwhite] [/COLOR]  </title>
+<title>[COLOR red]•[/COLOR][COLOR gray]  TotalPlay    [/COLOR] [COLOR gray][Offline][/COLOR]  </title>
 <link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 <externallink>http://adrian.kodistream.info/adryan/totalp.xml</externallink>
 </item>
