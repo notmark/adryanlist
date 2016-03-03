@@ -90,7 +90,7 @@
 </item>
 
 <item>
-<title>              [COLOR gray]        update: [COLOR white]25[/COLOR] • Febrero • 2016[/COLOR]      </title>
+<title>              [COLOR gray]      update: [COLOR white]03[/COLOR] • Marzo • 2016[/COLOR]      </title>
 <link>http://adrian.kodistream.info/adryan/liist.xml</link><thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 </item>
 
@@ -122,6 +122,15 @@
 <externallink>http://adrian.kodistream.info/adryan/pyt_vod.xml</externallink>
 </item>
 <item>
+<title>[COLOR lime]•[/COLOR][COLOR coral]  [B]AloFlix [/B]  [/COLOR] [COLOR skyblue] [Peliculas en SD y HD Audio Latino][/COLOR]  </title>
+<link>http://ignora.me</link>
+<externallink>http://pastebin.com/raw/8Lad5SDC</externallink>
+<fanart>http://fotonin.com/data_images/out/5/776482-cool-movie-wallpaper.jpg</fanart>
+<thumbnail>http://i.imgur.com/iYCbuTY.jpg</thumbnail>
+<info></info>
+</item>
+
+<item>
 <title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]Series de TV[/B] [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 <externallink>http://adrian.kodistream.info/adryan/tv.xml</externallink>
@@ -141,19 +150,6 @@
 
 
 
-<item>
-<title>[COLOR red]•[/COLOR][COLOR gray]  Stalker   [/COLOR][COLOR gray][Offline][/COLOR] </title>
-<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
-<externallink>http://adrian.kodistream.info/adryan/nescafe.xml</externallink>
-</item>
-
-
-
-<item>
-<title>[COLOR red]•[/COLOR][COLOR gray]  TotalPlay    [/COLOR] [COLOR gray][Offline][/COLOR]  </title>
-<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
-<externallink>http://adrian.kodistream.info/adryan/totalp.xml</externallink>
-</item>
 <!--
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  IPTV[B]+[/B]   [/COLOR] [COLOR skyblue][/COLOR]  </title>
@@ -182,14 +178,7 @@
 </item>
 <!---->
 
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR coral]  [B]AloFlix [/B]  [/COLOR] [COLOR skyblue] [Peliculas en SD y HD Audio Latino][/COLOR]  </title>
-<link>http://ignora.me</link>
-<externallink>http://pastebin.com/raw/8Lad5SDC</externallink>
-<fanart>http://fotonin.com/data_images/out/5/776482-cool-movie-wallpaper.jpg</fanart>
-<thumbnail>http://i.imgur.com/iYCbuTY.jpg</thumbnail>
-<info></info>
-</item>
+
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Entretenimiento[/COLOR]  [COLOR skyblue][/COLOR]  </title>
@@ -210,6 +199,21 @@
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Musica[/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 <externallink>http://adrian.kodistream.info/adryan/musi.xml</externallink>
+</item>
+
+
+<item>
+<title>[COLOR red]•[/COLOR][COLOR gray]  Stalker   [/COLOR][COLOR gray][Offline][/COLOR] </title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
+<externallink>http://adrian.kodistream.info/adryan/nescafe.xml</externallink>
+</item>
+
+
+
+<item>
+<title>[COLOR red]•[/COLOR][COLOR gray]  TotalPlay    [/COLOR] [COLOR gray][Offline][/COLOR]  </title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
+<externallink>http://adrian.kodistream.info/adryan/totalp.xml</externallink>
 </item>
 
 <item>
