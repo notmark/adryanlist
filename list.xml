@@ -90,7 +90,7 @@
 </item>
 
 <item>
-<title>              [COLOR gray]      update: [COLOR white]08[/COLOR] • Marzo • 2016[/COLOR]      </title>
+<title>              [COLOR gray]      update: [COLOR white]10[/COLOR] • Marzo • 2016[/COLOR]      </title>
 <link>http://adrian.kodistream.info/adryan/liist.xml</link><thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 </item>
 
@@ -119,7 +119,7 @@
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]Peliculas[/B] [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
-<externallink>http://adryanlist.org/adryan/pyt_vod.xml</externallink>
+<externallink>http://adryanlist.org/adryan/gnula.xml</externallink>
 </item>
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR coral]  [B]AloFlix [/B]  [/COLOR] [COLOR skyblue] [Peliculas en SD y HD Audio Latino][/COLOR]  </title>
@@ -190,8 +190,49 @@
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Peliculas & [B]Series de TV [COLOR skyblue]24/7 • VaughnLive[/COLOR][/B][/COLOR] [COLOR green] [/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg/fanart>
-<externallink>http://adryanlist.org/adryan/p247.xml</externallink>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<item>
+			<title>[makelist.param2]</title>
+			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_[makelist.param1] live=1 timeout=20</link>
+			<regex>
+			<name>clearCode</name>
+			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>
+			<page></page>
+			</regex>
+			<regex>
+			<name>getencoded</name>
+			<expres>:mvnkey-(.*)</expres>
+			<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+			<name>getserver</name>
+			<expres>(.*?);</expres>
+			<page>$doregex[getUrl]</page>
+			</regex>
+			<regex>
+			<name>getUrl</name>
+			<expres>(.*)</expres>
+			<page>http://mvn.vaughnsoft.net/video/edge/live_[makelist.param1]$doregex[gettime]-$doregex[gettime].33434</page>
+			</regex>
+			<regex>
+			<name>gettime</name>
+			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>
+			<page></page>
+			</regex>
+			<thumbnail>http://cdn.vaughnsoft.com/vaughnsoft/vaughn/img_profiles/[makelist.param2]_320.jpg</thumbnail></item>
+]]></listrepeat>
+<expres>a href="/(.*?)"[\w\W\s]{0,22}browseTxt">(.*?)<</expres>
+<page>http://vaughnlive.tv/browse/espanol</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg/fanart>
+<!--<link>http://ignorame</link>
+<externallink>http://adryanlist.org/adryan/p247.xml</externallink>->>
 </item>
 
 
