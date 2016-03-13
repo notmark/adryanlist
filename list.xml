@@ -196,7 +196,7 @@
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Peliculas & [B]Series de TV [COLOR skyblue]24/7 • VaughnLive[/COLOR][/B][/COLOR] [COLOR green] [/COLOR]</title>
-<link>$doregex[makelist]</link>
+<!--  <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
@@ -237,8 +237,8 @@
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg/fanart>
-<!--<link>http://ignorame</link>
-<externallink>http://adryanlist.org/adryan/p247.xml</externallink>-->
+--><link>http://ignorame</link>
+<externallink>http://adryanlist.org/adryan/p247.xml</externallink>
 
 </item>
 
