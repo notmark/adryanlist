@@ -86,11 +86,11 @@
 <link>http://adrian.kodistream.info/adryan/liist.xml</link><thumbnail>http://adryanlist.org/adryan/img/adryanlist.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 </item>
 <item>
-<title>[COLOR lightslategray]     Donaciones al [COLOR lightslategray]PayPal:[/COLOR] [COLOR lightblue]adrian.bu@gmail.com[/COLOR][/COLOR]</title>
+<title>[COLOR lightslategray]Donaciones al [COLOR lightslategray]PayPal:[/COLOR] [COLOR lightblue]adrian.bu@gmail.com[/COLOR][/COLOR]</title>
 <link>http://adrian.kodistream.info/adryan/in.xml</link><thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 </item>
 <item>
-<title>              [COLOR lightslategray]update: [COLOR lightblue]23[/COLOR] • Abril • 2016[/COLOR]      </title>
+<title>              [COLOR lightslategray]update: [COLOR lightblue]24[/COLOR] • Abril • 2016[/COLOR]      </title>
 <link>http://adrian.kodistream.info/adryan/liist.xml</link><thumbnail>http://adryanlist.org/adryan/img/updated.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 </item>
 
@@ -111,7 +111,12 @@
 <!-- adrian.kodistream.info -->
 
 
-
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR coral]  [B]GAME OF THRONES [/B][/COLOR] [COLOR skyblue]Estreno / inicio de temporada [/COLOR]</title>
+<link>http://ignorame</link><thumbnail>https://upload.wikimedia.org/wikipedia/en/archive/1/1c/20160226073939!GoT_season_6_official_poster.jpg</thumbnail>
+<fanart>https://upload.wikimedia.org/wikipedia/en/archive/1/1c/20160226073939!GoT_season_6_official_poster.jpg</fanart>
+<externallink>http://adryanlist.org/adryan/evento.xml</externallink>
+</item>
 
 
 <item>
