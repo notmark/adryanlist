@@ -90,7 +90,7 @@
 <link>http://adrian.kodistream.info/adryan/in.xml</link><thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 </item>
 <item>
-<title>              [COLOR lightslategray]update: [COLOR lightblue]26[/COLOR] • Abril • 2016[/COLOR]      </title>
+<title>              [COLOR lightslategray]update: [COLOR lightblue]27[/COLOR] • Abril • 2016[/COLOR]      </title>
 <link>http://adrian.kodistream.info/adryan/liist.xml</link><thumbnail>http://adryanlist.org/adryan/img/updated.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 </item>
 
@@ -189,7 +189,7 @@
 -->
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  TotalPlay    [/COLOR] [COLOR lightslategray]Op.5 estable  [/COLOR]  </title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  TotalPlay    [/COLOR] [COLOR lightslategray] [/COLOR]  </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/totalp.xml</externallink>
 </item>
@@ -288,7 +288,7 @@
 <externallink>http://adryanlist.org/adryan/lists.xml</externallink>
 </item>
 
-
+<!--
 
 <item>
 <title>[COLOR gray]•[/COLOR][COLOR silver]  [B]AloFlix [/B]  [/COLOR] [COLOR skyblue] [Cerrado - OFFLINE][/COLOR]  </title>
@@ -298,7 +298,7 @@
 <thumbnail>http://adryanlist.org/adryan/img/aloflix.jpg</thumbnail>
 <info></info>
 </item>
-
+-->
 
 
 <item>
