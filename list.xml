@@ -90,7 +90,7 @@
 <link>http://adrian.kodistream.info/adryan/in.xml</link><thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 </item>
 <item>
-<title>            [COLOR lightslategray]update: [COLOR lightblue]14[/COLOR] • Mayo • 2016[/COLOR]      </title>
+<title>            [COLOR lightslategray]update: [COLOR lightblue]15[/COLOR] • Mayo • 2016[/COLOR]      </title>
 <link>http://adrian.kodistream.info/adryan/liist.xml</link><thumbnail>http://adryanlist.org/adryan/img/updated.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 </item>
 
@@ -110,14 +110,14 @@
 
 
 
-<!--
+<!---->
 <item>
-<title>[COLOR leventoz/COLOR][COLOR coral]  [B]GAME OF THRONES [/B][/COLOR] [COLOR skyblue]CAPITULO 3 [/COLOR]</title>
+<title>[COLOR leventoz/COLOR][COLOR coral]  [B]GAME OF THRONES [/B][/COLOR] [COLOR skyblue]CAPITULO 4 [/COLOR]</title>
 <link>http://ignorame</link>
 <thumbnail>http://orig09.deviantart.net/88ce/f/2013/081/7/a/game_of_thrones___poster_by_kc_eazyworld-d5yunum.jpg</thumbnail>
 <externallink>http://adryanlist.org/adryan/evento.xml</externallink>
 </item>
--->
+
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR lime]  [B]LigaMX [/B][/COLOR] [COLOR lightyellow]Liguilla 2016 [/COLOR]</title>
@@ -134,7 +134,7 @@
 </item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR coral]  [B]ExtraTime[/COLOR][/B] [COLOR lightslategray][I]  Eventos Deportivos[/I][/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]ExtraTime[/COLOR][/B] [COLOR lightslategray][I]  Eventos Deportivos[/I][/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/deportes.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/multicanales.xml</externallink>
 </item>
