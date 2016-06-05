@@ -110,7 +110,7 @@
 
 
 
-<!--
+<--
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]GAME OF THRONES [/B][/COLOR] [COLOR lightslategray]CAPITULO 7 [/COLOR]</title>
 <link>http://ignorame</link>
@@ -118,11 +118,7 @@
 <externallink>http://adryanlist.org/adryan/evento.xml</externallink>
 </item>
 -->
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Copa America[/B] [/COLOR] [COLOR skyblue] Presentada por TvOnline 2016[/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/copaamerica.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
-<externallink>https://dl.dropboxusercontent.com/s/96crm0q54ok6a1d/menu.txt</externallink>
-</item>
+
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Deportes[/COLOR] [COLOR skyblue] [/COLOR]</title>
@@ -130,8 +126,17 @@
 <externallink>http://adryanlist.org/adryan/deportes_adryan_list.xml</externallink>
 </item>
 
+
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR yellow]  [B]ExtraTime[/COLOR][/B] [COLOR lime][I]  Copa America 2016[/I][/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Copa America[/B] [/COLOR] [COLOR skyblue] Presentada por TvOnline 2016[/COLOR]</title>
+<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/copaamerica.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
+<externallink>https://dl.dropboxusercontent.com/s/96crm0q54ok6a1d/menu.txt</externallink>
+</item>
+
+
+
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR yellow]  [B]ExtraTime[/COLOR][/B] [COLOR lime][I]  Copa America 2016 y mas...[/I][/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/copaamericaa.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/multicanales.xml</externallink>
 </item>
