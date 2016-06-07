@@ -90,7 +90,7 @@
 <link>http://adrian.kodistream.info/adryan/in.xml</link><thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 </item>
 <item>
-<title>            [COLOR lightslategray]update: [COLOR lightblue]06[/COLOR] • Junio • 2016[/COLOR]      </title>
+<title>            [COLOR lightslategray]update: [COLOR lightblue]07[/COLOR] • Junio • 2016[/COLOR]      </title>
 <link>http://adrian.kodistream.info/adryan/liist.xml</link><thumbnail>http://adryanlist.org/adryan/img/updated.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 </item>
 
@@ -128,12 +128,17 @@
 
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR yellow]  [B]COPA AMERICA 2016[/B] [/COLOR] [COLOR skyblue] Todos los partidos...[/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR yellow]  [B]COPA AMERICA 2016[/COLOR] [COLOR skyblue] #xAdryanList[/COLOR][/B] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/copaamericaa.jpg</thumbnail>
 <fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/liguilla.xml</externallink>
 </item>
-
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR lightyellow]  [B]COPA AMERICA 2016[/B] [/COLOR] [COLOR skyblue] #xTVOnline2016[/COLOR]</title>
+<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/copaamerica.jpg</thumbnail>
+<fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
+<externallink>https://dl.dropboxusercontent.com/s/96crm0q54ok6a1d/menu.txt</externallink>
+</item>
 
 
 <item>
@@ -312,10 +317,13 @@
 -->
 
 
+
+
 <item>
-<title>[COLOR lightyellow]Si te Gusta la Lista Considera hacer una DONACION, para apoyarme y seguirla actualizando.[/COLOR]</title>
+<title>DMCA: This site only contains links and embeds to TV channels from 3rd party sites Which are freely available on all Internet. We are not affiliated in any way with the broadcasted channels nor responsible for their content. All content is copyright of their respective owners.</title>
 <link>http://adrian.kodistream.info/adryan/in.xml</link><thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
-</item>	
+</item>
+
 --> 
 
 </items>
