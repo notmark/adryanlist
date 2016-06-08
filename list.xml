@@ -90,7 +90,7 @@
 <link>http://adrian.kodistream.info/adryan/in.xml</link><thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 </item>
 <item>
-<title>            [COLOR lightslategray]update: [COLOR lightblue]07[/COLOR] • Junio • 2016[/COLOR]      </title>
+<title>            [COLOR lightslategray]update: [COLOR lightblue]08[/COLOR] • Junio • 2016[/COLOR]      </title>
 <link>http://adrian.kodistream.info/adryan/liist.xml</link><thumbnail>http://adryanlist.org/adryan/img/updated.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 </item>
 
@@ -110,7 +110,7 @@
 
 
 
-<--
+<!--
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]GAME OF THRONES [/B][/COLOR] [COLOR lightslategray]CAPITULO 7 [/COLOR]</title>
 <link>http://ignorame</link>
@@ -175,11 +175,7 @@
 
 
 <!--
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  IPTV[B]+[/B]   [/COLOR] [COLOR skyblue][/COLOR]  </title>
-<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
-<externallink>http://adrian.kodistream.info/adryan/iptv.m3u</externallink>
-</item>
+
 
 
 <item>
@@ -208,6 +204,11 @@
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  TotalPlay    [/COLOR] [COLOR lightslategray] [/COLOR]  </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/totalp.xml</externallink>
+</item>
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  IPTV[B]+[/B]   [/COLOR] [COLOR skyblue]Powered by Exabyte TV[/COLOR]  </title>
+<link>http://ignorame</link><thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail><fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
+<externallink>http://exabytetv.info/lista1.m3u</externallink>
 </item>
 
 <item>
