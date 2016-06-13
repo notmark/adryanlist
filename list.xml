@@ -90,7 +90,7 @@
 <link>http://adryanlist.org/adryan/in.xml</link><thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 </item>
 <item>
-<title>            [COLOR lightslategray]update: [COLOR lightblue]11[/COLOR] • Junio • 2016[/COLOR]      </title>
+<title>            [COLOR lightslategray]update: [COLOR lightblue]13[/COLOR] • Junio • 2016[/COLOR]      </title>
 <link>http://adryanlist.org/adryan/liist.xml</link><thumbnail>http://adryanlist.org/adryan/img/updated.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 </item>
 
@@ -108,11 +108,19 @@
 
 
 
-
+<-
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]Apple Keynote WWDC 2016 [/B][/COLOR] [COLOR lightslategray]Lunes 13 Junio [I]19:00hrs España • 12:00hrs Mexico[/I] [/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://adryanlist.org/adryan/applekeynote.xml</externallink>
+<fanart>http://cdn2.ticbeat.com/src/uploads/2016/06/Keynote-apple-2016-online-wwdc16-810x456.jpg</fanart>
+<thumbnail>http://cdn2.ticbeat.com/src/uploads/2016/06/Keynote-apple-2016-online-wwdc16-810x456.jpg</thumbnail>
+</item>
+-->
 
 <-
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]GAME OF THRONES [/B][/COLOR] [COLOR lightslategray]CAPITULO 8 [/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]GameofThrones [/B][/COLOR] [COLOR lightslategray] [/COLOR]</title>
 <link>http://ignorame</link>
 <thumbnail>http://orig09.deviantart.net/88ce/f/2013/081/7/a/game_of_thrones___poster_by_kc_eazyworld-d5yunum.jpg</thumbnail>
 <externallink>http://adryanlist.org/adryan/evento.xml</externallink>
