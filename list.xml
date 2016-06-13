@@ -83,7 +83,9 @@
 
 <item>
 <title>              [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR]   </title>
-<link>http://adryanlist.org/adryan/liist.xml</link><thumbnail>http://adryanlist.org/adryan/img/adryanlist.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
+<link>http://adryanlist.org/adryan/liist.xml</link>
+<externallink>http://adrian.kodistream.info/list.xml</externallink>
+<thumbnail>http://adryanlist.org/adryan/img/adryanlist.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 </item>
 <item>
 <title>[COLOR lightslategray]Donaciones al [COLOR lightslategray]PayPal:[/COLOR] [COLOR lightblue]adrian.bu@gmail.com[/COLOR][/COLOR]</title>
@@ -108,15 +110,15 @@
 
 
 
-<-
-<item>
+
+<tem>
 <title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]Apple Keynote WWDC 2016 [/B][/COLOR] [COLOR lightslategray]Lunes 13 Junio [I]19:00hrs España • 12:00hrs Mexico[/I] [/COLOR]</title>
 <link>http://ignorame</link>
 <externallink>http://adryanlist.org/adryan/applekeynote.xml</externallink>
 <fanart>http://cdn2.ticbeat.com/src/uploads/2016/06/Keynote-apple-2016-online-wwdc16-810x456.jpg</fanart>
 <thumbnail>http://cdn2.ticbeat.com/src/uploads/2016/06/Keynote-apple-2016-online-wwdc16-810x456.jpg</thumbnail>
 </item>
--->
+
 
 <-
 <item>
