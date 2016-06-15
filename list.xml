@@ -92,7 +92,7 @@
 <link>http://adryanlist.org/adryan/in.xml</link><thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 </item>
 <item>
-<title>            [COLOR lightslategray]update: [COLOR lightblue]13[/COLOR] • Junio • 2016[/COLOR]      </title>
+<title>            [COLOR lightslategray]update: [COLOR lightblue]15[/COLOR] • Junio • 2016[/COLOR]      </title>
 <link>http://adryanlist.org/adryan/liist.xml</link><thumbnail>http://adryanlist.org/adryan/img/updated.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 </item>
 
@@ -121,8 +121,8 @@
 
 
 <-
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]GameofThrones [/B][/COLOR] [COLOR lightslategray] [/COLOR]</title>
+<tem>
+<title>[COLOR lime]•[/COLOR][COLOR yellow]  [B]GameofThrones [/B][/COLOR] [COLOR lightslategray] Capitulo 9: La Batalla de los Bastardos[/COLOR]</title>
 <link>http://ignorame</link>
 <thumbnail>http://orig09.deviantart.net/88ce/f/2013/081/7/a/game_of_thrones___poster_by_kc_eazyworld-d5yunum.jpg</thumbnail>
 <externallink>http://adryanlist.org/adryan/evento.xml</externallink>
@@ -131,19 +131,19 @@
 
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Deportes[/COLOR] [COLOR skyblue] [/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Deportes[/COLOR] [COLOR lightslategray](Sports) [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/deportes.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/deportes_adryan_list.xml</externallink>
 </item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR yellow]  [B]EUROCOPA2016[/COLOR] [COLOR skyblue] [/COLOR][/B] </title>
+<title>[COLOR lime]•[/COLOR][COLOR yellow]  [B]EURO2016[/COLOR] [COLOR skyblue] [/COLOR][/B] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/euro.jpg</thumbnail>
 <fanart>http://adryanlist.org/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/euro.xml</externallink>
 </item>
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR yellow]  [B]COPA AMERICA[/COLOR] [COLOR skyblue] #AdryanList[/COLOR][/B] </title>
+<title>[COLOR lime]•[/COLOR][COLOR yellow]  [B]COPA AMERICA[/COLOR] [COLOR skyblue] [/COLOR][/B] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/copaamericaa.jpg</thumbnail>
 <fanart>http://adryanlist.org/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/liguilla.xml</externallink>
