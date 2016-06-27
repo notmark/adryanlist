@@ -73,12 +73,12 @@
 	
 
 <item>
-<title>              [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR]   </title>
+<title>             [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR]   </title>
 <link>http://adryanlist.org/adryan/liist.xml</link>
 <externallink>http://adrian.kodistream.info/list.xml</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/adryanlist.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 </item>
-<tem>
+<item>
 <title>[COLOR lightyellow][B]UNETE AL GRUPO DE TELEGRAM [COLOR lightgreen][I]http://telegram.me/adryanlist[/I][/B][/COLOR][/COLOR]</title>
 <link>http://adryanlist.org/adryan/in.xml</link><thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 </item>
@@ -87,7 +87,7 @@
 <link>http://adryanlist.org/adryan/in.xml</link><thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 </item>
 <item>
-<title>            [COLOR lightslategray]update: [COLOR lightblue]26[/COLOR] • Junio • 2016[/COLOR]      </title>
+<title>            [COLOR lightslategray]update: [COLOR lightblue]27[/COLOR] • Junio • 2016[/COLOR]      </title>
 <link>http://adryanlist.org/adryan/liist.xml</link><thumbnail>http://adryanlist.org/adryan/img/updated.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 </item>
 
@@ -109,7 +109,7 @@
 
 <-
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR yellow]  [B]GameOfThrones [/B][/COLOR] [COLOR lightslategray] Final de Temporada[/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR lighyellow]  [B]GameOfThrones [/B][/COLOR] [COLOR lightslategray] Temporada 6[/COLOR]</title>
 <link>http://ignorame</link>
 <thumbnail>http://orig09.deviantart.net/88ce/f/2013/081/7/a/game_of_thrones___poster_by_kc_eazyworld-d5yunum.jpg</thumbnail>
 <externallink>http://adryanlist.org/adryan/evento.xml</externallink>
@@ -129,19 +129,6 @@
 <fanart>http://adryanlist.org/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/euro.xml</externallink>
 </item>
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR lightgreen]  [B]COPA-AMERICA[/COLOR] [COLOR skyblue] [/COLOR][/B] </title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/copaamericaa.jpg</thumbnail>
-<fanart>http://adryanlist.org/fanart.jpg</fanart>
-<externallink>http://adryanlist.org/adryan/liguilla.xml</externallink>
-</item>
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR lightyellow]  [B]COPA-AMERICA[/B] [/COLOR] [COLOR skyblue]#TVOnline2016[/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/copaamerica.jpg</thumbnail>
-<fanart>http://adryanlist.org/fanart.jpg</fanart>
-<externallink>https://dl.dropboxusercontent.com/s/96crm0q54ok6a1d/menu.txt</externallink>
-</item>
-
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR lightgreen]  [B]ExtraTime[/COLOR][/B] [COLOR lightslategray][I]  Eventos del dia[/I][/COLOR]</title>
