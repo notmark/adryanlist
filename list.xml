@@ -78,16 +78,16 @@
 <externallink>http://adrian.kodistream.info/list.xml</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/adryanlist.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 </item>
-<item>
+<tem>
 <title>[COLOR lightyellow][B]UNETE AL GRUPO DE TELEGRAM [COLOR lightgreen][I]http://telegram.me/adryanlist[/I][/B][/COLOR][/COLOR]</title>
 <link>http://adryanlist.org/adryan/in.xml</link><thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 </item>
-<tem>
+<item>
 <title>[COLOR lightslategray]Donaciones al [COLOR lightslategray]PayPal:[/COLOR] [COLOR lightblue]adrian.bu@gmail.com[/COLOR][/COLOR]</title>
 <link>http://adryanlist.org/adryan/in.xml</link><thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 </item>
 <item>
-<title>            [COLOR lightslategray]update: [COLOR lightblue]28[/COLOR] • Junio • 2016[/COLOR]      </title>
+<title>            [COLOR lightslategray]update: [COLOR lightblue]29[/COLOR] • Junio • 2016[/COLOR]      </title>
 <link>http://adryanlist.org/adryan/liist.xml</link><thumbnail>http://adryanlist.org/adryan/img/updated.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 </item>
 
@@ -108,7 +108,7 @@
 
 
 <-
-<item>
+<tem>
 <title>[COLOR lime]•[/COLOR][COLOR lighyellow]  [B]GameOfThrones [/B][/COLOR] [COLOR lightslategray] Temporada 6[/COLOR]</title>
 <link>http://ignorame</link>
 <thumbnail>http://orig09.deviantart.net/88ce/f/2013/081/7/a/game_of_thrones___poster_by_kc_eazyworld-d5yunum.jpg</thumbnail>
@@ -131,7 +131,7 @@
 </item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR lightgreen]  [B]ExtraTime[/COLOR][/B] [COLOR lightslategray][I]  Eventos del dia[/I][/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]ExtraTime[/COLOR][/B] [COLOR lightslategray][I]  Eventos del dia[/I][/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/extratime.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/multicanales.xml</externallink>
 </item>
@@ -155,6 +155,7 @@
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail><fanart>http://i.imgur.com/O4Kz3Al.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/esp.xml</externallink>
 </item>
+
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Mexico[/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/mexico.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
@@ -209,46 +210,6 @@
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Television [COLOR skyblue]24/7[/COLOR][/B][/COLOR] [COLOR green] [/COLOR]</title>
-<!--  <link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<item>
-			<title>[makelist.param2]</title>
-			<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_[makelist.param1] live=1 timeout=20</link>
-			<regex>
-			<name>clearCode</name>
-			<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>
-			<page></page>
-			</regex>
-			<regex>
-			<name>getencoded</name>
-			<expres>:mvnkey-(.*)</expres>
-			<page>$doregex[getUrl]</page>
-			</regex>
-			<regex>
-			<name>getserver</name>
-			<expres>(.*?);</expres>
-			<page>$doregex[getUrl]</page>
-			</regex>
-			<regex>
-			<name>getUrl</name>
-			<expres>(.*)</expres>
-			<page>http://mvn.vaughnsoft.net/video/edge/live_[makelist.param1]$doregex[gettime]-$doregex[gettime].33434</page>
-			</regex>
-			<regex>
-			<name>gettime</name>
-			<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>
-			<page></page>
-			</regex>
-			<thumbnail>http://cdn.vaughnsoft.com/vaughnsoft/vaughn/img_profiles/[makelist.param2]_320.jpg</thumbnail></item>
-]]></listrepeat>
-<expres>a href="/(.*?)"[\w\W\s]{0,22}browseTxt">(.*?)<</expres>
-<page>http://vaughnlive.tv/browse/espanol</page>
-<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>-->
 <thumbnail>http://adryanlist.org/adryan/img/247.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg/fanart>
 <link>http://ignorame</link>
 <externallink>http://adryanlist.org/adryan/p247.xml</externallink>
@@ -265,7 +226,7 @@
 <--
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  IPTV   [/COLOR][COLOR lightslategray][Testing][/COLOR] </title>
+<title>[COLOR lime]•[/COLOR][COLOR lightgreen]  IPTV   [/COLOR][COLOR lightslategray][Testing][/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/adryanlist.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/iptv.xml</externallink>
 </item>
@@ -309,7 +270,7 @@
 
 
 <item>
-<title>DMCA: This site only contains links and embeds to TV channels from 3rd party sites Which are freely available on all Internet. We are not affiliated in any way with the broadcasted channels nor responsible for their content. All content is copyright of their respective owners.</title>
+<title>DMCA: Este Addon solo contiene enlaces a canales de television de sitio de terceros los cuales estan gratuitamente alojados en internet. No Estamos afiliados a ningun sitio o retransmision. Todos los derechos son de los autores. el addon solo es una recopilacion de streams gratuitos..</title>
 <link>http://adryanlist.org/adryan/in.xml</link><thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 </item>
 
