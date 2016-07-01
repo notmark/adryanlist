@@ -70,7 +70,11 @@
 
 
 
-	
+<tem>
+<title>[COLOR lightyellow]*** Por Cuestiones de trabajo estare ausente este fin de semana
+por lo cual la lista, no se actualizara, Saludos el lunes estare de regreso[/COLOR]</title>
+<link>http://adryanlist.org/adryan/in.xml</link><thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
+</item>	
 
 <item>
 <title>             [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR]   </title>
@@ -78,16 +82,13 @@
 <externallink>http://adrian.kodistream.info/list.xml</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/adryanlist.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 </item>
-<tem>
-<title>[COLOR lightyellow][B]UNETE AL GRUPO DE TELEGRAM [COLOR lightgreen][I]http://telegram.me/adryanlist[/I][/B][/COLOR][/COLOR]</title>
-<link>http://adryanlist.org/adryan/in.xml</link><thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
-</item>
+
 <item>
 <title>[COLOR lightslategray]Donaciones al [COLOR lightslategray]PayPal:[/COLOR] [COLOR lightblue]adrian.bu@gmail.com[/COLOR][/COLOR]</title>
 <link>http://adryanlist.org/adryan/in.xml</link><thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 </item>
 <item>
-<title>            [COLOR lightslategray]update: [COLOR lightblue]29[/COLOR] • Junio • 2016[/COLOR]      </title>
+<title>            [COLOR lightslategray]update: [COLOR lightblue]01[/COLOR] • Julio • 2016[/COLOR]      </title>
 <link>http://adryanlist.org/adryan/liist.xml</link><thumbnail>http://adryanlist.org/adryan/img/updated.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 </item>
 
@@ -196,7 +197,11 @@
 <externallink>http://adryanlist.org/adryan/t.xml</externallink>
 </item>
 
-
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR lightgreen]  IPTV   [/COLOR][COLOR lightslategray][World Servers][/COLOR] </title>
+<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/adryanlist.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
+<externallink>http://adryanlist.org/adryan/iptv.xml</externallink>
+</item>
 
 
 
@@ -209,7 +214,7 @@
 
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Television [COLOR skyblue]24/7[/COLOR][/B][/COLOR] [COLOR green] [/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Television [COLOR skyblue]24/7[/COLOR][/B][/COLOR] [COLOR lightgreen] Funcionando Nuevamente[/COLOR]</title>
 <thumbnail>http://adryanlist.org/adryan/img/247.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg/fanart>
 <link>http://ignorame</link>
 <externallink>http://adryanlist.org/adryan/p247.xml</externallink>
@@ -225,11 +230,7 @@
 </item>
 <--
 
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR lightgreen]  IPTV   [/COLOR][COLOR lightslategray][Testing][/COLOR] </title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/adryanlist.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
-<externallink>http://adryanlist.org/adryan/iptv.xml</externallink>
-</item>
+
 
 
 -->
