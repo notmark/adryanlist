@@ -13,7 +13,7 @@
 					
 					
 					1. instalar el Addon AdryanList 
-						Descargar: http://addon.adryanlist.info
+						Descargar: http://adryanlist.org
 						Mirror Mediafire: http://bit.ly/addon-adryanlist
 					2.- tambien puedes buscar el addon RobinHood  o Livestreamspro
 						2.1: en el Livestreamspro agregar la url http://adryanlist.info
@@ -80,11 +80,11 @@
 </item>
 
 <item>
-<title>[COLOR lightslategray]Donaciones al [COLOR lightslategray]PayPal:[/COLOR] [COLOR lightblue]adrian.bu@gmail.com[/COLOR][/COLOR]</title>
+<title>[COLOR lightslategray]100% [COLOR lightslategray]FREE[/COLOR] [COLOR lightblue]No Donation Required[/COLOR][/COLOR]</title>
 <link>http://adryanlist.org/adryan/in.xml</link><thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 </item>
 <item>
-<title>            [COLOR lightslategray]update: [COLOR lightblue]07[/COLOR] • Julio • 2016[/COLOR]      </title>
+<title>            [COLOR lightslategray]update: [COLOR lightblue]11[/COLOR] • Julio • 2016[/COLOR]      </title>
 <link>http://adryanlist.org/adryan/liist.xml</link><thumbnail>http://adryanlist.org/adryan/img/updated.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 </item>
 
@@ -104,14 +104,7 @@
 
 
 
-<-
-<tem>
-<title>[COLOR lime]•[/COLOR][COLOR lighyellow]  [B]GameOfThrones [/B][/COLOR] [COLOR lightslategray] Temporada 6[/COLOR]</title>
-<link>http://ignorame</link>
-<thumbnail>http://orig09.deviantart.net/88ce/f/2013/081/7/a/game_of_thrones___poster_by_kc_eazyworld-d5yunum.jpg</thumbnail>
-<externallink>http://adryanlist.org/adryan/evento.xml</externallink>
-</item>
--->
+
 
 
 <item>
@@ -120,12 +113,6 @@
 <externallink>http://adryanlist.org/adryan/deportes_adryan_list.xml</externallink>
 </item>
 
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR lightblue]  [B]EURO2016[/COLOR] [COLOR skyblue]Final: Portugal vs Francia [/COLOR][/B] </title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/euro.jpg</thumbnail>
-<fanart>http://adryanlist.org/fanart.jpg</fanart>
-<externallink>http://adryanlist.org/adryan/euro.xml</externallink>
-</item>
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]ExtraTime[/COLOR][/B] [COLOR lightslategray][I]  Eventos del dia[/I][/COLOR]</title>
@@ -158,34 +145,6 @@
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/mexico.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/mx.xml</externallink>
 </item>
-
-
-
-<!--
-
-
-
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  IPTV[B]Canales[/B]   [/COLOR] [COLOR skyblue][/COLOR]  </title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<item>
-<title>[COLOR white][/COLOR][COLOR lime][makelist.param1][/COLOR]</title>
-<link>http://iptvcanales.com/xw/canales/canal1.m3u8?canal=[makelist.param2]&amp;profile=3|Referer=http://iptvcanales.com/hls/grindplayer/flashlsOSMF.swf</link>
-<thumbnail>[makelist.param3]</thumbnail>
-</item>
-]]></listrepeat>
-<expres>canal=(.*?)&[\w\W\s]{0,4}n_canal=(.*?)"[\w\W\s]{0,6}src="(.*?)"</expres>
-<page>http://iptvcanales.com</page>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
-</item>
-
-
--->
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  TotalPlay    [/COLOR] [COLOR lightslategray] [/COLOR]  </title>
@@ -251,22 +210,14 @@
 <externallink>http://adryanlist.org/adryan/lists.xml</externallink>
 </item>
 
-<!--
 
 <item>
-<title>[COLOR gray]•[/COLOR][COLOR silver]  [B]AloFlix [/B]  [/COLOR] [COLOR skyblue] [Cerrado - OFFLINE][/COLOR]  </title>
-<link>http://ignora.me</link>
-<externallink>http://adryanlist.org/</externallink>
-<fanart>http://fotonin.com/data_images/out/5/776482-cool-movie-wallpaper.jpg</fanart>
-<thumbnail>http://adryanlist.org/adryan/img/aloflix.jpg</thumbnail>
-<info></info>
+<title>!!!! Playlist 100% Gratuito, no se requiere, ni se pide donaciones !!!!! </title>
+<link>http://adryanlist.org/adryan/liist.xml</link>
+<externallink>http://adrian.kodistream.info/list.xml</externallink>
+<thumbnail>http://adryanlist.org/adryan/img/adryanlist.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 </item>
--->
-
-
-
-
---> 
+ 
 
 </items>
 
