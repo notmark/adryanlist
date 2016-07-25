@@ -84,7 +84,7 @@
 <link>http://adryanlist.org/adryan/in.xml</link><thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 </item>
 <item>
-<title>              [COLOR lightslategray]update: [COLOR lightblue]23[/COLOR] • Julio • 2016[/COLOR]      </title>
+<title>              [COLOR lightslategray]update: [COLOR lightblue]25[/COLOR] • Julio • 2016[/COLOR]      </title>
 <link>http://adryanlist.org/adryan/liist.xml</link><thumbnail>http://adryanlist.org/adryan/img/updated.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 </item>
 
@@ -176,21 +176,12 @@
 </item>
 
 
+
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Music[/COLOR]  [COLOR skyblue][/COLOR]  </title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Musica[/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/musica.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
-<externallink>http://adryanlist.org/adryan/musi.xml</externallink>
+<externallink>http://adryanlist.org/adryan/music.xml</externallink>
 </item>
-
-
-<--
-
-
-
-
--->
-
-
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Paises[/COLOR]</title>
