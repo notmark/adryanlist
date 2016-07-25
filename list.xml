@@ -208,7 +208,14 @@
 <externallink>http://adrian.kodistream.info/list.xml</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/adryanlist.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
 </item>
+
  
+<item>
+<title>[COLOR yellow]•[/COLOR][COLOR red]  S T R A N G E R  T H I N G S [/COLOR]</title>
+<link>http://ignorame</link><thumbnail>https://image.tmdb.org/t/p/w500/wdtmels3LYs9OCGhtyhKoUcDGa9.jpg</thumbnail>
+     <fanart>https://image.tmdb.org/t/p/original/fFfiXzmYzXd5U2MzEtQ4XxzCdHy.jpg</fanart>
+<externallink>http://adryanlist.org/adryan/series/strangerthings.xml</externallink>
+</item>
 
 </items>
 
