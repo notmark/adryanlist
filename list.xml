@@ -49,42 +49,22 @@
 
 
 
-<items>
-<items_info> <!-- this is opitonal -->
-      <title>Adryan List </title> 
-      <genre>Tv Live</genre>
-      <description>: Lista de Canales para el Livestreamspro :</description>
-      <thumbnail>http://i.imgur.com/oxTNPnp.jpg</thumbnail>
-      <fanart>http://adryanlist.org/fanart.jpg</fanart>
-      <date>13.02.2015</date>
-      <cwhiteits>adryan</cwhiteits>
-    </items_info>
-	
-	
-	<!--http://i.imgur.com/  .png-->
-
-
-
-
-
-
-
-
-
 
 <item>
-<title>               [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR]   </title>
+<title>                [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR]   </title>
 <link>http://adryanlist.org/adryan/liist.xml</link>
-<externallink>http://adrian.kodistream.info/list.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/adryanlist.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>http://adryanlist.org/adryan/img/adryanlist.jpg</thumbnail>
+<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 </item>
 
 <item>
 <title>[COLOR lightslategray]Donaciones al [COLOR lightslategray]PayPal[/COLOR] [COLOR lightblue]adrian.bu@gmail.com[/COLOR][/COLOR]</title>
-<link>http://adryanlist.org/adryan/in.xml</link><thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<link>http://adryanlist.org/adryan/in.xml</link>
+<thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail>
+<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 </item>
 <item>
-<title>              [COLOR lightslategray]update: [COLOR lightblue]06[/COLOR] • Agosto • 2016[/COLOR]      </title>
+<title>              [COLOR lightslategray]update: [COLOR lightblue]08[/COLOR] • Agosto • 2016[/COLOR]      </title>
 <link>http://adryanlist.org/adryan/liist.xml</link><thumbnail>http://adryanlist.org/adryan/img/updated.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 </item>
 
@@ -202,22 +182,6 @@
 </item>
 
 
-<item>
-<title>!!!! Playlist 100% Gratuito, no se requiere, ni se exigen donaciones, solo quienes deseen apoyarme para seguir actualizando !!!!! </title>
-<link>http://adryanlist.org/adryan/liist.xml</link>
-<externallink>http://adrian.kodistream.info/list.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/adryanlist.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-</item>
-
- 
-<item>
-<title>[COLOR yellow]•[/COLOR][COLOR red]  S T R A N G E R  T H I N G S [/COLOR]</title>
-<link>http://ignorame</link><thumbnail>https://image.tmdb.org/t/p/w500/wdtmels3LYs9OCGhtyhKoUcDGa9.jpg</thumbnail>
-     <fanart>https://image.tmdb.org/t/p/original/fFfiXzmYzXd5U2MzEtQ4XxzCdHy.jpg</fanart>
-<externallink>http://adryanlist.org/adryan/series/strangerthings.xml</externallink>
-</item>
-
-</items>
 
 
 
