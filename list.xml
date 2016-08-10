@@ -51,7 +51,7 @@
 
 
 <item>
-<title>                [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR]   </title>
+<title>                     [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR]   </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -62,10 +62,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
     __addon__ = xbmcaddon.Addon()
     __addonname__ = __addon__.getAddonInfo('name')     
     line1 = "Bienvenido a AdryanList"
-    line2 = "Te invitamos a que te unas al grupo de Telegram  ya caso 2k miembros"
+    line2 = "Te invitamos a que te unas al grupo de Telegram"
     line3 = "http://telegram.me/adryanlist" 
     xbmcgui.Dialog().ok(__addonname__, line1, line2, line3)
-    return "http://adryanlist.org/adryan/list.xml"
+    return 
 ]]></expres>
 <page></page>
 <cookieJar></cookieJar>
@@ -76,7 +76,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>              [COLOR lightslategray]update: [COLOR lightblue]10[/COLOR] • Agosto • 2016[/COLOR]      </title>
+<title>              [COLOR lightslategray]update: [B]10[/B] • Agosto • 2016[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -86,11 +86,11 @@ import xbmcgui
 def GetLSProData(page_data,Cookie_Jar,m):
     __addon__ = xbmcaddon.Addon()
     __addonname__ = __addon__.getAddonInfo('name')     
-    line1 = "Adryanlist"
-    line2 = "actualizado al dia 10 de Agosto 2016"
+    line1 = "<center>Adryanlist</center>"
+    line2 = "[CENTER]actualizado al dia 10 de Agosto 2016[/CENTER]"
     line3 = "dudas y Ayuda - http://telegram.me/adryanlist" 
     xbmcgui.Dialog().ok(__addonname__, line1, line2, line3)
-    return "http://adryanlist.org/adryan/list.xml"
+    return 
 ]]></expres>
 <page></page>
 <cookieJar></cookieJar>
@@ -156,18 +156,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  TotalPlay    [/COLOR] [COLOR lightslategray][B]Fuera de Servicio : Paciencia ya regresaran!!![/B][/COLOR]  </title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<externallink>http://adryanlist.org/adryan/totalp.xml</externallink>
-</item>
-
-<item>
 <title>[COLOR lime]•[/COLOR][COLOR lightgreen]  [B]IPTV[/B]   [/COLOR][COLOR lightslategray][B][World Servers Updated Daily][/B][/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/iptv.xml</externallink>
 </item>
 
-
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  TotalPlay    [/COLOR] [COLOR lightslategray]offline[/COLOR]  </title>
+<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<externallink>http://adryanlist.org/adryan/totalp.xml</externallink>
+</item>
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Entretenimiento[/COLOR]  [COLOR skyblue][/COLOR]  </title>
