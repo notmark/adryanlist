@@ -76,7 +76,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>                   [COLOR lightslategray]update: [COLOR slategray][B]10[/B][/COLOR] • Agosto • 2016[/COLOR]      </title>
+<title>                   [COLOR lightslategray]update: [COLOR slategray][B]13[/B][/COLOR] • Agosto • 2016[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -161,27 +161,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>http://adryanlist.org/adryan/iptv.xml</externallink>
 </item>
 
-<tem>
+<item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  TotalPlay [/COLOR] [COLOR lightslategray]offline[/COLOR]  </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/totalp.xml</externallink>
 </item>
 
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  TotalPlay [/COLOR] [COLOR lightslategray]Exabyte server[/COLOR]  </title>
-<thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-	<title>[makelist.param1]</title>
-	<link>[makelist.param2]</link>
-	<thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail><fanart>http://adryanlist.org/fanart.jpg</fanart>
-]]></listrepeat>
-<expres>#EXTINF:-1.*,(.*?)\n(.*)</expres>
-<page>http://exabytetv.info/lista1.m3u</page>
-</regex>
-</item>
+
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Entretenimiento[/COLOR]  [COLOR skyblue][/COLOR]  </title>
