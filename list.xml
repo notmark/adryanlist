@@ -74,6 +74,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 </item>
 
+<item>
+<title>   [COLOR lightyellow]Is Not Another Kodi Playlist[/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>http://adryanlist.org/adryan/img/adryanlist.jpg</thumbnail>
+<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+</item>
+
 
 <item>
 <title>                   [COLOR lightslategray]update: [COLOR slategray][B]13[/B][/COLOR] • Agosto • 2016[/COLOR]      </title>
@@ -130,20 +137,20 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Peliculas[/B] [/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Peliculas[/B] [/COLOR] [COLOR lightslategray](Movies) [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/peliculas.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/pyt_vod.xml</externallink>
 </item>
 
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Series de TV[/B] [/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Series de TV[/B] [/COLOR] [COLOR lightslategray](TV-Shows) [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/series.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/gnula.xml</externallink>
 </item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]FUTMEX[/B][/COLOR] [COLOR lightslategray][I]by TV Online 2016[/I][/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]FUTMEX[/B][/COLOR] [COLOR lightslategray][I]by TV Online 2016[/I][/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/futmex_-21.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/futmex.xml</externallink>
 </item>
@@ -175,7 +182,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Entretenimiento[/COLOR]  [COLOR skyblue][/COLOR]  </title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Entretenimiento[/COLOR]  [COLOR skyblue][/COLOR]   </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/ent.xml</externallink>
 </item>
@@ -192,13 +199,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <tem>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Musica[/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Musica[/COLOR]  [COLOR lightslategray](Music) [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/musica.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/music.xml</externallink>
 </item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Paises[/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Paises[/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/paises.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/paises.xml</externallink>
 </item>
@@ -210,7 +217,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Mas Listas[/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Mas Listas[/COLOR]  </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/listas.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/lists.xml</externallink>
 </item>
@@ -218,7 +225,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR lightslategray]si te gusta la lista, puedes hacer una donacion al [COLOR lightslategray]PayPal[/COLOR] [COLOR lightblue]adrian.bu@gmail.com[/COLOR] para seguir actualizandola[/COLOR]</title>
+<title>[COLOR lightslategray]Si Deseas Apoyarme o  Agradecer, puedes hacer una donacion al [COLOR lightslategray]PayPal[/COLOR] [COLOR lightblue]adrian.bu@gmail.com[/COLOR] para una cafe o una cerveza!!! ==== if you like my list u can support me with a donation to paypal adrian.bu@gmail.com for a coffee or a beer ..===== [/COLOR]</title>
 <link>http://ignorame</link>
 <externallink>http://ignorame</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail>
