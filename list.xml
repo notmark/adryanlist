@@ -78,7 +78,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>                   [COLOR lightslategray]update: [COLOR slategray][B]17[/B][/COLOR] • Agosto • 2016[/COLOR]      </title>
+<title>                   [COLOR lightslategray]update: [COLOR slategray][B]18[/B][/COLOR] • Agosto • 2016[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -102,7 +102,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
+<item>
+<title>[COLOR lightslategray]Si Deseas Apoyarme o  Agradecer, puedes hacer una donacion al [COLOR lightslategray]PayPal[/COLOR] [COLOR lightblue]adrian.bu@gmail.com[/COLOR] para una cafe o una cerveza!!! ==== if you like my list u can support me with a donation to [COLOR white]paypal adrian.bu@gmail.com[/COLOR] for a coffee or a beer ..===== [/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://ignorame</externallink>
+<thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail>
+<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+</item>
 
 
 
@@ -163,16 +169,18 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  TotalPlay [/COLOR] [COLOR lightslategray][/COLOR]  </title>
+<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<externallink>http://adryanlist.org/adryan/totalp.xml</externallink>
+</item>
+
+<item>
 <title>[COLOR lime]•[/COLOR][COLOR lightgreen]  [B]IPTV[/B]   [/COLOR][COLOR lightslategray][B][World Servers Updated Daily][/B][/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/iptv.xml</externallink>
 </item>
 
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  TotalPlay [/COLOR] [COLOR lightslategray]inestables[/COLOR]  </title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<externallink>http://adryanlist.org/adryan/totalp.xml</externallink>
-</item>
+
 
 
 
@@ -219,11 +227,5 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<item>
-<title>[COLOR lightslategray]Si Deseas Apoyarme o  Agradecer, puedes hacer una donacion al [COLOR lightslategray]PayPal[/COLOR] [COLOR lightblue]adrian.bu@gmail.com[/COLOR] para una cafe o una cerveza!!! ==== if you like my list u can support me with a donation to paypal adrian.bu@gmail.com for a coffee or a beer ..===== [/COLOR]</title>
-<link>http://ignorame</link>
-<externallink>http://ignorame</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-</item>
+
 
