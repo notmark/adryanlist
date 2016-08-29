@@ -84,7 +84,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>                   [COLOR lightslategray]update: [COLOR slategray][B]25[/B][/COLOR] • Agosto • 2016[/COLOR]      </title>
+<title>                   [COLOR lightslategray]update: [COLOR slategray][B]29[/B][/COLOR] • Agosto • 2016[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -121,7 +121,23 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
+<item>
+ <title>[COLOR deepskyblue]•|•|•|•|[COLOR lightyellow][B]JUAN GABRIEL[/B] 1950-2016[/COLOR]|•|•|•|•[/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+      <thumbnail>http://senderorepresentaciones.com/images/2016/57.-%20JUAN%20GABRIEL.png</thumbnail>
+ ]]></listrepeat>
+ <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+ <page>https://www.youtube.com/playlist?list=PL97E2BFEF98F6FF2A</page>
+ <referer>https://www.youtube.com/user/anitadvega</referer>
+ <cookieJar></cookieJar>
+ </regex>
+ <thumbnail>http://senderorepresentaciones.com/images/2016/57.-%20JUAN%20GABRIEL.png</thumbnail>
+ </item>
 
 
 <item>
