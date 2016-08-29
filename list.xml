@@ -132,8 +132,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
       <thumbnail>http://senderorepresentaciones.com/images/2016/57.-%20JUAN%20GABRIEL.png</thumbnail>
  ]]></listrepeat>
  <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
- <page>https://www.youtube.com/playlist?list=PL97E2BFEF98F6FF2A</page>
- <referer>https://www.youtube.com/user/anitadvega</referer>
+ <page>https://www.youtube.com/playlist?list=PLY3O7epLXf8FanqjBYsriOQ-0UdyycIS7</page>
+ <referer>https://www.youtube.com/channel/UC-oapJ12F54yK4Gr5dlVaag</referer>
  <cookieJar></cookieJar>
  </regex>
  <thumbnail>http://senderorepresentaciones.com/images/2016/57.-%20JUAN%20GABRIEL.png</thumbnail>
