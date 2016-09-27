@@ -194,6 +194,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
+
+broadmovieshd
+
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Television [COLOR skyblue]24/7[/COLOR][/B][/COLOR] [COLOR lightslategray] r Back! [/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -206,7 +209,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>get_ip</name>
 <expres>([^;]*?);:</expres>    
-<page>http://mvn.vaughnsoft.net/video/edge/vmn-live_[makelist.param1]?0.1.1.765_551-551-0.3609892260283232</page>                               
+<page>http://mvn.vaughnsoft.net/video/edge/mzn-live_[makelist.param1]?0.1.1.767_865-865-0.10672002471983433</page>                               
 <referer>http://vaughnlive.tv/</referer>
 <connection>keep-alive</connection>
 <agent>Mozilla/5.0</agent>
@@ -216,7 +219,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>get_key</name>
 <expres>mvnkey-(.*?);</expres>  
-<page>http://mvn.vaughnsoft.net/video/edge/vmn-live_[makelist.param1]?0.1.1.765_551-551-0.3609892260283232</page>                               
+<page>http://mvn.vaughnsoft.net/video/edge/mzn-live_[makelist.param1]?0.1.1.767_865-865-0.10672002471983433</page>                               
 <referer>http://vaughnlive.tv/</referer>
 <connection>keep-alive</connection>
 <agent>Mozilla/5.0</agent>
@@ -226,7 +229,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>get_key2</name>
 <expres>;.*;(.*?)</expres>  
-<page>http://mvn.vaughnsoft.net/video/edge/vmn-live_[makelist.param1]?0.1.1.765_551-551-0.3609892260283232</page>                               
+<page>http://mvn.vaughnsoft.net/video/edge/mzn-live_[makelist.param1]?0.1.1.767_865-865-0.10672002471983433</page>                               
 <referer>http://vaughnlive.tv/</referer>
 <connection>keep-alive</connection>
 <agent>Mozilla/5.0</agent>
