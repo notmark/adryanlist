@@ -74,10 +74,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 </item>
 
+ 
+<item>
+<title>[COLOR lightyellow]Esto es [B]GRATIS[/B] pero puedes [B]Apoyarme o Agradecer[/B], mediante una donacion al [COLOR lightslategray]PayPal[/COLOR] [COLOR lightblue]adrian.bu@gmail.com[/COLOR] para una cafe o una cerveza!!! ==== if you like my list u can support me with a donation to [COLOR white]paypal adrian.bu@gmail.com[/COLOR] for a coffee or a beer ..===== [/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://ignorame</externallink>
+<thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail>
+<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+</item>
 
-
-<tem>
-<title>                   [COLOR lightslategray]update: [COLOR slategray][B]29[/B][/COLOR] • Sept. • 2016[/COLOR]      </title>
+<item>
+<title>                   [COLOR lightslategray]update: [COLOR slategray][B]30[/B][/COLOR] • Sept. • 2016[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -108,59 +115,69 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
+
+
+<em>
+<title>[COLOR lime]•[/COLOR][COLOR skyblue]  APPLE KEYNOTE[/COLOR] [COLOR lightslategray](7 Septiembre 2016) [/COLOR]</title>
+<link>http://ignorame</link><thumbnail>http://i-cdn.phonearena.com/images/articles/255949-thumb/Apple.jpg</thumbnail><fanart>http://i-cdn.phonearena.com/images/articles/255949-thumb/Apple.jpg</fanart>
+<externallink>http://adryanlist.org/adryan/evento.m3u</externallink>
+</item>
 
 
 
 
 <item>
-<title>SPORTS</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Deportes[/COLOR] [COLOR lightslategray](Sports) [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/deportes.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/deportes_adryan_list.xml</externallink>
 </item>
 
 
- 
+<tem>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]ExtraTime[/COLOR][/B] [COLOR lightslategray][I]  Eventos del dia[/I][/COLOR]</title>
+<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/extratime.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<externallink>http://adryanlist.org/adryan/multicanales.xml</externallink>
+</item>
 
 <item>
-<title>MOVIES</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Peliculas[/B] [/COLOR] [COLOR lightslategray](Movies) [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/peliculas.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/pyt_vod.xml</externallink>
 </item>
 
 
 <item>
-<title>TV-SHOWS</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Series de TV[/B] [/COLOR] [COLOR lightslategray](TV-Shows) [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/series.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/gnula.xml</externallink>
 </item>
 
 <item>
-<title>FUTMEX</title>
+<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]FUTMEX[/B][/COLOR] [COLOR lightslategray][I]by TV Online 2016[/I][/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/futmex_-21.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/futmex.xml</externallink>
 </item>
 
 <item>
-<title>ESPAÑA</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  España [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/esp.xml</externallink>
 </item>
 
 <item>
-<title>MEXICO</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Mexico[/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/mexico.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/mx.xml</externallink>
 </item>
 
 <item>
-<title>TOTALPLAY</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  TotalPlay [/COLOR] [COLOR lightslategray][/COLOR]  </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/totalp.xml</externallink>
 </item>
 
 <item>
-<title>[B]IPTV[/B]     [COLOR lightslategray][B][World Servers Updated Daily][/B][/COLOR] </title>
+<title>[COLOR lime]•[/COLOR][COLOR lightgreen]  [B]IPTV[/B]   [/COLOR][COLOR lightslategray][B][World Servers Updated Daily][/B][/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/iptv.xml</externallink>
 </item>
@@ -170,17 +187,18 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>ENTRETENIMIENTO</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Entretenimiento[/COLOR]  [COLOR skyblue][/COLOR]   </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/ent.xml</externallink>
 </item>
 
 
 
- 
+
+broadmovieshd
 
 <item>
-<title>24/7 SECCION </title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Television [COLOR skyblue]24/7[/COLOR][/B][/COLOR] [COLOR lightslategray] r Back! [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -245,31 +263,31 @@ _psn12v?
 </item>
 
 <item>
-		<title>MEXFLIX</title>
+		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]MEXFLIX[/B][/COLOR]  [COLOR lightslategray]by JEE [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/mexflix.jpg</thumbnail> 
 		<externallink>https://dl.dropboxusercontent.com/s/7hskheqiyrd6gj0/ARCHIVO PARA EL ADDON.xml</externallink>
 		</item>
 
 <tem>
-<title>Musica[/COLOR]  [COLOR lightslategray](Music) [/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Musica[/COLOR]  [COLOR lightslategray](Music) [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/musica.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/music.xml</externallink>
 </item>
 
 <item>
-<title>PAISES</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Paises[/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/paises.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/paises.xml</externallink>
 </item>
 <item>
-<title>INTERNACIONALES</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Internacionales[/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/internacional.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/inter.xml</externallink>
 </item>
 
 
 <item>
-<title>MAS LISTAS     [COLOR lightslategray](Upload your lists)[/COLOR] </title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Mas Listas[/COLOR] [COLOR lightyellow](Upload your lists ♦ sube tus listas)[/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/listas.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/lists.xml</externallink>
 </item>
@@ -277,11 +295,4 @@ _psn12v?
 
 
 
- 
-<item>
-<title>[COLOR lightslategray]Esto es [B]GRATIS[/B] pero puedes [B]Apoyarme o Agradecer[/B], mediante una donacion al [COLOR lightslategray]PayPal[/COLOR] [COLOR lightblue]adrian.bu@gmail.com[/COLOR] para una cafe o una cerveza!!! ==== if you like my list u can support me with a donation to [COLOR white]paypal adrian.bu@gmail.com[/COLOR] for a coffee or a beer ..===== [/COLOR]</title>
-<link>http://ignorame</link>
-<externallink>http://ignorame</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-</item>
+
