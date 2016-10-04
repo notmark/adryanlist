@@ -76,7 +76,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  
 <item>
-<title>[COLOR lightyellow]Esto es [B]GRATIS[/B] pero puedes [B]Apoyarme o Agradecer[/B], mediante una donacion al [COLOR lightslategray]PayPal[/COLOR] [COLOR lightblue]adrian.bu@gmail.com[/COLOR] para una cafe o una cerveza!!! ==== if you like my list u can support me with a donation to [COLOR white]paypal adrian.bu@gmail.com[/COLOR] for a coffee or a beer ..===== [/COLOR]</title>
+<title>[COLOR lightgreen]Esto es [B]GRATIS[/B] pero puedes [B]Apoyarme[/B], mediante una donacion al [COLOR lightslategray]PayPal[/COLOR] [COLOR lightblue]adrian.bu@gmail.com[/COLOR] para una cafe o una cerveza!!! y seguir actualizando ==== if you like my list u can support me with a donation to [COLOR white]paypal adrian.bu@gmail.com[/COLOR] for a coffee or a beer ..===== [/COLOR]</title>
 <link>http://ignorame</link>
 <externallink>http://ignorame</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail>
@@ -84,7 +84,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>                   [COLOR lightslategray]update: [COLOR slategray][B]30[/B][/COLOR] • Sept. • 2016[/COLOR]      </title>
+<title>                  [COLOR lightslategray]update: [COLOR slategray][B]04[/B][/COLOR] • Oct. • 2016[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -283,6 +283,77 @@ _psn12v?
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Internacionales[/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/internacional.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/inter.xml</externallink>
+</item>
+
+
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  FilmON Channels[/COLOR]  [COLOR lightslategray]only works on LSP or Adryanlist 2.6.7 [/COLOR]</title>
+
+<link>$doregex[makelist]</link>
+<regex>
+   <name>makelist</name>
+   <listrepeat><![CDATA[
+          <title>[UPPERCASE][COLOR skyblue][makelist.param1][/COLOR][/UPPERCASE]</title>
+          <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=$doregex[get-url]&amp;name=[makelist.param1] [AdryanList]</link>
+   ]]></listrepeat>
+   <expres>titulo="(.*?)".*channel_id=(.*?)"</expres>
+   <page>http://adryanlist.org/adryan/filmon.xml</page>
+   <cookieJar></cookieJar>
+</regex>
+
+
+
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    #print 'cookieString',cookieString
+    return cookieString
+
+def f4mcallback(param, type, error, Cookie_Jar, url, headers):
+  if type==1:
+    newurl=getUrl(param,Cookie_Jar)
+    oldservername=url.split('/')[2]
+    newserver=newurl.split('/')
+    newserver[2]=oldservername
+    newurl='/'.join(newserver)
+    return newurl,Cookie_Jar
+  else:
+    return '',None
+
+def getUrl(param, Cookie_Jar):
+  import requests, re, urllib, inspect
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'}
+  url = 'http://www.filmon.com/tv/channel/export?channel_id='+param
+  session = requests.session()
+  session.cookies = Cookie_Jar
+  source= session.get(url, headers = headers)
+  swf = re.findall('streamer":"(.*?)"', source.text)[0]
+  cleanswf = swf.replace('\\/','/')
+  referer = 'http://www.filmon.com' + cleanswf
+  headers1 = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36', 'Referer': url, 'X-Requested-With': 'XMLHttpRequest'}
+  url2 = 'http://www.filmon.com/api-v2/channel/%s?protocol=hls'%param
+  source1= session.get(url2, headers = headers1)
+  getHD = re.findall('"high","url":"([^"]+)"', source1.text)[0]
+  return getHD 
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+  import os,urllib
+  callbackfunction=os.path.realpath(__file__)
+  callbackparam='[makelist.param2]'
+  url=getUrl('[makelist.param2]',Cookie_Jar)
+  referer = 'http://www.filmon.com/'
+  print 'url',url
+  return urllib.quote_plus (url + '|Referer=' + referer+'&cookie='+getCookiesString(Cookie_Jar)+'&User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36') +'&callbackpath='+urllib.quote_plus(callbackfunction)+'&callbackparam='+urllib.quote_plus(callbackparam)
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail></thumbnail>
 </item>
 
 
