@@ -279,7 +279,7 @@ _psn12v?
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/paises.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/paises.xml</externallink>
 </item>
-<item>
+<tem>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Internacionales[/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/internacional.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/inter.xml</externallink>
@@ -363,7 +363,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>http://adryanlist.org/adryan/lists.xml</externallink>
 </item>
 
-
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR skyblue]  La seccion de [B]Mexico[/B] y [B]España[/B] han sido colocoadas dentro de la seccion de [B]Paises[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
+<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/adryanlist.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<externallink>http://adryanlist.org/adryan/lists.xml</externallink>
+</item>
 
 
 
