@@ -76,7 +76,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  
 <item>
-<title>[COLOR orange]Esto es [B]GRATIS[/B] pero puedes [B]Apoyarme[/B], mediante una donacion al [COLOR lightslategray]PayPal[/COLOR] [COLOR lightblue]adrian.bu@gmail.com[/COLOR] para una cafe o una cerveza!!! y seguir actualizando ==== if you like my list u can support me with a donation to [COLOR white]paypal adrian.bu@gmail.com[/COLOR] for a coffee or a beer ..===== [/COLOR]</title>
+<title>[COLOR lightyellow]Esto es [B]GRATIS[/B] pero puedes [B]Apoyarme[/B], mediante una donacion al [COLOR lightslategray]PayPal[/COLOR] [COLOR lightblue]adrian.bu@gmail.com[/COLOR] para una cafe o una cerveza!!! y seguir actualizando ==== if you like my list u can support me with a donation to [COLOR white]paypal adrian.bu@gmail.com[/COLOR] for a coffee or a beer ..===== [/COLOR]</title>
 <link>http://ignorame</link>
 <externallink>http://ignorame</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail>
@@ -84,7 +84,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>                     [COLOR lightslategray]update: [COLOR slategray][B]12[/B][/COLOR] • Oct. • 2016[/COLOR]      </title>
+<title>                     [COLOR lightslategray]update: [COLOR slategray][B]15[/B][/COLOR] • Oct. • 2016[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -262,10 +262,10 @@ _psn12v?
 </item>
 </item>
 
-<tem>
+<item>
 		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]MEXFLIX[/B][/COLOR]  [COLOR lightslategray]by JEE [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/mexflix.jpg</thumbnail> 
-		<externallink>https://dl.dropboxusercontent.com/s/vjcwbpbohcih77n/MEXFLIXADDON.xml</externallink>
+		<externallink>https://dl.dropboxusercontent.com/s/t2znxlaqmy0evmk/LINKPRINCIPAL1.xml</externallink>
 		</item>
 
 <tem>
