@@ -76,7 +76,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  
 <item>
-<title>[COLOR orange]Esto es [B]GRATIS[/B] pero puedes [B]Apoyarme[/B], mediante una donacion al [COLOR lightslategray]PayPal[/COLOR] [COLOR lightblue]adrian.bu@gmail.com[/COLOR] para una cafe o una cerveza!!! y seguir actualizando ==== if you like my list u can support me with a donation to [COLOR white]paypal adrian.bu@gmail.com[/COLOR] for a coffee or a beer ..===== [/COLOR]</title>
+<title>[COLOR lightblue]Esto es [B]GRATIS[/B] pero puedes [B]Apoyarme[/B], mediante una donacion al [COLOR lightslategray]PayPal[/COLOR] [COLOR lightblue]adrian.bu@gmail.com[/COLOR] para una cafe o una cerveza!!! y seguir actualizando ==== if you like my list u can support me with a donation to [COLOR white]paypal adrian.bu@gmail.com[/COLOR] for a coffee or a beer ..===== [/COLOR]</title>
 <link>http://ignorame</link>
 <externallink>http://ignorame</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail>
@@ -84,7 +84,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>                  [COLOR lightslategray]update: [COLOR slategray][B]31[/B][/COLOR] Octubre 2016[/COLOR]      </title>
+<title>               [COLOR lightslategray]update: [COLOR slategray][B]03[/B][/COLOR] Noviembre 2016[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -158,7 +158,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>http://adryanlist.org/adryan/futmex.xml</externallink>
 </item>
 
-<tem>
+<item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  España [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/esp.xml</externallink>
@@ -198,7 +198,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Television [COLOR skyblue]24/7[/COLOR][/B][/COLOR] [COLOR lightslategray]  [/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Television [COLOR skyblue]24/7[/COLOR][/B][/COLOR] [COLOR lightslategray]en Español  [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -363,11 +363,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>http://adryanlist.org/adryan/lists.xml</externallink>
 </item>
 
-<item>
-<title>La seccion de [B]Mexico[/B] y [B]España[/B] han sido colocoadas dentro de la seccion de [B]Paises[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/adryanlist.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<externallink>http://adryanlist.org/adryan/lists.xml</externallink>
-</item>
+
 
 
 
