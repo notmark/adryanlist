@@ -117,9 +117,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<tem>
-<title>[COLOR lime]•[/COLOR][COLOR lightgreen]  #ClasicoRegio[/COLOR] [COLOR lightslategray]Tigres vs Monterrey [/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/deportes.jpg</thumbnail><fanart></fanart>
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR lightgreen]  [B]ELECTIONS-2016[/COLOR] [COLOR lightslategray]Trump vs Hillary[/B][/COLOR]</title>
+<link>http://ignorame</link><thumbnail>https://isgh.org/wp-content/uploads/2016/10/Election2016.jpg</thumbnail><fanart>https://isgh.org/wp-content/uploads/2016/10/Election2016.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/evento.xml</externallink>
 </item>
 
