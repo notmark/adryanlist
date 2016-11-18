@@ -49,7 +49,7 @@
 
 
 <item>
-<title>[COLOR lime][B]FELIZ CUMPLEAÑOS A MI -- [COLOR orange]17 DE NOVIEMBRE[/COLOR] -[/B][/COLOR]</title>
+<title>[COLOR lime][B]GRACIAS POR SUS FELICITACIONES [COLOR orange]Y POR EL CAFÉ QUE ME INVITARON[/COLOR] -[/B][/COLOR]</title>
 <link>http://ignorame</link><thumbnail></thumbnail><fanart></fanart>
 <thumbnail>http://adryanlist.org/adryan/img/adryanlist.jpg</thumbnail>
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
@@ -90,7 +90,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>               [COLOR lightslategray]update: [COLOR lightgray][B]16[/B][/COLOR] Noviembre 2016[/COLOR]      </title>
+<title>               [COLOR lightslategray]update: [COLOR lightgray][B]18[/B][/COLOR] Noviembre 2016[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
