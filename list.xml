@@ -85,7 +85,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>               [COLOR lightslategray]update: [COLOR lightgray][B]23[/B][/COLOR] Noviembre 2016[/COLOR]      </title>
+<title>             [COLOR lightslategray]update:  [COLOR lightgray][B]24  [/B][/COLOR] Noviembre  2016[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -119,7 +119,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR lightgreen]  [B]LIGUILLAMX[/COLOR] [COLOR lightslategray]2016[/B][/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR lightgreen]  [B]LIGUILLA MX [/COLOR] [COLOR lightslategray]- !! CLASICO AMERICA VS CHIVAS !! [/B][/COLOR]</title>
 <link>http://ignorame</link>
 <thumbnail>https://www.contramuro.com/wp-content/uploads/liga-mx-torneo-clausura-2016-300x169.png</thumbnail>
 <fanart>https://www.contramuro.com/wp-content/uploads/liga-mx-torneo-clausura-2016-300x169.png</fanart>
