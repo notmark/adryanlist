@@ -85,7 +85,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>             [COLOR lightslategray]update:  [COLOR lightgray][B]05  [/B][/COLOR] Diciembre  2016[/COLOR]      </title>
+<title>             [COLOR lightslategray]update:  [COLOR lightgray][B]08  [/B][/COLOR] Diciembre  2016[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -108,7 +108,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR lightyellow] [B]UNETE[/B] al grupo de  [B][COLOR yellow]http://[I]telegram[/I].me/adryanlist[/COLOR] [COLOR lightblue] [/COLOR][/B]   [COLOR white] [/COLOR]  [/COLOR]</title>
+<title>[COLOR lightblue] [B]UNETE[/B] al grupo [I] [COLOR lightgreen]http://telegram.me/[B]adryanlist[/COLOR][/I] [COLOR lightblue] [/COLOR][/B]   [COLOR white] [/COLOR]  [/COLOR]</title>
 <link>http://ignorame</link>
 <externallink>http://ignorame</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail>
@@ -125,7 +125,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<item>
+<tem>
 <title>[COLOR lime]•[/COLOR][COLOR lightgreen]  [B]Evento Especial [/COLOR] [COLOR lightslategray]Liguilla Mexico > Final / Tigres vs america [/B][/COLOR]</title>
 <link>http://ignorame</link>
 <thumbnail>https://www.contramuro.com/wp-content/uploads/liga-mx-torneo-clausura-2016-300x169.png</thumbnail>
@@ -174,7 +174,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>http://adryanlist.org/adryan/esp.xml</externallink>
 </item>
 
-<tem>
+<item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Mexico[/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/mexico.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/mx.xml</externallink>
