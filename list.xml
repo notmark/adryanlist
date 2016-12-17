@@ -85,7 +85,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>             [COLOR lightslategray]update: [COLOR lightgray][B]14  [/B][/COLOR] Diciembre  2016[/COLOR]      </title>
+<title>             [COLOR lightslategray]update: [COLOR lightgray][B]17 [/B][/COLOR] Diciembre  2016[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -108,7 +108,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR lightblue] [B]UNETE[/B] al grupo [I] [COLOR lightgreen]http://telegram.me/[B]adryanlist[/COLOR][/I] [COLOR lightblue] [/COLOR][/B]   [COLOR white] [/COLOR]  [/COLOR]</title>
+<title>[COLOR lightblue] [B]UNETE a la conversacion[/B] en el grupo [I] [COLOR lightgreen]http://telegram.me/[B]adryanlist[/COLOR][/I] [COLOR lightblue] [/COLOR][/B]   [COLOR white] [/COLOR]  [/COLOR]</title>
 <link>http://ignorame</link>
 <externallink>http://ignorame</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail>
@@ -297,7 +297,7 @@ _psn12v?
 
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  FilmON Channels[/COLOR]  [COLOR lightslategray] USA and UK Channels[/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  USA and UK Channels[/COLOR]  [COLOR lightslategray] filmon channels[/COLOR]</title>
 
 <link>$doregex[makelist]</link>
 <regex>
