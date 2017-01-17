@@ -77,7 +77,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  
 <item>
-<title>[COLOR lightblue] [B]Ayuda[/B] a mantener este proyecto, al [B][COLOR lightslategray]PayPal[/COLOR] [COLOR lightblue]adrian.bu@gmail.com[/COLOR][/B] para el servicio de hosting y dominio por un año mas antes del 20 de enero ==== if you like my list u can support me with a donation to [COLOR white]paypal adrian.bu@gmail.com[/COLOR] for a coffee or a beer ..===== [/COLOR]</title>
+<title>[COLOR lightblue]Este addon funciona a traves de [B]Donaciones[/B], al [B][COLOR lightslategray]PayPal[/COLOR] [COLOR lightblue]adrian.bu@gmail.com[/COLOR][/B] para el servicio de hosting y dominio por un año mas antes del 20 de enero ==== if you like my list u can support me with a donation to [COLOR white]paypal adrian.bu@gmail.com[/COLOR] for a coffee or a beer ..===== [/COLOR]</title>
 <link>http://ignorame</link>
 <externallink>http://ignorame</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail>
@@ -85,7 +85,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>             [COLOR lightslategray]update: [COLOR lightgray][B]16[/B][/COLOR] ENERO  2017[/COLOR]      </title>
+<title>             [COLOR lightslategray]updated: [COLOR lightgray][B]17[/B][/COLOR] ENERO  2017[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -107,7 +107,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-<item>
+<tem>
 <title>[COLOR lightblue] [B]UNETE a la Conversacion[/B][I] [COLOR lightgreen]http://telegram.me/[B]adryanlist[/COLOR][/I] [COLOR lightblue] [/COLOR][/B]   [COLOR white] [/COLOR]  [/COLOR]</title>
 <link>http://ignorame</link>
 <externallink>http://ignorame</externallink>
