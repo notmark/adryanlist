@@ -285,6 +285,19 @@ _psn12v?
 		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/mexflix.jpg</thumbnail> 
 		<externallink>https://dl.dropboxusercontent.com/s/czitah7nid5p81j/masterlink24.xml?dl=1</externallink>
 		</item>
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]CATOAL[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
+<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/catoal.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/Carlesto/Listas/master/carindex</externallink>
+</item>
+
+
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]YANKIEFLIX TV[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
+<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/yankie.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<externallink>http://yancarlitoinformacion.blogspot.com.es/p/addons-yankie334tv.html</externallink>
+</item>
+
 
 <tem>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Musica[/COLOR]  [COLOR lightslategray](Music) [/COLOR]</title>
@@ -382,16 +395,5 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  CATOAL[/COLOR] [COLOR lightyellow][/COLOR] </title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/catoal.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/Carlesto/Listas/master/carindex</externallink>
-</item>
 
-
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  YANKIEFLIX TV[/COLOR] [COLOR lightyellow][/COLOR] </title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/yankie.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<externallink>http://yancarlitoinformacion.blogspot.com.es/p/addons-yankie334tv.html</externallink>
-</item>
 
