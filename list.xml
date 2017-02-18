@@ -76,7 +76,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
  
-<tem>
+<item>
 <title>[COLOR lightblue]AYUDA MEDIANTE [B]Donaciones[/B], al [B][COLOR lightslategray]PayPal[/COLOR] [COLOR lightblue]adrian.bu@gmail.com[/COLOR][/B] PARA MANTENER ESTE ADDON ACTIVO ==== if you like my list u can support me with a donation to [COLOR white]paypal adrian.bu@gmail.com[/COLOR] for a coffee or a beer ..===== [/COLOR]</title>
 <link>http://ignorame</link>
 <externallink>http://ignorame</externallink>
@@ -85,7 +85,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>                  [COLOR lightslategray]update: [COLOR lightgray][B]15[/B][/COLOR] FEBRERO  2017[/COLOR]      </title>
+<title>                  [COLOR lightslategray]update:[COLOR lightgray][B]18[/B][/COLOR] FEBRERO  2017[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -285,7 +285,7 @@ _psn12v?
 
 
 <item>
-		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]TECNOTV[/B][/COLOR]  [COLOR lightslategray]  :::  visitar tecnotv.info :::  donaciones a enriquealonso24@gmail.com[/COLOR]</title>
+		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]TECNOTV[/B][/COLOR]  [COLOR lightslategray]  [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/tecnotv.jpg</thumbnail> 
 		<externallink>http://tecnotv.info/kodi/addon.xml</externallink>
 		</item>
