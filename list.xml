@@ -85,7 +85,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>                  [COLOR lightslategray]update:[COLOR lightgray][B]21[/B][/COLOR] FEBRERO  2017[/COLOR]      </title>
+<title>                  [COLOR lightslategray]update: [COLOR lightgray][B]23[/B][/COLOR] FEBRERO  2017[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
