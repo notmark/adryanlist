@@ -269,6 +269,7 @@ _psn12v?
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/247.jpg</thumbnail>
+	<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 </item>
 </item>
 
@@ -277,7 +278,7 @@ _psn12v?
 <item>
 		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]SR REGIO[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>https://1.bp.blogspot.com/-sx3NIAdJ1Hk/WI7vbG6C0tI/AAAAAAAAAMo/v8VZi9cjc7IeO6ASkh383Uu0uujP4wx5wCLcB/s1600/icon.png</thumbnail> 
-		<externallink>http://srregio.com/Addon/Menus/MenuIndex.txt</externallink>
+		<externallink>http://srregio.com/Addon/Menus/MenuIndex.txt</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 		</item>
 
 
@@ -287,33 +288,33 @@ _psn12v?
 <item>
 		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]TECNOTV[/B][/COLOR]  [COLOR lightslategray]  [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/tecnotv.jpg</thumbnail> 
-		<externallink>http://tecnotv.info/kodi/addon.xml</externallink>
+		<externallink>http://tecnotv.info/kodi/addon.xml</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 		</item>
 
 
 <tem>
 		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]MEXFLIX[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/mexflix.jpg</thumbnail> 
-		<externallink>https://dl.dropboxusercontent.com/s/czitah7nid5p81j/masterlink24.xml?dl=1</externallink>
+		<externallink>https://dl.dropboxusercontent.com/s/czitah7nid5p81j/masterlink24.xml?dl=1</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 		</item>
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]CATOAL[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/catoal.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/Carlesto/Listas/master/carindex</externallink>
+<externallink>https://raw.githubusercontent.com/Carlesto/Listas/master/carindex</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 </item>
 
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]YANKIEFLIX TV[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/yankie.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<externallink>http://yancarlitoinformacion.blogspot.com.es/p/addons-yankie334tv.html</externallink>
+<externallink>http://yancarlitoinformacion.blogspot.com.es/p/addons-yankie334tv.html</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 </item>
 
 
 <tem>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Musica[/COLOR]  [COLOR lightslategray](Music) [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/musica.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<externallink>http://adryanlist.org/adryan/music.xml</externallink>
+<externallink>http://adryanlist.org/adryan/music.xml</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -395,7 +396,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 <cookieJar></cookieJar>
-<thumbnail></thumbnail>
+<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 </item>
 
 
