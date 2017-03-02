@@ -85,7 +85,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>                 [COLOR lightslategray]update: [COLOR lightgray][B]01[/B][/COLOR] MARZO  2017[/COLOR]      </title>
+<title>                 [COLOR lightslategray]update: [COLOR lightgray][B]02[/B][/COLOR] MARZO  2017[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -143,10 +143,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-<tem>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]ExtraTime[/COLOR][/B] [COLOR lightslategray][I]  Eventos del dia[/I][/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/extratime.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<externallink>http://adryanlist.org/adryan/multicanales.xml</externallink>
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR lightgreen]  Acestreams[/COLOR] [COLOR lightslategray](Canales p2p) [/COLOR]</title>
+<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/acestreams.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<externallink>http://adryanlist.org/adryan/plexus.xml</externallink>
 </item>
 
 <item>
@@ -396,7 +396,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 <cookieJar></cookieJar>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>http://adryanlist.org/adryan/img/filmon.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 </item>
 
 
