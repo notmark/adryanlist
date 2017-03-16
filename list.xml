@@ -208,7 +208,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Television [COLOR skyblue]24/7[/COLOR][/B][/COLOR] [COLOR lightslategray]en Español  [/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Television [COLOR skyblue]24/7[/COLOR][/B][/COLOR] [COLOR lightslategray]solo kodi16 [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -273,7 +273,7 @@ _psn12v?
 </item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Television [COLOR skyblue]24/7[/COLOR][/B][/COLOR] [COLOR lightslategray]opc2 (no funcionan todos por el momento)  [/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Television [COLOR skyblue]24/7[/COLOR][/B][/COLOR] [COLOR lightslategray]opcion 2 . all kodi versions [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
