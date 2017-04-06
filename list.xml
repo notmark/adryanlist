@@ -87,7 +87,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>                     [COLOR lightslategray]update: [COLOR lightblue][B]05[/B][/COLOR] ABRIL  2017[/COLOR]      </title>
+<title>                     [COLOR lightslategray]update: [COLOR lightblue][B]06[/B][/COLOR] ABRIL  2017[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -298,7 +298,7 @@ _psn12v?
 <item>
 		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]SR REGIO[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>https://1.bp.blogspot.com/-sx3NIAdJ1Hk/WI7vbG6C0tI/AAAAAAAAAMo/v8VZi9cjc7IeO6ASkh383Uu0uujP4wx5wCLcB/s1600/icon.png</thumbnail> 
-		<externallink>http://srregio.com/Addon/Menus/MenuIndex.txt</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+		<externallink>http://srregio.com/</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 		</item>
 
 
