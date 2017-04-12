@@ -306,7 +306,7 @@ _psn12v?
 
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]World Television[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]World Television[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
 
 <link>$doregex[makelist]</link>
 <regex>
@@ -315,8 +315,8 @@ _psn12v?
        <title>[COLOR deepskyblue] [makelist.param2] [/COLOR] [COLOR lime][I] [makelist.param3][/COLOR][/I]</title>
     
 <link>$doregex[get-m3u8]</link>
-
-<thumbnail></thumbnail>
+<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>http://adryanlist.org/adryan/img/internacional.jpg</thumbnail>
    ]]></listrepeat>
    <expres><![CDATA[href="(.*?)"[\w\W\s]{0,15}blank">(.*?)<[\w\W\s]{0,22}live">(.*?)<]]></expres>
    <page>https://ustreamix.com/</page>
@@ -336,8 +336,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>[makelist.param1]</page>
 <referer>https://ustreamix.com/</referer>
 </regex>
-	
-<thumbnail>http://adryanlist.org/adryan/img/world.jpg</thumbnail>
+	<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>http://adryanlist.org/adryan/img/internacional.jpg</thumbnail>
 </item>
 
 	
