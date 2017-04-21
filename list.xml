@@ -49,11 +49,11 @@
 
 
 
-
+                    [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR]  
 
 <item>
-<title>                     [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR]   </title>
-<link>$doregex[openDialog]</link>
+<title>                     [COLOR skyblue][B]    D E S. P A. [/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]C I. T O ![/B][/COLOR]   </title>
+<utube>72UO0v5ESUo</utube>
 <regex>
 <name>openDialog</name>
 <expres><![CDATA[#$pyFunction
@@ -79,7 +79,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  
 <item>
-<title>[COLOR lightblue][B]Donaciones[/B], en [B][COLOR lightgreen]paypal.me/adryanlist[/COLOR][/B] PARA MANTENER ESTE ADDON ACTIVO & ACTUALIZADO ==== o al paypal [COLOR white]adrian.bu@gmail.com[/COLOR] if you like my list u can support me with a donation to [COLOR white]paypal adrian.bu@gmail.com[/COLOR] for a coffee or a beer ..===== [/COLOR]</title>
+<title>[COLOR lightblue][B]Ayudame con tu Donacion en [/B] [B][COLOR lightgreen]paypal.me/adryanlist[/COLOR][/B] PARA MANTENER ESTE ADDON ACTIVO & ACTUALIZADO ==== o al paypal [COLOR white]adrian.bu@gmail.com[/COLOR] if you like my list u can support me with a donation to [COLOR white]paypal adrian.bu@gmail.com[/COLOR] for a coffee or a beer ..===== [/COLOR]</title>
 <link>http://ignorame</link>
 <externallink>http://ignorame</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail>
@@ -87,7 +87,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>                     [COLOR lightslategray]update: [COLOR lightblue][B]20[/B][/COLOR] ABRIL  2017[/COLOR]      </title>
+<title>                     [COLOR lightslategray]update: [COLOR lightblue][B]21[/B][/COLOR] ABRIL  2017[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
