@@ -79,7 +79,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  
 <item>
-<title>[COLOR lightblue][B]Ayudame con tu Donacion en [/B] [B][COLOR lightgreen]paypal.me/adryanlist[/COLOR][/B] PARA MANTENER ESTE ADDON ACTIVO & ACTUALIZADO ==== o al paypal [COLOR white]adrian.bu@gmail.com[/COLOR] if you like my list u can support me with a donation to [COLOR white]paypal adrian.bu@gmail.com[/COLOR] for a coffee or a beer ..===== [/COLOR]</title>
+<title>[COLOR lightblue][B]Tu Donacion en [/B] [B][COLOR lightgreen]paypal.me/adryanlist[/COLOR] Mantiene el addon Activo y funcionando [/B]  ==== o al paypal [COLOR white]adrian.bu@gmail.com[/COLOR] if you like my list u can support me with a donation to [COLOR white]paypal adrian.bu@gmail.com[/COLOR] for a coffee or a beer ..===== [/COLOR]</title>
 <link>http://ignorame</link>
 <externallink>http://ignorame</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail>
@@ -87,7 +87,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>                     [COLOR lightslategray]update: [COLOR lightblue][B]21[/B][/COLOR] ABRIL  2017[/COLOR]      </title>
+<title>                     [COLOR lightslategray]update: [COLOR lightblue][B]22[/B][/COLOR] ABRIL  2017[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -109,8 +109,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-<tem>
-<title>[COLOR lightblue] [B]UNETE a la Conversacion[/B][I] [COLOR lightgreen]http://telegram.me/[B]adryanlist[/COLOR][/I] [COLOR lightblue] [/COLOR][/B]   [COLOR white] [/COLOR]  [/COLOR]</title>
+<item>
+<title>[COLOR lightblue] [B]Necesitas ayuda?  ingresa a[/B][I] [COLOR lightgreen]http://adryanlist.org/[B]aforo[/COLOR][/I] [COLOR lightblue] [/COLOR][/B]   [COLOR white] [/COLOR]  [/COLOR]</title>
 <link>http://ignorame</link>
 <externallink>http://ignorame</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail>
@@ -127,7 +127,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<tem>
+<item>
 <title>[COLOR lime]•[/COLOR][COLOR lightgreen]  [B]Evento Especial [/COLOR] [COLOR lightslategray]REAL MADRID vs BARCELONA [/B][/COLOR]</title>
 <link>http://ignorame</link>
 <thumbnail>http://www.unievents360.com/wp-content/uploads/2013/06/real-madrid-barcelona1.jpg</thumbnail>
