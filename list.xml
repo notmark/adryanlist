@@ -49,11 +49,11 @@
 
 
 
-                    [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR]  
+ 
 
 <item>
-<title>                     [COLOR skyblue][B]    D E S. P A. [/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]C I. T O ![/B][/COLOR]   </title>
-<utube>72UO0v5ESUo</utube>
+<title>                     [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR] </title>
+<link>NA</link>
 <regex>
 <name>openDialog</name>
 <expres><![CDATA[#$pyFunction
@@ -128,10 +128,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <tem>
-<title>[COLOR lime]•[/COLOR][COLOR lightgreen]  [B]Evento Especial [/COLOR] [COLOR lightslategray]XIAOMI CES 2017 [/B][/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR lightgreen]  [B]Evento Especial [/COLOR] [COLOR lightslategray]REAL MADRID vs BARCELONA [/B][/COLOR]</title>
 <link>http://ignorame</link>
-<thumbnail>http://miui.my/wp-content/uploads/2016/11/mi-ces2017.jpg</thumbnail>
-<fanart>http://miui.my/wp-content/uploads/2016/11/mi-ces2017.jpg</fanart>
+<thumbnail>http://www.unievents360.com/wp-content/uploads/2013/06/real-madrid-barcelona1.jpg</thumbnail>
+<fanart><fanart>http://www.unievents360.com/wp-content/uploads/2017/02/EC12017-18b.png</fanart></fanart>
 <externallink>http://adryanlist.org/adryan/evento.xml</externallink>
 </item>
 
