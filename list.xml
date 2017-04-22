@@ -110,7 +110,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR lightblue] [B]Necesitas ayuda?  ingresa a[I] [COLOR lightgreen]http://adryanlist.org/[B]foro [/B][/COLOR][/I] [COLOR lightblue] [/COLOR][/B]   [COLOR white] [/COLOR]  [/COLOR]</title>
+<title>[COLOR lightblue] [B]Necesitas ayuda?  ingresa a[I] [COLOR lightgreen]http://adryanlist.org/foro [/B][/COLOR][/I] [COLOR lightblue] [/COLOR][/B]   [COLOR white] [/COLOR]  [/COLOR]</title>
 <link>http://ignorame</link>
 <externallink>http://ignorame</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail>
@@ -481,3 +481,4 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
+1
