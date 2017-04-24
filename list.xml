@@ -87,7 +87,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>                     [COLOR lightslategray]update: [COLOR lightblue][B]22[/B][/COLOR] ABRIL  2017[/COLOR]      </title>
+<title>                     [COLOR lightslategray]update: [COLOR lightblue][B]24[/B][/COLOR] ABRIL  2017[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -109,7 +109,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-<item>
+<tem>
 <title>[COLOR lightblue] [B]Necesitas ayuda?  ingresa a[I] [COLOR lightgreen]http://adryanlist.org/foro [/B][/COLOR][/I] [COLOR lightblue] [/COLOR]   [COLOR white] [/COLOR]  [/COLOR]</title>
 <link>http://ignorame</link>
 <externallink>http://ignorame</externallink>
@@ -127,7 +127,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<item>
+<iem>
 <title>[COLOR lime]•[/COLOR][COLOR lightgreen]  [B]Evento Especial [/COLOR] [COLOR lightslategray]REAL MADRID vs BARCELONA [/B][/COLOR]</title>
 <link>http://ignorame</link>
 <thumbnail>http://www.unievents360.com/wp-content/uploads/2013/06/real-madrid-barcelona1.jpg</thumbnail>
@@ -349,7 +349,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 		<externallink>http://srregio.com/</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 		</item>
 
-
+<item>
+		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]J.H.G. MASTER[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
+		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/jhg.jpg</thumbnail> 
+		<externallink>http://raw.githubusercontent.com/lokiyotnt69/general/master/index.xml</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+		</item>
 
 
 
