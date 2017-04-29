@@ -307,34 +307,33 @@ _psn12v?
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]World Television[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
-
 <link>$doregex[makelist]</link>
 <regex>
-   <name>makelist</name>
-   <listrepeat><![CDATA[
-       <title>[COLOR deepskyblue] [makelist.param2] [/COLOR] [COLOR lime][I] [makelist.param3][/COLOR][/I]</title>
-    
-<link>$doregex[get-m3u8]</link>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<thumbnail>http://adryanlist.org/adryan/img/internacional.jpg</thumbnail>
-   ]]></listrepeat>
-   <expres><![CDATA[href="(.*?)"[\w\W\s]{0,15}blank">(.*?)<[\w\W\s]{0,22}live">(.*?)<]]></expres>
-   <page>https://ustreamix.com/</page>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <title>[COLOR lightyellow][makelist.param2][/COLOR] [COLOR dodgerblue]([makelist.param3])[/COLOR]</title>
+   <link>$doregex[getUrl]</link>
+]]></listrepeat>
+<expres><![CDATA[(?s)<p><a href="(.*?)".*?blank">(.*?)\s*<.*?live">(.*?)<]]></expres>
+<page>https://beta.ustreamix.com/</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
 </regex>
 <regex>
-<name>get-m3u8</name>
+<name>getUrl</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-  import jscrypto, re
-  vars = re.findall(r'var stream = JSON.parse.Cr.*?\((.*?),\s?(.*?),',page_data)[1] 
-  ct = re.findall(r'var %s.*?ct":"(.*?)"'%vars[0],page_data)[0] 
-  salt = re.findall(r'var %s.*?s":"(.*?)"'%vars[0],page_data)[0]
-  passphrase = re.findall(r"var %s.*?'(.*?)'"%vars[1],page_data)[0]
-  url= (jscrypto.decode(ct,passphrase,salt.decode('hex'))).replace('\\/','/').replace('"','')
-  return url
+import re, requests
+def GetLSProData(page_data,Cookie_Jar,m,):
+  first_ip = re.findall("x_first_ip.+?'(.*?)'", page_data)[0]
+  preurl = 'https://mir.hulkfiles.com/'   # here is the server url which changed most of time
+  url = preurl + 'stats.php?p=' + first_ip
+  source = requests.get(url, headers = {'Referer': 'https://beta.ustreamix.com/[makelist.param1]', 'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0', 'Accept': '*/*'}).text
+  tok = re.findall('var jdtk="(.*?)"', source)[0]
+  return preurl + 'tmg.m3u8?' + '[makelist.param1]' + '&token=' + tok
 ]]></expres>
-<page>[makelist.param1]</page>
-<referer>https://ustreamix.com/</referer>
+<page>https://beta.ustreamix.com/[makelist.param1]</page>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
 </regex>
 	<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <thumbnail>http://adryanlist.org/adryan/img/internacional.jpg</thumbnail>
