@@ -305,7 +305,7 @@ _psn12v?
 
 
 
-<item>
+<iem>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]World Television[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
