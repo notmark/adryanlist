@@ -61,7 +61,8 @@
  <listrepeat><![CDATA[
      <title>[makelist.param2]</title>
      <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-     <thumbnail>NA</thumbnail>
+     <thumbnail>http://i.imgur.com/LCZVJ3N.jpg</thumbnail>
+<fanart>http://i.imgur.com/wQRXuvo.jpg</fanart>
  ]]></listrepeat>
  <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
  <page>https://www.youtube.com/playlist?list=PL35222C10F1D12818</page>
