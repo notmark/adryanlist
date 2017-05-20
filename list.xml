@@ -85,7 +85,7 @@
 </item>
 
 <item>
-<title>                     [COLOR lightslategray]update: [COLOR lightblue][B]18[/B][/COLOR] MAYO  2017[/COLOR]      </title>
+<title>                     [COLOR lightslategray]update: [COLOR lightblue][B]20[/B][/COLOR] MAYO  2017[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -360,7 +360,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <item>
 		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]MEXFLIX[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/mexflix.jpg</thumbnail> 
-		<externallink>https://www.dropbox.com/s/czitah7nid5p81j/masterlink24.xml?dl=1</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+		<externallink>https://www.dropbox.com/s/vgzr7mue4p05hx4/MexFLIXAddonMASTER.xml?dl=1</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 		</item>
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]CATOAL[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
