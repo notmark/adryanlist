@@ -52,7 +52,7 @@
  
 
 <item>
-<title>                     [COLOR skyblue][B]    Q E P D [/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]C R I S   C O R N E L L [/B][/COLOR] </title>
+<title>                     [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR] </title>				
 <link>$doregex[makelist]</link>
 
 
@@ -85,7 +85,7 @@
 </item>
 
 <item>
-<title>                     [COLOR lightslategray]update: [COLOR lightblue][B]20[/B][/COLOR] MAYO  2017[/COLOR]      </title>
+<title>                     [COLOR lightslategray]update: [COLOR lightblue][B]23[/B][/COLOR] MAYO  2017[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
