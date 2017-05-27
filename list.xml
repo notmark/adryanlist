@@ -71,7 +71,7 @@
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
 <item>
-<title>                     [COLOR lightslategray]update: [COLOR lightblue][B]25[/B][/COLOR] MAYO  2017[/COLOR]      </title>
+<title>                     [COLOR lightslategray]update: [COLOR lightblue][B]27[/B][/COLOR] MAYO  2017[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -102,11 +102,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<iem>
-<title>[COLOR lime]•[/COLOR][COLOR lightgreen]  [B]Evento Especial [/COLOR] [COLOR lightslategray]REAL MADRID vs BARCELONA [/B][/COLOR]</title>
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR lightgreen]  [B]Game of Thrones [/COLOR] [COLOR lightslategray] Julio.16   [/B][/COLOR]</title>
 <link>http://ignorame</link>
-<thumbnail>http://www.unievents360.com/wp-content/uploads/2013/06/real-madrid-barcelona1.jpg</thumbnail>
-<fanart>http://www.unievents360.com/wp-content/uploads/2017/02/EC12017-18b.png</fanart>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail><fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/evento.xml</externallink>
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
