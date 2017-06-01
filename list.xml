@@ -71,7 +71,7 @@
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
 <item>
-<title>                     [COLOR lightslategray]update: [COLOR lightblue][B]31[/B][/COLOR] MAYO 2017[/COLOR]      </title>
+<title>                     [COLOR lightslategray]update: [COLOR lightblue][B]01[/B][/COLOR] JUNIO 2017[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -119,14 +119,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Extratime[/COLOR] [COLOR lightyellow] [/B][/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Extratime[/COLOR] [COLOR lightyellow]Mexico vs Irlanda [/B][/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/extratime.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/multicanales.xml</externallink>
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Acestreams[/COLOR] [COLOR lightslategray](Canales p2p) [/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/acestreams.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/acestream.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/plexus.xml</externallink>
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
@@ -324,7 +324,11 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 		<externallink>http://raw.githubusercontent.com/lokiyotnt69/general/master/index.xml</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 		<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
-
+<item>
+		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]JOTAVCDON[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
+		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/jotavcdon.jpg</thumbnail> 
+		<externallink>https://pastebin.com/raw/22AwYzuS</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+		<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
 <item>
 		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]TECNOTV[/B][/COLOR]  [COLOR lightslategray]  [/COLOR]</title>
