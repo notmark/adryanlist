@@ -28,7 +28,7 @@
 </item>
 
 <item>
-<title>       thks for All    </title>				
+<title>          thks for All    </title>				
 <link>$doregex[makelist]</link><externallink>http://adryanlist.org/adryan/list.xml</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/jon.jpg</thumbnail>
 <fanart>http://adryanlist.org/adryan/img/invierno.jpg</fanart>
@@ -42,7 +42,7 @@
 </item>
 
 <item>
-<title>    ADRYANLIST     </title>				
+<title>      ADRYANLIST     </title>				
 <link>$doregex[makelist]</link><externallink>http://adryanlist.org/adryan/list.xml</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/jon.jpg</thumbnail>
 <fanart>http://adryanlist.org/adryan/img/invierno.jpg</fanart>
