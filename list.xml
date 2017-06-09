@@ -329,7 +329,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 		<externallink>http://raw.githubusercontent.com/lokiyotnt69/general/master/index.xml</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 		<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
-<item>
+<itm>
 		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]JOTAVCDON[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/jotavcdon.jpg</thumbnail> 
 		<externallink>https://pastebin.com/raw/22AwYzuS</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
@@ -347,14 +347,14 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/mexflix.jpg</thumbnail> 
 		<externallink>https://www.dropbox.com/s/vgzr7mue4p05hx4/MexFLIXAddonMASTER.xml?dl=1</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 		<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
-<item>
+<iem>
 <title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]CATOAL[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/catoal.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/Carlesto/Listas/master/carindex</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
 
-<item>
+<iem>
 <title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]YANKIEFLIX TV[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/yankie.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://yancarlitoinformacion.blogspot.com.es/p/addons-yankie334tv.html</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
