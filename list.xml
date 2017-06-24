@@ -335,7 +335,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 		<externallink>https://pastebin.com/raw/22AwYzuS</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 		<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
-<item>
+>
 		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]TECNOTV[/B][/COLOR]  [COLOR lightslategray]  [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/tecno.jpg</thumbnail> 
 		<externallink>http://tecnotv.info/kodi/addon.xml</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
