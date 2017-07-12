@@ -76,7 +76,7 @@
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
 <item>
-<title>                      [COLOR lightslategray]update: [COLOR lightblue][B]10[/B][/COLOR] JULIO 2017[/COLOR]      </title>
+<title>                      [COLOR lightslategray]update: [COLOR lightblue][B]12[/B][/COLOR] JULIO 2017[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -115,7 +115,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Juego de Tronos [/COLOR] [COLOR lightslategray]»»» Premiere 16 de Julio «««  [/B][/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR lightyellow]  [B]Juego de Tronos [/COLOR] [COLOR lightblue]»»» Premiere 16 de Julio «««  [/B][/COLOR]</title>
 <link>http://ignorame</link>
 <thumbnail>http://adryanlist.org/adryan/img/got.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/evento.xml</externallink>
@@ -204,12 +204,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
 
 <title>[makelist.param2]</title>
-<link>rtmp://$doregex[get_ip]/live?$doregex[get_key] app=live?$doregex[get_key] playpath=live_[makelist.param1]  swfUrl=http://vaughnlive.tv$doregex[get_channel]/swf/VaughnSoftPlayer.swf  pageUrl=http://vaughnlive.tv/[makelist.param1]  live=true</link>
+<link>rtmp://$doregex[get_ip]/live?$doregex[get_key] app=live?$doregex[get_key] playpath=live_[makelist.param1]  swfUrl=https://vaughnlive.tv$doregex[get_channel]/swf/VaughnSoftPlayer.swf  pageUrl=https://vaughnlive.tv/[makelist.param1]  live=true</link>
 <regex>
 <name>get_ip</name>
 <expres>([^;]*?);:</expres>    
-<page>http://mvn.vaughnsoft.net/video/edge/soon__depricated_Q2_2017-live_[makelist.param1]-0?0.1.1.792_795-795-0.18587422650307417</page>                               
-<referer>http://vaughnlive.tv/</referer>
+<page>https://mvn.vaughnsoft.net/video/edge/soon__depricated_Q2_2017-live_[makelist.param1]-0?0.1.1.792_795-795-0.18587422650307417</page>                               
+<referer>https://vaughnlive.tv/</referer>
 <connection>keep-alive</connection>
 <agent>Mozilla/5.0</agent>
 <accept>Accept-Encoding=gzip,deflate,text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</accept>
@@ -218,8 +218,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>get_key</name>
 <expres>mvnkey-(.*?);NA</expres>  
-<page>http://mvn.vaughnsoft.net/video/edge/soon__depricated_Q2_2017-live_[makelist.param1]-0?0.1.1.792_795-795-0.18587422650307417</page>                               
-<referer>http://vaughnlive.tv/</referer>
+<page>https://mvn.vaughnsoft.net/video/edge/soon__depricated_Q2_2017-live_[makelist.param1]-0?0.1.1.792_795-795-0.18587422650307417</page>                               
+<referer>https://vaughnlive.tv/</referer>
 <connection>keep-alive</connection>
 <agent>Mozilla/5.0</agent>
 <accept>Accept-Encoding=gzip,deflate,text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</accept>
@@ -228,8 +228,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>get_key2</name>
 <expres>;.*;(.*?)</expres>  
-<page>http://mvn.vaughnsoft.net/video/edge/soon__depricated_Q2_2017-live_[makelist.param1]-0?0.1.1.792_795-795-0.18587422650307417</page>                               
-<referer>http://vaughnlive.tv/</referer>
+<page>https://mvn.vaughnsoft.net/video/edge/soon__depricated_Q2_2017-live_[makelist.param1]-0?0.1.1.792_795-795-0.18587422650307417</page>                               
+<referer>https://vaughnlive.tv/</referer>
 <connection>keep-alive</connection>
 <agent>Mozilla/5.0</agent>
 <accept>Accept-Encoding=gzip,deflate,text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</accept>
@@ -238,8 +238,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>get_channel</name>
 <expres>embedSWF\(\"(.*?)\/</expres>    
-<page>http://vaughnlive.tv/[makelist.param1]</page>                             
-<referer>http://vaughnlive.tv/</referer>
+<page>https://vaughnlive.tv/[makelist.param1]</page>                             
+<referer>https://vaughnlive.tv/</referer>
 <connection>keep-alive</connection>
 <agent>Mozilla/5.0</agent>
 <accept>Accept-Encoding=gzip,deflate,text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</accept>
