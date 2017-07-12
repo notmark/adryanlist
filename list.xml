@@ -155,13 +155,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>http://adryanlist.org/adryan/gnula.xml</externallink>
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
- 
-
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  España [/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<externallink>http://adryanlist.org/adryan/esp.xml</externallink>
+<title>[COLOR lime]•[/COLOR][COLOR aquamarine]  [B]KIDS[/B] [/COLOR] [COLOR lightslategray]Peliculas Infantiles [/COLOR]</title>
+<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/kids.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<externallink>http://adryanlist.org/adryan/infantiles.xml</externallink>
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Mexico[/COLOR] </title>
