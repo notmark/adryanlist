@@ -204,14 +204,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Television [COLOR skyblue]24/7[/COLOR][/B][/COLOR] [COLOR lightslategray] [/COLOR]</title>
-
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]24/7 Television[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[makelist.param2]</title>
-<link>https://hls-ord-1a.vaughnsoft.net/ams/live/live_[makelist.param1]/chunklist.m3u8|User-Agent=iPad</link><link>https://hls-ord-1a.vaughnsoft.net/ams/live/live_[makelist.param1]/chunklist.m3u8|Referer=https://www.vaughnlive.tv&amp;User-Agent=Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3</link>
+<link>https://hls-ord-1a.vaughnsoft.net/ams/live/live_[makelist.param1]/chunklist.m3u8|Referer=https://www.vaughnlive.tv&amp;User-Agent=Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3</link>
+
 
 <thumbnail>http://cdn.vaughnsoft.com/vaughnsoft/vaughn/img_profiles/[makelist.param2]_320.jpg</thumbnail>
 ]]></listrepeat>
@@ -222,68 +222,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/247.jpg</thumbnail>
-<!--	
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-
-<title>[makelist.param2]</title>
-<link>rtmp://$doregex[get_ip]/live?$doregex[get_key] app=live?$doregex[get_key] playpath=live_[makelist.param1]  swfUrl=https://vaughnlive.tv$doregex[get_channel]/swf/VaughnSoftPlayer.swf  pageUrl=https://vaughnlive.tv/[makelist.param1]  live=true</link>
-<regex>
-<name>get_ip</name>
-<expres>([^;]*?);:</expres>    
-<page>https://mvn.vaughnsoft.net/video/edge/soon__depricated_Q2_2017-live_[makelist.param1]-0?0.1.1.792_795-795-0.18587422650307417</page>                               
-<referer>https://vaughnlive.tv/</referer>
-<connection>keep-alive</connection>
-<agent>Mozilla/5.0</agent>
-<accept>Accept-Encoding=gzip,deflate,text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</accept>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>get_key</name>
-<expres>mvnkey-(.*?);NA</expres>  
-<page>https://mvn.vaughnsoft.net/video/edge/soon__depricated_Q2_2017-live_[makelist.param1]-0?0.1.1.792_795-795-0.18587422650307417</page>                               
-<referer>https://vaughnlive.tv/</referer>
-<connection>keep-alive</connection>
-<agent>Mozilla/5.0</agent>
-<accept>Accept-Encoding=gzip,deflate,text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</accept>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>get_key2</name>
-<expres>;.*;(.*?)</expres>  
-<page>https://mvn.vaughnsoft.net/video/edge/soon__depricated_Q2_2017-live_[makelist.param1]-0?0.1.1.792_795-795-0.18587422650307417</page>                               
-<referer>https://vaughnlive.tv/</referer>
-<connection>keep-alive</connection>
-<agent>Mozilla/5.0</agent>
-<accept>Accept-Encoding=gzip,deflate,text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</accept>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>get_channel</name>
-<expres>embedSWF\(\"(.*?)\/</expres>    
-<page>https://vaughnlive.tv/[makelist.param1]</page>                             
-<referer>https://vaughnlive.tv/</referer>
-<connection>keep-alive</connection>
-<agent>Mozilla/5.0</agent>
-<accept>Accept-Encoding=gzip,deflate,text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</accept>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://cdn.vaughnsoft.com/vaughnsoft/vaughn/img_profiles/[makelist.param2]_320.jpg</thumbnail>
-]]></listrepeat>
-<expres>a href="/(.*?)"[\w\W\s]{0,22}browseTxt">(.*?)<</expres>
-<page>http://vaughnlive.tv/browse/espanol</page>
-<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
--->
-<thumbnail>http://adryanlist.org/adryan/img/247.jpg</thumbnail>
-	<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
-
-	
+</item>
 
 
 
