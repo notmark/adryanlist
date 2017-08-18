@@ -143,6 +143,35 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
 <item>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  La Liga[/COLOR] [COLOR lightslategray](acestreams) [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<item><title>[COLOR lightgreen][makelist.param1] [COLOR silver] [makelist.param2]  [COLOR skyblue] [makelist.param4][/COLOR][/COLOR][/COLOR]  [COLOR deepskyblue] [makelist.param5][/COLOR] </title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Adryanlist+[makelist.param3]+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://arenavision2017.tk/[makelist.param5]</page>
+			<referer>http://arenavision2017.tk/</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			<thumbnail>http://adryanlist.org/adryan/img/acestream.jpg</thumbnail>
+</item>	
+]]></listrepeat>
+<expres><![CDATA[230px">(.*?)<[\w\W\s]{0,50}px">(.*?)CEST[\w\W\s]{0,53}px">(.*?)<[\w\W\s]{0,53}SPANISH LA LIGA[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">([0-9]+)]]></expres>
+<page>http://arenavision2017.tk/guide</page>
+<Agent>Mozilla</Agent>
+<referer>http://arenavision2017.tk/guide</referer>
+<setcookie>beget=begetok</setcookie>
+</regex><thumbnail>http://adryanlist.org/adryan/img/laliga.jpg</thumbnail>
+</item>
+
+
+
+
+<item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Peliculas[/B] [/COLOR] [COLOR lightslategray]  [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/peliculas.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/pyt_vod.xml</externallink>
