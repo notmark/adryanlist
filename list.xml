@@ -158,6 +158,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			<setcookie>beget=begetok</setcookie>
 			</regex>
 			<thumbnail>http://adryanlist.org/adryan/img/acestream.jpg</thumbnail>
+<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info>
 </item>	
 ]]></listrepeat>
@@ -167,6 +168,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <referer>http://arenavision2017.tk/guide</referer>
 <setcookie>beget=begetok</setcookie>
 </regex><thumbnail>http://adryanlist.org/adryan/img/laliga.jpg</thumbnail>
+	<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 	<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info>
 </item>
 
