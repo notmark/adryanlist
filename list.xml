@@ -76,7 +76,7 @@
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
 <item>
-<title>                [COLOR lightslategray]update: [COLOR lightblue][B]06[/B][/COLOR] SEPTIEMBRE 2017[/COLOR]      </title>
+<title>                [COLOR lightslategray]update: [COLOR lightblue][B]09[/B][/COLOR] SEPTIEMBRE 2017[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -170,9 +170,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>	
 ]]></listrepeat>
 <expres><![CDATA[230px">(.*?)<[\w\W\s]{0,50}px">(.*?)CEST[\w\W\s]{0,53}px">(.*?)<[\w\W\s]{0,53}SPANISH LA LIGA[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">([0-9]+)]]></expres>
-<page>http://arenavision2017.tk/guide</page>
+<page>http://arenavision2017.tk/iguide</page>
 <Agent>Mozilla</Agent>
-<referer>http://arenavision2017.tk/guide</referer>
+<referer>http://arenavision2017.tk/iguide</referer>
 <setcookie>beget=begetok</setcookie>
 </regex><thumbnail>http://adryanlist.org/adryan/img/laliga.png</thumbnail>
 	<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
