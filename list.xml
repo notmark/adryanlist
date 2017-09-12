@@ -76,7 +76,7 @@
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
 <item>
-<title>                [COLOR lightslategray]update: [COLOR lightblue][B]11[/B][/COLOR] SEPTIEMBRE 2017[/COLOR]      </title>
+<title>                [COLOR lightslategray]update: [COLOR lightblue][B]12[/B][/COLOR] SEPTIEMBRE 2017[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -111,11 +111,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<iem>
-<title>[COLOR lime]•[/COLOR][COLOR lightyellow]  [B]FUTBOL [/COLOR] [COLOR lightgreen]»»» Eliminatorias CONMEBOL «««  [/B][/COLOR]</title>
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR lightyellow]  [B]APPLE KEYNOTE [/COLOR] [COLOR lightgreen]»»» Presentacion Nuevo Iphone «««  [/B][/COLOR]</title>
 <link>http://ignorame</link>
-<thumbnail>http://adryanlist.org/adryan/img/evento.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<externallink>http://adryanlist.org/adryan/box.xml</externallink>
+<thumbnail>https://i.imgur.com/OiFxeuq.png</thumbnail>
+<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<externallink>http://adryanlist.org/adryan/keynote.xml</externallink>
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
 
