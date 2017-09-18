@@ -345,18 +345,15 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 		<externallink>https://www.dropbox.com/s/fvx47jwa4lu9utx/MexFLIXAddonMASTER.xml?dl=1</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 		<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]KARAOKE FAMILY[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/karaoke.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/boni1974/Karaoke/master/index.xml</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]EL RINCON DE LOLO[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
+<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/lolo.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<externallink>http://bit.ly/RinconLolo2</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
 
-<iem>
-<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]YANKIEFLIX TV[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/yankie.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<externallink>http://yancarlitoinformacion.blogspot.com.es/p/addons-yankie334tv.html</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
-<item>
+
+	
+	<iem>
 <title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]EXABYTE TV[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/exabyte.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://www.exabytetv.info/addon/main.xml</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
