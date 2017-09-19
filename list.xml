@@ -76,7 +76,7 @@
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
 <item>
-<title>                [COLOR lightslategray]update: [COLOR lightblue][B]18[/B][/COLOR] SEPTIEMBRE 2017[/COLOR]      </title>
+<title>                [COLOR lightslategray]update: [COLOR lightblue][B]19[/B][/COLOR] SEPTIEMBRE 2017[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -167,7 +167,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			</regex>
 			<regex>
 			<name>canal</name> 
-			<expres>$pyFunction:'[makelist.param5]'.replace('1','01').replace('2','02').replace('3','03').replace('4','04').replace('5','05').replace('6','06').replace('7','07').replace('8','08').replace('9','09')</expres>
+			<expres>$pyFunction:'[makelist.param5]'.replace('>4','04').replace('>5','>05').replace('>6','06').replace('>7','07').replace('>8','08').replace('>9','09').replace('>10','10').replace('>11','11').replace('>12','12').replace('>13','13').replace('>14','14').replace('>15','15').replace('>16','16').replace('>17','17').replace('>18','18').replace('>19','19').replace('>1','01').replace('>2','02').replace('>3','03')</expres>
 			<page></page>
 			</regex>
 			
