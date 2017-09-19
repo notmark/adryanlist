@@ -167,7 +167,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			</regex>
 			<regex>
 			<name>canal</name> 
-			<expres>$pyFunction:'[makelist.param5]'.replace('>4','04').replace('>5','>05').replace('>6','06').replace('>7','07').replace('>8','08').replace('>9','09').replace('>10','10').replace('>11','11').replace('>12','12').replace('>13','13').replace('>14','14').replace('>15','15').replace('>16','16').replace('>17','17').replace('>18','18').replace('>19','19').replace('>1','01').replace('>2','02').replace('>3','03')</expres>
+			<expres>$pyFunction:'[makelist.param5]'.replace('>4','04').replace('>5','05').replace('>6','06').replace('>7','07').replace('>8','08').replace('>9','09').replace('>10','10').replace('>11','11').replace('>12','12').replace('>13','13').replace('>14','14').replace('>15','15').replace('>16','16').replace('>17','17').replace('>18','18').replace('>19','19').replace('>1','01').replace('>2','02').replace('>3','03')</expres>
 			<page></page>
 			</regex>
 			
