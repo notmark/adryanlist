@@ -53,15 +53,14 @@
  
  
  
-<title>                     [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR] </title>				
-<thumbnail>http://adryanlist.org/adryan/img/adryanlist.png</thumbnail>
+
 
 <item>
-<title>                     [COLOR skyblue][B] # F U E R Z A [/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]M E X I C O[/B][/COLOR] </title>				
+<title>                     [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR] </title>				
 
 <link>$doregex[makelist]</link>
 
-<thumbnail>https://i.imgur.com/VbWObP9.png</thumbnail>
+<thumbnail>http://adryanlist.org/adryan/img/adryanlist.png</thumbnail>
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
@@ -69,7 +68,7 @@
 
  
 <item>
-<title>[COLOR aquamarine][B]Donaciones para que esto siga: [COLOR lightgreen]paypal.me/adryanlist[/COLOR] [/B]</title>
+<title>[COLOR aquamarine][B]Neta, merezco una donacion: [COLOR lightgreen]paypal.me/adryanlist[/COLOR] por todo lo que hago! jajaja Saludos!![/B]</title>
 <link>http://ignorame</link>
 <externallink>http://ignorame</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/donacion.png</thumbnail>
@@ -77,7 +76,7 @@
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
 <item>
-<title>                [COLOR lightslategray]update: [COLOR lightblue][B]20[/B][/COLOR] SEPTIEMBRE 2017[/COLOR]      </title>
+<title>                [COLOR lightslategray]update: [COLOR lightblue][B]22[/B][/COLOR] SEPTIEMBRE 2017[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -252,6 +251,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
+
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Television [COLOR skyblue]24/7[/COLOR][/COLOR] [/B] [COLOR lightslategray] [/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -259,9 +259,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[makelist.param2]</title>
-<link>https://hls-ord-3a.vaughnsoft.net/ams/live/live_[makelist.param1]/chunklist.m3u8</link>
-
-
+<link>https://hls-ord-3a.vaughnsoft.net/$doregex[select]/live/live_[makelist.param1]/chunklist.m3u8</link>
 <thumbnail>http://cdn.vaughnsoft.com/vaughnsoft/vaughn/img_profiles/[makelist.param2]_320.jpg</thumbnail>
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 ]]></listrepeat>
@@ -271,9 +269,23 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
+ <regex>
+<name>select</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import xbmcgui
+   dialog = xbmcgui.Dialog()
+   ret = dialog.select('Elige un Canal ', ['Server: 1', 'Server: 2', 'Server: 3', 'Server: 4'])
+   lists = ['nyc', 'ord', 'ams', 'den']
+   return lists[ret]
+]]></expres>
+<page></page>
+</regex> 
+
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <thumbnail>http://adryanlist.org/adryan/img/247.png</thumbnail>
 </item>
+
 
 
 
