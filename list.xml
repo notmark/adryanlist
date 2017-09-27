@@ -145,7 +145,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Acestreams[/B][/COLOR] [COLOR lightslategray](Canales p2p) [/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]ACESTREAMS[/B][/COLOR] [COLOR lightslategray] [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/acestream.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/plexus.xml</externallink>
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
@@ -202,6 +202,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 	<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/gnula.xml</externallink>
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR aquamarine]  Peliculas por [B]TORRENT[/B] [/COLOR] [COLOR lightslategray]Addon Quasar requerido [/COLOR]</title>
+<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<externallink>http://adryanlist.org/adryan/quasar.xml</externallink>
+<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]KIDS[/B] [/COLOR] [COLOR lightslategray]Peliculas Infantiles [/COLOR]</title>
@@ -325,7 +333,11 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
 	
-	
+<iem>
+		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]ELECDEKA[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
+		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/elecdeka.png</thumbnail> 
+		<externallink>http://srregio.net/</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+		<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
 
 <item>
 		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]SR REGIO[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
