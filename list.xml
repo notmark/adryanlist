@@ -62,7 +62,9 @@
 
 <thumbnail>http://adryanlist.org/adryan/img/adryanlist.png</thumbnail>
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 
 
@@ -73,7 +75,9 @@
 <externallink>http://ignorame</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/donacion.png</thumbnail>
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 <item>
 <title>                [COLOR lightslategray]update: [COLOR lightblue][B]28[/B][/COLOR] SEPTIEMBRE 2017[/COLOR]      </title>
@@ -93,7 +97,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex><thumbnail>http://adryanlist.org/adryan/img/updated.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
  
 <itm>
@@ -102,7 +108,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>http://ignorame</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail>
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 
 
@@ -117,7 +125,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/OiFxeuq.png</thumbnail>
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/keynote.xml</externallink>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 
 
@@ -127,7 +137,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://ignorame</link>
 <thumbnail>http://adryanlist.org/adryan/img/got.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/evento.xml</externallink>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 
 
@@ -136,19 +148,25 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Deportes[/COLOR] [COLOR lightslategray] [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/deportes.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/deportes_adryan_list.xml</externallink>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Extratime[/COLOR] [COLOR lightyellow]  [/B][/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/extratime.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/multicanales.xml</externallink>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]ACESTREAMS[/B][/COLOR] [COLOR lightslategray] [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/acestream.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/plexus.xml</externallink>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR aquamarine]  [B]La Liga[/B][/COLOR] [COLOR lightslategray](acestreams) [/COLOR]</title>
@@ -173,7 +191,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			
 			<thumbnail>http://adryanlist.org/adryan/img/acestream.jpg</thumbnail>
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
 </item>	
 ]]></listrepeat>
 <expres><![CDATA[230px">(.*?)<[\w\W\s]{0,50}px">(.*?)CEST[\w\W\s]{0,53}px">(.*?)<[\w\W\s]{0,53}SPANISH LA LIGA[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">([0-9]+)]]></expres>
@@ -183,7 +203,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <setcookie>beget=begetok</setcookie>
 </regex><thumbnail>http://adryanlist.org/adryan/img/laliga.png</thumbnail>
 	<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-	<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info>
+	
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
 </item>
 
 
@@ -193,7 +215,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Peliculas[/B] [/COLOR] [COLOR lightslategray]  [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/peliculas.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/pyt_vod.xml</externallink>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 
 <item>
@@ -201,13 +225,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/series.png</thumbnail>
 	<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/gnula.xml</externallink>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]TORRENTS[/B] [/COLOR] [COLOR lightslategray]Peliculas y Series de TV [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/quasar.xml</externallink>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 
 
@@ -215,7 +243,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]KIDS[/B] [/COLOR] [COLOR lightslategray]Peliculas Infantiles [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/kids.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/infantiles.xml</externallink>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 
 
@@ -223,26 +253,34 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  España[/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/esp.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/esp.xml</externallink>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Mexico[/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/mexico.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/mx.xml</externallink>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  TotalPlay [/COLOR] [COLOR lightslategray][I][/I] [/COLOR]  </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/tp.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/tp.xml</externallink>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR aquamarine]  [B]IPTV[/B]   [/COLOR][COLOR lightslategray][B][World Servers Updated Daily][/B][/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/iptv.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/iptv.xml</externallink>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 
 
@@ -252,7 +290,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Entretenimiento[/COLOR]  [COLOR skyblue][/COLOR]   </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/ent.xml</externallink>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 
 
@@ -330,50 +370,66 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 </regex>
 	<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <thumbnail>http://adryanlist.org/adryan/img/internacional.jpg</thumbnail>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 	
 <item>
 		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]ELECDEKA[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/elecdeka.png</thumbnail> 
 		<externallink>https://goo.gl/UzDuXZ</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-		<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+		
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 <item>
 		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]SR REGIO[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/regio.png</thumbnail> 
 		<externallink>http://srregio.net/</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-		<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+		
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 <item>
 		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]J.H.G. MASTER[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/jhg.png</thumbnail> 
 		<externallink>http://raw.githubusercontent.com/lokiyotnt69/general/master/index.xml</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-		<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+		
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 <item>
 		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]BASSFOX[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/bassfox.png</thumbnail> 
 		<externallink>https://goo.gl/YuhGky</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-		<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+		
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 <item>
 		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]TECNOTV[/B][/COLOR]  [COLOR lightslategray]  [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/tecno.png</thumbnail> 
 		<externallink>http://tecnotv.xyz/addon/index.xml?NoUsesSinPermiso</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-		<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+		
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 
 <iem>
 		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]MEXFLIX[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/mexflix.jpg</thumbnail> 
 		<externallink>https://www.dropbox.com/s/fvx47jwa4lu9utx/MexFLIXAddonMASTER.xml?dl=1</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-		<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+		
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]EL RINCON DE LOLO[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/lolo.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://bit.ly/RinconLolo2</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 
 
@@ -382,19 +438,25 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]EXABYTE TV[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/exabyte.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://www.exabytetv.info/addon/main.xml</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 	
 <iem>
 <title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]STALLION IPTV[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/stallion.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>https://pastebin.com/raw/AzvJ9S7F</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]SUPER MOSPY TV[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/mospy.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://www.blog.kodipro.org/Supermospy%20TV.xml</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>	
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>	
 	
 	
 	
@@ -404,18 +466,24 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Musica[/COLOR]  [COLOR lightslategray](Music) [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/musica.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/music.xml</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Paises[/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/paises.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/paises.xml</externallink>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 <tem>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Internacionales[/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/internacional.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/inter.xml</externallink>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 
 <item>
@@ -486,7 +554,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 <thumbnail>http://adryanlist.org/adryan/img/filmon.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 
 
@@ -498,4 +568,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>DMCA: This Addon only contains links and embeds to TV channels from 3rd party sites Which are freely available on all Internet. We are not affiliated in any way with the broadcasted channels nor responsible for their content. All content is copyright of their respective owners.</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/dmca.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/tapout.xml</externallink>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info></item>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
