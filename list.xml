@@ -70,7 +70,7 @@
 
  
 <item>
-<title>[COLOR aquamarine][B]       Donaciones en [COLOR lightgreen]paypal.me/adryanlist[/COLOR] [/B]</title>
+<title>[COLOR aquamarine][B]         Donaciones en [COLOR lightgreen]paypal.me/adryanlist[/COLOR] [/B]</title>
 <link>http://ignorame</link>
 <externallink>http://ignorame</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/donacion.png</thumbnail>
@@ -82,7 +82,7 @@
 
 <title>                [COLOR lightslategray]update: [COLOR lightblue][B]28[/B][/COLOR] SEPTIEMBRE 2017[/COLOR]      </title>
 <item>
-<title>[COLOR yellow]            »»» AVISO IMPORTANTE ««« [COLOR yellow] [/COLOR] [/COLOR] </title>
+<title>[COLOR yellow]                   »»» AVISO IMPORTANTE ««« [COLOR yellow] [/COLOR] [/COLOR] </title>
 <link>$doregex[text]</link>
 <regex>
 <name>text</name>
