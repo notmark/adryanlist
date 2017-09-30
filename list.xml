@@ -274,7 +274,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  TotalPlay [/COLOR] [COLOR lightslategray][I][/I] [/COLOR]  </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/tp.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<externallink>http://adryanlist.org/adryan/tp.xml</externallink>
+<externallink>http://adryanlist.org/adryan/totalp.xml</externallink>
 
 <info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
