@@ -82,7 +82,7 @@
 
 <title>                [COLOR lightslategray]update: [COLOR lightblue][B]28[/B][/COLOR] SEPTIEMBRE 2017[/COLOR]      </title>
 <item>
-<title>[COLOR yellow]                 »»» AVISO IMPORTANTE ««« [COLOR yellow] [/COLOR] [/COLOR] </title>
+<title>[COLOR yellow]            »»» LEER AVISO IMPORTANTE ««« [COLOR yellow] [/COLOR] [/COLOR] </title>
 <link>$doregex[text]</link>
 <regex>
 <name>text</name>
@@ -159,7 +159,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]ACESTREAMS[/B][/COLOR] [COLOR lightslategray] [/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]ARENAVISION +[/B][/COLOR] [COLOR lightslategray]Acestreams [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/acestream.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/plexus.xml</externallink>
 
