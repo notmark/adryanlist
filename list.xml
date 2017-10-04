@@ -79,10 +79,10 @@
 <info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
-
-<title>                [COLOR lightslategray]update: [COLOR lightblue][B]28[/B][/COLOR] SEPTIEMBRE 2017[/COLOR]      </title>
-<item>
 <title>[COLOR yellow]             »»» LEER AVISO IMPORTANTE ««« [COLOR yellow] [/COLOR] [/COLOR] </title>
+
+<item>
+<title>            [COLOR lightslategray]update: [COLOR lightblue][B]04[/B][/COLOR] OCTUBRE 2017[/COLOR]      </title>
 <link>$doregex[text]</link>
 <regex>
 <name>text</name>
@@ -159,7 +159,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]ARENAVISION +[/B][/COLOR] [COLOR lightslategray]Acestreams [/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Arenavision +[/B][/COLOR] [COLOR lightslategray]Acestreams [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/acestream.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/plexus.xml</externallink>
 
@@ -228,7 +228,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]TORRENTS[/B] [/COLOR] [COLOR lightslategray]Peliculas y Series de TV [/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Torrents[/B] [/COLOR] [COLOR lightslategray]Peliculas y Series de TV [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/quasar.xml</externallink>
 
@@ -246,7 +246,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Documentales[/B] [/COLOR] [COLOR lightslategray]Audio Castellano [/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Documentales[/B] [/COLOR] [COLOR lightslategray] [/COLOR]</title>
 <link>http://ignora.me</link>
 <externallink>http://adryanlist.org/adryan/documentales.xml</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/documental.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
@@ -306,7 +306,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR red]•[/COLOR][COLOR lightslategray]  [B]Television [COLOR lightslategray]24/7[/COLOR][/COLOR] [/B] [COLOR lightslategray] [/COLOR]</title>
+<title>[COLOR red]•[/COLOR][COLOR lightslategray]  [B]Television [COLOR lightslategray]24/7[/COLOR][/COLOR] [/B] [COLOR lightslategray]Inactivos [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
