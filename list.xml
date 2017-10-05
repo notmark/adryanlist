@@ -82,7 +82,7 @@
 <title>[COLOR yellow]             »»» LEER AVISO IMPORTANTE ««« [COLOR yellow] [/COLOR] [/COLOR] </title>
 
 <item>
-<title>                  [COLOR lightslategray]update: [COLOR lightblue][B]04[/B][/COLOR] OCTUBRE 2017[/COLOR]      </title>
+<title>                  [COLOR lightslategray]update: [COLOR lightblue][B]05[/B][/COLOR] OCTUBRE 2017[/COLOR]      </title>
 <link>$doregex[text]</link>
 <regex>
 <name>text</name>
