@@ -79,10 +79,10 @@
 <info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
-<title>[COLOR yellow]             »»» LEER AVISO IMPORTANTE ««« [COLOR yellow] [/COLOR] [/COLOR] </title>
+
 
 <item>
-<title>                  [COLOR lightslategray]update: [COLOR lightblue][B]05[/B][/COLOR] OCTUBRE 2017[/COLOR]      </title>
+<title>                  [COLOR lightslategray]update: [COLOR lightblue][B]06[/B][/COLOR] OCTUBRE 2017[/COLOR]      </title>
 <link>$doregex[text]</link>
 <regex>
 <name>text</name>
@@ -201,11 +201,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <referer>http://arenavision2017.tk/iguide</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
+<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/acestream.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
-<thumbnail>http://adryanlist.org/adryan/img/russia.png</thumbnail>
-</item>
-
-<tem>
+<!--
+<item>
 <title>[COLOR lime]•[/COLOR][COLOR aquamarine]  [B]La Liga[/B][/COLOR] [COLOR lightslategray][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -245,7 +246,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
 </item>
 
-
+-->
 
 
 <item>
