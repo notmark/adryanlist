@@ -195,7 +195,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info>
 </item>	
 ]]></listrepeat>
-<expres><![CDATA[230px">(.*?)<[\w\W\s]{0,50}px">(.*?)CEST[\w\W\s]{0,53}px">(.*?)<[\w\W\s]{0,53}FIFA WORLD CUP QUALIFIERS[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">([0-9]+)]]></expres>
+<expres><![CDATA[230px">(.*?)<[\w\W\s]{0,50}px">(.*?)CEST[\w\W\s]{0,53}px">(.*?)<[\w\W\s]{0,53}FIFA WORLD CUP QUALIFIERS[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px"(>[0-9]+)]]></expres>
 <page>http://arenavision2017.tk/iguide</page>
 <Agent>Mozilla</Agent>
 <referer>http://arenavision2017.tk/iguide</referer>
