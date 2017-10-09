@@ -82,7 +82,7 @@
 
 
 <item>
-<title>                  [COLOR lightslategray]update: [COLOR lightblue][B]06[/B][/COLOR] OCTUBRE 2017[/COLOR]      </title>
+<title>                  [COLOR lightslategray]update: [COLOR lightblue][B]08[/B][/COLOR] OCTUBRE 2017[/COLOR]      </title>
 <link>$doregex[text]</link>
 <regex>
 <name>text</name>
@@ -287,7 +287,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Documentales[/B] [/COLOR] [COLOR lightslategray] [/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Documentales[/B] [/COLOR] [COLOR lightslategray]En mantenimiento[/COLOR]</title>
 <link>http://ignora.me</link>
 <externallink>http://adryanlist.org/adryan/documentales.xml</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/documental.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
