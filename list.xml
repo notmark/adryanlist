@@ -100,44 +100,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
  
-<itm>
-<title>[COLOR skyblue][B] Ayuda, Soporte y Nuestro Chat en [COLOR lightgreen]telegram.me/adryanlist[/COLOR] [/B]</title>
-<link>http://ignorame</link>
-<externallink>http://ignorame</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/donacion.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 
 
 
-
-
-
-
-<itm>
-<title>[COLOR lime]•[/COLOR][COLOR lightyellow]  [B]APPLE KEYNOTE [/COLOR] [COLOR lightgreen]»»» Presentacion Nuevo Iphone «««  [/B][/COLOR]</title>
-<link>http://ignorame</link>
-<thumbnail>https://i.imgur.com/OiFxeuq.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<externallink>http://adryanlist.org/adryan/keynote.xml</externallink>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
-
-
-
-
-<iem>
-<title>[COLOR lime]•[/COLOR][COLOR lightyellow]  [B]Juego de Tronos [/COLOR] [COLOR lightblue]»»» Temporada 7 «««  [/B][/COLOR]</title>
-<link>http://ignorame</link>
-<thumbnail>http://adryanlist.org/adryan/img/got.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<externallink>http://adryanlist.org/adryan/evento.xml</externallink>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+ 
 
 
 
@@ -384,41 +351,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<iem>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]World Television[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-   <title>[COLOR lightyellow][makelist.param2][/COLOR] [COLOR dodgerblue]([makelist.param3])[/COLOR]</title>
-   <link>$doregex[getUrl]</link>
-]]></listrepeat>
-<expres><![CDATA[(?s)<p><a href="(.*?)".*?blank">(.*?)\s*<.*?live">(.*?)<]]></expres>
-<page>https://beta.ustreamix.com/</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re, requests
-def GetLSProData(page_data,Cookie_Jar,m,):
-  first_ip = re.findall("x_first_ip.+?'(.*?)'", page_data)[0]
-  preurl = 'https://mir.hulkfiles.com/'   # here is the server url which changed most of time
-  url = preurl + 'stats.php?p=' + first_ip
-  source = requests.get(url, headers = {'Referer': 'https://beta.ustreamix.com/[makelist.param1]', 'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0', 'Accept': '*/*'}).text
-  tok = re.findall('var jdtk="(.*?)"', source)[0]
-  return preurl + 'tmg.m3u8?' + '[makelist.param1]' + '&token=' + tok
-]]></expres>
-<page>https://beta.ustreamix.com/[makelist.param1]</page>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
-<cookieJar></cookieJar>
-</regex>
-	<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<thumbnail>http://adryanlist.org/adryan/img/internacional.jpg</thumbnail>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 	
 <item>
@@ -462,13 +394,8 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 
-<iem>
-		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]MEXFLIX[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
-		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/mexflix.jpg</thumbnail> 
-		<externallink>https://www.dropbox.com/s/fvx47jwa4lu9utx/MexFLIXAddonMASTER.xml?dl=1</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-		
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+
+
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]EL RINCON DE LOLO[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/lolo.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
@@ -480,21 +407,8 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 
 
 	
-	<iem>
-<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]EXABYTE TV[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/exabyte.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<externallink>http://www.exabytetv.info/addon/main.xml</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
-	
-<iem>
-<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]STALLION IPTV[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/stallion.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<externallink>https://pastebin.com/raw/AzvJ9S7F</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+ 
+ 
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]SUPER MOSPY TV[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
@@ -507,15 +421,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 	
 	
 	
-	
-<tem>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Musica[/COLOR]  [COLOR lightslategray](Music) [/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/musica.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<externallink>http://adryanlist.org/adryan/music.xml</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
-
+ 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Paises[/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/paises.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
@@ -608,12 +514,4 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
-
- <item>
-<title>DMCA: This Addon only contains links and embeds to TV channels from 3rd party sites Which are freely available on all Internet. We are not affiliated in any way with the broadcasted channels nor responsible for their content. All content is copyright of their respective owners.</title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/dmca.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<externallink>http://adryanlist.org/adryan/tapout.xml</externallink>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+ 
