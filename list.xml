@@ -70,7 +70,7 @@
 
  
 <item>
-<title>[COLOR aquamarine][B]$doregex[cita][/B]</title>
+<title>[COLOR aquamarine][B]$doregex[cita][/B][/COLOR]</title>
 <link>http://ignorame</link>
 <externallink>http://ignorame</externallink>
 <regex>
