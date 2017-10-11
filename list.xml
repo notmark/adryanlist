@@ -70,9 +70,15 @@
 
  
 <item>
-<title>[COLOR aquamarine][B]         Donaciones en [COLOR lightgreen]paypal.me/adryanlist[/COLOR] [/B]</title>
+<title>[COLOR aquamarine][B]$doregex[cita][/B]</title>
 <link>http://ignorame</link>
 <externallink>http://ignorame</externallink>
+<regex>
+<name>cita</name>
+<expres>Agent:"(.+)";</expres>
+<page>http://adryanlist.org/adryan/cita.php</page> 
+</regex>
+	
 <thumbnail>http://adryanlist.org/adryan/img/donacion.png</thumbnail>
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 
@@ -82,7 +88,7 @@
 
 
 <item>
-<title>                  [COLOR lightslategray]update: [COLOR lightblue][B]10[/B][/COLOR] OCTUBRE 2017[/COLOR]      </title>
+<title>                  [COLOR lightslategray]update: [COLOR lightblue][B]11[/B][/COLOR] OCTUBRE 2017[/COLOR]      </title>
 <link>$doregex[text]</link>
 <regex>
 <name>text</name>
