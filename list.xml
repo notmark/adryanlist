@@ -68,17 +68,19 @@
 
 
 
- 
-<item>
-<title>[COLOR aquamarine][B]$doregex[cita][/B][/COLOR]</title>
-<link>http://ignorame</link>
-<externallink>http://ignorame</externallink>
+
+ <item>
+<title>[B][COLOR aquamarine]$doregex[prog][/COLOR][/B]</title>
+<link>http://$doregex[ip]$doregex[m3u8]</link>
 <regex>
-<name>cita</name>
-<expres>Agent:"(.+)";</expres>
-<page>http://adryanlist.org/adryan/cita.php</page> 
+<name>prog</name>
+<expres><![CDATA[cita:"(.+)"]]></expres>
+<page>http://adryanlist.org/adryan/cita.php</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:49.0) Gecko/20100101 Firefox/49.0</agent>
+<referer></referer>
 </regex>
-	
+
+
 <thumbnail>http://adryanlist.org/adryan/img/donacion.png</thumbnail>
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 
@@ -87,8 +89,9 @@
 
 
 
+
 <item>
-<title>                  [COLOR lightslategray]update: [COLOR lightblue][B]11[/B][/COLOR] OCTUBRE 2017[/COLOR]      </title>
+<title>                  [COLOR lightslategray]update: [COLOR lightblue][B]12[/B][/COLOR] OCTUBRE 2017[/COLOR]      </title>
 <link>$doregex[text]</link>
 <regex>
 <name>text</name>
