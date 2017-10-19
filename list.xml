@@ -12,7 +12,7 @@
 
 
 
-
+<!--
  <item>
 <title>[B][COLOR aquamarine]$doregex[prog][/COLOR][/B]</title>
 <link>http://$doregex[ip]$doregex[m3u8]</link>
@@ -30,6 +30,8 @@
 
 <info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+
+-->
 
 
 
