@@ -37,7 +37,7 @@
 
 
 <item>
-<title>                  [COLOR lightslategray]update: [COLOR lightblue][B]17[/B][/COLOR] OCTUBRE 2017[/COLOR]      </title>
+<title>                  [COLOR lightslategray]update: [COLOR lightblue][B]21[/B][/COLOR] OCTUBRE 2017[/COLOR]      </title>
 <link>$doregex[text]</link>
 <thumbnail>http://adryanlist.org/adryan/img/updated.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
@@ -156,10 +156,10 @@
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Documentales[/B] [/COLOR] [COLOR lightslategray] [/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR aquamarine]  [B]Especial de HALLOWEEN[/B] [/COLOR] [COLOR lightslategray]Rincon del Terror Cortesia de LOLO [/COLOR]</title>
 <link>http://ignora.me</link>
-<externallink>http://adryanlist.org/adryan/documentales.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/documental.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<externallink>http://adryanlist.org/adryan/rincon.xml</externallink>
+<thumbnail>http://adryanlist.org/adryan/img/halloween.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
@@ -211,6 +211,13 @@
 
 
 
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR aquamarine]  Fitness[/COLOR]  [COLOR skyblue][/COLOR]   </title>
+<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/fitness.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<externallink>http://adryanlist.org/adryan/fitness.xml</externallink>
+
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 
 
