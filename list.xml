@@ -1,44 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
 <item>
 <title>                     [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR] </title>				
-
-<link>$doregex[makelist]</link>
-
+<link>NA</link>
 <thumbnail>http://adryanlist.org/adryan/img/adryanlist.png</thumbnail>
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-
 <info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
-
-
-
-<!--
- <item>
-<title>[B][COLOR aquamarine]$doregex[prog][/COLOR][/B]</title>
-<link>http://$doregex[ip]$doregex[m3u8]</link>
-<regex>
-<name>prog</name>
-<expres><![CDATA[cita:"(.+)"]]></expres>
-<page>http://adryanlist.org/adryan/cita.php</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:49.0) Gecko/20100101 Firefox/49.0</agent>
-<referer></referer>
-</regex>
-
-
-<thumbnail>http://adryanlist.org/adryan/img/donacion.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
-
--->
-
 
 
 
 <item>
-<title>                  [COLOR lightslategray]update: [COLOR lightblue][B]21[/B][/COLOR] OCTUBRE 2017[/COLOR]      </title>
-<link>$doregex[text]</link>
+<title>                  [COLOR lightslategray]update: [COLOR lightblue][B]23[/B][/COLOR] OCTUBRE 2017[/COLOR]      </title>
+<link>NA</link>
 <thumbnail>http://adryanlist.org/adryan/img/updated.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
@@ -156,7 +130,7 @@
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR aquamarine]  [B]Especial de HALLOWEEN[/B] [/COLOR] [COLOR lightslategray]Rincon del Terror Cortesia de LOLO [/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR coral]  [B]Especial de HALLOWEEN[/B] [/COLOR] [COLOR lightslategray]Rincon del Terror Cortesia de LOLO [/COLOR]</title>
 <link>http://ignora.me</link>
 <externallink>http://adryanlist.org/adryan/terror.xml</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/halloween.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
@@ -212,7 +186,7 @@
 
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR aquamarine]  Fitness[/COLOR]  [COLOR skyblue][/COLOR]   </title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Fitness[/B][/COLOR]  [COLOR skyblue][/COLOR]   </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/fitness.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/fitness.xml</externallink>
 
@@ -262,32 +236,28 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 	
-<item>
-		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]ELECDEKA[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
+<item><title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]ELECDEKA[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/elecdeka.png</thumbnail> 
 		<externallink>https://goo.gl/UzDuXZ</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 		
 <info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
-<item>
-		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]SR REGIO[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
+<item><title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]SR REGIO[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/regio.png</thumbnail> 
 		<externallink>http://srregio.net/</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 		
 <info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
-<item>
-		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]J.H.G. MASTER[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
+<item><title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]J.H.G. MASTER[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/jhg.png</thumbnail> 
 		<externallink>http://raw.githubusercontent.com/lokiyotnt69/general/master/index.xml</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 		
 <info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
-<item>
-		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]BASSFOX[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
+<item><title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]BASSFOX[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/bassfox.png</thumbnail> 
 		<externallink>https://goo.gl/YuhGky</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 		
@@ -295,7 +265,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 <item>
-		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]TECNOTV[/B][/COLOR]  [COLOR lightslategray]  [/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]TECNOTV[/B][/COLOR]  [COLOR lightslategray]  [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/tecno.png</thumbnail> 
 		<externallink>http://tecnotv.xyz/addon/index.xml?NoUsesSinPermiso</externallink><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 		
