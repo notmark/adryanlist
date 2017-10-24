@@ -210,7 +210,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B]ESTRENOS ESPAÑA | CASTELLANO [/COLOR][COLOR aquamarine][/COLOR]  [/B]</title>
 <link>http://ignora.me</link>
-<externallink>http://adryanlist.org/adryan/favoritas_esp.xml</externallink>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/favoritas_esp.xml</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
 </item>
 
@@ -329,7 +329,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR coral][B]EL RINCON DEL TERROR[/COLOR][COLOR skyblue] Cortesia de LOLO[/COLOR] [/B]</title>
 <link>ignorme</link>
-<externallink>http://adryanlist.org/adryan/terror.xml</externallink>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/terror.xml</externallink>
 
 <thumbnail>https://i.imgur.com/ZFweFnY.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -341,7 +341,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR lightgreen][B]EL RINCON DE LAS LISTAS [/COLOR][COLOR skyblue]Castellano[/COLOR] [/B]</title>
 <link>http://ignora.me</link>
-<externallink>http://adryanlist.org/adryan/rincon.xml</externallink>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/rincon.xml</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 </item>
 
