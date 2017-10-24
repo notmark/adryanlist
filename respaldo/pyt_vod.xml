@@ -202,7 +202,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B]ESTRENOS LATINOS [/COLOR][COLOR aquamarine][/COLOR]  [/B]</title>
 <link>http://ignora.me</link>
-<externallink>http://adryanlist.org/adryan/peliculas_favoritas.xml</externallink>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/peliculas_favoritas.xml</externallink>
 <thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
 </item>
 
