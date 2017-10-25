@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <SetViewMode>55</SetViewMode>
+<title>                     [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR] </title>
 <item>
-<title>                     [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR] </title>				
+<title>[COLOR red][B] CERRADO TEMPORALMENTE [/B][/COLOR]</title>				
 <link>NA</link>
 <thumbnail>http://adryanlist.org/adryan/img/adryanlist.png</thumbnail>
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
@@ -9,15 +10,22 @@
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
 
-
-<item>
 <title>                  [COLOR lightslategray]update: [COLOR lightblue][B]24[/B][/COLOR] OCTUBRE 2017[/COLOR]      </title>
+<item>
+<title>[COLOR yellow]El servidor colapso  y estoy en proceso de buscar y cambiar de server, asi que pido de ayuda y paciencia..[/COLOR]</title>
 <link>NA</link>
 <thumbnail>http://adryanlist.org/adryan/img/updated.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
- 
+ <item>
+<title>[COLOR yellow]atte: Adryan[/COLOR]</title>
+<link>NA</link>
+<thumbnail>http://adryanlist.org/adryan/img/updated.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+
+
 
 
 
