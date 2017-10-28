@@ -83,7 +83,7 @@
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Peliculas[/B] [/COLOR] [COLOR lightslategray]  [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/peliculas.png</thumbnail><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
-<externallink>http://adryantv.org/adryan/pyt_vod.xml</externallink>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/pyt_vod.xml</externallink>
 </item>
 
 
@@ -91,7 +91,7 @@
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Series de TV[/B] [/COLOR] [COLOR lightslategray] [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/series.png</thumbnail>
 	<fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
-<externallink>http://adryantv.org/adryan/gnula.xml</externallink>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/gnula.xml</externallink>
 </item>
 
 <item>
