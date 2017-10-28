@@ -5,18 +5,14 @@
 <title>                     [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR] </title>			
 <link>NA</link>
 <thumbnail>http://adryantv.org/adryan/img/adryanlist.png</thumbnail>
-<fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+<fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart></item>
 
 
 
 <item>
 <title>                  [COLOR lightslategray]update: [COLOR lightblue][B]26[/B][/COLOR] OCTUBRE 2017[/COLOR]      </title>
 <link>NA</link>
-<thumbnail>http://adryantv.org/adryan/img/updated.png</thumbnail><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+<thumbnail>http://adryantv.org/adryan/img/updated.png</thumbnail><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart></item>
 
  
 
@@ -30,25 +26,19 @@
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Deportes[/COLOR] [COLOR lightslategray] [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryantv.org/adryan/deportes_adryan_list.xml</externallink>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+</item>
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Extratime[/COLOR] [COLOR lightyellow]  [/B][/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/extratime.png</thumbnail><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryantv.org/adryan/multicanales.xml</externallink>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+</item>
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Arenavision +[/B][/COLOR] [COLOR lightslategray]Acestreams [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/acestream.png</thumbnail><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryantv.org/adryan/plexus.xml</externallink>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+</item>
 
 
 
@@ -86,9 +76,7 @@
 <setcookie>beget=begetok</setcookie>
 </regex>
 <thumbnail>http://adryantv.org/adryan/img/laliga.png</thumbnail>
-<fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+<fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart></item>
 
 
 
@@ -96,9 +84,7 @@
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Peliculas[/B] [/COLOR] [COLOR lightslategray]  [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/peliculas.png</thumbnail><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryantv.org/adryan/pyt_vod.xml</externallink>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+</item>
 
 
 <item>
@@ -106,17 +92,13 @@
 <link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/series.png</thumbnail>
 	<fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryantv.org/adryan/gnula.xml</externallink>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+</item>
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Torrents[/B] [/COLOR] [COLOR lightslategray]Peliculas y Series de TV [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/torrent.png</thumbnail><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryantv.org/adryan/quasar.xml</externallink>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+</item>
 
 
 
@@ -124,51 +106,39 @@
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]KIDS[/B] [/COLOR] [COLOR lightslategray]Peliculas Infantiles [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/kids.png</thumbnail><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryantv.org/adryan/infantiles.xml</externallink>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+</item>
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR coral]  [B]Especial de HALLOWEEN[/B] [/COLOR] [COLOR lightslategray] [/COLOR]</title>
 <link>http://ignora.me</link>
 <externallink>http://adryantv.org/adryan/terror.xml</externallink>
-<thumbnail>http://adryantv.org/adryan/img/halloween.png</thumbnail><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+<thumbnail>http://adryantv.org/adryan/img/halloween.png</thumbnail><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart></item>
 
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  España[/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/esp.png</thumbnail><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryantv.org/adryan/esp.xml</externallink>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+</item>
 
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Mexico[/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/mexico.png</thumbnail><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryantv.org/adryan/mx.xml</externallink>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+</item>
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  TotalPlay [/COLOR] [COLOR lightslategray][I][/I] [/COLOR]  </title>
 <link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/tp.png</thumbnail><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryantv.org/adryan/totalp.xml</externallink>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+</item>
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR aquamarine]  [B]IPTV[/B]   [/COLOR][COLOR lightslategray][B][World Servers Updated Daily][/B][/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/iptv.png</thumbnail><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryantv.org/adryan/iptv.xml</externallink>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+</item>
 
 
 
@@ -178,9 +148,7 @@
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Entretenimiento[/COLOR]  [COLOR skyblue][/COLOR]   </title>
 <link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/entretenimiento.png</thumbnail><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryantv.org/adryan/ent.xml</externallink>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+</item>
 
 
 
@@ -188,9 +156,7 @@
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Fitness[/B][/COLOR]  [COLOR skyblue][/COLOR]   </title>
 <link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/fitness.png</thumbnail><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryantv.org/adryan/fitness.xml</externallink>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+</item>
 
 
 
@@ -238,38 +204,28 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item><title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]ELECDEKA[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/elecdeka.png</thumbnail> 
 		<externallink>https://goo.gl/UzDuXZ</externallink><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
-		
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+		</item>
 
 <item><title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]SR REGIO[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/regio.png</thumbnail> 
 		<externallink>http://srregio.xyz</externallink><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
-		
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+		</item>
 
 <item><title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]J.H.G. MASTER[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/jhg.png</thumbnail> 
 		<externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/BASEJUANH.xml</externallink><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
-		
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+		</item>
 
 <item><title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]BASSFOX[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/bassfox.png</thumbnail> 
 		<externallink>https://goo.gl/YuhGky</externallink><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
-		
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+		</item>
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]TECNOTV[/B][/COLOR]  [COLOR lightslategray]  [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/tecno.png</thumbnail> 
 		<externallink>http://tecnotv.xyz/addon/index.xml?NoUsesSinPermiso</externallink><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
-		
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+		</item>
 
 
 
@@ -278,9 +234,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]EL RINCON DE LOLO[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/lolo.png</thumbnail><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://bit.ly/RinconLolo2</externallink><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+</item>
 
 
 
@@ -292,9 +246,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]SUPER MOSPY TV[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/mospy.png</thumbnail><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://www.blog.kodipro.org/Supermospy%20TV.xml</externallink><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>	
+</item>	
 	
 	
 	
@@ -304,16 +256,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Paises[/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/paises.png</thumbnail><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryantv.org/adryan/paises.xml</externallink>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+</item>
 <tem>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Internacionales[/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/internacional.jpg</thumbnail><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryantv.org/adryan/inter.xml</externallink>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+</item>
 
 
 <item>
@@ -384,9 +332,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 <thumbnail>http://adryantv.org/adryan/img/filmon.png</thumbnail><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
-
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+</item>
 
 
 
