@@ -199,7 +199,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
+<item><title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]MEXFLIX[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
+		<link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/mexflix.png</thumbnail> 
+		<externallink>https://www.dropbox.com/s/3krhz3q3goyn8ed/MexFLIXadryanlist.xml?dl=1</externallink><fanart>http://adryantv.org/adryan/img/fanart.jpg</fanart>
+		</item>
 	
 <item><title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]ELECDEKA[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryantv.org/adryan/img/elecdeka.png</thumbnail> 
