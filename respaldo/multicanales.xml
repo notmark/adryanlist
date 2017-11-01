@@ -2725,26 +2725,21 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
  
  <item>
 <title>[B][COLOR lightyellow]Multicanal[/COLOR][/B] [COLOR lightblue]Revo 01  [/COLOR][COLOR white][I] letslive [/I][/COLOR]</title>
-  <link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]</link>
+  <link>http://$doregex[ip]$doregex[m3u8]|User-Agent=iPad</link>
 			<regex>
 			<name>ip</name>
 			<expres>redirect=(.*)</expres>
 			<page>http://www.publetslive.xyz:1935/loadbalancer</page>
+			<referer>http://www.letslive.tv/membedplayer/$doregex[canal]/1/750/480</referer>
 			</regex>
 			<regex>
 			<name>m3u8</name>
-			<expres>ea \+ "(.*?)"</expres>
-			<page>http://www.letslive.tv/membedplayer/$doregex[canal]/1/750/420</page>
+			<expres>ea \+ \'(.*?)'</expres>
+			<page>http://www.letslive.tv/membedplayer/$doregex[canal]/1/750/480</page>
 			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-			<referer>http://www.letslive.tv</referer>
+			<referer>http://nowwatchtvlive.cc/channel-tab-frame/nflnetwork-1.php</referer>
 			</regex> 
-			<regex>
-			<name>hls</name>
-			<expres>hlsUrl \+ \(\"(.*?)"</expres>
-			<page>http://www.letslive.tv/membedplayer/$doregex[canal]/1/500/400</page>
-			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-			<referer>http://www.letslive.tv</referer>
-			</regex>
+
 			<regex>
 			<name>canal</name>
 			<expres>channel='(.*?)'</expres>
@@ -2756,26 +2751,20 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
    
  <item>
 <title>[B][COLOR lightyellow]Multicanal[/COLOR][/B] [COLOR lightblue]Revo 02  [/COLOR][COLOR white][I] letslive [/I][/COLOR]</title>
-  <link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]</link>
+  <link>http://$doregex[ip]$doregex[m3u8]|User-Agent=iPad</link>
 			<regex>
 			<name>ip</name>
 			<expres>redirect=(.*)</expres>
 			<page>http://www.publetslive.xyz:1935/loadbalancer</page>
+			<referer>http://www.letslive.tv/membedplayer/$doregex[canal]/1/750/480</referer>
 			</regex>
 			<regex>
 			<name>m3u8</name>
-			<expres>ea \+ "(.*?)"</expres>
-			<page>http://www.letslive.tv/membedplayer/$doregex[canal]/1/750/420</page>
+			<expres>ea \+ \'(.*?)'</expres>
+			<page>http://www.letslive.tv/membedplayer/$doregex[canal]/1/750/480</page>
 			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-			<referer>http://www.letslive.tv</referer>
+			<referer>http://nowwatchtvlive.cc/channel-tab-frame/nflnetwork-1.php</referer>
 			</regex> 
-			<regex>
-			<name>hls</name>
-			<expres>hlsUrl \+ \(\"(.*?)"</expres>
-			<page>http://www.letslive.tv/membedplayer/$doregex[canal]/1/500/400</page>
-			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-			<referer>http://www.letslive.tv</referer>
-			</regex>
 			<regex>
 			<name>canal</name>
 			<expres>channel='(.*?)'</expres>
