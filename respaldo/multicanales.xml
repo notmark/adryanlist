@@ -3,13 +3,13 @@
 
 <channel>
     <name>EXTRATIME</name>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
     <fanart>http://adrianlist.org/adryan/img/fanart.jpg</fanart>
         <items>          
 
 
 	
-	<item><title>                     [COLOR lightblue]-----  [B][COLOR aquamarine] EXTRATIME[/COLOR] [COLOR skyblue] ADRYANLIST [/COLOR][/B] ----[/COLOR] </title><link>http://ignora.me</link><thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+	<item><title>                     [COLOR lightblue]-----  [B][COLOR aquamarine] EXTRATIME[/COLOR] [COLOR skyblue] ADRYANLIST [/COLOR][/B] ----[/COLOR] </title><link>http://ignora.me</link><thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
  
 
  
@@ -25,18 +25,15 @@
  
 
 
- 
- 
- 
- 
- 
- 
+
  
  
   
  
+ 
+ 
  <item>
-<title>[B][COLOR lightyellow]EVENTO (COPA DEL REY)[/COLOR][COLOR lightblue] [/COLOR][COLOR skyblue]Real Murcia - FC Barcelona [/B] [COLOR aquamarine]  [/COLOR][/COLOR] </title>
+<title>[B][COLOR lightyellow]EVENTO (COPA MX | Liga de Campeones UEFA)[/COLOR][COLOR lightblue] [/COLOR][COLOR skyblue] [/B] [COLOR aquamarine]  [/COLOR][/COLOR] </title>
 <link>$doregex[bro.adca.st]</link>
  
  
@@ -67,70 +64,14 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 def GetLSProData(page_data,Cookie_Jar,m):
    import xbmcgui
    dialog = xbmcgui.Dialog()
-   ret = dialog.select('Elige un Canal ', ['Opcion 1', 'Opcion 2', 'Opcion 3', 'Opcion 4', 'Opcion 5', 'Opcion 6'])
-   lists = ['15129', '739', '743', '10762', '13525', '700']
+   ret = dialog.select('Elige un Canal ', ['Opcion 1', 'Opcion 2', 'Opcion 3', 'Opcion 4', 'Opcion 5', 'Opcion 6', 'Opcion 7', 'Opcion 8'])
+   lists = ['248', '15129', '13137', '715', '13525', '10762', '7386', '7387']
    return lists[ret]
 ]]></expres>
 <page></page>
 </regex>
 
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
-<info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
-</item>
-
- 
- 
- 
-
- 
- 
- 
- 
- 
- http://widestream.io/embed-14404
- 
- 
- 
- <item>
-<title>[B][COLOR lightyellow]EVENTO (LIGA MX)[/COLOR][COLOR lightblue] [/COLOR][COLOR skyblue] [/B] [COLOR aquamarine] #SabadoFutbolero UnivisonDeportes [/COLOR][/COLOR] </title>
-<link>$doregex[bro.adca.st]</link>
- 
- 
-<regex>
-<name>bro.adca.st</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?id=$doregex[select]&p=1&c=0&stretching=uniform&old=0'):
- import requests, re, urllib
- headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
- headers['Referer'] = 'http://vipracing.info/channel/canal-2'
- source = requests.get(url, headers=headers)
- m3u8 = re.findall('trap = "(.+?)"', source.text)[0]
- m3u8 = m3u8.decode('base64')
- tokenpage = re.findall('fass = "(.+?)"', source.text)[0]
- headers['Referer'] = url
- headers['X-Requested-With'] = 'XMLHttpRequest'
- headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
- headers['Accept-Language'] = 'en-US,en;q=0.5'
- source = requests.get('http://futbolbase.us/%s'%tokenpage, headers=headers)
- m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://futbolbase.us/&Origin=http://futbolbase.us'%headers['User-Agent']
- return m3u8
-]]></expres>
-<page></page>
-</regex>
-<regex>
-<name>select</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-   import xbmcgui
-   dialog = xbmcgui.Dialog()
-   ret = dialog.select('Elige un Canal ', ['Opcion 1', 'Opcion 2', 'Opcion 3', 'Opcion 4', 'Opcion 5', 'Opcion 6', 'Opcion 7'])
-   lists = ['15129', '13137', '715', '13525', '10762', '7386', '7387']
-   return lists[ret]
-]]></expres>
-<page></page>
-</regex>
-
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 </item>
 
@@ -192,7 +133,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 </item>
 
@@ -240,7 +181,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 </item>
 
@@ -298,7 +239,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 </item>
 
@@ -346,7 +287,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 </item>
 
@@ -397,7 +338,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 </item>
 
@@ -445,7 +386,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 </item>
 
@@ -483,7 +424,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item> 
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item> 
 
 
 
@@ -528,7 +469,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 			<expres>channel='(.*?)'</expres>
 			<page>http://television-envivo.org/deportes/canal15-movistar-online.php</page>
 			</regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -545,7 +486,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 <referer>http://pelotafueratv.com</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 </item>
 
@@ -577,7 +518,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 			<expres>channel='(.*?)'</expres>
 			<page>http://pelotafueratv.com/cmdenvivo.html</page>
 			</regex>	
- <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+ <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
  
   
@@ -609,7 +550,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 			<expres>channel='(.*?)'</expres>
 			<page>http://television-envivo.org/deportes/gol-peru-hd-en-vivo.php</page>
 			</regex>	
- <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+ <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
  
  
@@ -643,13 +584,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 
  -->
 
- <item>
-<title>[B][COLOR lightyellow]EVENTO (Gran Premio de Mexico)[/COLOR][COLOR lightblue] AV11[/COLOR][COLOR skyblue] [/B] [COLOR aquamarine] Acestreams [/COLOR][/COLOR] </title>
-<link>plugin://program.plexus/?url=42ad40f00133cfa5dce4b38894da69b016396ed0&amp;mode=1&amp;name=Adryanlist+Acestreams</link>
-			<regex>
 
- <thumbnail>http://adryantv.org/adryan/img/acestream.png</thumbnail>
-<info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
  
@@ -677,7 +612,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 			
- <thumbnail>http://adryantv.org/adryan/img/acestream.png</thumbnail>
+ <thumbnail>http://adryan.areshost6.seedr.io/img/acestream.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
@@ -736,12 +671,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
 <referer>http://www.[makelist.param4]</referer>
 </regex> 
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 ]]></listrepeat>
 <expres>type:"Deportes" canal="(.*?)" channel="(.*?)" pub="(.*?)" server="(.*?)"</expres>
 <page>http://adryantv.org/adryan/servers.txt</page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
   
@@ -781,7 +716,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
    <title>[COLOR lightblue]   [makelist.param2]    [/COLOR]   </title>
    <link>$doregex[bro.adca.st]</link>
-   <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
+   <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 ]]></listrepeat>
 <expres>vip:"(.*?)" name:"(.*?)"</expres>
 <page>http://adryantv.org/adryan/servers.txt</page>
@@ -810,7 +745,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 ]]></expres>
 <page></page>
 </regex>
- <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+ <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <fanart></fanart>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
   
@@ -856,7 +791,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 </item>
 
@@ -886,7 +821,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			<referer>http://nowwatchtvlive.cc/channel-tab-frame/nflnetwork-1.php</referer>
 			</regex> 
 
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
  
 
  
@@ -910,7 +845,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
         <cookieJar></cookieJar>
 </regex>
 
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
  
 
  
@@ -925,7 +860,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] PSN [/B][/COLOR]  [COLOR white]- Bein ñ / EspnDeportes / Univision Deportes  [/COLOR] </title>
 <link>rtmp://198.255.0.10/live?djPChiEfu9v7WBFJBhG10Wv1KDGtzwVK/live_psn78v</link>
 
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
  
 
@@ -1015,7 +950,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://vipracing.info/channel/canal-1</page>
 <referer>http://vipracing.info/channel/canal-1</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -1046,7 +981,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item> 
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item> 
 
 
 
@@ -1078,7 +1013,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item> 
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item> 
 
 
 
@@ -1108,7 +1043,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item> 
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item> 
 
 
 
@@ -1137,7 +1072,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item> 
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item> 
 
 
 
@@ -1166,7 +1101,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item> 
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item> 
 
 
 
@@ -1201,7 +1136,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 ]]></expres>
 <page></page>
 </regex>
- <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+ <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <fanart></fanart>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
@@ -1212,16 +1147,19 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 
 
 
+
   
+  
+    
 <item>  
-<title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] RivoSports 01[/B][/COLOR]   [COLOR white]  [/COLOR]</title>
+<title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] RivoSports BC[/B][/COLOR]   [COLOR white]  [/COLOR]</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
   import re,requests
-  headers = {'User-Agent': 'Mozilla/5.0 (X11 Linux i686 rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': 'http://yolanda3.bid/all.php?id=rivotvy1&p=0&c=0&stretching=uniform'}
+  headers = {'User-Agent': 'Mozilla/5.0 (X11 Linux i686 rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': 'http://veremos.date/all.php?id=rivobc&p=0&c=0&stretching=uniform'}
   url = '$doregex[url2]'
   source = requests.get(url, headers=headers).text
   data1 = re.findall('return\(\[([^\]]+)', source)[0]
@@ -1239,10 +1177,78 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>url2</name>
 <expres><![CDATA[src="(.*?)"]]></expres>
-<page>http://yolanda3.bid/all.php?id=rivotvy1&amp;p=0&amp;c=0&amp;stretching=uniform</page>
+<page>http://veremos.date/all.php?id=rivobc&amp;p=0&amp;c=0&amp;stretching=uniform</page>
 <referer>http://lol.xrivonet.info/rivo/rivo.html</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+
+
+  
+<item>  
+<title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] RivoSports 90[/B][/COLOR]   [COLOR white]  [/COLOR]</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+  import re,requests
+  headers = {'User-Agent': 'Mozilla/5.0 (X11 Linux i686 rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': 'http://veremos.date/all.php?id=rivo90&p=0&c=0&stretching=uniform'}
+  url = '$doregex[url2]'
+  source = requests.get(url, headers=headers).text
+  data1 = re.findall('return\(\[([^\]]+)', source)[0]
+  data2 = re.findall('\+ ([^\.]+).join', source)[0]
+  data2 = re.findall(data2 + ' = \W(.+)\]', source)[0]
+  data1 = ''.join(data1).replace('"','').replace(',', '').replace(' ', '').replace('\/','/')
+  data2 = ''.join(data2).replace('"','').replace(',', '').replace(' ', '').replace('\/','/')
+  data3 = re.findall('getElementById\W"([^"]+)', source)[0]
+  data3 = re.findall(data3 + '\W*(.+?=*)\W', source)[0]
+  return data1 + data2 + data3
+]]></expres>
+<page></page>
+</regex>
+
+<regex>
+<name>url2</name>
+<expres><![CDATA[src="(.*?)"]]></expres>
+<page>http://veremos.date/all.php?id=rivo90&amp;p=0&amp;c=0&amp;stretching=uniform</page>
+<referer>http://lol.xrivonet.info/rivo/rivo.html</referer>
+</regex>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+
+
+
+  
+  
+<item>  
+<title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] RivoSports 01[/B][/COLOR]   [COLOR white]  [/COLOR]</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+  import re,requests
+  headers = {'User-Agent': 'Mozilla/5.0 (X11 Linux i686 rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': 'http://veremos.date/all.php?id=rivotvy1&p=0&c=0&stretching=uniform'}
+  url = '$doregex[url2]'
+  source = requests.get(url, headers=headers).text
+  data1 = re.findall('return\(\[([^\]]+)', source)[0]
+  data2 = re.findall('\+ ([^\.]+).join', source)[0]
+  data2 = re.findall(data2 + ' = \W(.+)\]', source)[0]
+  data1 = ''.join(data1).replace('"','').replace(',', '').replace(' ', '').replace('\/','/')
+  data2 = ''.join(data2).replace('"','').replace(',', '').replace(' ', '').replace('\/','/')
+  data3 = re.findall('getElementById\W"([^"]+)', source)[0]
+  data3 = re.findall(data3 + '\W*(.+?=*)\W', source)[0]
+  return data1 + data2 + data3
+]]></expres>
+<page></page>
+</regex>
+
+<regex>
+<name>url2</name>
+<expres><![CDATA[src="(.*?)"]]></expres>
+<page>http://veremos.date/all.php?id=rivotvy1&amp;p=0&amp;c=0&amp;stretching=uniform</page>
+<referer>http://lol.xrivonet.info/rivo/rivo.html</referer>
+</regex>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -1255,7 +1261,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
   import re,requests
-  headers = {'User-Agent': 'Mozilla/5.0 (X11 Linux i686 rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': 'http://yolanda3.bid/all.php?id=rivotvy2&p=0&c=0&stretching=uniform'}
+  headers = {'User-Agent': 'Mozilla/5.0 (X11 Linux i686 rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': 'http://veremos.date/all.php?id=rivotvy2&p=0&c=0&stretching=uniform'}
   url = '$doregex[url2]'
   source = requests.get(url, headers=headers).text
   data1 = re.findall('return\(\[([^\]]+)', source)[0]
@@ -1273,10 +1279,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>url2</name>
 <expres><![CDATA[src="(.*?)"]]></expres>
-<page>http://yolanda3.bid/all.php?id=rivotvy2&amp;p=0&amp;c=0&amp;stretching=uniform</page>
+<page>http://veremos.date/all.php?id=rivotvy2&amp;p=0&amp;c=0&amp;stretching=uniform</page>
 <referer>http://lol.xrivonet.info/rivo/rivo.html</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -1289,7 +1295,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
   import re,requests
-  headers = {'User-Agent': 'Mozilla/5.0 (X11 Linux i686 rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': 'http://yolanda3.bid/all.php?id=rivotvy3&p=0&c=0&stretching=uniform'}
+  headers = {'User-Agent': 'Mozilla/5.0 (X11 Linux i686 rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': 'http://veremos.date/all.php?id=rivotvy3&p=0&c=0&stretching=uniform'}
   url = '$doregex[url2]'
   source = requests.get(url, headers=headers).text
   data1 = re.findall('return\(\[([^\]]+)', source)[0]
@@ -1307,10 +1313,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>url2</name>
 <expres><![CDATA[src="(.*?)"]]></expres>
-<page>http://yolanda3.bid/all.php?id=rivotvy3&amp;p=0&amp;c=0&amp;stretching=uniform</page>
+<page>http://veremos.date/all.php?id=rivotvy3&amp;p=0&amp;c=0&amp;stretching=uniform</page>
 <referer>http://lol.xrivonet.info/rivo/rivo.html</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -1323,7 +1329,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
   import re,requests
-  headers = {'User-Agent': 'Mozilla/5.0 (X11 Linux i686 rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': 'http://yolanda3.bid/all.php?id=rivotvy4&p=0&c=0&stretching=uniform'}
+  headers = {'User-Agent': 'Mozilla/5.0 (X11 Linux i686 rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': 'http://veremos.date/all.php?id=rivotvy4&p=0&c=0&stretching=uniform'}
   url = '$doregex[url2]'
   source = requests.get(url, headers=headers).text
   data1 = re.findall('return\(\[([^\]]+)', source)[0]
@@ -1341,10 +1347,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>url2</name>
 <expres><![CDATA[src="(.*?)"]]></expres>
-<page>http://yolanda3.bid/all.php?id=rivotvy4&amp;p=0&amp;c=0&amp;stretching=uniform</page>
+<page>http://veremos.date/all.php?id=rivotvy4&amp;p=0&amp;c=0&amp;stretching=uniform</page>
 <referer>http://lol.xrivonet.info/rivo/rivo.html</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -1370,13 +1376,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR skyblue] [makelist.param1] [COLOR deepskyblue][B] [makelist.param2][/B]  [makelist.param3]  [COLOR aquamarine][makelist.param4]  [/COLOR][/COLOR][/COLOR]</title>
 <sportsdevil>http://zonasports.me/channel.php[makelist.param1]</sportsdevil>
 <referer>http://zonasports.be/</referer>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 ]]></listrepeat>
 <expres><![CDATA[t\'>(.*?)<[\w\W\s]{0,110}left\'>(.*?)\:.*b>(.*?)\n.*?\((.*?)\)]]></expres>
 <page>http://zonasports.be/</page>
 <agent>Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04</agent>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
@@ -1422,7 +1428,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			<expres>channel='(.*?)'</expres>
 			<page>http://gozonasports.me/channel.php?id=1</page>
 			</regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -1463,7 +1469,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			<expres>channel='(.*?)'</expres>
 			<page>http://gozonasports.me/channel.php?id=2</page>
 			</regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -1504,7 +1510,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			<expres>channel='(.*?)'</expres>
 			<page>http://gozonasports.me/channel.php?id=3</page>
 			</regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 <item>       
 <title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] Zonasport04[/B][/COLOR]  [COLOR white]   fstream   [/COLOR] </title>
@@ -1542,7 +1548,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			<expres>channel='(.*?)'</expres>
 			<page>http://gozonasports.me/channel.php?id=3</page>
 			</regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -1574,7 +1580,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item> 
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item> 
 
 
 
@@ -1602,7 +1608,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item> 
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item> 
 
 
 
@@ -1633,7 +1639,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item> 
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item> 
 
 
 
@@ -1665,7 +1671,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item> 
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item> 
 
 
 
@@ -1679,7 +1685,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 <expres>file:"(.*?)"</expres>
 <page>http://widestream.io/embed-16337</page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
  <item>
 <title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] Zonasport09[/B][/COLOR]  [COLOR white]  wide    [/COLOR] </title>
@@ -1689,7 +1695,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 <expres>file:"(.*?)"</expres>
 <page>http://widestream.io/embed-7230</page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 <item>
 <title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] Zonasport10[/B][/COLOR]  [COLOR white]   wide  [/COLOR] </title>
@@ -1699,7 +1705,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 <expres>file:"(.*?)"</expres>
 <page>http://widestream.io/embed-7231</page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -1721,7 +1727,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
 			<referer>http://www.247bay.tv</referer>
 			</regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 <item>
 <title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] Zonasport12[/B][/COLOR]  [COLOR white]  247bay   [/COLOR] </title>
@@ -1738,7 +1744,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
 			<referer>http://www.247bay.tv</referer>
 			</regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
  
 
@@ -1779,39 +1785,36 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 <agent>iPad</agent>
 </regex>
   
- <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+ <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
  
 
 
  
 
  
+
  
+
+ 
+
+ <item>
+<title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] TyC Sport[/B][/COLOR]  [COLOR gray]  Argentina  [/COLOR] [COLOR white]  [/COLOR] </title>
+ <link>http://playback.bcovlive.io/de6478f6fd9a4459826ffedd62aa338e/sa-east-1/5395474896001/profile_1/chunklist.m3u8</link>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>	
+
+
  
  <item>
 <title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] TyC Sport[/B][/COLOR]  [COLOR gray]  Argentina  [/COLOR] [COLOR white]  [/COLOR] </title>
+<link>$doregex[GetPageUrl]|Referer=http://vercanalestv.com/tv/nacionales/canal-plus-estrenos.html&amp;User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
 
-<link>$doregex[get-id]|Referer=http://verdirectotv.com/tv/digitales/plus-series.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
-<name>get-id</name>
-<expres>source: '(.*?)'</expres>
-<page>http://vergol.com/live2/tycsports.php</page>
-<referer>http://vercanalestv.com/tv/nacionales/tve-1.html</referer>
-<agent>iPad</agent>
+<name>GetPageUrl</name>
+<expres>videoUrl = '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=tycsport&amp;width=650&amp;height=397</page>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
 </regex>
- 
- <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
- 
- 
- <item>
-<title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] TyC Sport[/B][/COLOR]  [COLOR gray]  Argentina  [/COLOR] [COLOR white]  [/COLOR] </title>
- <link>http://vivoplay-i.akamaihd.net/hls/live/255333/canal5/master2500k.m3u8</link>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>	
-
- <item>
-<title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] TyC Sport[/B][/COLOR]  [COLOR gray]  Argentina  [/COLOR] [COLOR white]  [/COLOR] </title>
- <link>http://playback.bcovlive.io/1990f9eba3bb4e7c89bbe1f109aff310/sa-east-1/5395474896001/playlist.m3u8</link>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>	
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>	
 
 
  
@@ -1847,7 +1850,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://schedule.racing/sevenembed.php?id=wiz10&amp;p=0&amp;c=0&amp;stretching=uniform</page>
 <referer>http://wizhdsports.is/live/stream10.html</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>	
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>	
 
   
 <item>
@@ -1874,7 +1877,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 ]]></expres>
 <page></page>
 </regex>
- <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+ <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <fanart></fanart>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
@@ -1905,7 +1908,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 ]]></expres>
 <page></page>
 </regex>
- <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+ <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <fanart></fanart>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
@@ -1936,7 +1939,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 ]]></expres>
 <page></page>
 </regex>
- <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+ <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <fanart></fanart>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
@@ -1961,7 +1964,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 <referer>http://fut.superligatv.com/</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 </item>
 
@@ -1970,7 +1973,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 
 <link>$doregex[rtmp] playpath=tdndep_$doregex[playpath]$doregex[playpath2] swfUrl=http://p.castamp.com/cplayer.swf live=true timeout=15 swfVfy=1 pageUrl=http://www.castamp.com/embed.php?c=tdndep&amp;tk=$doregex[it]&amp;vwidth=680&amp;vheight=440</link>
  <regex><name>it</name>	 <expres>Agent:"(.*?)";</expres>	 <page>http://adryantv.org/adryan/fuckit.php</page> </regex><regex><name>rtmp</name><expres>.*(?![^"']+50.7.118.3)(?![^"']+50.7.128.2)(rtmp:[^"']+)</expres><page>http://www.castamp.com/embed.php?c=tdndep&amp;tk=$doregex[it]&amp;vwidth=680&amp;vheight=440</page> <referer>http://fut.superligatv.com/</referer></regex><regex><name>playpath</name><expres>fuifa.*?_(.*?)'</expres><page>http://www.castamp.com/embed.php?c=tdndep&amp;tk=$doregex[it]&amp;vwidth=680&amp;vheight=440</page> <referer>http://fut.superligatv.com/</referer></regex><regex><name>playpath2</name><expres>fuifa.*?unescape.*?'(.*?)'\W</expres><page>http://www.castamp.com/embed.php?c=tdndep&amp;tk=$doregex[it]&amp;vwidth=680&amp;vheight=440</page> <referer>http://fut.superligatv.com/</referer></regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 </item>
 
@@ -1981,7 +1984,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 
 <link>$doregex[rtmp] playpath=unitdnmx_$doregex[playpath]$doregex[playpath2] swfUrl=http://p.castamp.com/cplayer.swf live=true timeout=15 swfVfy=1 pageUrl=http://www.castamp.com/embed.php?c=unitdnmx&amp;tk=$doregex[it]&amp;vwidth=680&amp;vheight=440</link>
  <regex><name>it</name>	 <expres>Agent:"(.*?)";</expres>	 <page>http://adryantv.org/adryan/fuckit.php</page> </regex><regex><name>rtmp</name><expres>.*(?![^"']+50.7.118.3)(?![^"']+50.7.128.2)(rtmp:[^"']+)</expres><page>http://www.castamp.com/embed.php?c=unitdnmx&amp;tk=$doregex[it]&amp;vwidth=680&amp;vheight=440</page> <referer>http://fut.superligatv.com/</referer></regex><regex><name>playpath</name><expres>fuifa.*?_(.*?)'</expres><page>http://www.castamp.com/embed.php?c=unitdnmx&amp;tk=$doregex[it]&amp;vwidth=680&amp;vheight=440</page> <referer>http://fut.superligatv.com/</referer></regex><regex><name>playpath2</name><expres>fuifa.*?unescape.*?'(.*?)'\W</expres><page>http://www.castamp.com/embed.php?c=unitdnmx&amp;tk=$doregex[it]&amp;vwidth=680&amp;vheight=440</page> <referer>http://fut.superligatv.com/</referer></regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 </item>
 
@@ -1992,7 +1995,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 
 <link>$doregex[rtmp] playpath=sky1dep_$doregex[playpath]$doregex[playpath2] swfUrl=http://p.castamp.com/cplayer.swf live=true timeout=15 swfVfy=1 pageUrl=http://www.castamp.com/embed.php?c=sky1dep&amp;tk=$doregex[it]&amp;vwidth=680&amp;vheight=440</link>
  <regex><name>it</name>	 <expres>Agent:"(.*?)";</expres>	 <page>http://adryantv.org/adryan/fuckit.php</page> </regex><regex><name>rtmp</name><expres>.*(?![^"']+50.7.118.3)(?![^"']+50.7.128.2)(rtmp:[^"']+)</expres><page>http://www.castamp.com/embed.php?c=sky1dep&amp;tk=$doregex[it]&amp;vwidth=680&amp;vheight=440</page> <referer>http://fut.superligatv.com/</referer></regex><regex><name>playpath</name><expres>fuifa.*?_(.*?)'</expres><page>http://www.castamp.com/embed.php?c=sky1dep&amp;tk=$doregex[it]&amp;vwidth=680&amp;vheight=440</page> <referer>http://fut.superligatv.com/</referer></regex><regex><name>playpath2</name><expres>fuifa.*?unescape.*?'(.*?)'\W</expres><page>http://www.castamp.com/embed.php?c=sky1dep&amp;tk=$doregex[it]&amp;vwidth=680&amp;vheight=440</page> <referer>http://fut.superligatv.com/</referer></regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 </item>
 
@@ -2002,7 +2005,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 
 <link>$doregex[rtmp] playpath=planeta_$doregex[playpath]$doregex[playpath2] swfUrl=http://p.castamp.com/cplayer.swf live=true timeout=15 swfVfy=1 pageUrl=http://www.castamp.com/embed.php?c=planeta&amp;tk=$doregex[it]&amp;vwidth=680&amp;vheight=440</link>
  <regex><name>it</name>	 <expres>Agent:"(.*?)";</expres>	 <page>http://adryantv.org/adryan/fuckit.php</page> </regex><regex><name>rtmp</name><expres>.*(?![^"']+50.7.118.3)(?![^"']+50.7.128.2)(rtmp:[^"']+)</expres><page>http://www.castamp.com/embed.php?c=planeta&amp;tk=$doregex[it]&amp;vwidth=680&amp;vheight=440</page> <referer>http://fut.superligatv.com/</referer></regex><regex><name>playpath</name><expres>fuifa.*?_(.*?)'</expres><page>http://www.castamp.com/embed.php?c=planeta&amp;tk=$doregex[it]&amp;vwidth=680&amp;vheight=440</page> <referer>http://fut.superligatv.com/</referer></regex><regex><name>playpath2</name><expres>fuifa.*?unescape.*?'(.*?)'\W</expres><page>http://www.castamp.com/embed.php?c=planeta&amp;tk=$doregex[it]&amp;vwidth=680&amp;vheight=440</page> <referer>http://fut.superligatv.com/</referer></regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 </item>
 
@@ -2014,7 +2017,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
  <title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] Sky 1 MX[/B][/COLOR]  [COLOR white]  [/COLOR] </title>
 <link>http://hls.ssh101.com/live/sky1mx/index.m3u8</link>
 
- <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+ <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 </item>
 
@@ -2022,7 +2025,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
  <title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] Sky 3 MX[/B][/COLOR]  [COLOR white]  [/COLOR] </title>
 <link>http://hls.ssh101.com/live/sky3mx/index.m3u8</link>
 
- <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+ <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 </item>
 
@@ -2032,7 +2035,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
  <title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] Planeta Futbol MX[/B][/COLOR]  [COLOR white]  [/COLOR] </title>
 <link>http://hls.ssh101.com/live/planetafutmx/index.m3u8</link>
 
- <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+ <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 </item>
 
@@ -2066,7 +2069,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
  <page>http://depo.superligatv.com/tvcdep.php</page>
  </regex>
 
- <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+ <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 </item>
 
@@ -2078,7 +2081,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
  <title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] TVC Deportes[/B][/COLOR]  [COLOR white] (sportsdevil requerido) [/COLOR] </title>
 <sportsdevil>http://shidurlive.com/embed/tvdepno</sportsdevil>
 <referer>http://depo.superligatv.com/unitdn.php</referer>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -2088,39 +2091,39 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
  <title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] TVC Deportes[/B][/COLOR]  [COLOR white] (sportsdevil requerido) [/COLOR] </title>
 <sportsdevil>http://shidurlive.com/embed/tvcdep1</sportsdevil>
 <referer>http://fut.superligatv.com/unitdn.php</referer>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
   <item>
  <title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] SkySports 1 Mexico[/B][/COLOR]  [COLOR white] (sportsdevil requerido) [/COLOR] </title>
 <sportsdevil>http://shidurlive.com/embed/sky</sportsdevil>
 <referer>http://fut.superligatv.com/unitdn.php</referer>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
   <item>
  <title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] TDN Mexico[/B][/COLOR]  [COLOR white] (sportsdevil requerido) [/COLOR] </title>
 <sportsdevil>http://shidurlive.com/embed/tdnmx</sportsdevil>
 <referer>http://fut.superligatv.com/unitdn.php</referer>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
   <item>
  <title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] Univision TDN Mexico[/B][/COLOR]  [COLOR white] (sportsdevil requerido) [/COLOR] </title>
 <sportsdevil>http://shidurlive.com/embed/unitdnmx</sportsdevil>
 <referer>http://fut.superligatv.com/unitdn.php</referer>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
   <item>
  <title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] Planeta Futbol Mexico[/B][/COLOR]  [COLOR white] (sportsdevil requerido) [/COLOR] </title>
 <sportsdevil>http://shidurlive.com/embed/planet</sportsdevil>
 <referer>http://fut.superligatv.com/unitdn.php</referer>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
   <item>
  <title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] Planeta Futbol Mexico[/B][/COLOR]  [COLOR white] (sportsdevil requerido) [/COLOR] </title>
 <sportsdevil>http://www3.sawlive.tv/embed/lagmex</sportsdevil>
 <referer>http://fut.superligatv.com/unitdn.php</referer>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -2171,7 +2174,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
 			<referer>http://www.mipsplayer.net</referer>
 			</regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -2220,7 +2223,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
 			<referer>http://www.mipsplayer.net</referer>
 			</regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 <item>
@@ -2245,7 +2248,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
 			<referer>http://www.mipsplayer.net</referer>
 			</regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -2274,7 +2277,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -2302,7 +2305,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -2330,7 +2333,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -2403,7 +2406,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
 			<referer>http://www.mipsplayer.net</referer>
 			</regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -2431,7 +2434,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 <referer>http://maxdeportv.net</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 </item>
 
@@ -2450,7 +2453,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 <referer>http://maxdeportv.net</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 </item>
 
@@ -2497,8 +2500,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 	 
 		
-	<item><title>                           </title><link>http://ignora.me</link><thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
-	<item><title> [COLOR lightblue][B][COLOR yellow]C A N A L E S  D E  E S P A Ñ A[/COLOR]  [/B][/COLOR] </title><link>http://ignora.me</link><thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+	<item><title>                           </title><link>http://ignora.me</link><thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+	<item><title> [COLOR lightblue][B][COLOR yellow]C A N A L E S  D E  E S P A Ñ A[/COLOR]  [/B][/COLOR] </title><link>http://ignora.me</link><thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 	
 	 
  
@@ -2506,13 +2509,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <title>[B][COLOR lightyellow]Multicanal[/COLOR][COLOR lightblue] MotoGP[/B][/COLOR]  [COLOR white] (sportsdevil requerido) [/COLOR] </title>
 <sportsdevil>http://www.vipgoal.net/MovistarMotoGP/35597/Movistar-MotoGP-en-directo.html</sportsdevil>
 <referer>http://www.vipgoal.net</referer>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
    <item>
  <title>[B][COLOR lightyellow]Multicanal[/COLOR][COLOR lightblue] Formula 1[/B][/COLOR]  [COLOR white] (sportsdevil requerido) [/COLOR] </title>
 <sportsdevil>http://www.vipgoal.net/MovistarF1/35596/Movistar-F1-en-directo.html</sportsdevil>
 <referer>http://www.vipgoal.net</referer>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
  
  
@@ -2522,7 +2525,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <title>[B][COLOR lightyellow]Multicanal[/COLOR][COLOR lightblue] LaLiga 123[/B][/COLOR]  [COLOR white]  multicanal 1     (sportsdevil requerido) [/COLOR] </title>
 <sportsdevil>http://cinestrenostv.tv/canales/envivo/laliga123multi1.html</sportsdevil>
 <referer>http://cinestrenostv.tv</referer>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
  
  
@@ -2531,7 +2534,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <title>[B][COLOR lightyellow]Multicanal[/COLOR][COLOR lightblue] LaLiga 123[/B][/COLOR]  [COLOR white]  multicanal 2     (sportsdevil requerido) [/COLOR] </title>
 <sportsdevil>http://cinestrenostv.tv/canales/envivo/laliga123multi2.html</sportsdevil>
 <referer>http://cinestrenostv.tv</referer>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
  
   
@@ -2539,14 +2542,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <title>[B][COLOR lightyellow]Multicanal[/COLOR][COLOR lightblue] LaLiga 123[/B][/COLOR]  [COLOR white]  multicanal 3     (sportsdevil requerido) [/COLOR] </title>
 <sportsdevil>http://cinestrenostv.tv/canales/envivo/laliga123multi3.html</sportsdevil>
 <referer>http://cinestrenostv.tv</referer>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
  
    <item>
  <title>[B][COLOR lightyellow]Multicanal[/COLOR][COLOR lightblue] LaLiga 123[/B][/COLOR]  [COLOR white]  multicanal 4     (sportsdevil requerido) [/COLOR] </title>
 <sportsdevil>http://cinestrenostv.tv/canales/envivo/laliga123multi4.html</sportsdevil>
 <referer>http://cinestrenostv.tv</referer>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
  
  
@@ -2586,7 +2589,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			<page>http://elgoles.ru/</page>
 			</regex>
 			
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -2622,7 +2625,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			<expres>href="(.*?)">canal-14<</expres>
 			<page>http://elgoles.ru/</page>
 			</regex>	
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
  
 
@@ -2652,7 +2655,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -2683,7 +2686,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -2711,7 +2714,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -2767,7 +2770,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 			<expres>channel='(.*?)'</expres>
 			<page>http://revolucionariostv.eu/elitegol/Repros/c1.php</page>
 			</regex>		
- <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+ <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
  
   
@@ -2798,7 +2801,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 			<expres>channel='(.*?)'</expres>
 			<page>http://revolucionariostv.eu/elitegol/Repros/c2.php</page>
 			</regex>	
- <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+ <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
  
  
@@ -2830,7 +2833,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 			<expres>channel='(.*?)'</expres>
 			<page>http://revolucionariostv.eu/elitegol/Repros/c2.php</page>
 			</regex>	
- <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+ <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
  
  
@@ -2851,40 +2854,50 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
 			<referer>http://www.247bay.tv</referer>
 			</regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
  
  
  
  
- 
- 
- 
- 
- 
- 
-  <item>
+    <item>
 <title>[B][COLOR lightyellow]Multicanal[/COLOR][/B] [COLOR lightblue]TikiTaka 01 [/COLOR][COLOR white][I]  [/I][/COLOR]</title>
-<link>$doregex[adryan]</link>
+<link>$doregex[adryan]|User-Agent=iPad</link>
 <regex>
 <name>adryan</name>
-<expres>hlsMasterPlaylistUrl.*?\;(https.*?)\\\&amp;</expres>
-<page>http://ok.ru/videoembed/386989170321</page>
+<expres>source: "(.*?)"</expres>
+<page>http://widestream.io/embedClappr.php?live=17932</page>
 </regex>
 
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+ 
+ 
+    <item>
+<title>[B][COLOR lightyellow]Multicanal[/COLOR][/B] [COLOR lightblue]TikiTaka 02 [/COLOR][COLOR white][I]  [/I][/COLOR]</title>
+<link>$doregex[adryan]|User-Agent=iPad</link>
+<regex>
+<name>adryan</name>
+<expres>source: "(.*?)"</expres>
+<page>http://widestream.io/embedClappr.php?live=79</page>
+</regex>
+
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+ 
+ 
+ 
+
  
  
 
    <item>
-<title>[B][COLOR lightyellow]Multicanal[/COLOR][/B] [COLOR lightblue]TikiTaka 02 [/COLOR][COLOR white][I]  [/I][/COLOR]</title>
-<link>$doregex[adryan]</link>
+<title>[B][COLOR lightyellow]Multicanal[/COLOR][/B] [COLOR lightblue]TikiTaka 02-a [/COLOR][COLOR white][I]  [/I][/COLOR]</title>
+<link>$doregex[adryan]|User-Agent=iPad</link>
 <regex>
 <name>adryan</name>
 <expres>file:"(.*?)"</expres>
 <page>http://widestream.io/embed-7231</page>
 </regex>
 
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
  
  
 
@@ -2898,7 +2911,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 <page>http://lacasadeltikitaka.club/directo/canal3.php</page>
 </regex>
 
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
  
  
  
@@ -2930,7 +2943,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 <page>http://pxstream.tv/embed/vtb3rb1wbx70/</page>
 <referer>http://lacasadeltikitaka.club</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
  
  
 	
@@ -2969,7 +2982,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 <referer>http://www.verliga.net/live/verliga1.php</referer>
 <agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/esp.jpg</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/esp.jpg</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
   
 
 
@@ -2993,7 +3006,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 <agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
 </regex>
 
-<thumbnail>http://adryantv.org/adryan/img/esp.jpg</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/esp.jpg</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
   
 
   
@@ -3020,7 +3033,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 <agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
 </regex>
 
-<thumbnail>http://adryantv.org/adryan/img/esp.jpg</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/esp.jpg</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
   
 
   <item>
@@ -3041,7 +3054,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 <agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
 </regex>
 
-<thumbnail>http://adryantv.org/adryan/img/esp.jpg</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/esp.jpg</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
   
 
   
@@ -3064,7 +3077,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 <agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
 </regex>
 
-<thumbnail>http://adryantv.org/adryan/img/esp.jpg</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/esp.jpg</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
   
 
 
@@ -3101,7 +3114,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://marialadelbarrio.info/sevengreen.php?id=hdc1&amp;p=0&amp;c=0&amp;stretching=uniform</page>
 <referer>http://mediazon.org/elite2.php</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
  
  
@@ -3134,7 +3147,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://marialadelbarrio.info/sevengreen.php?id=hdc2&amp;p=0&amp;c=0&amp;stretching=uniform</page>
 <referer>http://mediazon.org/elite2.php</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
   
   
 
@@ -3168,7 +3181,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://marialadelbarrio.info/sevengreen.php?id=hdc3&amp;p=0&amp;c=0&amp;stretching=uniform</page>
 <referer>http://mediazon.org/elite13.php</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
   
   
   
@@ -3201,7 +3214,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://marialadelbarrio.info/sevengreen.php?id=hdc4&amp;p=0&amp;c=0&amp;stretching=uniform</page>
 <referer>http://mediazon.org/elite13.php</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
     <item>  
 <title>[COLOR lightyellow]Multicanal[/COLOR] [COLOR lightblue]MediaZone 6[/COLOR][COLOR white][I]  [/I][/COLOR]</title>
@@ -3232,7 +3245,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://marialadelbarrio.info/sevengreen.php?id=hdc6&amp;p=0&amp;c=0&amp;stretching=uniform</page>
 <referer>http://mediazon.org/elite13.php</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
     <item>  
@@ -3264,7 +3277,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://marialadelbarrio.info/sevengreen.php?id=hdc9&amp;p=0&amp;c=0&amp;stretching=uniform</page>
 <referer>http://mediazon.org/elite13.php</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
   
     <item>  
@@ -3296,7 +3309,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://marialadelbarrio.info/sevengreen.php?id=hdc10&amp;p=0&amp;c=0&amp;stretching=uniform</page>
 <referer>http://mediazon.org/elite13.php</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
     
   
   
@@ -3329,7 +3342,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://marialadelbarrio.info/sevengreen.php?id=hdc11&amp;p=0&amp;c=0&amp;stretching=uniform</page>
 <referer>http://mediazon.org/elite13.php</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
   
 
   <item>  
@@ -3361,7 +3374,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://marialadelbarrio.info/sevengreen.php?id=hdc12&amp;p=0&amp;c=0&amp;stretching=uniform</page>
 <referer>http://mediazon.org/elite12.php</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -3394,7 +3407,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://marialadelbarrio.info/sevengreen.php?id=hdc13&amp;p=0&amp;c=0&amp;stretching=uniform</page>
 <referer>http://mediazon.org/elite13.php</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -3427,7 +3440,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://marialadelbarrio.info/sevengreen.php?id=hdc14&amp;p=0&amp;c=0&amp;stretching=uniform</page>
 <referer>http://mediazon.org/elite13.php</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -3461,7 +3474,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://marialadelbarrio.info/sevengreen.php?id=hdc15&amp;p=0&amp;c=0&amp;stretching=uniform</page>
 <referer>http://mediazon.org/elite13.php</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -3496,7 +3509,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://marialadelbarrio.info/sevengreen.php?id=hdc16&amp;p=0&amp;c=0&amp;stretching=uniform</page>
 <referer>http://mediazon.org/elite13.php</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -3529,7 +3542,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://marialadelbarrio.info/sevengreen.php?id=hdc17&amp;p=0&amp;c=0&amp;stretching=uniform</page>
 <referer>http://mediazon.org/elite13.php</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -3563,7 +3576,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://marialadelbarrio.info/sevengreen.php?id=hdc18&amp;p=0&amp;c=0&amp;stretching=uniform</page>
 <referer>http://mediazon.org/elite13.php</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
   
@@ -3602,7 +3615,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://marialadelbarrio.info/sevengreen.php?id=hdc19&amp;p=0&amp;c=0&amp;stretching=uniform</page>
 <referer>http://mediazon.org/elite13.php</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
   
@@ -3639,7 +3652,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://marialadelbarrio.info/sevengreen.php?id=hdc20&amp;p=0&amp;c=0&amp;stretching=uniform</page>
 <referer>http://mediazon.org/elite13.php</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
  
   
@@ -3675,7 +3688,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  
 <link>$$LSPlayOnlyOne$$</link>
 
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -3687,14 +3700,29 @@ def GetLSProData(page_data,Cookie_Jar,m):
 									
   <item>
 <title>[COLOR deepskyblue]TVP ARG[/COLOR] [COLOR lightblue]   [/COLOR][COLOR white][I]  [/I][/COLOR]</title>
-<link>rtmp://slc2.cxn.tv:1935/live/ playpath=$doregex[play] swfUrl=https://ssl.p.jwpcdn.com/6/2/jwplayer.flash.swf live=1 pageUrl=https://www.cxntv.com/canales/tv-foxuy/</link>
- <regex>
-<name>play</name>
-<expres>file":"rtmp:.*?live\\\/(.*?)"</expres>
+<link>$doregex[play2]|User-Agent=iPad</link>
+ 
+ 
+ 
+ 
+  <regex>
+<name>play2</name>
+<expres>$pyFunction:('$doregex[play]').replace('\/','/')</expres>
  <page>https://www.cxntv.com/canales/tv-tvp/</page>
 </regex>
-  <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+ 
+ <regex>
+<name>play</name>
+<expres>html5_file":"(http.*?)"</expres>
+ <page>https://www.cxntv.com/canales/tv-tvp/</page>
+</regex>
+  <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
+  
+  
+
+  
+  
 
   <item>
 <title>[COLOR deepskyblue]FOX SPORTS 1 URUGUAY[/COLOR] [COLOR lightblue]   [/COLOR][COLOR white][I]  [/I][/COLOR]</title>
@@ -3704,7 +3732,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres>file":"rtmp:.*?live\\\/(.*?)"</expres>
  <page>https://www.cxntv.com/canales/tv-foxuy/</page>
 </regex>
-  <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+  <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
  
   <item>
 <title>[COLOR deepskyblue]FOX SPORTS 1 ARG[/COLOR] [COLOR lightblue]   [/COLOR][COLOR white][I]  [/I][/COLOR]</title>
@@ -3714,7 +3742,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres>file":"rtmp:.*?live\\\/(.*?)"</expres>
  <page>https://www.cxntv.com/canales/tv-foxar/</page>
 </regex>
-  <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+  <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
  
   <item>
 <title>[COLOR deepskyblue]FOX SPORTS 2 ARG[/COLOR] [COLOR lightblue]   [/COLOR][COLOR white][I]  [/I][/COLOR]</title>
@@ -3724,7 +3752,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres>file":"rtmp:.*?live\\\/(.*?)"</expres>
  <page>https://www.cxntv.com/canales/tv-fox2/</page>
 </regex>
-  <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+  <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
  
   <item>
 <title>[COLOR deepskyblue]FOX SPORTS 3 ARG[/COLOR] [COLOR lightblue]   [/COLOR][COLOR white][I]  [/I][/COLOR]</title>
@@ -3734,7 +3762,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres>file":"rtmp:.*?live\\\/(.*?)"</expres>
  <page>https://www.cxntv.com/canales/fox-sports-3/</page>
 </regex>
-  <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+  <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
  
  
  
@@ -3748,7 +3776,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres>file":"rtmp:.*?live\\\/(.*?)"</expres>
  <page>https://www.cxntv.com/canales/espn/</page>
 </regex>
-  <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+  <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
  
   
 
@@ -3760,7 +3788,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres>file":"rtmp:.*?live\\\/(.*?)"</expres>
  <page>https://www.cxntv.com/canales/tv-espn1</page>
 </regex>
-  <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+  <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
  
 
 
@@ -3772,7 +3800,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres>file":"rtmp:.*?live\\\/(.*?)"</expres>
  <page>https://www.cxntv.com/canales/tv-espn2/</page>
 </regex>
-  <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+  <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
  
  
  
@@ -3784,7 +3812,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres>file":"rtmp:.*?live\\\/(.*?)"</expres>
  <page>https://www.cxntv.com/canales/espn3/</page>
 </regex>
-  <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+  <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
  
   
  
@@ -3796,7 +3824,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres>file":"rtmp:.*?live\\\/(.*?)"</expres>
  <page>https://www.cxntv.com/canales/formula1/</page>
 </regex>
-  <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+  <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
  
   
    <item>
@@ -3807,7 +3835,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres>file":"rtmp:.*?live\\\/(.*?)"</expres>
  <page>https://www.cxntv.com/canales/deportv/</page>
 </regex>
-  <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+  <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
  
  
 
@@ -3834,7 +3862,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			<referer>http://www.ucaster.me</referer>
 			</regex>
 
- <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+ <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
  
  
@@ -3862,7 +3890,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			<referer>http://www.ucaster.me</referer>
 			</regex>
 
- <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+ <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
  
  
@@ -3876,12 +3904,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<item><title>[COLOR lightblue] TLT Venezuela: Venezuela Deportes[/COLOR]</title><link>http://enc-fwt.lorini.net/telet/telet/index.m3u8|User-Agent=iPad</link><thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<item><title>[COLOR lightblue] TLT Venezuela: Venezuela Deportes[/COLOR]</title><link>http://enc-fwt.lorini.net/telet/telet/index.m3u8|User-Agent=iPad</link><thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
  
    <item>
 <title>[COLOR lightblue] BetisTV [/COLOR] [COLOR white][I]    [/I][/COLOR]</title>
 <link>http://rbetis-hls.flumotion.com/rbetis/live/chunklist.m3u8</link>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
  
  
 
@@ -4535,13 +4563,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <title>[COLOR lightblue] Real Madrid TV[/COLOR]</title>
 <link>http://rmtv24hweblive-lh.akamaihd.net/i/rmtv24hwebes_1@300661/master.m3u8</link>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
  
 
 <item>
 <title>[COLOR lightblue] Real Madrid TV[/COLOR]</title>
 <link>http://rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/index_1000_av-p.m3u8?</link>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
  
 
 
@@ -4551,7 +4579,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <title>[COLOR lightblue] TD TV [/COLOR] [COLOR white][I]    [/I][/COLOR]</title>
 <link>http://190.92.0.43:1935/securelive/tdtv85jd5EKL3xWq3/chunklist_w1241310319.m3u8</link>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -4567,7 +4595,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -4598,7 +4626,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
         <page>$pyFunction:cloudflare.createCookie('http://futbolchile.net',Cookie_Jar,'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36')</page>
         <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
   
   
 
@@ -4619,7 +4647,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
         <page>$pyFunction:cloudflare.createCookie('http://futbolchile.net',Cookie_Jar,'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36')</page>
         <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
   
   
   
@@ -4640,7 +4668,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
         <page>$pyFunction:cloudflare.createCookie('http://futbolchile.net',Cookie_Jar,'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36')</page>
         <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
   
   
   
@@ -4677,7 +4705,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres>$pyFunction: 'plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.streamlive.to/view/70190$$LSPlayOnlyOne$$' if not 'plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.streamlive.to/view/70190$$LSPlayOnlyOne$$'=='' else 'plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://maxdeportv.net/indexa.php?canal=2$$LSPlayOnlyOne$$'</expres>
 <page></page>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -4696,7 +4724,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres>curl = "(.*?)";</expres>
 <page>http://www.streamhd.me/stream.php?id=681</page>
  </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
  
 
@@ -4833,7 +4861,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://www.iguide.to/embedplayer_new_hls.php?width=650&amp;height=400&amp;channel=30276&amp;autoplay=true</page>
 <referer>http://maxdeportv.net/indexa.php?canal=14</referer>
 </regex>	
- <thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail>
+ <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail>
 <fanart></fanart>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
   
@@ -4956,4 +4984,4 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://marialadelbarrio.info/sevengreen.php?id=hdc19&amp;p=0&amp;c=0&amp;stretching=uniform</page>
 <referer>http://mediazon.org/elite13.php</referer>
 </regex>
-<thumbnail>http://adryantv.org/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+<thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
