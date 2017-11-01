@@ -21,13 +21,6 @@
  
  
  
- 
- 
-
-
-
- 
- 
   
  
  
@@ -78,16 +71,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
-
-
-
-max34a4
-
-
-739
-15183
-739
 
  
  <!--
@@ -3734,6 +3717,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
   <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
  
+ 
+ <!--
+ 
   <item>
 <title>[COLOR deepskyblue]FOX SPORTS 1 ARG[/COLOR] [COLOR lightblue]   [/COLOR][COLOR white][I]  [/I][/COLOR]</title>
 <link>rtmp://slc2.cxn.tv:1935/live/ playpath=$doregex[play] swfUrl=https://ssl.p.jwpcdn.com/6/2/jwplayer.flash.swf live=1 pageUrl=https://www.cxntv.com/canales/tv-foxuy/</link>
@@ -3836,6 +3822,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <page>https://www.cxntv.com/canales/deportv/</page>
 </regex>
   <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+ 
+ -->
+ 
  
  
 
