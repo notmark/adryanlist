@@ -2720,33 +2720,30 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 
 
 
-
-
  
  
  
- 
-  <item>
-<title>[B][COLOR lightyellow]Multicanal[/COLOR][/B] [COLOR lightblue]Revo 01 * * [/COLOR][COLOR white][I]  [/I][/COLOR]</title>
+ <item>
+<title>[B][COLOR lightyellow]Multicanal[/COLOR][/B] [COLOR lightblue]Revo 01  [/COLOR][COLOR white][I] letslive [/I][/COLOR]</title>
   <link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]</link>
 			<regex>
 			<name>ip</name>
 			<expres>redirect=(.*)</expres>
-			<page>http://cdn.mipspublisher.com:1935/loadbalancer</page>
+			<page>http://www.publetslive.xyz:1935/loadbalancer</page>
 			</regex>
 			<regex>
 			<name>m3u8</name>
 			<expres>ea \+ "(.*?)"</expres>
-			<page>http://www.mipsplayer.com/membedplayer/$doregex[canal]/1/750/420</page>
+			<page>http://www.letslive.tv/membedplayer/$doregex[canal]/1/750/420</page>
 			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-			<referer>http://www.mipsplayer.com</referer>
+			<referer>http://www.letslive.tv</referer>
 			</regex> 
 			<regex>
 			<name>hls</name>
 			<expres>hlsUrl \+ \(\"(.*?)"</expres>
-			<page>http://www.mipsplayer.com/membedplayer/$doregex[canal]/1/500/400</page>
+			<page>http://www.letslive.tv/membedplayer/$doregex[canal]/1/500/400</page>
 			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-			<referer>http://www.mipsplayer.com</referer>
+			<referer>http://www.letslive.tv</referer>
 			</regex>
 			<regex>
 			<name>canal</name>
@@ -2756,37 +2753,38 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
  <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
  
-  
-   <item>
-<title>[B][COLOR lightyellow]Multicanal[/COLOR][/B] [COLOR lightblue]Revo 02 * * [/COLOR][COLOR white][I]  [/I][/COLOR]</title>
+   
+ <item>
+<title>[B][COLOR lightyellow]Multicanal[/COLOR][/B] [COLOR lightblue]Revo 02  [/COLOR][COLOR white][I] letslive [/I][/COLOR]</title>
   <link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]</link>
 			<regex>
 			<name>ip</name>
 			<expres>redirect=(.*)</expres>
-			<page>http://www.pubucaster.com:1935/loadbalancer</page>
+			<page>http://www.publetslive.xyz:1935/loadbalancer</page>
 			</regex>
 			<regex>
 			<name>m3u8</name>
 			<expres>ea \+ "(.*?)"</expres>
-			<page>http://www.ucaster.me/membedplayer/$doregex[canal]/1/750/420</page>
+			<page>http://www.letslive.tv/membedplayer/$doregex[canal]/1/750/420</page>
 			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-			<referer>http://www.ucaster.me</referer>
+			<referer>http://www.letslive.tv</referer>
 			</regex> 
 			<regex>
 			<name>hls</name>
 			<expres>hlsUrl \+ \(\"(.*?)"</expres>
-			<page>http://www.ucaster.me/membedplayer/$doregex[canal]/1/500/400</page>
+			<page>http://www.letslive.tv/membedplayer/$doregex[canal]/1/500/400</page>
 			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-			<referer>http://www.ucaster.me</referer>
+			<referer>http://www.letslive.tv</referer>
 			</regex>
 			<regex>
 			<name>canal</name>
 			<expres>channel='(.*?)'</expres>
 			<page>http://revolucionariostv.eu/elitegol/Repros/c2.php</page>
-			</regex>	
+			</regex>		
  <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
  
+
  
   
    <item>
@@ -2814,7 +2812,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 			<regex>
 			<name>canal</name>
 			<expres>channel='(.*?)'</expres>
-			<page>http://revolucionariostv.eu/elitegol/Repros/c2.php</page>
+			<page>http://revolucionariostv.eu/elitegol/Repros/c3.php</page>
 			</regex>	
  <thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
