@@ -12,7 +12,7 @@
  <SetViewMode>55</SetViewMode>
  <title>[COLOR yellow][B][makelist3.param1][/COLOR][/B][COLOR skyblue][makelist3.param2][/COLOR]</title>
 <link>$doregex[makelist2]</link>
- <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[fnChangeTab\(event\)">(.*?\/10\/2017)<|http(.*?)\/g.*?name=(.*?)\&.*?ssword=(.*?)\&]]></expres>
 <page>http://www.m3uliste.pw/</page>
@@ -31,12 +31,12 @@
  <title>User: [COLOR blue][makelist3.param3][/COLOR]  |  Status: [COLOR lime][makelist2.param1][/COLOR] |  Maximas Conexiones:[COLOR yellow][makelist2.param2] [/COLOR] </title>
  <link>NA</link>
  <externallink>http[makelist3.param2]/get.php?username=[makelist3.param3]&amp;password=[makelist3.param4]&amp;type=m3u$$TSDOWNLOADER$$</externallink>
- <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
  ]]></listrepeat>
 <expres>status":"(.*?)".*max_connections":"(.*?)",</expres>
 <page>http[makelist3.param2]/panel_api.php?username=[makelist3.param3]&amp;password=[makelist3.param4]</page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 </item>
 
 
@@ -50,11 +50,11 @@
 <listrepeat><![CDATA[
  <title>[COLOR deepskyblue]Server[/COLOR][COLOR skyblue] [makelist3.param1][/COLOR]</title>
 <link>$doregex[makelist2]</link>
- <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
- <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
  ]]></listrepeat>
 <expres>Server:"(.*?)"[\w\W\s]{0,6}http:\/\/(.*?)\/g[\w\W\s]{0,11}name=(.*?)&amp;password=(.*?)&amp;t</expres>
-<page>http://adryanlist.org/adryan/servers.txt</page>
+<page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/servers.txt</page>
 </regex>
 <regex>
 <name>makelist2</name>
@@ -62,12 +62,12 @@
  <title>Server [COLOR blue][makelist3.param1][/COLOR]  |  Status: [COLOR lime][makelist2.param1][/COLOR] |  Max_Con:[COLOR yellow][makelist2.param2] [/COLOR] </title>
  <link>NA</link>
  <externallink>http://[makelist3.param2]/get.php?username=[makelist3.param3]&amp;password=[makelist3.param4]&amp;type=m3u$$TSDOWNLOADER$$</externallink>
- <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
  ]]></listrepeat>
 <expres>status":"(.*?)".*max_connections":"(.*?)",</expres>
 <page>http://[makelist3.param2]/panel_api.php?username=[makelist3.param3]&amp;password=[makelist3.param4]</page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 </item>
 
 
@@ -99,31 +99,31 @@
  <title>[makelist.param1]  </title>
  <link>NA</link>
 <externallink>[makelist.param2]$$TSDOWNLOADER$$</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
  ]]></listrepeat>
 <expres>30px;">(.*?)<.*?href="(.*?)"</expres>
 <page>http://www.geantsat.com/free-iptv/</page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 </item>
 
 
- 
-
-
-
- 
 
 
 
 
 
 
- 
 
- 
 
- 
+
+
+
+
+
+
+
+
 
 
 <tem>
@@ -135,10 +135,10 @@
 <listrepeat><![CDATA[
  <title>[COLOR lightblue]Server[/COLOR][COLOR lightgreen] [makelist2.param1][/COLOR]</title>
  <link>$doregex[makelist]</link>
- <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
  ]]></listrepeat>
 <expres>Server:"(.*?)" URL="(.*?)"; regex"(.*?)"</expres>
-<page>http://adryanlist.org/adryan/servers.txt</page>
+<page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/servers.txt</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
 
@@ -147,7 +147,7 @@
 <listrepeat><![CDATA[
  <title>[COLOR skyblue][makelist.param1][/COLOR]</title>
  <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR lightblue]AdryanList[/COLOR] [makelist.param1] [COLOR lightslategray](server [makelist2.param1])[/COLOR] </link>
- <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
  ]]></listrepeat>
 <expres>#EXTINF:-1,[makelist2.param3](.*?)\n(.*)</expres>
 <page>[makelist2.param2]</page>
@@ -245,7 +245,7 @@
 <listrepeat><![CDATA[
  <title>LISTS [makelist2.param2] </title>
  <link>$doregex[makelist]</link>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>Daily m3u playlist (.*?)2017]]></expres>
 <page>http://iptvsatlinks.blogspot.mx/search?max-results=40</page>
@@ -259,17 +259,17 @@
  <link>NA</link>
  <externallink>http://[makelist.param1]/get.php?username=[makelist.param2]&amp;password=[makelist.param3]&amp;type=m3u$$TSDOWNLOADER$$</externallink>
 
- 
- <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[http:\/\/(.*?)\/g[\w\W\s]{0,12}name=(.*?)\&a[\w\W\s]{0,7}word=(.*?)\&amp]]></expres>
 <page>[makelist2.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
 
- 
 
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 </item>
 
 
@@ -288,7 +288,7 @@
 <listrepeat><![CDATA[
    <title>[COLOR skyblue] [makelist.param2][/COLOR]</title>
    <link>$doregex[makelist2]</link>
-   <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+   <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>(.*?)<]]></expres>
 <page>http://www.iptvultra.com/2017/09/</page>
@@ -299,12 +299,12 @@
 <listrepeat><![CDATA[
    <title>[COLOR deepskyblue] [makelist2.param2][/COLOR]</title>
    <link>plugin://plugin.video.f4mTester/?url=[makelist2.param5]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist2.param2]&amp;maxbitrate=0&amp;Buffer=20971520</link>
-   <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+   <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[\"(.*?)\[\@\](.*?)\[\@\](.*?)\[\@\](.*?)\[\@\](.*?)\"]]></expres>
 <page>[makelist.param1]</page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 </item>
 
 
@@ -314,7 +314,7 @@
 
 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B] DailyPlaylist Countrys[/B] [/COLOR][COLOR lightblue][I][/I][/COLOR]</title>
- 
+
 <link>$doregex[leg2]</link>
 
 <regex>
@@ -358,7 +358,7 @@
 
 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B] DailyPlaylist SPORTS[/B] [/COLOR][COLOR lightblue][I][/I][/COLOR]</title>
- 
+
 <link>$doregex[leg]</link>
 
 <regex>
@@ -393,7 +393,7 @@
 <listrepeat><![CDATA[
  <title>[COLOR lightgreen] [makelist2.param2][/COLOR]</title>
  <link>$doregex[makelist]</link>
- <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>(.*?)<]]></expres>
 <page>http://iptvsatlinks.blogspot.mx/search?max-results=40</page>
@@ -405,13 +405,13 @@
 <listrepeat><![CDATA[
  <title>[COLOR skyblue][makelist.param1][/COLOR]</title>
  <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=-1&amp;proxy=None&amp;name=[COLOR lightblue]AdryanList[/COLOR] [makelist.param1]  </link>
- <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[EXTINF[\w\W\s]{0,5},(.*?)<[\w\W\s]{0,5}>(http.*?ts)<]]></expres>
 <page>[makelist2.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 </item>
 
 
@@ -426,7 +426,7 @@
 <listrepeat><![CDATA[
  <title>[COLOR skyblue] [makelist2.param2][/COLOR]</title>
  <link>$doregex[makelist]</link>
- <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>(.*?)<]]></expres>
 <page>http://www.iptvsharing.com/search?max-results=40</page>
@@ -438,15 +438,15 @@
 <listrepeat><![CDATA[
  <title>[COLOR skyblue][makelist.param1][/COLOR]</title>
  <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=-1&amp;proxy=None&amp;name=[COLOR lightblue]AdryanList[/COLOR] [makelist.param1]  </link>
- <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[EXTINF[\w\W\s]{0,3},(.*?)<[\w\W\s]{0,55}>(http.*?ts)<]]></expres>
 <page>[makelist2.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 </item>
- 
+
 
 
 
@@ -460,7 +460,7 @@
 <listrepeat><![CDATA[
  <title>[COLOR skyblue] [makelist2.param2][/COLOR]</title>
  <link>$doregex[makelist]</link>
- <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>\n(.*?)\n<]]></expres>
 <page>http://www.iptv4free.com/search?max-results=40</page>
@@ -475,23 +475,23 @@
 <listrepeat><![CDATA[
  <title>[COLOR skyblue][makelist.param1][/COLOR]</title>
  <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=-1&amp;proxy=None&amp;name=[COLOR lightblue]AdryanList[/COLOR] [makelist.param1]  </link>
- <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[EXTINF[\w\W\s]{0,5},(.*?)<[\w\W\s]{0,6}>\n(http.*?ts)<]]></expres>
 <page>[makelist2.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 </item>
- 
-
-  
- 
 
 
 
- 
- 
+
+
+
+
+
+
 
 
 
@@ -500,29 +500,29 @@
 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B] FTA[/B] [/COLOR][COLOR lightblue][I]Free to Air[/I][/COLOR]</title>
 <link>NA</link>
-<externallink>http://adryanlist.org/adryan/fta.m3u</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/fta.m3u</externallink>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 </item>
 
 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B] FTA[/B] [/COLOR][COLOR lightblue][I]Latinos[/I][/COLOR]</title>
 <link>NA</link>
 <externallink>http://www.radiosargentina.com.ar/TVLA.m3u</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 </item>
 
 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B] FTA[/B] [/COLOR][COLOR lightblue][I]España[/I][/COLOR]</title>
 <link>NA</link>
 <externallink>http://www.radiosargentina.com.ar/TVES.m3u</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 </item>
 
 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B] FTA[/B] [/COLOR][COLOR lightblue][I]Argentina[/I][/COLOR]</title>
 <link>NA</link>
 <externallink>http://www.radiosargentina.com.ar/TVAR.m3u</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 </item>
 
 
@@ -531,7 +531,7 @@
 <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B] FTA[/B] [/COLOR][COLOR lightblue][I]Brasil[/I][/COLOR]</title>
 <link>NA</link>
 <externallink>http://www.radiosargentina.com.ar/TVBR.m3u</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 </item>
 
 
@@ -540,7 +540,7 @@
 <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B] FTA[/B] [/COLOR][COLOR lightblue][I]USA[/I][/COLOR]</title>
 <link>NA</link>
 <externallink>http://www.radiosargentina.com.ar/TVUS.m3u</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 </item>
 
 
@@ -550,7 +550,7 @@
 
 
 
- 
+
 
 
 
@@ -565,7 +565,7 @@
 <listrepeat><![CDATA[
  <title>[COLOR lightgreen] [makelist2.param2][/COLOR]</title>
  <link>$doregex[makelist]</link>
- <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,28}href='(.*?)'>(IPTV.*?)<]]></expres>
 <page>http://www.iptvbin.com/search/label/Spain?max-results=18</page>
@@ -578,16 +578,15 @@
 <listrepeat><![CDATA[
     <title>[COLOR lightyellow][makelist.param1][/COLOR]</title>
     <link>plugin://plugin.video.f4mTester/?url=[makelist.param2].m3u8&amp;streamtype=HLSRETRY&amp;name=[COLOR lightblue]AdryanList[/COLOR] [makelist.param1]</link>
-    <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+    <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[EXTINF:-1,(.*?)<.*>\n(http.*?).m3u8]]></expres>
 <page>[makelist2.param1]</page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 </item>
 
 
- 
 
 
 
@@ -617,7 +616,8 @@
 
 
 
- 
+
+
 
 
 
@@ -638,15 +638,15 @@
 	<title>[makelist.param3]   [I] ([makelist.param2])[/I]</title>
 	<link>[makelist.param4]</link>
 <thumbnail>[makelist.param1]</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 ]]></listrepeat>
 <expres>EXTINF:-.*?tvg-logo="(.*)".*group-title="(.*)".*,(.*?)\s\(.*\n(.*)</expres>
 <page>http://bit.ly/LISTA_SSIPTV</page>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-</item>	
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/tp.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
+</item>
 
 
 
@@ -657,13 +657,13 @@
 <tem>
   <title>iptv test 02</title>
   <link>$doregex[makelist]</link>
-  
+
   <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
      <title> [makelist2.param2]  </title>
 <link>$doregex[makelist]</link>
-	<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+	<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 
 ]]></listrepeat>
 <expres>entry-title[\w\W\s]{0,6}href="(.*?)"[\w\W\s]{0,19}to(.*?)"</expres>
@@ -671,17 +671,17 @@
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
-  
- 
-  
-  
+
+
+
+
 
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
      <title> [makelist.param1]  </title>
     <link>[makelist.param2]</link>
-	<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+	<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 
 ]]></listrepeat>
 <expres>EXTINF.*,(.*?)<.*\n.*?(http.*ts)<</expres>
@@ -689,7 +689,7 @@
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 </item>
 
 
@@ -718,14 +718,14 @@
 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]m3u Liste[/B] [/COLOR][COLOR lightblue][I][/I][/COLOR]</title>
   <link>$doregex[makelist2]</link>
-  
+
   <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
 <title> [makelist2.param1]  </title>
 <link>NA</link>
 <externallink>[makelist2.param1]/playlist.m3u8</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 
 ]]></listrepeat>
 <expres>(htt.*?)\/playlist.m3u8</expres>
@@ -733,9 +733,9 @@
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
-  
 
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 </item>
 
 
@@ -773,14 +773,14 @@
         <link>$doregex[ch]</link>
        <thumbnail>http://www.giniko.com/[list.param1]</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[(?s)<img src="(.+?)".+?href="(watch.php.+?)".+?<strong>(.+?)</strong>]]></expres>                                                                             
+<expres><![CDATA[(?s)<img src="(.+?)".+?href="(watch.php.+?)".+?<strong>(.+?)</strong>]]></expres>
 <page>http://www.giniko.com/[country.param2]</page>
 </regex>
 <regex>
 <name>ch</name>
 <expres><![CDATA[file: "(.+?)" ]]></expres>
 <page>http://www.giniko.com/[list.param2]</page>
-</regex> <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+</regex> <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 </item>
 
 
@@ -820,7 +820,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <referer>http://arabtvz.com/</referer>
 <agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
 <cookieJar></cookieJar>
-</regex> <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+</regex> <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 </item>
 
 
@@ -834,7 +834,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <link>ignorme</link>
 <externallink>http://raw.githubusercontent.com/fluxustv/IPTV/master/list.m3u</externallink>
 <page></page>
- <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 </item>
 
 
@@ -843,7 +843,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <link>ignorme</link>
 <externallink>https://raw.githubusercontent.com/Darkzide-inc/Builds/master/DarkzideTV.xml</externallink>
 <page></page>
- <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 </item>
 
 
@@ -923,19 +923,19 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <title>SPORTS DEVIL LIVE TV</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.SportsDevil/?item=url=customs.cfg&amp;mode=1</jsonrpc>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 
 </item>
 
- 
 
 
 
 
 
 
- 
+
+
 
 
 
@@ -943,15 +943,15 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <item>
 <title>ROJA IPTV M3U</title>
 <link>$doregex[makelist2]</link>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
  <title> [makelist2.param1]</title>
  <link>$doregex[makelist]</link>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
  <fanart></fanart>
  ]]></listrepeat>
 <expres>Server:"(.*?)" URL="(.*?)"; regex"(.*?)"</expres>
@@ -963,18 +963,18 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <listrepeat><![CDATA[
  <title> [makelist.param1]</title>
  <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR goldenrod]Jdr63[/COLOR] [makelist.param1]</link>
- <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
  ]]></listrepeat>
 <expres>#EXTINF:-1,[makelist2.param3](.*?)\n(.*)</expres>
 <page>[makelist2.param2]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 </item>
 
-	
+
 
 
 
@@ -984,23 +984,23 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <item>
 <title>EDOCTOR</title>
 <link>rs</link>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 <externallink>https://raw.githubusercontent.com/hadjistyllis/myapp/master/TV%20category.m3u</externallink>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 
 </item>
 
 <item>
 <title>FLUXUS TV</title>
 <link>rs</link>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 <externallink>https://raw.githubusercontent.com/fluxustv/IPTV/master/list.m3u</externallink>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 
 </item>
 
 
- 
+
 
 
 <item>
@@ -1011,8 +1011,8 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <listrepeat><![CDATA[
      <title> ( [makelist.param1] )  </title>
     <link>NA</link>
-	<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+	<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
@@ -1020,36 +1020,36 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 
 </item>
 
 
 <item>
 <title>DAILY IPTV M3U 2</title>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR cyan]Server:[/COLOR] [makelist.param2]</title>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
 <expres>(http://(.*)/.*)</expres>
 <page>http://pastebin.com/raw/5tBNEXZ1</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
- 
+
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
     <title>  [makelist2.param1]</title>
-	<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+	<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
     <link>plugin://plugin.video.f4mTester/?url=[makelist2.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR royalblue][makelist2.param1][/COLOR]</title></link>
     <thumbnail></thumbnail>
         <fanart></fanart>
@@ -1058,13 +1058,13 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <page>[makelist.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 
 </item>
 
 
- 
+
 
 
 
@@ -1072,18 +1072,18 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 
 <item>
 <title>DAILY PLAYLIST COUNTRIES</title>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 
- 
+
 <link>$doregex[leg2]</link>
 
 <regex>
 <name>leg2</name>
 <listrepeat><![CDATA[
 <title>[leg2.param2]</title>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 
 <link>$doregex[leg]</link>
 ]]></listrepeat>
@@ -1098,8 +1098,8 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <listrepeat><![CDATA[
 <title>[leg.param2]</title>
 <link>$doregex[list]</link>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 
 ]]></listrepeat>
 <expres><![CDATA[(?s)<h2 class="post-title".+?href="https(.+?)">(.+?)</a>]]></expres>
@@ -1113,8 +1113,8 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <name>list</name>
 <listrepeat><![CDATA[
 <title>[list.param2]</title>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 
 <link>NA</link>
 <externallink>[list.param1]$$TSDOWNLOADER$$</externallink>
@@ -1124,7 +1124,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <thumbnail>http://i.imgur.com/QS3c3hk.png</thumbnail>
 <fanart>http://i.imgur.com/zGAi8bi.png</fanart>
 </regex>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 
 </item>
 
@@ -1140,7 +1140,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <item>
 <title>M3U LIST</title>
 <link>$doregex[makelist2]</link>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 
 
 <regex>
@@ -1148,8 +1148,8 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <listrepeat><![CDATA[
  <title> [makelist2.param1]</title>
  <link>$doregex[makelist]</link>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
  ]]></listrepeat>
 <expres>Server:"(.*?)" URL="(.*?)"; regex"(.*?)"</expres>
 <page>https://dl.dropbox.com/s/8gd67jk61jxi0d2/servers.txt</page>
@@ -1160,15 +1160,15 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <listrepeat><![CDATA[
  <title> [COLOR darkcyan][makelist.param1][/COLOR]</title>
  <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR blue]RS[/COLOR]IPTV[makelist.param1]</link>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
  ]]></listrepeat>
 <expres>#EXTINF:-1,[makelist2.param3](.*?)\n(.*)</expres>
 <page>[makelist2.param2]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 
 </item>
 
@@ -1179,11 +1179,11 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 
 
 
- 
 
 
 
- 
+
+
 
 
 
@@ -1192,9 +1192,9 @@ def GetLSProData(page_data,Cookie_Jar,m,):
  <item>
 <title>DiarLima IPTV BRASIL </title>
 <link>rs</link>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 <externallink>http://secretv.j2mf4.com/RSIPTV/World/brasil.html</externallink>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 
 </item>
 
@@ -1208,15 +1208,15 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 
 <item>
 <title>WORLD DAILY SERVERS IPTV</title>title>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
     <title> [COLOR white][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
-	<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+	<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 <link>NA</link>
 <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
@@ -1232,7 +1232,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 
 
 
- 
+
 
 
 
@@ -1242,15 +1242,15 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 
 <item>
 <title>SERVER ORBIT</title>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
      <title> [COLOR deepskyblue]Logins4U...[/COLOR]    [COLOR darkorange][I]([makelist.param1])[/I][/COLOR]  </title>
-	 <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+	 <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
     <link>NA</link>
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
@@ -1278,8 +1278,8 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <listrepeat><![CDATA[
  <title> LISTS [makelist2.param2] </title>
  <link>$doregex[makelist]</link>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>Daily m3u playlist (.*?)2017]]></expres>
 <page>http://iptvsatlinks.blogspot.mx/search?max-results=40</page>
@@ -1290,19 +1290,19 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <listrepeat><![CDATA[
  <title>SERVER [I][COLOR skyblue][makelist.param1][/COLOR][/I]   -  USER [I][COLOR deepskyblue][makelist.param2][/I][/COLOR] </title>
  <link>NA</link>
- <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
  <externallink>http://[makelist.param1]/get.php?username=[makelist.param2]&amp;password=[makelist.param3]&amp;type=m3u$$TSDOWNLOADER$$</externallink>
 
- 
+
 
  ]]></listrepeat>
 <expres><![CDATA[http:\/\/(.*?)\/g[\w\W\s]{0,12}name=(.*?)\&a[\w\W\s]{0,7}word=(.*?)\&amp]]></expres>
 <page>[makelist2.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 
 </item>
 
@@ -1323,8 +1323,8 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <listrepeat><![CDATA[
  <title> [COLOR lightgreen] [makelist2.param2][/COLOR]</title>
  <link>$doregex[makelist]</link>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>(.*?)<]]></expres>
 <page>http://iptvsatlinks.blogspot.mx/search?max-results=40</page>
@@ -1336,15 +1336,15 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <listrepeat><![CDATA[
  <title>[COLOR skyblue][makelist.param1][/COLOR]</title>
  <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=-1&amp;proxy=None&amp;name=[COLOR lightblue]RSIPTV[/COLOR] [makelist.param1]  </link>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
  ]]></listrepeat>
 <expres><![CDATA[EXTINF[\w\W\s]{0,5},(.*?)<[\w\W\s]{0,5}>(http.*?ts)<]]></expres>
 <page>[makelist2.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 
 </item>
 
@@ -1365,8 +1365,8 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <listrepeat><![CDATA[
  <title> [COLOR skyblue] [makelist2.param2][/COLOR]</title>
  <link>$doregex[makelist]</link>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>(.*?)<]]></expres>
 <page>http://www.iptvsharing.com/search?max-results=40</page>
@@ -1378,27 +1378,27 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <listrepeat><![CDATA[
  <title>[COLOR skyblue][makelist.param1][/COLOR]</title>
  <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=-1&amp;proxy=None&amp;name=[COLOR lightblue]RSIPTV[/COLOR] [makelist.param1]  </link>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
  ]]></listrepeat>
 <expres><![CDATA[EXTINF[\w\W\s]{0,3},(.*?)<[\w\W\s]{0,55}>(http.*?ts)<]]></expres>
 <page>[makelist2.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 
 </item>
- 
 
 
 
 
 
- 
- 
- 
- 
+
+
+
+
+
  <item>
 <title>IPTV FREE</title>
 <link>$doregex[makelist2]</link>
@@ -1408,8 +1408,8 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <listrepeat><![CDATA[
  <title> [COLOR skyblue] [makelist2.param2][/COLOR]</title>
  <link>$doregex[makelist]</link>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>\n(.*?)\n<]]></expres>
 <page>http://www.iptv4free.com/search?max-results=40</page>
@@ -1424,15 +1424,15 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <listrepeat><![CDATA[
  <title> [COLOR skyblue][makelist.param1][/COLOR]</title>
  <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=-1&amp;proxy=None&amp;name=[COLOR lightblue]RSIPTV[/COLOR] [makelist.param1]  </link>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
  ]]></listrepeat>
 <expres><![CDATA[EXTINF[\w\W\s]{0,5},(.*?)<[\w\W\s]{0,6}>\n(http.*?ts)<]]></expres>
 <page>[makelist2.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 
 </item>
 
@@ -1461,11 +1461,11 @@ def GetLSProData(page_data,Cookie_Jar,m,):
  <SetViewMode>55</SetViewMode>
  <title>[COLOR deepskyblue]Server[/COLOR][COLOR skyblue] [makelist3.param1][/COLOR] status: [COLOR aquamarine] $doregex[activa] [/COLOR]</title>
 <link>$doregex[makelist2]</link>
- <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
- 
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
+
  ]]></listrepeat>
 <expres>Server:"(.*?)"[\w\W\s]{0,6}http:\/\/(.*?)\/g[\w\W\s]{0,11}name=(.*?)&amp;password=(.*?)&amp;t</expres>
-<page>http://adryanlist.org/adryan/servers.txt</page>
+<page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/servers.txt</page>
 </regex>
 
 
@@ -1484,12 +1484,10 @@ def GetLSProData(page_data,Cookie_Jar,m,):
  <SetViewMode>55</SetViewMode><title>Server [COLOR blue][makelist3.param1][/COLOR]  |  Status: [COLOR lime][makelist2.param1][/COLOR] |  Max_Con:[COLOR yellow][makelist2.param2] [/COLOR] </title>
  <link>NA</link>
  <externallink>http://[makelist3.param2]/get.php?username=[makelist3.param3]&amp;password=[makelist3.param4]&amp;type=m3u$$TSDOWNLOADER$$</externallink>
- <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
  ]]></listrepeat>
 <expres>status":"(.*?)".*max_connections":"(.*?)",</expres>
 <page>http://[makelist3.param2]/panel_api.php?username=[makelist3.param3]&amp;password=[makelist3.param4]</page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/iptv.jpg</thumbnail>
 </item>
-
-
