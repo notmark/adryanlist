@@ -1,0 +1,17 @@
+#EXTM3U
+
+
+
+
+
+
+#EXTINF:-1,Apple Keynote 2016 HD
+http://appleliveevents-i.akamaihd.net/hls/live/222436/1609lijbsdfvoihbadfvohbsdfvljhb/master/4500/4500.m3u8?t=YWxpc2FtaXg=
+#EXTINF:-1,Apple Keynote 2016 SD
+http://appleliveevents-i.akamaihd.net/hls/live/222436/1609lijbsdfvoihbadfvohbsdfvljhb/master/1800/1800.m3u8?t=YWxpc2FtaXg=
+
+#EXTINF:-1,Apple Keynote 2016 
+http://p.events-delivery.apple.com.edgesuite.net/1609lijbsdfvoihbadfvohbsdfvljhb/m3u8/atv_mvp.m3u8
+
+#EXTINF:-1,Apple Keynote 2016 
+http://p.events-delivery.apple.com.edgesuite.net/1609lijbsdfvoihbadfvohbsdfvljhb/m3u8/hls_mvp.m3u8

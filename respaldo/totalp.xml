@@ -10,13 +10,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
    import xbmcgui
    dialog = xbmcgui.Dialog()
    ret = dialog.select('Seleciona una Lista ', ['AdryanList', 'AdryanList IZZI', 'ExabyteTV', 'TecnoTV', 'G67', 'Sr.RegioTV', 'PremierTV', 'GSat Latino', 'ChileIPTV'])
-   lists = ['http://adryanlist.org/adryan/tecno.m3u', 'http://adryanlist.org/adryan/izzi.xml', 'http://exabytetv.info/lista.m3u', 'http://tecnotv.xyz/lista.m3u', 'https://raw.githubusercontent.com/G67/G/master/G67C.m3u', 'http://srregio.net/regiotv.m3u', 'http://www.premieriptv.cl/freeiptv.m3u', 'http://www.geantsat.com/freeiptv/s9.m3u', 'http://chileiptv.cl/cl.m3u']
+   lists = ['https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/tecno.m3u', 'https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/izzi.xml', 'http://exabytetv.info/lista.m3u', 'http://tecnotv.xyz/lista.m3u', 'https://raw.githubusercontent.com/G67/G/master/G67C.m3u', 'http://srregio.net/regiotv.m3u', 'http://www.premieriptv.cl/freeiptv.m3u', 'http://www.geantsat.com/freeiptv/s9.m3u', 'http://chileiptv.cl/cl.m3u']
    return lists[ret]
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/tp.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 </item>
 
 
@@ -29,21 +29,21 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
 	<title>[makelist.param1]</title>
 	<link>[makelist.param2]</link>
-<thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/tp.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 ]]></listrepeat>
 <expres>#EXTINF:-.*?,(.*)\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
 <page>http://exabytetv.info/lista.m3u</page>
 <agent>$doregex[it]</agent>
 <cookieJar></cookieJar>
 </regex>
-<name>it</name>	 
-<expres>Agent:"(.*?)";</expres>	 
-<page>http://adryanlist.org/adryan/fuckit.php</page> 
+<name>it</name>
+<expres>Agent:"(.*?)";</expres>
+<page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/fuckit.php</page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-</item>	
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/tp.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
+</item>
 
 
 
@@ -57,23 +57,23 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
 
 
- 
+
+
   						<item>
 		<title>[COLOR lime]•  [/COLOR][COLOR skyblue][B]TotalPlay[/B] [/COLOR] [COLOR lightslategray][ Opcion [COLOR lightblue][B]Adryanlist IZZI[/B] [/COLOR]][/COLOR][COLOR lightslategray][B]   [/B] [/COLOR] </title>
 <link>NA</link>2
-<externallink>http://adryanlist.org/adryan/izzi.xml</externallink>
- 			<thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>	
-
- 
- 
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/izzi.xml</externallink>
+ 			<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/tp.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart></item>
 
 
 
- 
+
+
+
+
 
 
 
@@ -82,41 +82,41 @@ def GetLSProData(page_data,Cookie_Jar,m):
 		<title>[COLOR lime]•  [/COLOR][COLOR skyblue][B]TotalPlay[/B] [/COLOR] [COLOR lightslategray][ Opcion [COLOR lightblue][B]TecnoTV[/B] [/COLOR]][/COLOR][COLOR lightslategray][B]  [/B] [/COLOR] </title>
 <link>NA</link>
 <externallink>http://tecnotv.xyz/lista.m3u</externallink>
- 			<thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>	 
+ 			<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/tp.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart></item>
 
 
 
   						<item>
 		<title>[COLOR lime]•  [/COLOR][COLOR skyblue][B]TotalPlay[/B] [/COLOR] [COLOR lightslategray][ Opcion [COLOR lightblue][B]Adryanlist TP[/B] [/COLOR]][/COLOR][COLOR lightslategray][B]   [/B] [/COLOR] </title>
 <link>NA</link>2
-<externallink>http://adryanlist.org/adryan/tecno.m3u</externallink>
- 			<thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>	
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/tecno.m3u</externallink>
+ 			<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/tp.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart></item>
 
- 
 
- 
+
+
 			<item>
 		<title>[COLOR lime]•  [/COLOR][COLOR skyblue][B]TotalPlay[/B] [/COLOR] [COLOR lightslategray][ Opcion [COLOR lightblue][B]G67[/B] [/COLOR]][/COLOR][COLOR lightslategray][B]  [/B] [/COLOR] </title>
 <link>NA</link>
 <externallink>https://raw.githubusercontent.com/G67/G/master/G67C.m3u</externallink>
- 			<thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>	 
+ 			<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/tp.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart></item>
 
 
- 
+
 			<item>
 		<title>[COLOR lime]•  [/COLOR][COLOR skyblue][B]TotalPlay[/B] [/COLOR] [COLOR lightslategray][ Opcion [COLOR lightblue][B]GeantSat[/B] [/COLOR]][/COLOR][COLOR lightslategray][B]  [/B] [/COLOR] </title>
 <link>NA</link>
 <externallink>http://www.geantsat.com/freeiptv/s9.m3u</externallink>
- 			<thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>	 
+ 			<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/tp.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart></item>
 
 
- 
 
- 
+
+
 
 
 
@@ -130,21 +130,21 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
 	<title>[makelist.param1]</title>
 	<link>[makelist.param2]</link>
-<thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/tp.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 ]]></listrepeat>
 <expres>#EXTINF:-.*?,(.*)\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
 <page>http://www.rochaiptv.ml/lista.m3u</page>
 <agent>$doregex[it]</agent>
 <cookieJar></cookieJar>
 </regex>
-<name>it</name>	 
-<expres>Agent:"(.*?)";</expres>	 
-<page>http://adryanlist.org/adryan/fuckit.php</page> 
+<name>it</name>
+<expres>Agent:"(.*?)";</expres>
+<page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/fuckit.php</page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-</item>	
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/tp.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
+</item>
 
 
 
@@ -181,13 +181,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <origin>http://tvplayerlatino.com/envivo/</origin>
 </regex>
 <thumbnail>[makelist.param2]</thumbnail>
-<thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/tp.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 ]]></listrepeat>
 <expres>href="(.*?)"[\w\W\s]{0,40}background-image:url\((.*?)\)"[\w\W\s]{0,60}titulo">(.*?)<[\w\W\s]{0,30}programa">(.*?)<[\w\W\s]{0,30}sinopsis">(.*?)<</expres>
 <page>http://tvplayerlatino.com/envivo/</page>
 </regex>
-</item>	
+</item>
 
 
 
@@ -199,63 +199,63 @@ def GetLSProData(page_data,Cookie_Jar,m):
    <listrepeat><![CDATA[
           <title>[COLOR skyblue] [makelist.param1]     [/COLOR]   </title>
           <link>http://149.56.21.74:1935/hls_app/[makelist.param2]/$doregex[token]/[makelist.param3]|User-Agent=Lavf/58.20.100&amp;Referer=http://tvplayerlatino.com</link>
-		  
+
 		  <regex>
 <name>token</name>
 <expres>(.*)</expres>
 <page>http://service.app.mxl-iptv.tv:8080/api/mxl-iptv/listas/token/get?dato1=IF0gnhFd91LyX0fRTMfzZQ/1KyYXfwNmBVCCA4ndqVe4w/KvJq2/VQsNT%2B6sQGY6IhGW2IdseKt7i1COCbtJ/g%3D%3D&amp;dato2=DnVyFHRhPNWhlva%2BfHqWhe8JwXTvJxTa4I57Xq06AvHoLMx7Iw70MiFTGw/AVL6Ld5R5qu6X%2Bb5YeJqtFgdwWA%3D%3D&amp;type=SG2Fen1Je8n5zeW4ZXlkkWXpbGR5qIQ0/GJYO1yVnnDsOL4hTanwxeZ3LdwsVoVYf8apFbFPvnEYwww8nvRKpw%3D%3D&amp;canal=Xcx%2BJAn52w5cuiqqOIfsLYoUo%2B8CDW2Hg%2BuWtYEWwCrnCJ%2B4RSJb7kOrdyQhJRdi5FE9qEa6Qu7LPWMpeJKuZA%3D%3D</page>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-		  
-		  	  
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/tp.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
+
+
    ]]></listrepeat>
    <expres>nombre":"(.*?)".*?script\/tv\/(.*?)\/(.*?)"</expres>
-   <page>http://adryanlist.org/adryan/mxl.txt</page>
+   <page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/mxl.txt</page>
    <cookieJar></cookieJar>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-</item>	
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/tp.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
+</item>
 
 
 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-	
-	
- 
-	 
-
-	
-
-			
-		 
-
- 
-			
- 
- 
-	
 
 
-		
-		
-			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 			 <tem>
@@ -271,10 +271,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres>href="(.*?)" title="(.*?)"</expres>
 <page>http://hls-content.oneplay.tv/LIVE/H02/</page>
 </regex>
-</item>	
+</item>
 
- 
- 
+
+
  <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
@@ -285,15 +285,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres><![CDATA[#$pyFunction
 import re, requests, HTMLParser
 def GetLSProData(page_data,Cookie_Jar,m):
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0'} 
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0'}
  sn = 1
  data = []
 
  while sn <= 4:
-    site1 = 'http://S1' 
-    site2 = 'http://S2blabla' 
-    site3 = 'http://Sthree' 
-    site4 = 'http://SCUATRO' 
+    site1 = 'http://S1'
+    site2 = 'http://S2blabla'
+    site3 = 'http://Sthree'
+    site4 = 'http://SCUATRO'
     site= HTMLParser.HTMLParser().site1 + HTMLParser.HTMLParser().site2+ HTMLParser.HTMLParser().site3+ HTMLParser.HTMLParser().site4
     source = requests.get(site+ str(sn), headers=headers).text
     data += re.findall('a href="(http:\/\/.*?.mp4)" title="(.*?)"', source)
@@ -301,14 +301,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
  return data
 ]]></expres>
 <page></page>
- 
+
 
 <regex>
 <name>data</name>
 <expres><![CDATA[#$pyFunction
 import re, requests
 def GetLSProData(page_data,Cookie_Jar,m):
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0'} 
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0'}
  sn = 1
  data = []
  site = 'http://S1', 'http://S2blabla', 'http://Sthree', 'http://SCUATRO'
@@ -324,7 +324,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
+
 
 
 
@@ -352,18 +352,18 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
 <title>[COLOR deepskyblue]  [makelist.param1]  [/COLOR] </title>
 <link>NA</link><externallink>http://exabytetv.info/[makelist.param1].m3u</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/tp.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 ]]></listrepeat>
 <expres>http:\/\/tecnotv.info\/(.*?).m3u</expres>
 <page>http://tecnotv.info/lremotas.htm</page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-</item>	
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/tp.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
+</item>
 
 
- 
+
  <itm>
 		<title>[COLOR lime]•  [/COLOR][COLOR skyblue][B]TotalPlay[/B] [/COLOR] [COLOR lightslategray][ Opciones [COLOR lightblue][B][/B][/COLOR]][/COLOR][COLOR lightslategray][B]  ExabyteTV[/B] [/COLOR] </title>
 <link>$doregex[makelist]</link>
@@ -372,16 +372,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
 <title>[COLOR deepskyblue]  [makelist.param1]  [/COLOR] </title>
 <link>NA</link><externallink>http://exabytetv.info/[makelist.param1].m3u</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/tp.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
 ]]></listrepeat>
 <expres>http:\/\/exabytetv.info\/(.*?).m3u</expres>
 <page>http://blog.exabytetv.info/listas/</page>
 <agent>Mozilla/5.0 (iPad; CPU OS 5_1 like Mac OS X; en-us) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B176 Safari/7534.48.3</agent>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/tp.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-</item>	
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/tp.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/fanart.jpg</fanart>
+</item>
 
 
 
@@ -415,7 +415,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>[makelist.param2]</thumbnail>
 ]]></listrepeat>
 <expres>#EXT[\w\W\s]{0,10}tvg-id="(.*?)"[\w\W\s]{0,10}logo="(.*?)",(.*?)\n(.*)</expres>
-<page>http://adryanlist.org/adryan/tp.m3u</page>
+<page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/tp.m3u</page>
 </regex>
 
 <regex>
@@ -450,14 +450,14 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 </regex>
 
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
- 
 
- 
 
- 
- 
- 
- 
+
+
+
+
+
+
  <iem>
 <title>test</title>
 <link>$doregex[makelist]</link>
@@ -498,7 +498,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 
 
 
- 
+
 <item>
 <title>[COLOR aquamarine][B]Programacion EPG [entutele] [/B][/COLOR]</title>
  <link>$doregex[makelist]</link>
@@ -508,11 +508,9 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <listrepeat><![CDATA[
 <title>[COLOR white][COLOR aquamarine][B][makelist.param1][/B][/COLOR][COLOR skyblue][makelist.param2][/COLOR] [makelist.param3]     [/COLOR]   </title>
 <link>$doregex[ip]|User-Agent=iPad</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/entretenimiento.png</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[h3>(.*?)<|time">(.*?)<.*\n.*name">(.*?)<]]></expres>
 <page>https://www.entutele.com/programacion/todos</page>
 </regex>
  </item>
- 
- 

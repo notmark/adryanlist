@@ -1,0 +1,64 @@
+<item>
+<title>Plustoros</title>
+<link>rtmp://$doregex[get-ip]/live/ playpath=toroosverdirectotv?id=81320$doregex[pk] conn=S:OK swfUrl=http://www.embeducaster.com/static/scripts/fplayer.swf pageUrl=http://www.embeducaster.com/ live=true timeout=15</link>
+<regex>
+<name>get-ip</name>
+<expres>redirect=(.*)</expres>
+<page>http://www.embeducaster.com:1935/loadbalancer</page>
+</regex>
+<regex>
+<name>pk</name>
+<expres>ea=(.*)'</expres>
+<page>http://www.embeducaster.com/embedplayer/toroosverdirectotv/1/650/400</page>
+<referer>http://verdirectotv.com</referer>
+</regex>
+</item>
+
+
+<item>
+<title>+ Liga</title>
+<link>rtmp://$doregex[get-ip]/live/ playpath=plusligaverdirectotv?id=81321$doregex[pk] conn=S:OK swfUrl=http://www.embeducaster.com/static/scripts/fplayer.swf pageUrl=http://www.embeducaster.com/ live=true timeout=15</link>
+<regex>
+<name>get-ip</name>
+<expres>redirect=(.*)</expres>
+<page>http://www.embeducaster.com:1935/loadbalancer</page>
+</regex>
+<regex>
+<name>pk</name>
+<expres>ea=(.*)'</expres>
+<page>http://www.embeducaster.com/embedplayer/plusligaverdirectotv/1/650/400</page>
+<referer>http://verdirectotv.com</referer>
+</regex>
+</item>
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>Campeones</title>
+<link>$doregex[rtmp] playpath=$doregex[file] swfUrl=http://rdmcast.com/player.swf pageUrl=http://rdmcast.com/player.swf token=$doregex[tok] live=true timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>streamer', '(.*?)'</expres>
+<page>http://rdmcast.com/embed.php?a=82&id=&width=580&height=380&autostart=true&strech=</page>
+<referer>http://streamingfreetv.net/</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>file', '(.*?)'</expres>
+<page>http://rdmcast.com/embed.php?a=82&id=&width=580&height=380&autostart=true&strech=</page>
+<referer>http://streamingfreetv.net/</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://rdmcast.com/embed.php?a=82&id=&width=580&height=380&autostart=true&strech=</page>
+<referer>http://streamingfreetv.net/</referer>
+</regex>
+</item
