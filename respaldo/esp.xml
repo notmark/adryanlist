@@ -6,9 +6,9 @@
     <thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail>
     <fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
         <items>
-           
-	
-	
+
+
+
 
 <item>
 <title>Programacion EPG [FormulaTV]</title>
@@ -19,75 +19,72 @@
 <listrepeat><![CDATA[
 <title>[COLOR lightslategray][COLOR aquamarine][B][makelist.param1][/B][/COLOR][COLOR deepskyblue][B][makelist.param2] [makelist.param3][/B][/COLOR][/COLOR][makelist.param4] [makelist.param5]</title>
 <link>$doregex[ip]|User-Agent=iPad</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/entretenimiento.png</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[title=.*?n\s(.*?)"|"(ahor.*?)">\n\s\s\s(.*?)\n|date">(.*?)</span>\n\s\s\s(.*)\n]]></expres>
 <page>http://www.formulatv.com/programacion/</page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/entretenimiento.png</thumbnail>
 <info>Cortesia de Adryanlist </info>
  </item>
- 
-	 
-	 
-	  
+
+
+
+
 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]TDT[/B] [/COLOR][COLOR lightblue][I]  [/I][/COLOR]</title>
 <link>NA</link>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/tdt.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
-</item>	
-	
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/esp.jpg</thumbnail>
+</item>
+
 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]DIGITAL ESP[/B] [/COLOR][COLOR lightblue][I]  [/I][/COLOR]</title>
 <link>NA</link>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/digital.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
-</item>	
-		
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/esp.jpg</thumbnail>
+</item>
+
 	<item>
 <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]MOVISTAR +[/B] [/COLOR][COLOR lightblue][I]  [/I][/COLOR]</title>
 <link>NA</link>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/movistarplus.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
-</item>	
-	
-	
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/esp.jpg</thumbnail>
+</item>
+
+
 		<item>
 <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]DEPORTES  [/B] [/COLOR][COLOR lightblue][I]  [/I][/COLOR]</title>
 <link>NA</link>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/espdep.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
-</item>	
-	
-	
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/esp.jpg</thumbnail>
+</item>
+
+
 			<item>
 <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]LOCALES [/B] [/COLOR][COLOR lightblue][I]  [/I][/COLOR]</title>
 <link>NA</link>
-<externallink>http://adryanlist.org/adryan/localesesp.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
-</item>	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
- 
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/localesesp.xml</externallink>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/esp.jpg</thumbnail>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
 				<item>
 	<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]Lista España[/B] [/COLOR][COLOR lightblue][I]opcion 1[/I][/COLOR]  [B]      [/B]</title>
 <link>NA</link>
-<externallink>http://adryanlist.org/adryan/esp2.xml</externallink>
- <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
-			</item>	
-			
-
- 
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/esp2.xml</externallink>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/esp.jpg</thumbnail>
+			</item>
 
 
 
@@ -98,13 +95,16 @@
 
 
 
-			
-			
-			
-			
 
-			
-			
+
+
+
+
+
+
+
+
+
 <item>
 	<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]Lista España[/B] [/COLOR][COLOR lightblue][I]opcion 1[/I][/COLOR]  [COLOR lightslategray] [B]f4mtester [/B] [/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -113,16 +113,16 @@
 <listrepeat><![CDATA[
 	<title>[makelist.param1]</title>
 	<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=HLSRETRY&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR lightblue]AdryanList[/COLOR] [makelist.param1]</link>
-	<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+	<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/esp.jpg</thumbnail>
 ]]></listrepeat>
 <expres>(.*?),(http.*?)\n</expres>
 <page>http://civeci.com/SPAIN.txt</page>
 <agent>ipad</agent>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/esp.jpg</thumbnail>
 </item>
 
-			
+
 <item>
 	<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]Lista España[/B] [/COLOR][COLOR lightblue][I]opcion 2[/I][/COLOR]  [COLOR lightslategray] [B]f4mtester [/B] [/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -131,13 +131,13 @@
 <listrepeat><![CDATA[
 	<title>[makelist.param1]</title>
 	<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=HLSRETRY&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR lightblue]AdryanList[/COLOR] [makelist.param1]</link>
-	<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+	<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/esp.jpg</thumbnail>
 ]]></listrepeat>
 <expres>(.*?),(http.*?)\n</expres>
 <page>http://civeci.com/SPAIN2.txt</page>
 <agent>ipad</agent>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/esp.jpg</thumbnail>
 </item>
 
 
@@ -149,25 +149,25 @@
 <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]Lista España[/B] [/COLOR][COLOR lightblue][I]opcion 3[/I][/COLOR]  [COLOR lightslategray] [B]f4mtester [/B] [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <externallink>http://exabytetv.info/addon/exabytetv-xt-ESP.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
-</item>				
- 
- 
- 
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/esp.jpg</thumbnail>
+</item>
+
+
+
  <itm>
 <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]Lista España[/B] [/COLOR][COLOR lightblue][I]opcion 4[/I][/COLOR]  [COLOR lightslategray] [B]f4mtester [/B] [/COLOR]</title>
 <link>$doregex[makelist]</link>
  <externallink>http://158.69.52.43/listas/get.php?user=DEMOPRUEBA&amp;pass=DEMOPRUEBA&amp;adult=true&amp;movie=true&amp;type=.m3u8</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
-</item>				
- 
- 
- 
- 
- 
- 
- 
- 
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/esp.jpg</thumbnail>
+</item>
+
+
+
+
+
+
+
+
 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]CINESTRENOS[/B] [/COLOR][COLOR lightblue][I]SportsDevil Addon Requerido[/I][/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -182,7 +182,7 @@
 <expres><![CDATA[href="(.*?)" title="(.*?)" target="tv"><img src="(.*?)"]]></expres>
 <page>http://cinestrenostv.tv/</page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/img/esp.jpg</thumbnail>
 </item>
 
 
@@ -197,31 +197,6 @@
 
 
 
-	
-	
-	
-	
-
-	
-			
-			
-			
-			
-			
-			
-			
-		
-
- 
-
-
-
-
-
-
-
-
- 
 
 
 
@@ -252,13 +227,38 @@
 
 
 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -271,7 +271,7 @@
 <sportsdevil>http://zagaiptv.eklablog.com/canal-toros-spain-p1157308</sportsdevil>
 <referer>http://zagaiptv.eklablog.com/</referer>
 <thumbnail></thumbnail>
-</item>  
+</item>
 
 <item>
  <title>[COLOR lightblue] TOROS [/COLOR] [COLOR lightslategray][I]Sportsdevil[/I][/COLOR]</title>
@@ -281,7 +281,7 @@
 </item>
 
 <item>
- <title>[COLOR lightblue] #0[/COLOR] [COLOR lightslategray][I]Sportsdevil[/I][/COLOR]</title>                   
+ <title>[COLOR lightblue] #0[/COLOR] [COLOR lightslategray][I]Sportsdevil[/I][/COLOR]</title>
 <link>http://edge7.livesports.pw/live/verpluscerob81d6577d6c8c9/index.m3u8</link>
 </item>
 
@@ -290,7 +290,7 @@
 <sportsdevil>http://zagaiptv.eklablog.com/canal-1-spain-p1157358</sportsdevil>
 <referer>http://zagaiptv.eklablog.com/</referer>
 <thumbnail></thumbnail>
-</item>       
+</item>
 
 <item>
  <title>[COLOR lightblue] DEPORTES[/COLOR] [COLOR lightslategray][I]Sportsdevil[/I][/COLOR]</title>
@@ -693,8 +693,8 @@
 <link>http://comunidadiptv.org/online/estable/?sintonizador=RealMadridTVHD</link>
 </item>
 
- 
- 
+
+
 <item>
  <title>[COLOR lightblue] LA SEXTA[/COLOR] [COLOR lightslategray][I]Sportsdevil[/I][/COLOR]</title>
 <fanart></fanart>
@@ -779,15 +779,6 @@
 
 
 <!-- #################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################### -->
-		
-		
-		
-		
-		
-		
-		
-
- 
 
 
 
@@ -796,87 +787,79 @@
 
 
 
-		
-			
-			
-			
-			
-	
-			
-			
-	
-	
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
 
 
 
-			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 			<item>
 			<title>decasa</title>
 			<link>http://decasa.level3.nmp.hls.emision.dof6.com/sogecable/channel44/index.m3u8</link>
-			
+
 			<thumbnail>http://adrian.kodistream.info/adryan/Logos/.jpg</thumbnail></item>
-			
-	
-	
+
+
+
 	<item>
         <title>Hogar Util</title>
         <link>http://brightcove03-f.akamaihd.net/HOGARUTIL_1_1100@117573?videoId=2518851062001&lineUpId=&pubId=2385340627001&playerId=2418571368001&affiliateId=&v=3.1.0&fp=WIN 11,9,900,117&r=JRBLZ&g=LBXIUFRGSVGB</link>
         <thumbnail>http://adrian.kodistream.info/adryan/Logos/.jpg</thumbnail></item>
-		
-		
 
-		
-			
-			
+
+
+
+
+
 			<item>
 			<title>Tribu TV</title>
-			<link>http://tribotv-ch01-live-cdn1-hls.streaming.overon.es/tribotv/channel01/tribotv/bitrate_3.m3u8</link><thumbnail>http://adrian.kodistream.info/adryan/Logos/.jpg</thumbnail></item>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
-			
-			
-			
-			
-			
-			 
-			
-			
-
-			 
-			
-			
-			
-			
-			
-			
-		   
+			<link>http://tribotv-ch01-live-cdn1-hls.streaming.overon.es/tribotv/channel01/tribotv/bitrate_3.m3u8</link><thumbnail>http://adrian.kodistream.info/adryan/Logos/.jpg</thumbnail></item>
