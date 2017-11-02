@@ -1,0 +1,218 @@
+
+#EXTINF:0, Canal +1
+http://dpluspc-i.akamaihd.net/hls/live/201766/channelpc1/05.m3u8
+#EXTINF:0, Canal +2
+http://cp2.level3.nmp.hls.emision.dof6.com/sogecable/channel33/index.m3u8
+#EXTINF:0, Canal+ Acción
+http://cpliga.nmp.hls.emision.dof6.com/hls/live/201767/channelpc2/index.m3u8
+#EXTINF:-1,Canal +1
+http://dpluspc-i.akamaihd.net/hls/live/201766/channelpc1/05.m3u8
+#EXTINF:-1,CANAL +2
+http://cp2.level3.nmp.hls.emision.dof6.com/sogecable/channel33/index.m3u8
+#EXTINF:-1,CANAL + SERIES
+http://cpseries.akamai.nmp.hls.emision.dof6.com/hls/live/201772/channelpc7/index.m3u8
+#EXTINF:-1,CANAL + LIGA
+http://cpliga.nmp.hls.emision.dof6.com/hls/live/201767/channelpc2/index.m3u8
+#EXTINF:-1,CANAL + LIGA CAMPEONES
+http://cpligacamp.nmp.hls.emision.dof6.com/hls/live/201768/channelpc3/index.m3u8
+#EXTINF:-1,CANAL + FUTBOL
+http://cpfutbol.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel2/index.m3u8
+#EXTINF:-1,CANAL + DEPORTES
+http://cpdeportes.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel3/index.m3u8
+#EXTINF:-1,CANAL + GOLF
+http://cpgolf.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel4/index.m3u8
+#EXTINF:-1,CANAL + TOROS
+http://cptoros.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel10/index.m3u8
+#EXTINF:-1,CALLE 13
+http://calle13.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel17/index.m3u8
+#EXTINF:-1,TNT
+http://tnt.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel15/index.m3u8
+#EXTINF:-1,FOX
+http://fox.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel16/index.m3u8
+#EXTINF:-1,COMEDY CENTRAL
+http://paramount.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel14/index.m3u8
+#EXTINF:-1,AXN
+http://axn.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel6/index.m3u8
+#EXTINF:-1,AXN WHITE
+http://axnwhite.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel22/06.m3u8
+#EXTINF:-1,SYFY
+http://syfy.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel23/index.m3u8
+#EXTINF:-1,HISTORIA
+http://historia.level3.nmp.hls.emision.dof6.com/sogecable/channel37/index.m3u8
+#EXTINF:-1,ODISEA
+http://odisea.level3.nmp.hls.emision.dof6.com/sogecable/channel40/index.m3u
+#EXTINF:-1,NATIONAL GEOGRAPHIC CHANNEL
+http://natgeo.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel18/05.m3u8
+#EXTINF:-1,NAT GEO WILD
+http://natgeowild.level3.nmp.hls.emision.dof6.com/sogecable/channel38/index.m3u8
+#EXTINF:-1,CANAL COCINA
+http://cocina.level3.nmp.hls.emision.dof6.com/sogecable/channel43/index.m3u8
+#EXTINF:-1,CANAL +2
+http://cp2.level3.nmp.hls.emision.dof6.com/sogecable/channel33/index.m3u8
+#EXTINF:-1,CANAL + SERIES
+http://cpseries.akamai.nmp.hls.emision.dof6.com/hls/live/201772/channelpc7/index.m3u8
+#EXTINF:-1,CANAL + LIGA
+http://cpliga.nmp.hls.emision.dof6.com/hls/live/201767/channelpc2/index.m3u8
+#EXTINF:-1,CANAL + LIGA CAMPEONES
+http://cpligacamp.nmp.hls.emision.dof6.com/hls/live/201768/channelpc3/index.m3u8
+#EXTINF:-1,CANAL + FUTBOL
+http://cpfutbol.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel2/index.m3u8
+#EXTINF:-1,CANAL + DEPORTES
+http://cpdeportes.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel3/index.m3u8
+#EXTINF:-1,CANAL + GOLF
+http://cpgolf.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel4/index.m3u8
+#EXTINF:-1,CANAL + TOROS
+http://cptoros.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel10/index.m3u8
+#EXTINF:-1,CALLE 13
+http://calle13.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel17/index.m3u8
+#EXTINF:-1,TNT
+http://tnt.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel15/index.m3u8
+#EXTINF:-1,FOX
+http://fox.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel16/index.m3u8
+#EXTINF:-1,COMEDY CENTRAL
+http://paramount.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel14/index.m3u8
+#EXTINF:-1,AXN
+http://axn.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel6/index.m3u8
+#EXTINF:-1,AXN WHITE
+http://axnwhite.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel22/06.m3u8
+#EXTINF:-1,SYFY
+http://syfy.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel23/index.m3u8
+#EXTINF:-1,HISTORIA
+http://historia.level3.nmp.hls.emision.dof6.com/sogecable/channel37/index.m3u8
+#EXTINF:-1,ODISEA
+http://odisea.level3.nmp.hls.emision.dof6.com/sogecable/channel40/index.m3u8
+#EXTINF:-1,NATIONAL GEOGRAPHIC CHANNEL
+http://natgeo.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel18/05.m3u8
+#EXTINF:-1,NAT GEO WILD
+http://natgeowild.level3.nmp.hls.emision.dof6.com/sogecable/channel38/index.m3u8
+#EXTINF:-1,CANAL COCINA
+http://cocina.level3.nmp.hls.emision.dof6.com/sogecable/channel43/index.m3u8
+#EXTINF:-1,PLUS XTRA
+http://cpxtra.akamai.nmp.hls.emision.dof6.com/hls/live/201771/channelpc6/index.m3u8
+#EXTINF:-1,CANAL+
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/1.ch|User-Agent=stagefright
+#EXTINF:-1,C+ ACCION
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/2.ch|User-Agent="stagefright"
+#EXTINF:-1,C+ COMEDIA
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/3.ch|User-Agent=Lavf/55.19.104
+#EXTINF:-1,C+ DCINE
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/4.ch|User-Agent="Lavf/55.19.104"
+#EXTINF:-1,C+ ESTRENOS
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/5.ch C+ ESTRENOS
+#EXTINF:-1,CANAL+ SERIES EXTRA
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/6.ch CANAL+ SERIES EXTRA
+#EXTINF:-1,De Cine espanol
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/7.ch De Cine espanol
+#EXTINF:-1,ODISEA
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/8.ch ODISEA
+#EXTINF:-1,NATIONAL GEOGRAPHIC
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/9.ch NATIONAL GEOGRAPHIC
+#EXTINF:-1,HISTORIA
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/10.ch HISTORIA
+#EXTINF:-1,FOX
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/11.ch FOX
+#EXTINF:-1,AXN
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/12.ch AXN
+#EXTINF:-1,MOVISTAR MOTO GP
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/13.ch MOVISTAR MOTO GP
+#EXTINF:-1,MOVISTAR F1
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/14.ch MOVISTAR F1
+#EXTINF:-1,CAZA Y PESCA
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/15.ch CAZA Y PESCA
+#EXTINF:-1,COSMO
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/16.ch COSMO
+#EXTINF:-1,A E
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/17.ch A E
+#EXTINF:-1,C+ DEPORTE
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/18.ch C+ DEPORTE
+#EXTINF:-1,CANAL+ GOLF
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/19.ch CANAL+ GOLF
+#EXTINF:-1,C+ LIGA
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/20.ch C+ LIGA
+#EXTINF:-1,CANAL LIGA HD FIBRA O BUEN ADSL
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/21.ch CANAL LIGA HD FIBRA O BUEN ADSL
+#EXTINF:-1,C+ FUTBOL
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/22.ch C+ FUTBOL
+#EXTINF:-1,EUROSPORT-ES
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/23.ch EUROSPORT-ES
+#EXTINF:-1,EUROSPORT2 ESP
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/24.ch EUROSPORT2 ESP
+#EXTINF:-1,TDP HD
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/25.ch TDP HD
+#EXTINF:-1,TDP
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/26.ch TDP
+#EXTINF:-1,SOL MUSICA
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/27.ch SOL MUSICA
+#EXTINF:-1,LA 1 HD
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/28.ch LA 1 HD
+#EXTINF:-1,LA 1
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/29.ch LA 1
+#EXTINF:-1,LA 2
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/30.ch LA 2
+#EXTINF:-1,ANTENA 3 HD
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/31.ch ANTENA 3 HD
+#EXTINF:-1,ANTENA 3
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/32.ch ANTENA 3
+#EXTINF:-1,CUATRO HD
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/33.ch CUATRO HD
+#EXTINF:-1,CUATRO
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/34.ch CUATRO
+#EXTINF:-1,TELECINCO HD
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/35.ch TELECINCO HD
+#EXTINF:-1,TELECINCO
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/36.ch TELECINCO
+#EXTINF:-1,LASEXTA HD
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/37.ch LASEXTA HD
+#EXTINF:-1,LA SEXTA
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/38.ch LA SEXTA
+#EXTINF:-1,DISCOVERY MAX
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/39.ch DISCOVERY MAX
+#EXTINF:-1,FDF
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/40.ch FDF
+#EXTINF:-1,DIVINITY
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/41.ch DIVINITY
+#EXTINF:-1,Neox
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/42.ch Neox
+#EXTINF:-1,NOVA
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/43.ch NOVA
+#EXTINF:-1,MEGA
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/44.ch MEGA
+#EXTINF:-1,ENERGY
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/45.ch ENERGY
+#EXTINF:-1,CLAN
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/46.ch CLAN
+#EXTINF:-1,DISNEY CHANNEL
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/47.ch DISNEY CHANNEL
+#EXTINF:-1,BOING
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/48.ch BOING
+#EXTINF:-1,24 HORAS
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/49.ch 24 HORAS
+#EXTINF:-1,CANAL SUR
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/50.ch CANAL SUR
+#EXTINF:-1,CASTILLA LA MANCHA
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/51.ch CASTILLA LA MANCHA
+#EXTINF:-1,TELEMADRID HD
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/52.ch TELEMADRID HD
+#EXTINF:-1,TELEMADRID
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/53.ch TELEMADRID
+#EXTINF:-1,LA OTRA
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/54.ch LA OTRA
+#EXTINF:-1,BARCA TV
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/55.ch BARCA TV
+#EXTINF:-1,CANAL LIGA 2
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/56.ch CANAL LIGA 2
+#EXTINF:-1,CANAL LIGA 2 A
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/57.ch CANAL LIGA 2 A
+#EXTINF:-1,CANAL LIGA2 B
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/58.ch CANAL LIGA2 B
+#EXTINF:-1,MULTIDEPORTE 6
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/59.ch MULTIDEPORTE 6
+#EXTINF:-1,MULTIDEPORTE 7
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/60.ch MULTIDEPORTE 7
+#EXTINF:-1,PARTIDAZO HD
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/61.ch PARTIDAZO HD
+#EXTINF:-1,CANAL PARTIDAZO
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/62.ch CANAL PARTIDAZO
+#EXTINF:-1,BEIN ESPANA
+http://adil:movistarfullexchange@movistartdt.mine.nu:8000/63.ch BEIN ESPANA
+

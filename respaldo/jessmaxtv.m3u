@@ -1,0 +1,1475 @@
+#EXTINF:-1,Canal de las estrellas 
+http://tvsawpdvr-lh.akamaihd.net/i/stch02wp_1@119660/index_648_av-p.m3u8
+#EXTINF:-1,Azteca 13
+http://aztecalive-lh.akamaihd.net/i/0oxnvzh8a_1@175671/index_3_av-b.m3u8
+#EXTINF:-1,Proyecto 40
+http://urtmpkal-f.akamaihd.net/i/05i15qzql_1@149710/master.m3u8
+#EXTINF:-1,Ocho TV
+http://201.130.193.150:1935/codecsys/smil:ocho.smil/master.m3u8?
+#EXTINF:-1,Azteca Noticias
+http://urtmpkal-f.akamaihd.net/i/077zoqxzy_1@130091/index_3_av-p.m3u8
+
+#EXTINF:-1,Multimedios TV
+http://brightcove03-f.akamaihd.net/multimedios_tv_612k@55732?file=ChelTV_m3u8
+
+#EXTINF:-1,Milenio 
+http://brightcove03-f.akamaihd.net/milenio_centro_512k@101956
+#EXTINF:-1,Azteca 7 Monterrey
+http://38.104.228.230:1938/info7/info7_512/playlist.m3u8
+#EXTINF:-1,Azteca 13 HD
+http://aztecalive-lh.akamaihd.net/i/0oxnvzh8a_1@175671/index_3_av-b.m3u8
+#EXTINF:-1,Azteca Noticias HD
+http://urtmpkal-f.akamaihd.net/i/077zoqxzy_1@130091/index_3_av-p.m3u8
+#EXTINF:-1,Televisa HD
+http://tvsawpdvr-lh.akamaihd.net/i/stch02wp_1@119660/index_1048_av-p.m3u8
+#EXTINF:-1,Foro TV HD
+http://185417-f.akamaihd.net/i/n0tf0r0_1@81283/index_1200_av-b.m3u8
+#EXTINF:0 tvg-logo="guiatv-prueba.png",-CANAL 2 OBREGON
+http://74.63.97.188:1935/gpacifico3/videogpacifico3/chunklist_w1501260201.m3u8?
+#EXTINF:0 tvg-logo="guiatv-prueba.png",Canal 7 Mazatlan
+http://74.63.97.188:1935/gpacifico4/videogpacifico4/chunklist_w1774114891.m3u8?
+#EXTINF:0 tvg-logo="guiatv-prueba.png",Gala TV 
+http://rightbrainmedia.mpl.miisolutions.net/rightbrainmedia-live-244/_definst_/mp4:GalaTVCancun/playlist.m3u8?
+#EXTINF:-1,Canal 2 Los Mochis 
+http://74.63.97.188:1935/gpacifico2/videogpacifico2/chunklist_w609004457.m3u8
+#EXTINF:-1,Capital 21 
+http://187.237.253.94:8134/hls-live/livepkgr/_definst_/liveevent.m3u8
+#EXTINF:-1,Efekto TV
+http://grupomac-lh.akamaihd.net/i/004rss0k8_1@301782/index_3_av-b.m3u8?sd=10&rebase=o
+#EXTINF:-1,MULTIMEDIOS TV
+http://brightcove03-f.akamaihd.net/multimedios_tv_612k@55732?file=ChelTV_m3u8
+#EXTINF:-1,SIPSA TV Cancún 
+http://rightbrainmedia.mpl.miisolutions.net/rightbrainmedia-live-244/_definst_/mp4:GalaTVCancun/playlist.m3u8
+#EXTINF:-1,Azteca 7
+http://aztecalive-lh.akamaihd.net/i/0t3vkxp3t_1@175670/master.m3u8
+#EXTINF:-1,CB Televisión Michoacán
+http://hd.worldkast.com/8512/smil:8512.smil/playlist.m3u8
+#EXTINF:-1,TDT Tlaxcala
+http://coracyt.mega00.com:1935/live/coracyt/coracyt/playlist.m3u8?
+#EXTINF:-1,Quince TV Zacatecas 
+http://live.zuperdns.net:1935/zuperhosting.live.grupob.canal15zacatecas/livestream/playlist.m3u8
+#EXTINF:-1,KW TV México
+http://wpc.845d.edgecastcdn.net/hls-live/20845D/Live/kwlive/livetv,364,664,964,1264,.m3u8?hc_location=ufi
+#EXTINF:-1,TV 4 Guanajuato
+http://iphone-streaming.ustream.tv/uhls/4157836/streams/live/iphone/playlist.m3u8
+#EXTINF:-1,CORtv Oaxaca 
+http://iphone-streaming.ustream.tv/ustreamVideo/20366971/streams/live/playlist.m3u8
+#EXTINF:-1,TV Independencia Hidalgo 
+http://iphone-streaming.ustream.tv/ustreamVideo/12143149/streams/live/playlist.m3u8
+#EXTINF:-1,Trecevisión Yucatan
+http://74.222.3.185:1935/live/ngrp:trecevision_all/chunklist_w1676078199_b950272.m3u8
+#EXTINF:-1,Azteca 7
+http://aztecalive-lh.akamaihd.net/i/0t3vkxp3t_1@175670/master.m3u8
+
+#EXTINF:0 tvg-logo="rt-documentary.png",RT Documentary HD
+http://odna.octoshape.net/f3f5m2v4/cds/ch5_720p/chunklist.m3u8
+#EXTINF:0 tvg-logo="rt.png",RT Español
+http://odna.octoshape.net/f3f5m2v4/cds/ch2_720p/chunklist.m3u8
+#EXTINF:-1,Discovery channel
+http://iphone-streaming.ustream.tv/uhls/20720323/streams/live/iphone/playlist.m3u8?
+#EXTINF:-1,CNN HD (USA)
+http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/cnn/ls_satlink/b_828.m3u8 .
+#EXTINF:-1,History Channel
+http://live.mvdigital.net:1935/live10/livestream1.sdp/playlist.m3u8
+#EXTINF:-1,EWTN
+http://ewtn.mpl.miisolutions.net:1935/ewtn-live-5/900.mp4/playlinst.m3u8
+#EXTINF:-1,Vevo1
+http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch1/05/prog_index.m3u8
+#EXTINF:-1,Vevo2
+http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch2/05/prog_index.m3u8
+#EXTINF:-1,Vevo3
+http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch3/05/prog_index.m3u8
+#EXTINF:-1,Caracol
+http://caracoltvlivehds-lh.akamaihd.net/i/caracol02_1@126280/index_1028_av-p.m3u8?sd=10&rebase=on
+#EXTINF:-1,Tve 24h HD 
+http://iphonelive.rtve.es/24H_LV3_IPH/bitrate_2.m3u8
+#EXTINF:-1,MEGA
+http://edge-11-mvstr.edge.mdstrm.com/live/smil:db6a38a0a2bffd96d01965c4d975b9fb/playlist_b1500.m3u8
+#EXTINF:-1,GOLTV
+http://goltv-stream.fubotv.com.global.prod.fastly.net/UT-Origin/ngrp:golTV_all/chunklist_b1096000.m3u8
+#EXTINF:-1,Real Madrid TV
+http://rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/index_1250_av-p.m3u8?sd=10&rebase=on
+#EXTINF:-1,Sevilla tv
+http://flash0.80137-live0.dna.qbrick.com/80137-live0/sevillafc/stml.m3u8
+#EXTINF:-1,Canal del Congreso
+http://dl.canaldelcongreso.gob.mx:1935/ccongreso/mp4:congreso2b.mp4/playlist.m3u8
+
+#EXTINF:-1,ARG:CANAL 13 ARGENITNA rtsp
+rtsp://stream.eltrecetv.com.ar/live13/13tv/13tv1
+#EXTINF:-1,ARG:Canal 7 Jujuy mms
+mms://200.43.187.111/canal7
+#EXTINF:-1,ARG:Canal 9 Paraná
+http://ionlive1-lh.akamaihd.net/i/canal9_1@125365/master.m3u8
+#EXTINF:-1,ARG:Canal Rural 1 rtsp
+rtsp://streamrural.cmd.com.ar:554/liverural/crural/rural1
+#EXTINF:-1,ARG:CANAL RURAL 2 rtsp
+rtsp://streamrural.cmd.com.ar:554/liverural/crural/rural2
+#EXTINF:-1,ARG:CANAL RURAL 3 rtsp
+rtsp://streamrural.cmd.com.ar:554/liverural/crural/rural3
+#EXTINF:-1,ARG:ORBE 21
+http://urtmpkal-f.akamaihd.net/i/1b6mj17sk_1@308700/master.m3u8
+#EXTINF:-1,ARG:Pringles TV CANAL 6
+http://200.70.58.102:8080/?MSWMExt=online-television.net.asf
+#EXTINF:-1,ARG:Quiero Musica mms
+mms://200.42.92.6:1755/qmusica
+#EXTINF:-1,ARG:Señal Provincial
+http://www.trimi.com.ar/provincial/streaming/mystream.m3u8
+#EXTINF:-1,ARG:Solo Tango mms
+mms://stream.tangocity.com.ar/tangocity
+#EXTINF:-1,Chile - EL PINGUINO TV CANAL 4 PUNTA ARENAS
+http://streaming.elpinguino.com:1935/live/pinguinotv_360p/HasBahCa.m3u8
+#EXTINF:-1,CHILE:Campus TV
+http://wow2.cl.digitalproserver.com/campustv/campustvvivo/campustv.smil/chunklist_w662421777_b848000.m3u8
+#EXTINF:-1,CHILE:La Red HD 720
+http://wow1.lax.digitalproserver.com/redtv/redtvvivo/livestream1/hasbahca.m3u
+#EXTINF:-1,CHILE:MEGA HD 720
+http://edge-61-cl.edge.mdstrm.com/live/smil:db6a38a0a2bffd96d01965c4d975b9fb/playlist.m3u8?
+#EXTINF:-1,CHILE:SUB TV Santiago mms
+mmsh://190.196.9.186:8080/subtv
+#EXTINF:-1,CHILE:TV  Chile
+http://edge-61-cl.edge.mdstrm.com/tvn-live/_definst_/smil:285a5c6dade574d5f111419c85c6cf17/chunklist_b800000.m3u8
+#EXTINF:-1,COL:Canal Capital
+http://cdns840stu1010.multistream.net/canalcapitallive/amlst:live/master.m3u8
+#EXTINF:-1,COL:Canal Tr3ce
+http://cdns840stu1010.multistream.net/canaltr3celive/live-500/PAZ.m3u8
+#EXTINF:-1,COL:TeleCaribe
+http://cdns840stu1010.multistream.net/telecaribelive/amlst:live/master.m3u8
+
+#EXTINF:0,NATIONAL GEO
+http://mystreams.fr.mu/80E803/Scam/hls/National_Geo_FR_HD.m3u8
+#EXTINF:0,PLANETE+ THALASSA
+http://mystreams.fr.mu/80E803/Scam/hls/Planet_Thalassa_HD.m3u8
+#EXTINF:0,PLANETE+
+http://mystreams.fr.mu/80E803/Scam/hls/Planet_Plus_HD.m3u8
+#EXTINF:0,CANAL+ Cinéma
+http://mystreams.fr.mu/80E803/enco35-cp/hls/m3u8/canchd939493889.m3u8
+#EXTINF:0,CANAL+ Décalé
+http://mystreams.fr.mu/80E803/Scam/hls/Canal_Plus_Decale_HD.m3u8
+#EXTINF:0,CANAL+ Sport
+http://mystreams.fr.mu/80E803/enco35-cp/hls/m3u8/canshd7432765230.m3u8
+#EXTINF:0,CANAL+ Séries
+http://mystreams.fr.mu/80E803/enco35-cp/hls/m3u8/canshdx84993660.m3u8
+#EXTINF:0,CANAL+ Family
+http://mystreams.fr.mu/80E803/enco35-cp/hls/m3u8/canf23851231yuf.m3u8
+#EXTINF:0,CINE+ Premier
+http://mystreams.fr.mu/80E803/Scam/hls/Cine_plus_Premier_HD.m3u8
+#EXTINF:0,CINE+ Emotion
+http://mystreams.fr.mu/80E803/Scam/hls/Cine_Emotion_HD.m3u8
+
+#EXTINF:-1,Das Erste
+http://daserste_live-lh.akamaihd.net/i/daserste_de@91204/master.m3u8
+
+#EXTINF:-1,arte
+http://delive.artestras.cshls.lldns.net/artestras/contrib/delive.m3u8
+
+#EXTINF:-1,ARD alpha
+http://livestreams.br.de/i/bralpha_germany@119899/master.m3u8
+l
+l
+#EXTINF:-1,NDR Hamburg
+http://ndr_fs-lh.akamaihd.net/i/ndrfs_hh@119223/master.m3u8
+
+#EXTINF:-1,NDR Mecklenburg-Vorpommern
+http://ndr_fs-lh.akamaihd.net/i/ndrfs_mv@119226/master.m3u8
+
+#EXTINF:-1,NDR Niedersachsen
+http://ndr_fs-lh.akamaihd.net/i/ndrfs_nds@119224/master.m3u8
+
+#EXTINF:-1,NDR Schleswig-Holstein
+http://ndr_fs-lh.akamaihd.net/i/ndrfs_sh@119225/master.m3u8
+
+
+#EXTINF:-1,SWR Fernsehen Rheinland-Pfalz
+http://swrrp-lh.akamaihd.net/i/swrrp_live@196739/master.m3u8
+
+#EXTINF:-1,tagesschau24
+http://tagesschau-lh.akamaihd.net/i/tagesschau_1@119231/master.m3u8
+/master.m3u8
+#EXTINF:-1,JOIZ HD
+http://ooyalahd2-f.akamaihd.net/i/joizgerm01_delivery@324125/master.m3u8
+
+#EXTINF:-1,ServusTV HD
+http://player.hdiosstv-f.akamaihd.net/i/servustvhdde_1@75540/master.m3u8
+
+#EXTINF:-1,Welt der Wunder TV
+http://mf.weltderwunder.c.nmdn.net/wdwlive/WDW-HQ.stream/playlist.m3u8
+
+
+#EXTINF:-1,TRT1
+http://trtcanlitv-lh.akamaihd.net/i/TRT1HD_1@181842/master.m3u8
+
+#EXTINF:-1,TRT HD
+http://trtcanlitv-lh.akamaihd.net/i/TRTHD_1@182045/master.m3u8
+
+#EXTINF:-1,TRT SPOR HD
+http://trtcanlitv-lh.akamaihd.net/i/TRTSPOR1_1@182042/master.m3u8
+
+#EXTINF:-1,TRT MÜZIK HD
+http://trtcanlitv-lh.akamaihd.net/i/TRTMUZIK_1@181845/master.m3u8
+
+#EXTINF:-1,TRT COCUK HD
+http://trtcanlitv-lh.akamaihd.net/i/TRTCOCUK_1@181844/master.m3u8
+
+#EXTINF:-1,TRT TÜRK HD
+http://trtcanlitv-lh.akamaihd.net/i/TRTTURK_1@182144/master.m3u8
+
+#EXTINF:-1,Kanal D HD
+http://live.netd.com.tr/S1/HLS_LIVE/kanald/1500/prog_index.m3u8
+#EXTINF:-1,CNN Türk
+http://live.netd.com.tr/S1/HLS_LIVE/cnn_turk/1000/prog_index.m3u8
+
+#EXTINF:-1,Dream TV
+http://live.netd.com.tr/S1/HLS_LIVE/dreamtv/1000/prog_index.m3u8
+
+#EXTINF:-1,Dreamtürk TV
+http://live.netd.com.tr/S1/HLS_LIVE/dreamturktv/1000/prog_index.m3u8
+
+#EXTINF:-1,Taksim
+http://live.netd.com.tr/S1/HLS_LIVE/taksim/1000/prog_index.m3u8
+
+#EXTM3U tvg-logo=Auto url-tvg=http://www.teleguide.info/download/new3/jtv.zip m3uautoload=1 cache=1000
+ #EXTINF:0 group-title=”Россия”,Первый канал
+http://hlsstr03.svc.iptv.rt.ru/hls/CH_1TV/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Первый канал HD
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_C06_1TVHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Первый канал +4
+ http://188.128.118.189:4001
+ #EXTINF:0 group-title=”Россия”,Россия 1
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_RUSSIA1/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Россия 1 +4
+ http://4BA9EBDB07C05883:@5.159.96.170:8000/rus1air
+ #EXTINF:0 group-title=”Россия”,Россия 1 Ингушетия
+rtmp://grey.ether.tv:1935/live/ingushetija/broadcast4
+ #EXTINF:0 group-title=”Россия”,Россия 1 Самара
+http://tvsamara.ru:8092/
+ #EXTINF:0 group-title=”Россия”,Россия-1 Белгород
+http://82.151.127.6:8802/hls/CH_R04_ROSSIA1/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Россия-1 Брянск
+http://84.42.77.38:8802/hls/CH_R04_ROSSIA1/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Россия-1 Владимир
+http://84.53.200.102:8802/hls/CH_R04_ROSSIA1/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Россия-1 Воронеж
+http://80.82.41.6:8802/hls/CH_R04_ROSSIA1/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Россия-1 Иваново
+http://80.66.157.102:8802/hls/CH_R04_ROSSIA1/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Россия-1 Калуга
+http://62.148.131.230:8802/hls/CH_R04_ROSSIA1/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Россия-1 Кострома
+http://85.113.223.198:8802/hls/CH_R04_ROSSIA1/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Россия-1 Курск
+http://80.240.241.102:8802/hls/CH_R04_ROSSIA1/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Россия-1 Липецк
+http://195.34.247.230:8802/hls/CH_R04_ROSSIA1/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Россия-1 Орёл
+http://95.107.47.198:8802/hls/CH_R04_ROSSIA1/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Россия-1 Рязань
+http://212.26.235.166:8802/hls/CH_R04_ROSSIA1/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Россия-1 Смоленск
+http://212.3.148.230:8802/hls/CH_R04_ROSSIA1/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Россия-1 Тамбов
+http://78.132.130.38:8802/hls/CH_R04_ROSSIA1/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Россия-1 Тверь
+http://84.42.10.230:8802/hls/CH_R04_ROSSIA1/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Россия-1 Тула
+http://212.12.12.102:8802/hls/CH_R04_ROSSIA1/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Россия-1 Ярославль
+http://217.15.136.6:8802/hls/CH_R04_ROSSIA1/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Россия 2
+ http://hlsstr04.svc.iptv.rt.ru/hls/CH_RUSSIA2/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Россия 24
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_RUSSIA24/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Россия-24 Екатеринбург
+http://212.220.64.148:8802/hls/CH_R01_ROSSIA24_URAL_EKT/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Россия HD
+ http://hlsstr04.svc.iptv.rt.ru/hls/CH_C05_RUSSIA1HD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,РТР Планета
+http://testlivestream.rfn.ru/live/smil:rtrp.smil/playlist.m3u8?auth=vh&cast_id=4941
+ #EXTINF:0 group-title=”Россия”,Россия К
+http://hlsstr04.svc.iptv.rt.ru/hls/CH_RUSSIAK/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,СТС
+http://hlsstr03.svc.iptv.rt.ru/hls/CH_STS/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,СТС Мир (+3)
+ http://178.49.132.90/streaming/sts/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Россия”,СТС (Курск)
+http://80.240.241.102:8802/hls/CH_R02_STS/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,СТС (Липецк)
+http://195.34.247.230:8802/hls/CH_R02_STS/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,СТС (Орёл)
+http://95.107.47.198:8802/hls/CH_R02_STS/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,СТС-Олимп (Липецк)
+http://78.132.130.38:8802/hls/CH_R02_STS/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,ГТ/СТС (Ярославль)
+http://217.15.136.6:8802/hls/CH_R02_STS/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,ТНТ
+http://hlsstr02.svc.iptv.rt.ru/hls/CH_TNT/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,ТНТ Томск
+rtmp://178.249.242.111:1935/live/tv6
+ #EXTINF:0 group-title=”Россия”,ТНТ-Губерния (Воронеж)
+http://80.82.41.6:8802/hls/CH_R01_TNT_VOR/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,ТНТ-Феникс (Смоленск)
+http://80.82.41.6:8802/hls/CH_R01_TNT_VOR/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,ТНТ-Барс ТВ (Иваново)
+http://80.66.157.102:8802/hls/CH_R01_TNT/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,ТНТ (Калуга)
+http://62.148.131.230:8802/hls/CH_R01_TNT/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,ТНТ-Русь( Кострома)
+http://85.113.223.198:8802/hls/CH_R01_TNT/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,ТНТ-ТВ6 (Курск)
+http://80.240.241.102:8802/hls/CH_R01_TNT/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,ТНТ Олимп (Липецк)
+http://195.34.247.230:8802/hls/CH_R01_TNT/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,ТНТ (Орёл)
+http://95.107.47.198:8802/hls/CH_R01_TNT/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,ТНТ (Тамбов)
+http://78.132.130.38:8802/hls/CH_R01_TNT/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,ТНТ (Тверь)
+http://84.42.10.230:8802/hls/CH_R01_TNT/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Пятница
+http://hlsstr03.svc.iptv.rt.ru/hls/CH_PYATNIZZA/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Россия 24
+ http://kt-tv.ru/iptv/channels.php?channel=141
+ #EXTINF:0 group-title=”Россия”,Россия 24 16:9
+ http://188.128.118.189:4010
+ #EXTINF:0 group-title=”Россия”,ТВ3
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_TV3/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,ТВ3 +4
+ http://188.128.118.189:4015
+ #EXTINF:0 group-title=”Россия”,РЕН
+http://hlsstr04.svc.iptv.rt.ru/hls/CH_RENTV/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,РЕН +4
+ http://188.128.118.189:4011
+ #EXTINF:0 group-title=”Россия”,РЕН-ТВ (Воронеж)
+http://80.82.41.6:8802/hls/CH_R02_RENTV/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,РЕН-ТВ ТАКТ
+http://80.240.241.102:8802/hls/CH_R02_RENTV/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,РЕН-ТВ (ТВК ЛИПЕЦК)
+http://195.34.247.230:8802/hls/CH_R02_RENTV/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,РЕН-ТВ ИСТОКИ
+http://95.107.47.198:8802/hls/CH_R02_RENTV/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,РЕН-ТВ (Рязань)
+http://212.26.235.166:8802/hls/CH_R02_RENTV/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,РЕН-ТВ (Олимп)
+http://78.132.130.38:8802/hls/CH_R02_RENTV/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,РЕН-ТВ (Пилот)
+http://84.42.10.230:8802/hls/CH_R02_RENTV/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,РЕН-ТВ (Тула)
+http://212.12.12.102:8802/hls/CH_R02_RENTV/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Домашний +4
+ http://188.128.118.189:4014
+ #EXTINF:0 group-title=”Россия”,5 канал
+http://kt-tv.ru/iptv/channels.php?channel=45
+ #EXTINF:0 group-title=”Россия”,5 канал +4
+ http://4BA9EBDB07C05883:@5.159.96.170:8000/5
+ #EXTINF:0 group-title=”Россия”,НТВ
+http://hlsstr04.svc.iptv.rt.ru/hls/CH_NTV/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,НТВ +2
+ http://kt-tv.ru/iptv/channels.php?channel=333
+ #EXTINF:0 group-title=”Россия”,НТВ +4
+ http://4BA9EBDB07C05883:@5.159.96.170:8000/ntv
+ #EXTINF:0 group-title=”Россия”,ТВЦ
+http://kt-tv.ru/iptv/channels.php?channel=53
+ #EXTINF:0 group-title=”Россия”,ТВЦ +2
+ http://kt-tv.ru/iptv/channels.php?channel=385
+ #EXTINF:0 group-title=”Россия”,TВЦ +4
+ http://188.128.118.189:4009
+ #EXTINF:0 group-title=”Россия”,Звезда
+http://hlsstr04.svc.iptv.rt.ru/hls/CH_ZVEZDA/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,РЕН ТВ
+http://hlsstr04.svc.iptv.rt.ru/hls/CH_RENTV/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,РЕН ТВ +3 Новосибирск
+http://hls.cn.ru/streaming/rentv/16/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Россия”,РЕН ТВ +4 Красноярск
+http://pstv.krasmix.ru/tv/7ka/playlist.m3u8
+ #EXTINF:0 group-title=”Россия”,Перец (Ахтуба ТВ)
+http://hlsstr02.svc.iptv.rt.ru/hls/CH_PERETZ/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,РБК-ТВ
+http://hlsstr03.svc.iptv.rt.ru/hls/CH_BRC/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,LifeNews HD
+ http://tv.life.ru/lifetv/720p/index.m3u8
+ #EXTINF:0 group-title=”Россия”,LifeNews
+ http://tv.life.ru:80/lifetv/480p/index.m3u8
+ #EXTINF:0 group-title=”Россия”,Россия К
+http://hls.peers.tv/streaming/kultura/126/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Россия”,Россия К (2)
+ http://188.128.118.189:4006
+ #EXTINF:0 group-title=”Россия”,Мир
+http://hlsstr01.svc.iptv.rt.ru/hls/CH_MIR/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,Мир 24
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_MIR24/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Россия”,МИР HD
+ http://hlstv.kuz.211.ru/239.211.211.125/stream.m3u8
+ #EXTINF:0 group-title=”Россия”,ЛДПР HD
+ http://213.247.198.250:1935/live/ldpr.stream/playlist.m3u8
+ #EXTINF:0 group-title=”Россия”,WBC HD
+ http://win.cdn.bonus-tv.ru/TVB7/wbc/index.m3u8
+ #EXTINF:0 group-title=”Россия”,Дождь
+http://hls.cn.ru/streaming/rain/16/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Россия”,EuroNews
+ http://hls.peers.tv/streaming/euronews/126/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Россия”,2×2
+ http://hls.peers.tv/streaming/2x2tv/126/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Россия”,ОТР
+http://hls.peers.tv/streaming/otvrus/16/tvrecw/playlist.m3u8
+ #EXTINF:0 group-title=”Россия”,GlobalStar TV
+ http://hls.peers.tv/streaming/globalstartv/126/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Россия”,HardLife TV
+ http://hls.peers.tv/streaming/hardlife_tv/126/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Россия”,ВМЕСТЕ-РФ
+http://hls.peers.tv/streaming/vmeste_rf/126/copy/playlist.m3u8
+ #EXTINF:0 group-title=”Россия”,Баланс-ТВ
+http://hls.peers.tv/streaming/balance/126/copy/playlist.m3u8
+ #EXTINF:0 group-title=”Россия”,РИА НОВОСТИ
+rtmp://rian.cdnvideo.ru:1935/rr/stream20
+ #EXTINF:0 group-title=”Россия”,Эфир-24
+ http://stream.efir24.tv:1935/live/efir24tv/playlist.m3u8
+ #EXTINF:0 group-title=”Россия”,РЖД
+rtmp://tva.cdnvideo.ru/tva/tva.sdp
+ #EXTINF:0 group-title=”Россия”,TVMChannel
+ http://hls.peers.tv/streaming/tvmchannel/126/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Россия”,Новое телевидение
+http://hls.peers.tv/streaming/novoe_televidenie/318/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Россия”,ЛДПР.ТВ
+http://hls.peers.tv/streaming/ldpr_tv/16/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Россия”,Красная линия
+http://hls.peers.tv/streaming/red_line/126/copy/playlist.m3u8
+ #EXTINF:0 group-title=”Россия”,ТБН-Россия
+http://hls.peers.tv/streaming/tbn/126/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Россия”,Спас
+http://188.128.118.189:4012
+ #EXTINF:0 group-title=”Россия”,RT HD
+ http://hlsstr04.svc.iptv.rt.ru/hls/CH_C04_RTTVHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Региональные Россия”,=== РЕГИОНАЛЬНЫЕ РОССИЯ ===
+http://hls.peers.tv/streaming/49kanal/16/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Региональные Россия”,49 Канал
+http://hls.peers.tv/streaming/49kanal/16/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Региональные Россия”,Санкт-Петербург
+http://stream2.topspb.tv:1935/live/smil:live.smil/playlist.m3u8
+ #EXTINF:0 group-title=”Региональные Россия”,ОТС
+http://hls.peers.tv/streaming/ots/16/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Региональные Россия”,43 Канал Туапсе
+rtmp://43kanal.ru:1938/live/43Kanal/43Kanal
+ #EXTINF:0 group-title=”Региональные Россия”,8 канал Красноярский край
+http://hls.peers.tv/streaming/ya1pm/90/copy/playlist.m3u8
+ #EXTINF:0 group-title=”Региональные Россия”,8 канал Владивосток
+rtmp://37.187.27.118/live/livestream2
+ #EXTINF:0 group-title=”Региональные Россия”,8 канал Владивосток HD
+ rtmp://37.187.27.118/live/livestream3
+ #EXTINF:0 group-title=”Региональные Россия”,Кубань 24 Орбита
+http://ntk-origin2.cdn.ngenix.net:1935/live/_definst_/9tv-orb/playlist.m3u8
+ #EXTINF:0 group-title=”Региональные Россия”,Тюменское время
+http://sibinformburo.cdnvideo.ru:1935/sibinformburo/sibinformburo.sdp/chunklist.m3u8
+ #EXTINF:0 group-title=”Региональные Россия”,Катунь 24
+ http://fe-sib.svc.iptv.rt.ru/hls/CH_R01_KATUN24/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Региональные Россия”,Мой город Кемерово
+http://217.65.91.55/hls/CH_R01_MOYGOROD/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Региональные Россия”,Томское время
+http://live.rtvtomsk.ru:8088/hls/live.m3u8
+ #EXTINF:0 group-title=”Региональные Россия”,Губерния (Самара)
+rtmp://grey.ether.tv/live/samara/broadcast4
+ #EXTINF:0 group-title=”Региональные Россия”,Омск 12 Канал
+http://win.cdn.bonus-tv.ru/TVB7/gtrkomsk/playlist.m3u8
+ #EXTINF:0 group-title=”Региональные Россия”,Астрахань 24 HD
+ http://win.cdn.bonus-tv.ru/TVB7/astrakhan/playlist.m3u8
+ #EXTINF:0 group-title=”Региональные Россия”,Тамыр
+http://win.cdn.bonus-tv.ru/TVB4/tamyr/playlist.m3u8
+ #EXTINF:0 group-title=”Региональные Россия”,БСТ
+http://player.bonus-tv.ru:7777/mainfest-all.m3u8
+ #EXTINF:0 group-title=”Региональные Россия”,Первый областной
+http://win.cdn.bonus-tv.ru/TVB4/otv/playlist.m3u8
+ #EXTINF:0 group-title=”Региональные Россия”,Южный Регион Дон
+http://yugmedia.cdnvideo.ru/yugmedia-live/yugmedia.sdp/playlist.m3u8
+ #EXTINF:0 group-title=”Региональные Россия”,Инва Медиа ТВ
+http://hls.invatv.cdnvideo.ru/invatv-publish/invatv.sdp/playlist.m3u8
+ #EXTINF:0 group-title=”Региональные Россия”,Ростов ТВ
+http://rostovlife.vintera.tv:1935/mediapark/rostov_tv1.stream/playlist.m3u8
+ #EXTINF:0 group-title=”Региональные Россия”,26 Регион
+http://serv03.vintera.tv:1935/26region/26reg.stream/playlist.m3u8
+ #EXTINF:0 group-title=”Региональные Россия”,Смена
+http://live.cache.eaglecdn.com/stream/smena/amlst:translation_meta_12449/playlist.m3u8
+ #EXTINF:0 group-title=”Региональные Россия”,1 Крым
+http://gtrk.techbee.pro:1935/live/1tvcrimea/playlist.m3u8
+ #EXTINF:0 group-title=”Региональные Россия”,21+ Чебоксары
+rtmp://77.240.152.166:1935/live/live1
+ #EXTINF:0 group-title=”Региональные Россия”,Аист ТВ (Иркутск)
+http://217.65.91.55/hls/CH_R01_AIST/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Региональные Россия”,Мир Белогорья
+http://stream.tvbelgorod.ru:8080/mirbelogorya/index.m3u8
+ #EXTINF:0 group-title=”Региональные Россия”,Первый Волгоградский
+rtmp://volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp
+ #EXTINF:0 group-title=”Региональные Россия”,Первый Городской Калининград
+rtmp://grey.ether.tv:1935/live/kaliningrad/broadcast37
+ #EXTINF:0 group-title=”Региональные Россия”,Волгоград 1
+ rtmp://volgogradtv1.cdnvideo.ru/volgogradtv1/volgogradtv1.sdp
+ #EXTINF:0 group-title=”Региональные Россия”,PUBtalk.CT.FM
+ rtmp://80.245.113.12/live/pubtalk1
+ #EXTINF:0 group-title=”Региональные Россия”,ATV (Первый)
+http://93.116.254.3:8888
+ #EXTINF:0 group-title=”Новороссия”,=== НОВОРОССИЯ ===
+http://hls.goodgame.ru/hls/6147_720.m3u8
+ #EXTINF:0 group-title=”Новороссия”,Новороссия TV HD
+ http://hls.goodgame.ru/hls/23154.m3u8
+ #EXTINF:0 group-title=”Новороссия”,Антимайдан HD
+ http://hls.goodgame.ru/hls/6147_720.m3u8
+ #EXTINF:0 group-title=”Новороссия”,Луганск 24
+ rtmp://live.lnr.tv/live//stream
+ #EXTINF:0 group-title=”Украина”,=== УКРАИНА ===
+http://iptv.crystal.in.ua:16555/udp/239.0.10.10:1234
+ #EXTINF:0 group-title=”Украина”,1+1
+ http://iptv.crystal.in.ua:16555/udp/239.0.10.10:1234
+ #EXTINF:0 group-title=”Украина”,5-й канал
+http://iptv.crystal.in.ua:16555/udp/239.0.10.13:1238
+ #EXTINF:0 group-title=”Украина”,ICTV
+ http://iptv.crystal.in.ua:16555/udp/239.0.10.11:1234
+ #EXTINF:0 group-title=”Украина”,Tonis
+ http://iptv.crystal.in.ua:16555/udp/239.0.10.10:1237
+ #EXTINF:0 group-title=”Украина”,Интер
+http://iptv.crystal.in.ua:16555/udp/239.0.10.12:1230
+ #EXTINF:0 group-title=”Украина”,К1
+ http://iptv.crystal.in.ua:16555/udp/239.0.10.12:1232
+ #EXTINF:0 group-title=”Украина”,К2
+ http://iptv.crystal.in.ua:16555/udp/239.0.10.12:1236
+ #EXTINF:0 group-title=”Украина”,НТН
+http://iptv.crystal.in.ua:16555/udp/239.0.10.12:1231
+ #EXTINF:0 group-title=”Украина”,Новый канал
+http://iptv.crystal.in.ua:16555/udp/239.0.10.11:1233
+ #EXTINF:0 group-title=”Украина”,Перший Національний
+http://iptv.crystal.in.ua:16555/udp/239.0.10.1:1235
+ #EXTINF:0 group-title=”Украина”,Рада
+http://iptv.crystal.in.ua:16555/udp/239.0.10.13:1236
+ #EXTINF:0 group-title=”Украина”,СТБ
+http://iptv.crystal.in.ua:16555/udp/239.0.10.11:1230
+ #EXTINF:0 group-title=”Украина”,2+2
+ http://91.193.124.5:8000/2plus2
+ #EXTINF:0 group-title=”Украина”,ТВ 100
+ http://iptv.crystal.in.ua:16555/udp/239.0.10.14:1241
+ #EXTINF:0 group-title=”Украина”,ТЕТ
+http://iptv.crystal.in.ua:16555/udp/239.0.10.13:1230
+ #EXTINF:0 group-title=”Украина”,ТРК Украина
+http://iptv.crystal.in.ua:16555/udp/239.0.10.4:1234
+ #EXTINF:0 group-title=”Украина”,Перший Ukraine
+ http://mp4.firstua.com/tv/smil:1ua.smil/playlist.m3u8
+ #EXTINF:0 group-title=”Украина”,Перший Т2
+ http://iptv.crystal.in.ua:16555/udp/239.0.10.101:1234
+ #EXTINF:0 group-title=”Украина”,Соціальна країна
+http://sockr.cdnvideo.ru/sockr/sockr.sdp/playlist.m3u8
+ #EXTINF:0 group-title=”Украина”,ATR
+ rtsp://edge1.atr.ua:1935/live/atr
+ #EXTINF:0 group-title=”Украина”,NewsOne HD
+ rtmp://77.120.104.64:1935/newsone/stream
+ #EXTINF:0 group-title=”Украина”,Громадске ТБ
+http://vm-edge-nolanet.la.net.ua/tv/1001.m3u8
+ #EXTINF:0 group-title=”Украина”,Думская TV HD
+ rtmp://cdn2.live-tv.od.ua/tv/dumska-sub
+ #EXTINF:0 group-title=”Украина”,Еспрессо
+http://vm-edge-nolanet.la.net.ua/tv/9060.m3u8
+ #EXTINF:0 group-title=”Украина”,100% NEWS
+ http://85.238.112.40:8810/hls_sec/239.17.16.32-.m3u8
+ #EXTINF:0 group-title=”Украина”,112 Ukraine
+ http://91.193.124.5:8000/112
+ #EXTINF:0 group-title=”Украина”,112 Украина (Резерв)
+http://146.185.243.58:8081/iptv.shara-sat.ru/iptv.shara-sat.ru/930.ch
+ #EXTINF:0 group-title=”Украина”,112 Украина (950*546)
+ http://31.28.169.242/hls/live112.m3u8
+ #EXTINF:0 group-title=”Региональные Украина”,=== РЕГИОНАЛЬНЫЕ УКРАИНА ===
+rtmp://cdn3.live-tv.od.ua:1935/tv/1tvod
+ #EXTINF:0 group-title=”Региональные Украина”,1-й городской Одесса
+rtmp://cdn3.live-tv.od.ua:1935/tv/1tvod
+ #EXTINF:0 group-title=”Региональные Украина”,7 канал Одесса
+http://85.238.112.10:8810/hls/7ch/7ch.m3u8
+ #EXTINF:0 group-title=”Региональные Украина”,RENOME Одесса
+http://85.238.112.40:8810/hls_sec/online/list-renome.m3u8
+ #EXTINF:0 group-title=”Региональные Украина”,11-й канал (Дніпропетровськ)
+rtmp://212.3.106.230/live/livestream
+ #EXTINF:0 group-title=”Региональные Украина”,34-й канал (Дніпропетровськ)
+rtmp://193.200.32.17/simplevideostreaming/flv:simplevideostreaming.flv
+ #EXTINF:0 group-title=”Региональные Украина”,ЦК
+http://iptv.crystal.in.ua:16555/udp/239.0.10.3:1238
+ #EXTINF:0 group-title=”Региональные Украина”,33-й канал (Хмельницький)
+rtmp://77.120.17.186:1935/33chanel/live
+ #EXTINF:0 group-title=”Региональные Украина”,ТРК Киев
+http://iptv.crystal.in.ua:16555/udp/239.0.10.10:1235
+ #EXTINF:0 group-title=”Региональные Украина”,Аверс Луцк
+rtmp://194.44.130.179/oflaDemo/streamTest
+ #EXTINF:0 group-title=”Региональные Украина”,Рудана Кривий Ріг
+http://xrudanax.api.channel.livestream.com/3.0/playlist.m3u8
+ #EXTINF:0 group-title=”Музыка”,=== МУЗЫКА ===
+http://hls.peers.tv/streaming/pik_hd/126/hd/playlist.m3u8
+ #EXTINF:0 group-title=”Музыка”,MTV Россия
+http://hlsstr03.svc.iptv.rt.ru/hls/CH_MTV/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Музыка”,MTV Dance
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_MTVDANCE/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Музыка”,MTV Hits
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_MTVHITS/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Музыка”,MTV Rocks
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_MTVROCKS/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Музыка”,MTV Live HD
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_C03_MTVLIVEHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Музыка”,Первый музыкальный HD
+ http://hls.peers.tv/streaming/firstmuz/16/hd/playlist.m3u8
+ #EXTINF:0 group-title=”Музыка”,Bridge TV
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_BRIDGETV/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Музыка”,DANGE TV
+ http://87.239.31.232/hls/230.3.4.169.sd.stream.m3u8
+ #EXTINF:0 group-title=”Музыка”,MCM Top Россия
+http://hlsstr04.svc.iptv.rt.ru/hls/CH_MCMTOP/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Музыка”,One.by
+ http://rtmp.one.by:1200
+ #EXTINF:0 group-title=”Музыка”,One.by HD
+ http://rtmp.one.by:1300
+ #EXTINF:0 group-title=”Музыка”,One.by UHD
+ http://rtmp.one.by:1400
+ #EXTINF:0 group-title=”Музыка”,One.by Россия
+http://rtmp.one.by:2200
+ #EXTINF:0 group-title=”Музыка”,One.by Россия HD
+ http://rtmp.one.by:2300
+ #EXTINF:0 group-title=”Музыка”,A-One UA
+ http://195.2.236.19:8080/80
+ #EXTINF:0 group-title=”Музыка”,A-One Россия
+http://hls.peers.tv/streaming/aone/126/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Музыка”,JuCeTV US
+ http://hls.peers.tv/streaming/juce/126/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Музыка”,JuCeTV Россия
+http://zhegal.com.ua/tv/triolan?id=47
+ #EXTINF:0 group-title=”Музыка”,JuCeTV HD Россия
+http://109.68.190.192:1935/jucetv/ngrp:jucetv.stream-adaptive/playlist.m3u8
+ #EXTINF:0 group-title=”Музыка”,360 TuneBox HD
+ http://serv19.vintera.tv:8081/boxhd/360Tune/playlist.m3u8
+ #EXTINF:0 group-title=”Музыка”,MTV.AM
+ http://94.125.187.18/hlsam/med/playlist.m3u8
+ #EXTINF:0 group-title=”Музыка”,Первый Интернет канал HD
+ http://hls.peers.tv/streaming/pik_hd/126/hd/playlist.m3u8
+ #EXTINF:0 group-title=”Музыка”,VH1 European
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_VH1EUROPEAN/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Музыка”,VH1 Classic
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_VH1CLASSIC/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Музыка”,Eska TV
+ http://stream.smcloud.net/live/eskatv/playlist.m3u8
+ #EXTINF:0 group-title=”Музыка”,Eska Best Music HD
+ rtmp://stream.smcloud.net/live2/best/best_720p?Vd?u#bt!25
+ #EXTINF:0 group-title=”Музыка”,Eska Rock TV HD
+ rtmp://stream.smcloud.net/live2/eska_rock/eska_rock_720p?Vd?u#bt!25
+ #EXTINF:0 group-title=”Музыка”,Eska Party TV HD
+ rtmp://stream.smcloud.net/live2/eska_party/eska_party_720p
+ #EXTINF:0 group-title=”Музыка”,Eska Wawa
+ rtmp://stream.smcloud.net/live2/wawa/wawa_360p
+ #EXTINF:0 group-title=”Музыка”,Eska Wawa HD
+ rtmp://stream.smcloud.net/live2/wawa/wawa_720p
+ #EXTINF:0 group-title=”Музыка”,Europa Plus TV
+ rtmp://europaplus.cdnvideo.ru:1935/europaplus-live/eptv_main.sdp
+ #EXTINF:0 group-title=”Музыка”,M6 Music Hits
+ https://sslhls.m6tv.cdn.sfr.net/hls-live/livepkgr/_definst_/m6_music_hits_hls_aes/m6_music_hits_hls_aes_856.m3u8
+ #EXTINF:0 group-title=”Музыка”,Djing HD
+ http://www.djing.com/tv/h-05.m3u8
+ #EXTINF:0 group-title=”Музыка”,Djing Ibiza HD
+ http://www.djing.com/tv/d-05.m3u8
+ #EXTINF:0 group-title=”Музыка”,Djing Underground HD
+ http://www.djing.com/tv/u-05.m3u8
+ #EXTINF:0 group-title=”Музыка”,Djing Animation HD
+ http://www.djing.com/tv/a-05.m3u8
+ #EXTINF:0 group-title=”Музыка”,Djing HOT HOT HOT HD
+ http://www.djing.com/tv/h-05.m3u8
+ #EXTINF:0 group-title=”Музыка”,Djind DJS HD
+ http://www.djing.com/tv/tmp/Hedonist_April_2015_DjingMedium/stream-5-2600000/index.m3u8
+ #EXTINF:0 group-title=”Музыка”,Djing Classic HD
+ http://www.djing.com/tv/i-05.m3u8
+ #EXTINF:0 group-title=”Музыка”,ELECTROSOUND TV
+ rtmp://www.electrosound.tv:1935/public/stream
+ #EXTINF:0 group-title=”Музыка”,RU.TV
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_RUTV/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Музыка”,RUSONG TV
+ http://hlsstr04.svc.iptv.rt.ru/hls/CH_RUSONGTV/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Музыка”,Russian Music BOX
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_MUSICBOXRU/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Музыка”,Music BOX
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_MUSICBOXTV/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Музыка”,Муз ТВ
+http://188.128.118.189:4020
+ #EXTINF:0 group-title=”Музыка”,M1
+ http://91.193.124.5:8000/m1
+ #EXTINF:0 group-title=”Музыка”,M2
+ http://91.193.124.5:8000/m2
+ #EXTINF:0 group-title=”Музыка”,Ru Music
+ http://91.193.124.5:8000/ru-music
+ #EXTINF:0 group-title=”Музыка”,Туган Тел
+rtmp://streamer.rtcommufa.ru:1935/tugantel/tugantel1
+ #EXTINF:0 group-title=”Музыка”,TMB
+ http://android-hd.izletv.mobi:80/org5/tmbtv_me/chunks.m3u8
+ #EXTINF:0 group-title=”Музыка”,9 Волна
+rtmp://176.9.127.102/live/myStream_1
+ #EXTINF:0 group-title=”Музыка”,Русская Эстрада
+rtmp://78.140.209.20:1935/tv/ruestrada2
+ #EXTINF:0 group-title=”Музыка”,Kiss TV
+ http://tst.es.flash.glb.ipercast.net/tst.es-live/live/index.m3u8
+ #EXTINF:0 group-title=”Музыка”,MTV AM HD
+ http://94.125.187.18/hlsam/hd/playlist.m3u8
+ #EXTINF:0 group-title=”Музыка”,Для Двоих HD
+ http://78.140.209.20:1935/tv/42tv1/playlist.m3u8
+ #EXTINF:0 group-title=”Музыка”,Первый Балтийский Музыкальный
+http://embedcdnb.cloudy.services/play/135/chunklist_bw1800000.m3u8
+ #EXTINF:0 group-title=”Музыка”,MTV Viet
+ http://64.62.143.5:1935/live/donotstealmy-Stream1/playlist.m3u8
+ #EXTINF:0 group-title=”Музыка”,Nebiset
+ http://hls.nebiset.tv/nebiset.m3u8
+ #EXTINF:0 group-title=”Музыка”,Muzzone
+ http://live.muzzone.cdnvideo.ru/muzzone/muzzone.sdp/playlist.m3u8
+ #EXTINF:0 group-title=”Музыка”,Курай
+http://win.cdn.bonus-tv.ru/TVB4/kurai/playlist.m3u8
+ #EXTINF:0 group-title=”Музыка”,Золото Шансона
+http://95.211.163.54:1935/tv/2808/playlist.m3u8
+ #EXTINF:0 group-title=”Музыка”,POLO
+ rtmp://stream.smcloud.net/live/polotv
+ #EXTINF:0 group-title=”Музыка”,POLO Party HD
+ rtmp://stream.smcloud.net/live2/polo_party/polo_party_720p
+ #EXTINF:0 group-title=”Музыка”,Dream
+ http://212.224.108.80/S1/HLS_LIVE/dreamtv/1000/prog_index.m3u8
+ #EXTINF:0 group-title=”Музыка”,Go TV
+ http://stream1.gotv.at:1935/live/gotvlive_360p/chunklist.m3u8
+ #EXTINF:0 group-title=”Музыка”,Clubland
+ http://rrr.sz.xlcdn.com/?account=AATW&file=clublandtv&type=live&service=wowza&protocol=http&output=playlist.m3u8
+ #EXTINF:0 group-title=”Музыка”,Наше ТВ
+http://nashetv.streamr.ru:8080/hlsnashelive/nashelive.m3u8
+ #EXTINF:0 group-title=”Музыка”,НАШЕСТВИЕ
+http://ger1.peers.tv/streaming/nashestvie/16/tvrecw/playlist.m3u8
+ #EXTINF:0 group-title=”Музыка”,RTL TV 102.5
+ http://origin-rtl-radio-stream.4mecloud.it/live-video/radiovisione/ngrp:radiovisione/playlist.m3u8
+ #EXTINF:0 group-title=”Музыка”,Radio 105 TV
+ http://serv07.vintera.tv:1935/restream/105tv.stream/playlist.m3u8
+ #EXTINF:0 group-title=”Музыка”,VEVO 1
+ http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch1/06/prog_index.m3u8
+ #EXTINF:0 group-title=”Музыка”,VEVO 2
+ http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch2/06/prog_index.m3u8
+ #EXTINF:0 group-title=”Музыка”,VEVO 3
+ http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch3/06/prog_index.m3u8
+ #EXTINF:0 group-title=”Музыка”,Now Music UK
+ http://rrr.sz.xlcdn.com/?account=AATW&file=nowmusic&type=live&service=wowza&protocol=http&output=playlist.m3u8
+ #EXTINF:0 group-title=”Музыка”,NRJ
+ http://rtmp.infomaniak.ch/livecast/energytv/playlist.m3u8
+ #EXTINF:0 group-title=”Музыка”,VIVA DE
+ http://81.201.52.159:8007
+ #EXTINF:0 group-title=”Музыка”,Virgin TV Radio
+ http://wow01.105.net/live/virgin1/.m3u8
+ #EXTINF:0 group-title=”Музыка”,Ля-минор
+http://hlsstr04.svc.iptv.rt.ru/hls/CH_AMOLL/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Музыка”,Шансон-ТВ
+http://hlsstr03.svc.iptv.rt.ru/hls/CH_SHANSONTV/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Музыка”,Mezzo
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_MEZZO/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Музыка”,Mezzo Live HD
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_C05_MEZZOLIVEHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Детские”,=== ДЕТСКИЕ ===
+http://188.128.118.180:4067
+ #EXTINF:0 group-title=”Детские”,Cartoon Network
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_CN/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Детские”,Nickelodeon
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_NICKELODEON/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Детские”,Nickelodeon HD
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_C01_NICKELODEONHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Детские”,Nick Jr.
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_NICKJUNIOR/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Детские”,Boomerang
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_BOOMERANG/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Детские”,Мультимания
+http://hls.peers.tv/streaming/multimania/16/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Детские”,Детский
+http://hlsstr03.svc.iptv.rt.ru/hls/CH_DETSKIJ/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Детские”,Детский Мир/Телеклуб
+http://hlsstr02.svc.iptv.rt.ru/hls/CH_DETSKIJMIR/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Детские”,Канал Disney
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_DISNEY/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Детские”,Карусель
+http://hlsstr02.svc.iptv.rt.ru/hls/CH_KARUSEL/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Детские”,Gulli
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_GULLI/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Детские”,JimJam
+ http://hlsstr04.svc.iptv.rt.ru/hls/CH_JIMJAM/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Детские”,Мульт
+http://hlsstr01.svc.iptv.rt.ru/hls/CH_MULT/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Детские”,Пиксель
+http://195.2.236.19:8053/53
+ #EXTINF:0 group-title=”Детские”,Улыбка Ребенка
+http://hls.peers.tv/streaming/smile/126/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Детские”,Первый образовательный
+http://hls.peers.tv/streaming/1_obraz/126/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Детские”,Детское ТВ
+http://95.211.163.54:1935/tv/3565/playlist.m3u8
+ #EXTINF:0 group-title=”Детские”,Рыжий
+http://3.hls.bolshoe.tv/2/streaming/teentv/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Детские”,BY ТВ Мульт
+http://95.211.163.54:1935/tv/3661/playlist.m3u8
+ #EXTINF:0 group-title=”Детские”,Карапуз ТВ
+http://95.211.163.54:1935/tv/2664/playlist.m3u8
+ #EXTINF:0 group-title=”Детские”,Теремок ТВ HD
+ http://95.211.163.54:1935/tv/3636/playlist.m3u8
+ #EXTINF:0 group-title=”Детские”,Том и Джерри
+http://95.211.163.54:1935/tv/3554/playlist.m3u8
+ #EXTINF:-1 group-title=”Детские”,Сказки Зайки
+http://serv03.vintera.tv:1935/live/skazki/playlist.m3u8
+ #EXTINF:0 group-title=”Детские”,Baby TV
+ http://hlsstr04.svc.iptv.rt.ru/hls/CH_BABYTV/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Детские”,МАМА
+http://hlsstr03.svc.iptv.rt.ru/hls/CH_MATIDITYA/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Детские”,СоюзМультфильм +
+http://s6.mnogo-tv.com:1985/live/multiktv.stream/playlist.m3u8
+ #EXTINF:0 group-title=”Детские”,Мать и Дитя
+http://188.128.118.180:4067
+ #EXTINF:0 group-title=”Детские”,TiJi
+ http://hlsstr04.svc.iptv.rt.ru/hls/CH_TIJI/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Детские”,Балапан
+http://vs1.cdn.ott.otautv.kz/dtv/id3_KTR_SG–Balapan/03/plst.m3u8
+ #EXTINF:0 group-title=”Детские”,Веселка TV HD (Укр)
+http://95.211.163.54:1935/tv/2482/playlist.m3u8
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,=== ФИЛЬМЫ И СЕРИАЛЫ ===
+http://188.128.118.180:4025
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Amedia 1
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_AMEDIA/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Amedia 1 HD
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_C01_HDAMEDIA/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Amedia HIT
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_AMEDIAHITSD/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Amedia HIT HD
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_AMEDIAHITHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Amedia Premium
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_AMEDIAPREMIUMSD/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Amedia Premium HD
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_C05_HDAMEDIAPREMIUM/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,TV 1000
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_TV1000/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,TV 1000 Action
+ http://hlsstr04.svc.iptv.rt.ru/hls/CH_TV1000ACTION/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,TV 1000 Comedy
+ http://188.128.118.180:4025
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,TV 1000 Comedy HD
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_C03_TV1000COMEDYHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,TV 1000 Megahit HD
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_C03_TV1000MEGAHITHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,TV 1000 Premium HD
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_C05_TV1000PREMIUMHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,TV 1000 Русское кино
+http://hlsstr02.svc.iptv.rt.ru/hls/CH_TV1000RUS/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Paramount Channel
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_PARAMOUNTCHANNEL/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Paramount Channel HD
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_C02_PARAMOUNTCHANNELHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Paramount Comedy
+ http://hlsstr04.svc.iptv.rt.ru/hls/CH_PARAMOUNTCOMEDY/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Paramount Comedy HD
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_C03_PARAMOUNTCOMEDYHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Страшное HD
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_C01_STRASHNOEHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,AMC
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_MGM/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,FOX
+ http://hlsstr04.svc.iptv.rt.ru/hls/CH_FOX/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,FOX HD
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_C02_FOXHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Fox Life
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_FOXLIFE/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Fox Life HD
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_C04_FOXLIFEHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,НТВ+ Кино Плюс
+http://hlsstr04.svc.iptv.rt.ru/hls/CH_NTVPLUSKINO/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,НТВ+ Наше Кино
+http://hlsstr02.svc.iptv.rt.ru/hls/CH_NTVPLUSNASHEKINO/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,НТВ+ Наше новое кино
+http://hlsstr03.svc.iptv.rt.ru/hls/CH_NTVPLUSNOVOEKINO/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,НТВ+ Киносоюз
+http://hlsstr01.svc.iptv.rt.ru/hls/CH_NTVPLUSKINOSOYUZ/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Еврокино
+http://hlsstr04.svc.iptv.rt.ru/hls/CH_EUROKINO/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Иллюзион +
+http://hlsstr03.svc.iptv.rt.ru/hls/CH_ULLUSIONPLUS/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Русский Бестселлер
+http://hlsstr02.svc.iptv.rt.ru/hls/CH_RUSSIANBESTSELLER/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Русский Иллюзион
+http://hlsstr01.svc.iptv.rt.ru/hls/CH_RUSSIANILLUSION/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Русский детектив
+http://hlsstr04.svc.iptv.rt.ru/hls/CH_C04_RUSSIANDETECTIVE/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Русский роман
+http://hlsstr01.svc.iptv.rt.ru/hls/CH_RUSSINAROMAN/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Феникс плюс кино
+http://hlsstr04.svc.iptv.rt.ru/hls/CH_GENIKSPLUSKINO/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Дом кино
+http://91.193.124.5:8000/dom-kino
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Filmbox
+ http://serv19.vintera.tv:8081/boxhd/FilmBasicBaltic/playlist.m3u8
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Filmbox Arthouse
+ http://serv19.vintera.tv:8081/boxhd/ArthouseHD/playlist.m3u8
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,TV XXI Век
+http://hlsstr04.svc.iptv.rt.ru/hls/CH_TVXXI/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Zee TV
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_ZEETV/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Кино ТВ
+http://hlsstr01.svc.iptv.rt.ru/hls/CH_KINOTV/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Комедия ТВ
+http://hlsstr04.svc.iptv.rt.ru/hls/CH_COMEDYTV/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,НСТ
+http://hlsstr02.svc.iptv.rt.ru/hls/CH_NSTV/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,SET
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_SET/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,SET HD
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_C02_SETHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Sony Sci-Fi
+ http://hlsstr04.svc.iptv.rt.ru/hls/CH_SONYSCIFI/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Sony Turbo
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_SONYTURBO/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Первый Мистический
+http://s6.mnogo-tv.com:1985/live/mistikatv.stream/playlist.m3u8
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,BY ТВ Комедия
+http://95.211.163.54:1935/tv/3696/playlist.m3u8
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,BY ТВ Фильмовой
+http://95.211.163.54:1935/tv/3765/playlist.m3u8
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,Autokino
+ http://95.211.163.54:1935/tv/3512/playlist.m3u8
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,КиноМеню HD
+ http://93.95.99.231:1935/live/km/playlist.m3u8
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,КиноШторм
+http://s6.mnogo-tv.com:1985/live/KinoStorm.stream/playlist.m3u8
+ #EXTINF:0 group-title=”Фильмы и Сериалы”,ТВ-ТРЕЙЛЕР
+http://hls.peers.tv/streaming/tvtrailer/16/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Развлекательные”,=== РАЗВЛЕКАТЕЛЬНЫЕ ===
+http://188.128.118.180:4069
+ #EXTINF:0 group-title=”Развлекательные”,Живи
+http://hls.peers.tv/streaming/jv/16/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Развлекательные”,Парк развлечений
+http://hlsstr03.svc.iptv.rt.ru/hls/CH_PARKRAZVLECHENIJ/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Развлекательные”,Сарафан
+http://hlsstr03.svc.iptv.rt.ru/hls/CH_C01_SARAFAN/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Развлекательные”,RTG HD
+ http://hlstv.kuz.211.ru/239.211.211.124/stream.m3u8
+ #EXTINF:0 group-title=”Развлекательные”,Travel and Adventure
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_TRAVELCHANNEL/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Развлекательные”,Food Network
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_C05_FOOD/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Развлекательные”,Food Network HD
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_C05_FOODHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Развлекательные”,HD FASHION
+ rtmp://95.67.8.43:1935/live/fashionhd
+ #EXTINF:0 group-title=”Развлекательные”,World Fashion Россия HD
+ http://win.cdn.bonus-tv.ru/TVB8/wfhd/playlist.m3u8
+ #EXTINF:0 group-title=”Развлекательные”,World Fashion Europe HD
+ http://win.cdn.bonus-tv.ru/TVB7/wfhdeu/playlist.m3u8
+ #EXTINF:0 group-title=”Развлекательные”,Fashion Box HD
+ http://37.228.91.165:8081/boxhd/FashionHD/playlist.m3u8
+ #EXTINF:0 group-title=”Развлекательные”,Outdoor Channel
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_OUTDOOR/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Развлекательные”,Outdoor Channel HD
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_C01_OUTDOORCHANNELHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Развлекательные”,Оружие
+http://hlsstr02.svc.iptv.rt.ru/hls/CH_WEAPON/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Развлекательные”,Охота и рыбалка
+http://hlsstr01.svc.iptv.rt.ru/hls/CH_OHOTAIRYBALKS/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Развлекательные”,Трофей HD
+ http://str.trofey.net:1935/live/2_max.smil/playlist.m3u8?session=5488c6087e1ea6.57082302&id=2
+ #EXTINF:0 group-title=”Развлекательные”,Авто плюс
+http://hlsstr01.svc.iptv.rt.ru/hls/CH_AUTOPLUS/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Развлекательные”,Драйв
+http://hlsstr03.svc.iptv.rt.ru/hls/CH_DRIVE/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Развлекательные”,РЕТРО
+http://hlsstr01.svc.iptv.rt.ru/hls/CH_RETROTV/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Развлекательные”,Ностальгия
+http://hlsstr02.svc.iptv.rt.ru/hls/CH_NOSTALGIYA/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Развлекательные”,Психология 21
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_PSIHOLOGIYA21/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Развлекательные”,Вопросы и Ответы
+http://hlsstr04.svc.iptv.rt.ru/hls/CH_VOPROSIOTVET/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Развлекательные”,Все ТВ
+http://hlsstr01.svc.iptv.rt.ru/hls/CH_VSETV/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Развлекательные”,Усадьба ТВ
+http://hlsstr03.svc.iptv.rt.ru/hls/CH_USADBA/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Развлекательные”,Успех
+http://hlsstr02.svc.iptv.rt.ru/hls/CH_USPEH/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Развлекательные”,Ю
+http://hlsstr04.svc.iptv.rt.ru/hls/CH_U/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Развлекательные”,Юмор Box
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_HUMORTV/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Развлекательные”,ТНТ Comedy
+ http://3.hls.bolshoe.tv/2/streaming/comedytv/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Развлекательные”,Hello TV HD
+ http://live.tvhello.ru/live/Stream1/playlist.m3u8
+ #EXTINF:0 group-title=”Развлекательные”,Luxury World
+ http://nano.teleservice.su:8080/hls/luxury.m3u8
+ #EXTINF:0 group-title=”Развлекательные”,Стоп-Хам (Дорожные войны)
+http://95.211.163.54:1935/tv/2280/playlist.m3u8
+ #EXTINF:0 group-title=”Развлекательные”,BY ТВ UFO
+ http://95.211.163.54:1935/tv/3662/playlist.m3u8
+ #EXTINF:0 group-title=”Развлекательные”,BY ТВ Поздравления
+http://95.211.163.54:1935/tv/3722/playlist.m3u8
+ #EXTINF:0 group-title=”Развлекательные”,Univer Smotri
+ http://178.213.242.142:1935/live/mq.sdp/playlist.m3u8
+ #EXTINF:0 group-title=”Развлекательные”,Univer Smotri HD
+ http://178.213.242.142:1935/live/smil:mbr.smil/playlist.m3u8
+ #EXTINF:0 group-title=”Развлекательные”,Mix
+ rtmp://tv-mix.ru/live/Stream1
+ #EXTINF:0 group-title=”Развлекательные”,Подсекай ТВ
+rtmp://176.32.32.36/podsekaiTV/chanelHD
+ #EXTINF:0 group-title=”Развлекательные”,AnyDay 3D
+ http://streamer1.cdn.3dsmart.tv/hls/anyday.tv.3d/stream.m3u8
+ #EXTINF:0 group-title=”Развлекательные”,AnyDay
+ http://streamer1.cdn.3dsmart.tv/hls/anyday.internet.sd/stream.m3u8
+ #EXTINF:0 group-title=”Развлекательные”,Glazella 3D
+ http://streamer1.cdn.3dsmart.tv/hls/glazella.tv.3d/stream.m3u8
+ #EXTINF:0 group-title=”Развлекательные”,Glazella
+ http://streamer1.cdn.3dsmart.tv/hls/glazella.internet.sd/stream.m3u8
+ #EXTINF:0 group-title=”Развлекательные”,Mute TV 3D
+ http://streamer1.cdn.3dsmart.tv/hls/mutetv.tv.3d/stream.m3u8
+ #EXTINF:0 group-title=”Развлекательные”,Mute TV
+ http://streamer1.cdn.3dsmart.tv/hls/mutetv.internet.sd/stream.m3u8
+ #EXTINF:0 group-title=”Развлекательные”,О2 HD
+ http://live.cache.eaglecdn.com/stream/o2tv/amlst:translation_meta_10787/index.m3u8
+ #EXTINF:0 group-title=”Развлекательные”,RosNet HD
+#EXTINF:0 group-title=”Развлекательные”,Дайвинг.TV
+ http://wse.planeta-online.tv:1935/live/channel_130/playlist.m3u8
+ #EXTINF:-1 group-title=”Развлекательные”,HD Media
+ http://93.95.99.231:1935/push/720p/playlist.m3u8
+ #EXTINF:-1 group-title=”Развлекательные”,HD Media 3D
+ http://hdmedia3d.vintera.tv:1935/hdmedia3d/hdmedia3d.stream/playlist.m3u8
+ #EXTINF:0 group-title=”Познавательные”,=== ПОЗНАВАТЕЛЬНЫЕ ===
+http://188.128.118.180:4031
+ #EXTINF:0 group-title=”Познавательные”,Discovery Channel
+ http://hlsstr04.svc.iptv.rt.ru/hls/CH_DISCOVERYCHANNEL/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,Discovery Channel HD
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_C05_DISCOVERYCHANNELHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,Discovery Science
+ http://hlsstr04.svc.iptv.rt.ru/hls/CH_DISCOVERYSCIENCE/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,Discovery Science HD
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_C05_DISCOVERYSCIENCEHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,Discovery World
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_DISCOVERYWORLD/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,Animal Planet
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_ANIMALPLANET/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,Animal Planet HD
+ http://hlsstr04.svc.iptv.rt.ru/hls/CH_C03_ANIMALPLANETHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,Nat Geo Wild
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_NATGEOWILD/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,Nat Geo Wild HD
+ http://hlsstr04.svc.iptv.rt.ru/hls/CH_C03_NATGEOWILDHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,National Geographic
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_NATGEO/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,National Geographic HD
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_C04_NGCHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,Nautical Channel
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_NAUTICALCHANNEL/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,History
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_HISTORY/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,History HD
+ http://hlsstr04.svc.iptv.rt.ru/hls/CH_C05_HDHISTORY/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,Galaxy
+ http://188.128.118.180:4034
+ #EXTINF:0 group-title=”Познавательные”,Viasat Explorer
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_VIASATEXPLORER/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,Viasat Nature
+ http://hlsstr04.svc.iptv.rt.ru/hls/CH_VIASATNATURE/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,Viasat History
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_VIASATHISTORY/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,Viasat Nature/History HD
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_C03_VIASATNATUREHISTORYHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,Т24 (24 техно)
+http://hlsstr01.svc.iptv.rt.ru/hls/CH_24TEHNO/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,IQ HD
+ http://hls.svc.moyo.tv/hls/CH_IQHD/bw3378000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,24 Док
+http://hlsstr01.svc.iptv.rt.ru/hls/CH_24DOC/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,RTG TV
+ http://android-hd.izletv.mobi:80/org6/rtg_me/chunks.m3u8
+ #EXTINF:0 group-title=”Познавательные”,TLC
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_TLC/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,TLC HD
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_C04_TLCHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,365 Дней
+http://edge.ailetv.net/org16/365dneytv_me/playlist.m3u8
+ #EXTINF:0 group-title=”Познавательные”,DocuBox HD
+ http://serv19.vintera.tv:8081/boxhd/DocuHD_ru/playlist.m3u8
+ #EXTINF:0 group-title=”Познавательные”,Моя планета
+http://hlsstr02.svc.iptv.rt.ru/hls/CH_MYPLANET/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,Наука 2.0
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_NAUKA20/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,ZooПарк
+http://hlsstr03.svc.iptv.rt.ru/hls/CH_ZOOPARK/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,История
+http://hlsstr01.svc.iptv.rt.ru/hls/CH_ISTORIYA/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,Кто есть кто
+http://hlsstr04.svc.iptv.rt.ru/hls/CH_KTOESTKTO/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,Первый образовательный
+http://hlsstr01.svc.iptv.rt.ru/hls/CH_PERVYJOBRAZOVATELNYJ/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,Страна
+http://hlsstr04.svc.iptv.rt.ru/hls/CH_STRANA/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,English club TV
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_ENGLISHCLUB/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,Da Vinci learning
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_DAVINCILEARNING/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Познавательные”,Океан ТВ
+http://188.128.118.180:4037
+ #EXTINF:0 group-title=”Познавательные”,Nano TV
+ http://nano.teleservice.su:8080/hls/nano.m3u8
+ #EXTINF:0 group-title=”Познавательные”,RTД HD (ru)
+ http://194.190.78.230/output/rtdoc/playlist.m3u8
+ #EXTINF:0 group-title=”Спортивные”,=== СПОРТ ===
+http://188.128.118.189:4003
+ #EXTINF:0 group-title=”Спортивные”,Россия 2
+ http://kt-tv.ru/iptv/channels.php?channel=107
+ #EXTINF:0 group-title=”Спортивные”,Россия 2 (2)
+ http://hls.peers.tv/streaming/sport/126/tvrec/playlist.m3u8
+ #EXTINF:0 group-title=”Спортивные”,Россия 2 (3)
+ http://188.128.118.189:4003
+ #EXTINF:0 group-title=”Спортивные”,Спорт 1
+ http://188.128.118.180:4001
+ #EXTINF:0 group-title=”Спортивные”,КХЛ
+http://188.128.118.180:4039
+
+#EXTINF:0,Osjecka TV
+http://xosjeckatvx.api.channel.livestream.com/3.0/playlist.m3u8
+#EXTINF:0,SLAVONIJA BARANJA TV
+mms://89.201.164.181/stv
+ #EXTINF:0 group-title=”Europe”,Беларусь 1
+ http://live.streaming.hoster.by:1935/belarus1/live/playlist.m3u8
+ #EXTINF:0 group-title=”Europe”,Беларусь 24
+ http://video.tvr.by:1935/belarus24/live/playlist.m3u8
+ #EXTINF:0 group-title=”Europe”,СТВ Беларусь
+http://93.125.30.18:1935/ctv/live.stream/manifest.m3u8
+ #EXTINF:0 group-title=”Europe”,ТНТ Браво
+http://87.248.160.8/edge/smil:tnt/playlist.m3u8
+ #EXTINF:0 group-title=”Europe”,РЕН ТВ Молдова
+http://87.248.160.8/edge/smil:rentv/playlist.m3u8
+ #EXTINF:0 group-title=”Europe”,DIGI 24
+ http://82.76.249.77:80/digi24edge/digi24hdhqhls/index.m3u8
+ #EXTINF:0 group-title=”Europe”,MBC HD
+ http://87.248.160.8/edge/smil:mbc/playlist.m3u8
+ #EXTINF:0 group-title=”Europe”,Moldova 1
+ http://87.248.160.8/edge/smil:m1/playlist.m3u8
+ #EXTINF:0 group-title=”Europe”,Prime
+ http://87.248.160.8/edge/smil:prime/playlist.m3u8
+ #EXTINF:0 group-title=”Europe”,PRO TV Chişinău
+ http://87.248.160.8/edge/smil:protv/playlist.m3u8
+ #EXTINF:0 group-title=”Europe”,Publika TV
+ http://87.248.160.8/edge/smil:publica/playlist.m3u8
+ #EXTINF:0 group-title=”Europe”,Realitatea TV
+ http://87.248.160.8/edge/smil:realitate/playlist.m3u8
+ #EXTINF:0 group-title=”Europe”,RTR Moldova
+ http://87.248.160.8/edge/smil:rtrp/playlist.m3u8
+ #EXTINF:0 group-title=”Europe”,Canal 3 Moldova
+ http://87.248.160.8/edge/smil:canal3/playlist.m3u8
+ #EXTINF:0 group-title=”Europe”,TVC 21
+ http://87.248.160.8/edge/smil:tvc21/playlist.m3u8
+ #EXTINF:0 group-title=”Europe”,TVR
+ http://87.248.160.8/edge/smil:tvr/playlist.m3u8
+ #EXTINF:0 group-title=”Europe”,Pro tv
+ http://87.248.160.8/edge/smil:protv/playlist.m3u8
+ #EXTINF:0 group-title=”Europe”,M1
+ http://87.248.160.8/edge/smil:m1/playlist.m3u8
+ #EXTINF:0 group-title=”Europe”,TVR
+ http://87.248.160.8/edge/smil:tvr/playlist.m3u8
+ #EXTINF:0 group-title=”Europe”,CTC Mega
+ http://87.248.160.8/edge/smil:sts/playlist.m3u8
+ #EXTINF:0 group-title=”Europe”,TF1
+ http://stream4.latvdefrance.com/demo/tf1.m3u8
+ #EXTINF:0 group-title=”Europe”,ARTE
+ http://stream4.latvdefrance.com/demo/arte.m3u8
+ #EXTINF:0 group-title=”Europe”,HD1
+ http://stream4.latvdefrance.com/demo/hd1.m3u8
+ #EXTINF:-1 group-title=”Europe”,LRT Lituanica
+ http://lrt-tv3.data.lt:1935/World/mp4:world/playlist.m3u8
+ #EXTINF:-1 group-title=”Europe”,LRT Televizija
+ rtmp://bb.5ci.lt/live/LRT_576
+ #EXTINF:-1 group-title=”Europe”,LTV1
+ http://dvb.gpsystems.lv:4242/bysid/5110
+ #EXTINF:-1 group-title=”Europe”,LTV7
+ http://dvb.gpsystems.lv:4242/bysid/5130
+ #EXTINF:0 group-title=”Europe”,AXN White HD
+ http://95.136.66.53:9091/AXNWHITEHDEXTRA.ts
+ #EXTINF:-1 group-title=”Europe”,Sky News Int.
+ http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/skynews/ls_satlink/b_828.m3u8
+ #EXTINF:0 group-title=”Europe”,Discovery Turbo Xtra PL
+ rtmp://85.10.208.218/live/discoveryxtra
+ #EXTINF:0 group-title=”Europe”,D8
+ http://37.59.51.173:8085/D8/index.m3u8
+ #EXTINF:0 group-title=”Europe”,RT Espanol
+ http://rt.ashttp14.visionip.tv/live/RT_en_Espanol-SD/chunklist.m3u8
+ #EXTINF:0 group-title=”Europe”,RT Espanol HD
+ http://rt.ashttp14.visionip.tv/live/RT_en_Espanol-HD/chunklist.m3u8
+ #EXTINF:0 group-title=”Europe”,M6 HD
+ http://37.59.51.173:8085/M6/index.m3u8
+ #EXTINF:0 group-title=”Europe”,France 2 HD
+ http://37.59.51.173:8085/FRANCE2/index.m3u8
+ #EXTINF:0 group-title=”Europe”,France 3
+ http://streaming-hub.com/tv/i/france3_1@97329/index_1300_av-b.m3u8?sd=10&rebase=on
+ #EXTINF:0 group-title=”Europe”,France 5
+ http://37.59.51.173:8085/FRANCE3/index.m3u8
+ #EXTINF:0 group-title=”Europe”,I24 News
+ http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/i24/ls_satlink/b_828.m3u8?Vd?u#bt!25
+ #EXTINF:0 group-title=”Europe”,Duna World HD
+ http://212.40.98.166/intstreams/mtva/dunaworldlive.smil/chunklist.m3u8
+ #EXTINF:0 group-title=”Europe”,M1 HD
+ http://212.40.98.166/intstreams/mtva/mtv1live.smil/chunklist.m3u8
+ #EXTINF:0 group-title=”Europe”,M2 HD
+ http://212.40.98.166/intstreams/mtva/mtv2live.smil/chunklist.m3u8
+ #EXTINF:0 group-title=”Europe”,Тамыр
+http://win.cdn.bonus-tv.ru/TVB4/tamyr/playlist.m3u8
+ #EXTINF:0 group-title=”Europe”,Казах ТВ
+http://vs1.cdn.ott.otautv.kz/dtv/id4_KTR_SG–Kazakhtv/03/plst.m3u8
+ #EXTINF:0 group-title=”Europe”,КТК
+http://195.49.213.56/ktklive/live.hq/playlist.m3u8
+ #EXTINF:0 group-title=”HD””,=== HD ===
+ http://bit.ly/liteiptvplaylist
+ #EXTINF:0 group-title=”HD”,Первый канал HD
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_C06_1TVHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”HD”,Россия HD
+ http://hlsstr04.svc.iptv.rt.ru/hls/CH_C05_RUSSIA1HD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”HD”,LifeNews HD
+ http://tv.life.ru/lifetv/720p/index.m3u8
+ #EXTINF:0 group-title=”HD”,МИР HD
+ http://hlstv.kuz.211.ru/239.211.211.125/stream.m3u8
+ #EXTINF:0 group-title=”HD”,ЛДПР HD
+ http://213.247.198.250:1935/live/ldpr.stream/playlist.m3u8
+ #EXTINF:0 group-title=”HD”,WBC HD
+ http://win.cdn.bonus-tv.ru/TVB7/wbc/index.m3u8
+ #EXTINF:0 group-title=”HD”,RT HD
+ http://hlsstr04.svc.iptv.rt.ru/hls/CH_C04_RTTVHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”HD”,8 канал Владивосток HD
+ rtmp://37.187.27.118/live/livestream3
+ #EXTINF:0 group-title=”HD”,Астрахань 24 HD
+ http://win.cdn.bonus-tv.ru/TVB7/astrakhan/playlist.m3u8
+ #EXTINF:0 group-title=”HD”,Новороссия TV HD
+ http://hls.goodgame.ru/hls/23154.m3u8
+ #EXTINF:0 group-title=”HD”,Антимайдан HD
+ http://hls.goodgame.ru/hls/6147_720.m3u8
+ #EXTINF:0 group-title=”HD”,NewsOne HD
+ rtmp://77.120.104.64:1935/newsone/stream
+ #EXTINF:0 group-title=”HD”,Думская TV HD
+ rtmp://cdn2.live-tv.od.ua/tv/dumska-sub
+ #EXTINF:0 group-title=”HD”,MTV Live HD
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_C03_MTVLIVEHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”HD”,Первый HDльный HD
+ http://hls.peers.tv/streaming/firstmuz/16/hd/playlist.m3u8
+ #EXTINF:0 group-title=”HD”,One.by HD
+ http://rtmp.one.by:1300
+ #EXTINF:0 group-title=”HD”,One.by UHD
+ http://rtmp.one.by:1400
+ #EXTINF:0 group-title=”HD”,One.by Россия HD
+ http://rtmp.one.by:2300
+ #EXTINF:0 group-title=”HD”,JuCeTV HD Россия
+http://109.68.190.192:1935/jucetv/ngrp:jucetv.stream-adaptive/playlist.m3u8
+ #EXTINF:0 group-title=”HD”,360 TuneBox HD
+ http://serv19.vintera.tv:8081/boxhd/360Tune/playlist.m3u8
+ #EXTINF:0 group-title=”HD”,Первый Интернет канал HD
+ http://hls.peers.tv/streaming/pik_hd/126/hd/playlist.m3u8
+ #EXTINF:0 group-title=”HD”,Eska Best Music HD
+ rtmp://stream.smcloud.net/live2/best/best_720p?Vd?u#bt!25
+ #EXTINF:0 group-title=”HD”,Eska Rock TV HD
+ rtmp://stream.smcloud.net/live2/eska_rock/eska_rock_720p?Vd?u#bt!25
+ #EXTINF:0 group-title=”HD”,Eska Party TV HD
+ rtmp://stream.smcloud.net/live2/eska_party/eska_party_720p
+ #EXTINF:0 group-title=”HD”,Eska Wawa HD
+ rtmp://stream.smcloud.net/live2/wawa/wawa_720p
+ #EXTINF:0 group-title=”HD”,Djing HD
+ http://www.djing.com/tv/h-05.m3u8
+ #EXTINF:0 group-title=”HD”,Djing Ibiza HD
+ http://www.djing.com/tv/d-05.m3u8
+ #EXTINF:0 group-title=”HD”,Djing Underground HD
+ http://www.djing.com/tv/u-05.m3u8
+ #EXTINF:0 group-title=”HD”,Djing Animation HD
+ http://www.djing.com/tv/a-05.m3u8
+ #EXTINF:0 group-title=”HD”,Djind DJS HD
+ http://www.djing.com/tv/tmp/Hedonist_April_2015_DjingMedium/stream-5-2600000/index.m3u8
+ #EXTINF:0 group-title=”HD”,Djing Classic HD
+ http://www.djing.com/tv/i-05.m3u8
+ #EXTINF:0 group-title=”HD”,MTV AM HD
+ http://94.125.187.18/hlsam/hd/playlist.m3u8
+ #EXTINF:0 group-title=”HD”,Для Двоих HD
+ http://78.140.209.20:1935/tv/42tv1/playlist.m3u8
+ #EXTINF:0 group-title=”HD”,POLO Party HD
+ rtmp://stream.smcloud.net/live2/polo_party/polo_party_720p
+ #EXTINF:0 group-title=”HD”,Mezzo Live HD
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_C05_MEZZOLIVEHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”HD”,Nickelodeon HD
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_C01_NICKELODEONHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”HD”,Теремок ТВ HD
+ http://95.211.163.54:1935/tv/3636/playlist.m3u8
+ #EXTINF:0 group-title=”HD”,Amedia 1 HD
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_C01_HDAMEDIA/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”HD”,Amedia HIT HD
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_AMEDIAHITHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”HD”,Amedia Premium HD
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_C05_HDAMEDIAPREMIUM/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”HD”,TV 1000 Comedy HD
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_C03_TV1000COMEDYHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”HD”,TV 1000 Megahit HD
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_C03_TV1000MEGAHITHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”HD”,TV 1000 Premium HD
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_C05_TV1000PREMIUMHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”HD”,Paramount Channel HD
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_C02_PARAMOUNTCHANNELHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”HD”,Paramount Comedy HD
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_C03_PARAMOUNTCOMEDYHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”HD”,Страшное HD
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_C01_STRASHNOEHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”HD”,FOX HD
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_C02_FOXHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”HD”,Fox Life HD
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_C04_FOXLIFEHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”HD”,SET HD
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_C02_SETHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”HD”,КиноМеню HD
+ http://93.95.99.231:1935/live/km/playlist.m3u8
+ #EXTINF:0 group-title=”HD”,Food Network HD
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_C05_FOODHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”HD”,Еда HD
+ http://hlstv.kuz.211.ru/239.211.211.115/stream.m3u8
+ #EXTINF:0 group-title=”HD”,Brodilo HD
+ http://brodilo.tv/channel.php
+ #EXTINF:0 group-title=”HD”,HD FASHION
+ rtmp://95.67.8.43:1935/live/fashionhd
+ #EXTINF:0 group-title=”HD”,World Fashion Россия HD
+ http://win.cdn.bonus-tv.ru/TVB8/wfhd/playlist.m3u8
+ #EXTINF:0 group-title=”HD”,World Fashion Europe HD
+ http://win.cdn.bonus-tv.ru/TVB7/wfhdeu/playlist.m3u8
+ #EXTINF:0 group-title=”HD”,Fashion Box HD
+ http://37.228.91.165:8081/boxhd/FashionHD/playlist.m3u8
+ #EXTINF:0 group-title=”HD”,Outdoor Channel HD
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_C01_OUTDOORCHANNELHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”HD”,Трофей HD
+ http://str.trofey.net:1935/live/2_max.smil/playlist.m3u8?session=5488c6087e1ea6.57082302&id=2
+ #EXTINF:0 group-title=”HD”,Hello TV HD
+ http://live.tvhello.ru/live/Stream1/playlist.m3u8
+ #EXTINF:0 group-title=”HD”,RTG HD
+ http://hlstv.kuz.211.ru/239.211.211.124/stream.m3u8
+ #EXTINF:0 group-title=”HD”,О2 HD
+ http://live.cache.eaglecdn.com/stream/o2tv/amlst:translation_meta_10787/index.m3u8
+ #EXTINF:0 group-title=”HD”,Univer Smotri HD
+ http://178.213.242.142:1935/live/smil:mbr.smil/playlist.m3u8
+ #EXTINF:0 group-title=”HD”,RosNet HD
+
+#EXTINF:0,beIN Sports 1 HD
+http://45.32.1.184:9500/serversdzip/1234567/1028.ch
+#EXTINF:0,beIN Sports 2 HD
+http://45.32.1.184:9500/serversdzip/1234567/1029.ch
+#EXTINF:0,beIN Sports 3 HD
+http://45.32.1.184:9500/serversdzip/1234567/1030.ch
+#EXTINF:0,beIN Sports 4 HD
+http://45.32.1.184:9500/serversdzip/1234567/1031.ch
+#EXTINF:-1,BeinSport 5 HD -
+http://45.32.1.184:9500/serversdzip/1234567/253.ch
+#EXTINF:-1,BEINSPORTLIVE
+http://45.32.1.184:9500/serversdzip/1234567/1361.ch
+#EXTINF:0,beIN Sports 6 HD
+http://45.32.1.184:9500/serversdzip/1234567/1033.ch
+#EXTINF:0,beIN Sports 7 HD
+http://45.32.1.184:9500/serversdzip/1234567/1034.ch
+#EXTINF:0,Super Sport 2
+http://balkanstream.com/stream/supersport2/putidoma22/udhfbu
+#EXTINF:0,Super Sport 3
+http://balkanstream.com/stream/supersport3/putidoma22/udhfbu
+#EXTINF:0,Super Sport 4
+http://balkanstream.com/stream/supersport4/putidoma22/udhfbu
+ #EXTINF:0 group-title=”Спортивные”,НТВ+ Теннис
+http://edge.ailetv.net/org8/ntvplustennis_me/playlist.m3u8
+ #EXTINF:0 group-title=”Спортивные”,НТВ+ Футбол 1
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_FUTBALL1SD/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Спортивные”,НТВ+ Футбол 1 HD
+ http://hlsstr04.svc.iptv.rt.ru/hls/CH_FUTBALL1HD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Спортивные”,НТВ+ Футбол 2
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_FUTBALL2SD/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Спортивные”,НТВ+ Футбол 2 HD
+ http://hlsstr04.svc.iptv.rt.ru/hls/CH_FUTBALL2HD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Спортивные”,НТВ+ Футбол 3
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_FUTBALL3SD/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Спортивные”,НТВ+ Футбол 3 HD
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_FUTBALL3HD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Спортивные”,KAZSPORT
+ http://vs8.cdn.ott.otautv.kz:80/dtv/id14_KTR_SG–KazSport/03/plst.m3u8
+ #EXTINF:0 group-title=”Спортивные”,Viasat Sport
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_VIASATSPORT/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Спортивные”,Viasat Sport HD
+ http://hlsstr02.svc.iptv.rt.ru/hls/CH_C06_VIASATSPORTHD/bw3000000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Спортивные”,Extreme Sports
+ http://hlsstr03.svc.iptv.rt.ru/hls/CH_EXTREMESPORTS/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Спортивные”,Боец
+http://hlsstr03.svc.iptv.rt.ru/hls/CH_BOETZ/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Спортивные”,Бойцовский клуб
+http://hlsstr04.svc.iptv.rt.ru/hls/CH_FIGHTCLUB/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Спортивные”,Motors TV
+ http://hlsstr01.svc.iptv.rt.ru/hls/CH_MOTORSTV/bw1500000/variant.m3u8?version=2
+ #EXTINF:0 group-title=”Спортивные”,Fast&Fun Box HD
+ http://serv19.vintera.tv:8081/boxhd/FastnFunHD_ru/playlist.m3u8
+ #EXTINF:0 group-title=”Спортивные”,Fight Box HD
+ http://serv19.vintera.tv:8081/boxhd/FightboxHD/playlist.m3u8
+ #EXTINF:0 group-title=”Спортивные”,Viasat Sport Baltic
+ http://wiptv.id.lv/tieshraide/VSB.m3u8
+ #EXTINF:0 group-title=”Спортивные”,Sport 5 Israel
+ http://rtmp.infomaniak.ch/livecast/hd55/playlist.m3u8
+ #EXTINF:0 group-title=”Спортивные”,Sport 1 Voetbal
+ http://ziggo.cdn.sport1.triple-it.nl/sport1voetbalhd.isml/QualityLevels(696000)/manifest(format=m3u8-aapl).m3u8
+ #EXTINF:0 group-title=”Спортивные”,Sport 1 Voetbal HD
+ http://ziggo.cdn.sport1.triple-it.nl/sport1voetbalhd.isml/QualityLevels(2896000)/manifest(format=m3u8-aapl).m3u8
+ #EXTINF:0 group-title=”Спортивные”,Real Madrid TV
+ http://rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/index_1250_av-b.m3u8?sd=10&rebase=on
+ #EXTINF:0 group-title=”Спортивные”,TVP Sport
+ rtmp://85.10.208.218/live/tvpsport
+ #EXTINF:0 group-title=”Спортивные”,TRT Spor HD
+ http://trtcanlitv-lh.akamaihd.net/i/TRTSPOR1_1@182042/master.m3u8
+ #EXTINF:0 group-title=”Спортивные”,NTV Spor
+http://origin.live.web.tv.streamprovider.net/streams/a820629b8abc43c73c76b091086c138a_live_0_0/index.m3u8
+ #EXTINF:0 group-title=”Спортивные”,Eurosport FR
+ http://esioslive6-i.akamaihd.net/hls/live/202892/AL_P_ESP1_FR_FRA/playlist_1800.m3u8
+ #EXTINF:0 group-title=”Спортивные”,Eurosport DE
+ http://streaming-hub.com/tv/i/eurosportde_1@97452/index_1300_av-p.m3u8
+ #EXTINF:0 group-title=”Спортивные”,Sport 1 Portugal
+ http://95.136.66.53:8080/SPORTTV1HDEXTRA.ts
+ #EXTINF:0 group-title=”Спортивные”,PAC-12 Net. Arizona HD
+ http://xrxs.net/video/live-p12ariz-4728.m3u8
+ #EXTINF:0 group-title=”Спортивные”,PAC-12 Net. Bay Area HD
+ http://xrxs.net/video/live-p12baya-4728.m3u8
+ #EXTINF:0 group-title=”Спортивные”,PAC-12 Net. Oregon HD
+ http://xrxs.net/video/live-p12oreg-4728.m3u8
+ #EXTINF:0 group-title=”Спортивные”,PAC-12 Net. Washington HD
+ http://xrxs.net/video/live-p12wash-4728.m3u8
+ #EXTINF:0 group-title=”Спортивные”,Русский Экстрим
+http://win.cdn.bonus-tv.ru/TVB8/russkiyextrim/playlist.m3u8
+ #EXTINF:0 group-title=”Спортивные”,Sports Tonight Live
+ http://freeview.ashttp9.visionip.tv/live/sports_tonight-sports_tonight-live-25f-16×9-HD/chunklist.m3u8
+
+#EXTINF:0,MBC 2
+http://38.99.146.36:7777/MBC2_HD/MBC2_High.m3u8
+#EXTINF:0,MBC 3
+http://38.99.146.36:7777/MBC3_HD/MBC3_High.m3u8
+#EXTINF:0,MBC_ACTION
+http://63.237.48.23/ios/MBC_ACTION/MBC_ACTION.m3u8
+#EXTINF:0,MBC_MAX
+http://63.237.48.23/ios/MBC_MAX/MBC_MAX.m3u8
+#EXTINF:0,MBC_BOLLYWOOD
+http://63.237.48.23/ios/MBC_BOLLYWOOD/MBC_BOLLYWOOD.m3u8
+#EXTINF:0,Funoon TV
+http://wpc.C56B.edgecastcdn.net/hls-live/20C56B/default/ThompsanECWTV/tsecwatanfunoonmed.m3u8
+#EXTINF:0,AL ARABIA TV
+http://alarabiya-geo-live.hls.adaptive.level3.net/hls-live/alarabiya-channel01/_definst_/live/stream1.m3u8
+#EXTINF:0,Al Hadath
+http://alhadath-geo-live.hls.adaptive.level3.net/hls-live/alhadath-channel01/_definst_/live/stream1.m3u8
+#EXTINF:0,MTV Liban
+rtsp://livestreaming1.itworkscdn.net/mtvlive/murrtelevision_360p
+#EXTINF:0,LBC
+rtsp://livestreaming.itworkscdn.net/lbclive/lbc_2
+#EXTINF:0,NBN
+rtmp://nbn.mangomolo.com:1935/nbn/_definst_mp4:mpegts.stream_360p
+#EXTINF:0,RCTI
+http://livemedia.mncplaymedia.net/cdn/iptv/Tvod/001/channel2000042/1024.m3u8
+#EXTINF:0,Global TV
+http://livemedia.mncplaymedia.net/cdn/iptv/Tvod/001/channel2000041/1024.m3u8
+#EXTINF:0,I-News TV
+http://livemedia.mncplaymedia.net/cdn/iptv/Tvod/001/channel2000029/512.m3u8
+#EXTINF:0,MNC News
+http://livemedia.mncplaymedia.net/cdn/iptv/Tvod/001/channel2000018/512.m3u8
+#EXTINF:0,MNC Shop
+http://livemedia.mncplaymedia.net/cdn/iptv/Tvod/001/channel2000037/512.m3u8
+#EXTINF:0,MNC Infotainment
+http://livemedia.mncplaymedia.net/cdn/iptv/Tvod/001/channel2000038/512.m3u8
+#EXTINF:0,MNC Music
+http://livemedia.mncplaymedia.net/cdn/iptv/Tvod/001/channel2000039/512.m3u8
+#EXTINF:0,Viasat Nature
+http://hlsstr01.svc.iptv.rt.ru/hls/CH_VIASATNATURE/bw1500000/variant.m3u8?version=2
+#EXTINF:0,HRT 1
+http://213.5.58.58:1935/hrt_live/smil:hrt1.smil/playlist.m3u8
+#EXTINF:0,HRT 2
+http://213.5.58.58:1935/hrt_live/smil:hrt2.smil/playlist.m3u8
+#EXTINF:0,HRT 3
+http://213.5.58.58:1935/hrt_live/smil:hrt3.smil/playlist.m3u8
+#EXTINF:0,HRT 4
+http://213.5.58.58:1935/hrt_live/smil:hrt4.smil/playlist.m3u8

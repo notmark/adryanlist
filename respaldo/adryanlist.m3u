@@ -1,0 +1,534 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id=" " tvg-logo="http://adryanlist.org/adryan/img/icon.png",• • • • •  A D R Y A N L I S T • • • • • •
+http://NA
+
+#EXTINF:-1 tvg-id=" " tvg-logo="http://adryanlist.org/adryan/img/alist.jpg",:::  lista ha sido filtrada se volvera activar hasta nuevo aviso ! gracias por compartir lo privado ! :::
+https://hls.ssh101.com/live/rojax2d/index.m3u8
+
+
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/az-clic.gif",[AdryanList] - Azteca Clic
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=11&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/canal-2.gif",[AdryanList] - Canal de las Estrellas
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=17&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/foro-tv.gif",[AdryanList] - Foro TV
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=19&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/canal-5.gif",[AdryanList] - CANAL 5
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=20&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/azteca-7.gif",[AdryanList] - Azteca 7
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=21&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/gala-tv.gif",[AdryanList] - GalaTV
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=24&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/el-trece-hd.gif",[AdryanList] - Azteca 13
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=27&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/teleformula.gif",[AdryanList] - TeleFormula
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=32&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/proyecto-40.gif",[AdryanList] - Adn 40
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=40&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/multimedios-monterrey.gif",[AdryanList] - MULTIMEDIOS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=1253&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/milenio-tv.gif",[AdryanList] - MILENIO
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=1252&p=3&k=gameofthrones&f=.m3u8
+
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fox.gif",[AdryanList] - FOX
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=46&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fox-hd.gif",[AdryanList] - FOX
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=47&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/sony.gif",[AdryanList] - SONY
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=48&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/bbc.gif",[AdryanList] - BBC
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=51&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/warner-channel.gif",[AdryanList] - WARNER CHANNEL
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=52&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/e-entertainment-television.gif",[AdryanList] - E
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=55&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fx.gif",[AdryanList] - FX
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=56&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/universal-channel.gif",[AdryanList] - UNIVERSAL
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=57&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/universal-hd.gif",[AdryanList] - UNIVERSAL
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=58&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/syfy.gif",[AdryanList] - SYFY
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=59&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fx.gif",[AdryanList] - FX
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=60&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/ae.gif",[AdryanList] - A&E
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=62&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/axn-hd.gif",[AdryanList] - AXN
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=64&p=3&k=gameofthrones&f=.m3u8
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/investigacion-discovery.gif",[AdryanList] - ID
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=68&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/az-corazon.gif",[AdryanList] - AZTECA CORAZON
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=70&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/tnt-series.gif",[AdryanList] - TNT SERIES
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=71&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/el-gourmet.gif",[AdryanList] - GOURMET
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=74&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/.gif",[AdryanList] - GARAGE TV
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=75&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/glitz.gif",[AdryanList] - GLITZ
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=76&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fox-life.gif",[AdryanList] - FOX LIFE
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=77&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/distrito-comedia.gif",[AdryanList] - DISTRITO COMEDIA
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=78&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/tru-tv.gif",[AdryanList] - TRUTV
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=79&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/tbs.gif",[AdryanList] - TBS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=81&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/tlnovelas.gif",[AdryanList] - TL NOVELAS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=83&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/az-mundo.gif",[AdryanList] - AZ MUNDO
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=84&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/comedy-central.gif",[AdryanList] - COMEDY CENTRAL
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=340&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/unicable.gif",[AdryanList] - UNICABLE
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=1499&p=3&k=gameofthrones&f=.m3u8
+
+
+
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/discovery-channel.gif",[AdryanList] - DISCOVERY
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=86&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/animal-planet.gif",[AdryanList] - Animal Planet
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=88&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/history-channel.gif",[AdryanList] - HISTORY
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=89&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/natgeo.gif",[AdryanList] - NAT GEO
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=91&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/natgeo-wild.gif",[AdryanList] - NAT GEO WILD
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=92&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/lifetime.gif",[AdryanList] - LIFE TIME
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=94&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/discovery-theater-hd.gif",[AdryanList] - THEATER
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=95&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/home-and-health-hd.gif",[AdryanList] - H&H
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=96&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/tlc.gif",[AdryanList] - TLC
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=97&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/discovery-science.gif",[AdryanList] - SCI
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=98&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/discovery-civilization.gif",[AdryanList] - CIVILIZATION
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=99&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/discovery-turbo.gif",[AdryanList] - TURBO
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=100&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/discovery-world-hd.gif",[AdryanList] - WORLD
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=101&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/wobi-tv.gif",[AdryanList] - WOBI
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=102&p=3&k=gameofthrones&f=.m3u8
+
+
+
+
+
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/tooncast.gif",[AdryanList] - TOONCAST
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=108&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/discovery-kids.gif",[AdryanList] - DICOVERY KIDS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=109&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/nickelodeon-nick.gif",[AdryanList] - NICK
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=110&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/disney-xd.gif",[AdryanList] - XD
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=111&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/disney-channel.gif",[AdryanList] - DISNEY CHANNEL
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=113&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/tiin.gif",[AdryanList] - TIIN
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=114&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/boomerang.gif",[AdryanList] - BOOMERANG
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=115&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/nick-jr.gif",[AdryanList] - NICK JR
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=117&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/disney-jr.gif",[AdryanList] - DISNEY JR
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=118&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/cbebbies.gif",[AdryanList] - CBEBBIES
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=119&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/nicktoons.gif",[AdryanList] - NICK TOONS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=1708&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/nick-hd.gif",[AdryanList] - NICK
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=331&p=3&k=gameofthrones&f=.m3u8
+
+
+
+
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/de-pelicula.gif",[AdryanList] - DEPELICULA
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=121&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/golden-hd.gif",[AdryanList] - GOLDEN HD
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=122&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/golden-edge.gif",[AdryanList] - EDGE
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=124&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/tnt.gif",[AdryanList] - TNT
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=126&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/tnt-hd.gif",[AdryanList] - TNT
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=127&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/tcm.gif",[AdryanList] - TCM
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=128&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/space.gif",[AdryanList] - SPACE
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=129&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/space-hd.gif",[AdryanList] - SPACE
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=130&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/amc.gif",[AdryanList] - AMC
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=131&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/studio-universal.gif",[AdryanList] - STUDIO
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=132&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/isat.gif",[AdryanList] - ISAT
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=135&p=3&k=gameofthrones&f=.m3u8
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/the-film-zone-hd.gif",[AdryanList] - FILMZONE
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=138&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fox-series.gif",[AdryanList] - FOX SERIES
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=139&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fox-movies.gif",[AdryanList] - FOX MOVIES
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=146&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fox-action-hd.gif",[AdryanList] - FOX ACTION
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=336&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fox-cinema.gif",[AdryanList] - FOX CINEMA
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=1729&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fox-classics.gif",[AdryanList] - FOX CLASSICS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=1732&p=3&k=gameofthrones&f=.m3u8
+
+
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/cinecanal.gif",[AdryanList] - CINECANAL
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=149&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/cinemax.gif",[AdryanList] - CINEMAX
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=158&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/.gif",[AdryanList] - CANAL CODE159
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=159&p=3&k=gameofthrones&f=.m3u8
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/tve.gif",[AdryanList] - TVE
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=198&p=3&k=gameofthrones&f=.m3u8
+
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/vh1.gif",[AdryanList] - VH1
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=334&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/mtv-live.gif",[AdryanList] - MTV LIVE
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=211&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/mtv.gif",[AdryanList] - MTV
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=212&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/mtv-hits.gif",[AdryanList] - MTV HITS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=213&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/1-classics.gif",[AdryanList] - 1 CLASSICS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=214&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/ritmoson.gif",[AdryanList] - RITMOSON
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=218&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/.gif",[AdryanList] - CANAL CODE219
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=219&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/telehit-hd.gif",[AdryanList] - TELEHIT
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=220&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/bandamax.gif",[AdryanList] - BANDAMAX
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=221&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/az-clic.gif",[AdryanList] - AZTECA CLIC
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=223&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/cadena-h.gif",[AdryanList] - CADENA H
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=1706&p=3&k=gameofthrones&f=.m3u8
+
+
+
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/espn-mas.gif",[AdryanList] - ESPN MAS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=167&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/espn-hd.gif",[AdryanList] - ESPN
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=168&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/espn-2.gif",[AdryanList] - ESPN 2
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=169&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fox-sports.gif",[AdryanList] - FOX SPORTS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=170&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fox-sports-2-hd.gif",[AdryanList] - FOX SPORTS 2
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=172&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/aym-sports.gif",[AdryanList] - AYM SPORTS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=180&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/px-sports.gif",[AdryanList] - PX SPORTS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=950&p=3&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/f1-latinoamerica.gif",[AdryanList] - F1 LATINOAMERICA
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=1736&p=3&k=gameofthrones&f=.m3u8
+
+
+
+
+ 
+
+#EXTINF:0,[AdryanList] - Educativo
+http://170.55.15.122:8000/play/a00m
+#EXTINF:0,[AdryanList] - CUBAVISION INTERNACIONAL
+http://170.55.15.122:8000/play/a01y
+#EXTINF:0,[AdryanList] - Educativo 2
+http://170.55.15.122:8000/play/a021
+#EXTINF:0,[AdryanList] - MULTIVISION
+http://170.55.15.122:8000/play/a022
+#EXTINF:0,[AdryanList] - Cubavisiðn
+http://170.55.15.122:8000/play/a01z
+#EXTINF:0,[AdryanList] - Univision23
+http://170.55.15.122:8000/play/a024
+#EXTINF:0,[AdryanList] - Tele Rebelde
+http://170.55.15.122:8000/play/a020
+#EXTINF:0,[AdryanList] - Multivision
+http://170.55.15.122:8000/play/a01t
+#EXTINF:0,[AdryanList] - Unimas
+http://170.55.15.122:8000/play/a01v
+#EXTINF:0,[AdryanList] - Unimas
+
+
+
+
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/az-clic.gif",[AdryanList HD] - Azteca Clic
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=11&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/canal-2.gif",[AdryanList HD] - Canal de las Estrellas
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=17&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/foro-tv.gif",[AdryanList HD] - Foro TV
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=19&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/canal-5.gif",[AdryanList HD] - CANAL 5
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=20&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/azteca-7.gif",[AdryanList HD] - Azteca 7
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=21&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/gala-tv.gif",[AdryanList HD] - GalaTV
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=24&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/el-trece-hd.gif",[AdryanList HD] - Azteca 13
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=27&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/teleformula.gif",[AdryanList HD] - TeleFormula
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=32&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/proyecto-40.gif",[AdryanList HD] - Adn 40
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=40&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/multimedios-monterrey.gif",[AdryanList HD] - MULTIMEDIOS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=1253&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/milenio-tv.gif",[AdryanList HD] - MILENIO
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=1252&p=5&k=gameofthrones&f=.m3u8
+
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fox.gif",[AdryanList HD] - FOX
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=46&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fox-hd.gif",[AdryanList HD] - FOX
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=47&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/sony.gif",[AdryanList HD] - SONY
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=48&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/bbc.gif",[AdryanList HD] - BBC
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=51&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/warner-channel.gif",[AdryanList HD] - WARNER CHANNEL
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=52&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/e-entertainment-television.gif",[AdryanList HD] - E
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=55&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fx.gif",[AdryanList HD] - FX
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=56&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/universal-channel.gif",[AdryanList HD] - UNIVERSAL
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=57&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/universal-hd.gif",[AdryanList HD] - UNIVERSAL
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=58&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/syfy.gif",[AdryanList HD] - SYFY
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=59&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fx.gif",[AdryanList HD] - FX
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=60&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/ae.gif",[AdryanList HD] - A&E
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=62&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/axn-hd.gif",[AdryanList HD] - AXN
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=64&p=5&k=gameofthrones&f=.m3u8
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/investigacion-discovery.gif",[AdryanList HD] - ID
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=68&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/az-corazon.gif",[AdryanList HD] - AZTECA CORAZON
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=70&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/tnt-series.gif",[AdryanList HD] - TNT SERIES
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=71&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/el-gourmet.gif",[AdryanList HD] - GOURMET
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=74&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/.gif",[AdryanList HD] - GARAGE TV
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=75&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/glitz.gif",[AdryanList HD] - GLITZ
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=76&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fox-life.gif",[AdryanList HD] - FOX LIFE
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=77&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/distrito-comedia.gif",[AdryanList HD] - DISTRITO COMEDIA
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=78&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/tru-tv.gif",[AdryanList HD] - TRUTV
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=79&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/tbs.gif",[AdryanList HD] - TBS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=81&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/tlnovelas.gif",[AdryanList HD] - TL NOVELAS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=83&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/az-mundo.gif",[AdryanList HD] - AZ MUNDO
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=84&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/comedy-central.gif",[AdryanList HD] - COMEDY CENTRAL
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=340&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/unicable.gif",[AdryanList HD] - UNICABLE
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=1499&p=5&k=gameofthrones&f=.m3u8
+
+
+
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/discovery-channel.gif",[AdryanList HD] - DISCOVERY
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=86&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/animal-planet.gif",[AdryanList HD] - Animal Planet
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=88&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/history-channel.gif",[AdryanList HD] - HISTORY
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=89&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/natgeo.gif",[AdryanList HD] - NAT GEO
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=91&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/natgeo-wild.gif",[AdryanList HD] - NAT GEO WILD
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=92&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/lifetime.gif",[AdryanList HD] - LIFE TIME
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=94&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/discovery-theater-hd.gif",[AdryanList HD] - THEATER
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=95&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/home-and-health-hd.gif",[AdryanList HD] - H&H
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=96&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/tlc.gif",[AdryanList HD] - TLC
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=97&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/discovery-science.gif",[AdryanList HD] - SCI
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=98&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/discovery-civilization.gif",[AdryanList HD] - CIVILIZATION
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=99&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/discovery-turbo.gif",[AdryanList HD] - TURBO
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=100&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/discovery-world-hd.gif",[AdryanList HD] - WORLD
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=101&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/wobi-tv.gif",[AdryanList HD] - WOBI
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=102&p=5&k=gameofthrones&f=.m3u8
+
+
+
+
+
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/tooncast.gif",[AdryanList HD] - TOONCAST
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=108&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/discovery-kids.gif",[AdryanList HD] - DICOVERY KIDS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=109&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/nickelodeon-nick.gif",[AdryanList HD] - NICK
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=110&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/disney-xd.gif",[AdryanList HD] - XD
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=111&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/disney-channel.gif",[AdryanList HD] - DISNEY CHANNEL
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=113&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/tiin.gif",[AdryanList HD] - TIIN
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=114&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/boomerang.gif",[AdryanList HD] - BOOMERANG
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=115&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/nick-jr.gif",[AdryanList HD] - NICK JR
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=117&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/disney-jr.gif",[AdryanList HD] - DISNEY JR
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=118&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/cbebbies.gif",[AdryanList HD] - CBEBBIES
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=119&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/nicktoons.gif",[AdryanList HD] - NICK TOONS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=1708&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/nick-hd.gif",[AdryanList HD] - NICK
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=331&p=5&k=gameofthrones&f=.m3u8
+
+
+
+
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/de-pelicula.gif",[AdryanList HD] - DEPELICULA
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=121&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/golden-hd.gif",[AdryanList HD] - GOLDEN HD
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=122&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/golden-edge.gif",[AdryanList HD] - EDGE
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=124&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/tnt.gif",[AdryanList HD] - TNT
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=126&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/tnt-hd.gif",[AdryanList HD] - TNT
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=127&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/tcm.gif",[AdryanList HD] - TCM
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=128&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/space.gif",[AdryanList HD] - SPACE
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=129&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/space-hd.gif",[AdryanList HD] - SPACE
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=130&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/amc.gif",[AdryanList HD] - AMC
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=131&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/studio-universal.gif",[AdryanList HD] - STUDIO
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=132&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/isat.gif",[AdryanList HD] - ISAT
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=135&p=5&k=gameofthrones&f=.m3u8
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/the-film-zone-hd.gif",[AdryanList HD] - FILMZONE
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=138&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fox-series.gif",[AdryanList HD] - FOX SERIES
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=139&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fox-movies.gif",[AdryanList HD] - FOX MOVIES
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=146&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fox-action-hd.gif",[AdryanList HD] - FOX ACTION
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=336&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fox-cinema.gif",[AdryanList HD] - FOX CINEMA
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=1729&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fox-classics.gif",[AdryanList HD] - FOX CLASSICS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=1732&p=5&k=gameofthrones&f=.m3u8
+
+
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/cinecanal.gif",[AdryanList HD] - CINECANAL
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=149&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/cinemax.gif",[AdryanList HD] - CINEMAX
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=158&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/.gif",[AdryanList HD] - CANAL CODE159
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=159&p=5&k=gameofthrones&f=.m3u8
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/tve.gif",[AdryanList HD] - TVE
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=198&p=5&k=gameofthrones&f=.m3u8
+
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/vh1.gif",[AdryanList HD] - VH1
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=334&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/mtv-live.gif",[AdryanList HD] - MTV LIVE
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=211&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/mtv.gif",[AdryanList HD] - MTV
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=212&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/mtv-hits.gif",[AdryanList HD] - MTV HITS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=213&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/1-classics.gif",[AdryanList HD] - 1 CLASSICS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=214&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/ritmoson.gif",[AdryanList HD] - RITMOSON
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=218&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/.gif",[AdryanList HD] - CANAL CODE219
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=219&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/telehit-hd.gif",[AdryanList HD] - TELEHIT
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=220&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/bandamax.gif",[AdryanList HD] - BANDAMAX
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=221&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/az-clic.gif",[AdryanList HD] - AZTECA CLIC
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=223&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/cadena-h.gif",[AdryanList HD] - CADENA H
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=1706&p=5&k=gameofthrones&f=.m3u8
+
+
+
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/espn-mas.gif",[AdryanList HD] - ESPN MAS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=167&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/espn-hd.gif",[AdryanList HD] - ESPN
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=168&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/espn-2.gif",[AdryanList HD] - ESPN 2
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=169&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fox-sports.gif",[AdryanList HD] - FOX SPORTS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=170&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/fox-sports-2-hd.gif",[AdryanList HD] - FOX SPORTS 2
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=172&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/aym-sports.gif",[AdryanList HD] - AYM SPORTS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=180&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/px-sports.gif",[AdryanList HD] - PX SPORTS
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=950&p=5&k=gameofthrones&f=.m3u8
+#EXTINF:-1 tvg-id="Canal 2" tvg-logo="http://y.cdn.entutele.com/media/channels/big/f1-latinoamerica.gif",[AdryanList HD] - F1 LATINOAMERICA
+http://adrianlist.jl.serv.net.mx/adryanlist.php?c=1736&p=5&k=gameofthrones&f=.m3u8
+
+
