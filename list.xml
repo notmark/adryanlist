@@ -2,11 +2,7 @@
 
 
 <item>
-<<<<<<< HEAD
-<title>                   [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray]  [/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR] </title>
-=======
-<title>                     [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray]  [/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR] </title>
->>>>>>> debb78bf2fcf5486f0e6d55f154bf76afa72834d
+<title>                      [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray]  [/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR] </title>
 <link>NA</link>
 <thumbnail>http://adryan.areshost6.seedr.io/img/adryanlist.png</thumbnail>
 <fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart></item>
@@ -37,7 +33,7 @@
 </item>
 
 <item>
-<title>[B]Arenavision +[/B][/COLOR] [COLOR lightslategray]Acestreams | LALIGA [/COLOR]</title>
+<title>[B]Arenavision +[/B] [COLOR white] Acestreams | LA LIGA [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/acestream.png</thumbnail><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/plexus.xml</externallink>
 </item>
@@ -69,12 +65,6 @@
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/infantiles.xml</externallink>
 </item>
 
-<item>
-<title>[COLOR white][B]Especial de HALLOWEEN[/B][/COLOR]</title>
-<link>http://ignora.me</link>
-<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/terror.xml</externallink>
-<thumbnail>http://adryan.areshost6.seedr.io/img/halloween.png</thumbnail><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart></item>
-
 
 <item>
 <title>España</title>
@@ -96,7 +86,7 @@
 </item>
 
 <item>
-<title>[COLOR aquamarine][B]IPTV[/B][/COLOR][COLOR lightslategray][B][ World Servers Updated Daily][/B][/COLOR] </title>
+<title>[COLOR white][B]IPTV[/B][/COLOR][COLOR lightslategray][B]  [World Servers Updated Daily][/B][/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/iptv.png</thumbnail><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/iptv.xml</externallink>
 </item>
@@ -130,46 +120,46 @@
 
 
 
-<item><title>[B]MEXFLIX[/B]</title>
+<item><title>MEXFLIX</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/mexflix.png</thumbnail>
 <externallink>https://www.dropbox.com/s/3krhz3q3goyn8ed/MexFLIXadryanlist.xml?dl=1</externallink><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 </item>
 
-<item><title>[B]ELECDEKA[/B]</title>
+<item><title>ELECDEKA</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/elecdeka.png</thumbnail>
 <externallink>https://goo.gl/UzDuXZ</externallink><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 </item>
 
-<item><title>[B]SR REGIO[/B]</title>
+<item><title>SR REGIO</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/regio.png</thumbnail>
 <externallink>http://srregio.xyz</externallink><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 </item>
 
-<item><title>[B]J.H.G. MASTER[/B]</title>
+<item><title>J.H.G. MASTER</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/jhg.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/BASEJUANH.xml</externallink><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 </item>
 
-<item><title>[B]BASSFOX[/B]</title>
+<item><title>BASSFOX</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/bassfox.png</thumbnail>
 <externallink>https://goo.gl/YuhGky</externallink><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 </item>
 
 <item>
-<title>[B]TECNOTV[/B]</title>
+<title>[B]TECNOTV</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/tecno.png</thumbnail>
 <externallink>http://tecnotv.xyz/addon/index.xml?NoUsesSinPermiso</externallink><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 </item>
 
 
 <item>
-<title>[B]EL RINCON DE LOLO[/B]</title>
+<title>[B]EL RINCON DE LOLO</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/lolo.png</thumbnail><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 <externallink>http://bit.ly/RinconLolo2</externallink><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 </item>
 
 <item>
-<title>[B]SUPER MOSPY TV[/B]</title>
+<title>[B]SUPER MOSPY TV</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/mospy.png</thumbnail><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 <externallink>http://www.blog.kodipro.org/Supermospy%20TV.xml</externallink><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 </item>
