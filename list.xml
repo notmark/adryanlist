@@ -3,7 +3,7 @@
 
 <item>
 <<<<<<< HEAD
-<title>                   [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray]  [/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR] </title>			
+<title>                   [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray]  [/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR] </title>
 =======
 <title>                     [COLOR skyblue][B]    A D R Y A N [/COLOR][COLOR lightslategray]  [/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR] </title>
 >>>>>>> debb78bf2fcf5486f0e6d55f154bf76afa72834d
@@ -12,7 +12,7 @@
 <fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart></item>
 
 <item>
-<title>                  [COLOR lightslategray]update: [COLOR lightblue][B]02[/B][/COLOR] NOVIEMBRE 2017[/COLOR]      </title>
+<title>                  [COLOR lightslategray]update: [COLOR lightblue][B]03[/B][/COLOR] NOVIEMBRE 2017[/COLOR]      </title>
 <link>NA</link>
 <thumbnail>http://adryan.areshost6.seedr.io/img/updated.png</thumbnail><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart></item>
 
@@ -25,84 +25,84 @@
 
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Deportes[/COLOR] [COLOR lightslategray] [/COLOR]</title>
+<title>Deportes</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/deportes.png</thumbnail><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/deportes_adryan_list.xml</externallink>
 </item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Extratime[/COLOR] [COLOR lightyellow]  [/B][/COLOR]</title>
+<title>Extratime</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/extratime.png</thumbnail><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/multicanales.xml</externallink>
 </item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Arenavision +[/B][/COLOR] [COLOR lightslategray]Acestreams [/COLOR]</title>
+<title>[B]Arenavision +[/B][/COLOR] [COLOR lightslategray]Acestreams | LALIGA [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/acestream.png</thumbnail><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/plexus.xml</externallink>
 </item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Peliculas[/B] [/COLOR] [COLOR lightslategray]  [/COLOR]</title>
+<title>Peliculas</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/peliculas.png</thumbnail><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/pyt_vod.xml</externallink>
 </item>
 
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Series de TV[/B] [/COLOR] [COLOR lightslategray] [/COLOR]</title>
+<title>Series de TV</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/series.png</thumbnail>
 	<fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/gnula.xml</externallink>
 </item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Torrents[/B] [/COLOR] [COLOR lightslategray]Peliculas y Series de TV [/COLOR]</title>
+<title>Torrents [COLOR lightslategray]Peliculas y Series de TV [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/torrent.png</thumbnail><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/quasar.xml</externallink>
 </item>
 
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]KIDS[/B] [/COLOR] [COLOR lightslategray]Peliculas Infantiles [/COLOR]</title>
+<title>KIDS [COLOR lightslategray]Peliculas Infantiles [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/kids.png</thumbnail><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/infantiles.xml</externallink>
 </item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR coral]  [B]Especial de HALLOWEEN[/B] [/COLOR] [COLOR lightslategray] [/COLOR]</title>
+<title>[COLOR white][B]Especial de HALLOWEEN[/B][/COLOR]</title>
 <link>http://ignora.me</link>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/terror.xml</externallink>
 <thumbnail>http://adryan.areshost6.seedr.io/img/halloween.png</thumbnail><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart></item>
 
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  España[/COLOR] </title>
+<title>España</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/esp.png</thumbnail><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/esp.xml</externallink>
 </item>
 
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Mexico[/COLOR] </title>
+<title>Mexico</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/mexico.png</thumbnail><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/mx.xml</externallink>
 </item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  TotalPlay [/COLOR] [COLOR lightslategray][I][/I] [/COLOR]  </title>
+<title>TotalPlay</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/tp.png</thumbnail><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/totalp.xml</externallink>
 </item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR aquamarine]  [B]IPTV[/B]   [/COLOR][COLOR lightslategray][B][World Servers Updated Daily][/B][/COLOR] </title>
+<title>[COLOR aquamarine][B]IPTV[/B][/COLOR][COLOR lightslategray][B][ World Servers Updated Daily][/B][/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/iptv.png</thumbnail><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/iptv.xml</externallink>
 </item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Entretenimiento[/COLOR]  [COLOR skyblue][/COLOR]   </title>
+<title>Entretenimiento</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/entretenimiento.png</thumbnail><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/ent.xml</externallink>
 </item>
@@ -110,13 +110,13 @@
 
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Fitness[/B][/COLOR]  [COLOR skyblue][/COLOR]   </title>
+<title>Fitness</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/fitness.png</thumbnail><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/fitness.xml</externallink>
 </item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Paises[/COLOR] </title>
+<title>Paises</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/paises.png</thumbnail><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/respaldo/paises.xml</externallink>
 </item>
@@ -130,46 +130,46 @@
 
 
 
-<item><title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]MEXFLIX[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
+<item><title>[B]MEXFLIX[/B]</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/mexflix.png</thumbnail>
 <externallink>https://www.dropbox.com/s/3krhz3q3goyn8ed/MexFLIXadryanlist.xml?dl=1</externallink><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 </item>
 
-<item><title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]ELECDEKA[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
+<item><title>[B]ELECDEKA[/B]</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/elecdeka.png</thumbnail>
 <externallink>https://goo.gl/UzDuXZ</externallink><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 </item>
 
-<item><title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]SR REGIO[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
+<item><title>[B]SR REGIO[/B]</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/regio.png</thumbnail>
 <externallink>http://srregio.xyz</externallink><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 </item>
 
-<item><title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]J.H.G. MASTER[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
+<item><title>[B]J.H.G. MASTER[/B]</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/jhg.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/BASEJUANH.xml</externallink><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 </item>
 
-<item><title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]BASSFOX[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
+<item><title>[B]BASSFOX[/B]</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/bassfox.png</thumbnail>
 <externallink>https://goo.gl/YuhGky</externallink><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 </item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]TECNOTV[/B][/COLOR]  [COLOR lightslategray]  [/COLOR]</title>
+<title>[B]TECNOTV[/B]</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/tecno.png</thumbnail>
 <externallink>http://tecnotv.xyz/addon/index.xml?NoUsesSinPermiso</externallink><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 </item>
 
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]EL RINCON DE LOLO[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
+<title>[B]EL RINCON DE LOLO[/B]</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/lolo.png</thumbnail><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 <externallink>http://bit.ly/RinconLolo2</externallink><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 </item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]SUPER MOSPY TV[/B][/COLOR] [COLOR lightyellow][/COLOR] </title>
+<title>[B]SUPER MOSPY TV[/B]</title>
 <link>http://ignorame</link><thumbnail>http://adryan.areshost6.seedr.io/img/mospy.png</thumbnail><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 <externallink>http://www.blog.kodipro.org/Supermospy%20TV.xml</externallink><fanart>http://adryan.areshost6.seedr.io/img/fanart.jpg</fanart>
 </item>
