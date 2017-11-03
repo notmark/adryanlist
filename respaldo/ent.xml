@@ -2161,10 +2161,10 @@ Tu donacion permite que
  <item>
 <title>[COLOR lightblue]Univision  [/COLOR] abcast </title>
 
-<link>$doregex[adryan_IP]|User-Agent=iPhone</link>
+<link>$doregex[adryan_IP]|Referer=http://abcast.net/embed.php?file=univision</link>
 <regex>
 <name>adryan_IP</name>
-<expres>source: "(.*?)""</expres>
+<expres>source:\s"(.*?)"</expres>
 <page>http://abcast.net/embed.php?file=univision</page>
 </regex>
 
@@ -2185,7 +2185,7 @@ Tu donacion permite que
 
 
 
- <item>
+ <itm>
 <title>[COLOR lightblue]Univision [/COLOR] .</title>
 <link>http://$doregex[adryan_IP]/loadbalance/72849632197926123218/playlist.m3u8$doregex[adryan_AuthSign]|User-Agent=iPhone</link>
 <regex>
@@ -2224,7 +2224,7 @@ Tu donacion permite que
 
 
 
- <item>
+ <iem>
 <title>[COLOR lightblue]Telemundo [/COLOR]</title>
 
 <link>http://$doregex[adryan_IP]/loadbalance/15847258663262532849/playlist.m3u8$doregex[adryan_AuthSign]|User-Agent=iPhone</link>
