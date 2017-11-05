@@ -2856,7 +2856,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=
 
 <item>
 <title>[B][COLOR lightyellow]Multicanal[/COLOR][/B] [COLOR lightblue]TikiTaka 02 [/COLOR][COLOR white][I] * [/I][/COLOR]</title>
-<link>http://$doregex[uno]$doregex[dos]|User-Agent=iPad</link>
+<link>http://$doregex[uno]$doregex[dos]|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0&amp;Referer=http://privatestream.tv/player?streamname=maniacoshd</link>
 <regex>
 <name>uno</name>
 <expres>addr_part = '(.*?)'</expres>
