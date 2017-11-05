@@ -2169,6 +2169,28 @@ Tu donacion permite que
 </regex>
 
 
+ <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
+<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+
+<info>
+
+Tu donacion permite que
+[B][COLOR lightyellow]Adryanlist[/COLOR][/B] siga actualizando
+
+
+ [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
+
+
+
+
+
+
+<item>
+<title>[COLOR lightblue]Univision  [/COLOR] abcast </title>
+
+<link>http://sced.cdnak.neulion.net:80/250/nlds/univision/as/live/udnoo_hd_400_ipad.m3u8</link>
+
+
 
  <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
