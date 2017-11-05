@@ -110,7 +110,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>videoUrl = '(.*?)'</expres>
-<page>http://livesports.pw/embed2.php?file=seriesxtra&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed.php?file=seriesxtra&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 

@@ -8,7 +8,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>videoUrl = '(.*?)'</expres>
-<page>http://livesports.pw/embedn.php?file=cazaypesca&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed.php?file=cazaypesca&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -302,40 +302,40 @@
 
 
 
- 
- 
- 
- 
- 
- 
- 
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
 
 
 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -355,32 +355,3 @@
 
 
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
