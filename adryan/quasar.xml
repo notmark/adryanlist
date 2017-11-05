@@ -1,0 +1,1958 @@
+<SetViewMode>55</SetViewMode>
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B] BUSCADOR [/B] [/COLOR][COLOR skyblue] SkyTorrents [/COLOR] [COLOR lightslategray] VO[/COLOR] </title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <SetViewMode>55</SetViewMode>
+ <title>[COLOR skyblue][UPPERCASE][B] [makelist2.param2][/B][/UPPERCASE][/COLOR]  </title>
+<link>plugin://plugin.video.quasar/play?uri=[makelist2.param1]</link>
+<thumbnail>[makelist2.param2]</thumbnail>
+</regex>
+]]></listrepeat>
+<expres><![CDATA[href="(magnet.*?)"[\w\W\s]{0,34}Download\s(.*?)using]]></expres>
+<page>https://www.skytorrents.in/search/all/ed/1/?q=$doregex[search]</page>
+</regex>
+
+
+
+
+<regex>
+<name>search</name>
+<expres><![CDATA[#$pyFunction
+import xbmc
+import xbmcaddon
+import xbmcgui
+def GetLSProData(page_data,Cookie_Jar,m):
+    dialog = xbmcgui.Dialog()
+    d = dialog.input('Buscar Pelicula: ejemplo: Batman', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    return d
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+
+
+
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B] BUSCADOR [/B] [/COLOR][COLOR skyblue] GranTorrent [/COLOR] [COLOR lightslategray] Castellano[/COLOR] </title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <SetViewMode>55</SetViewMode>
+ <title>[COLOR skyblue][UPPERCASE][B] [makelist2.param3][/B][/UPPERCASE][/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<thumbnail>[makelist2.param2]</thumbnail>
+</regex>
+]]></listrepeat>
+<expres><![CDATA[imagen-post[\w\W\s]{0,8}href="(.*?)"[\w\W\s]{0,7}src="(.*?)"[\w\W\s]{0,400}bloque-inferior">\n(.*?)<]]></expres>
+<page>https://grantorrent.com/?s=$doregex[search]</page>
+</regex>
+
+
+
+
+
+<regex>
+<name>search</name>
+<expres><![CDATA[#$pyFunction
+import xbmc
+import xbmcaddon
+import xbmcgui
+def GetLSProData(page_data,Cookie_Jar,m):
+    dialog = xbmcgui.Dialog()
+    d = dialog.input('Buscar Pelicula: ejemplo: Batman', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    return d
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+
+
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <SetViewMode>55</SetViewMode>
+ <title>[COLOR skyblue][UPPERCASE][B] [makelist2.param3][/B][/UPPERCASE][/COLOR]  Calidad:[makelist.param2]  Tamaño:[makelist.param3]  </title>
+<link>plugin://plugin.video.quasar/play?uri=[makelist.param4]</link>
+<thumbnail>[makelist2.param2]</thumbnail>
+</regex>
+]]></listrepeat>
+<expres><![CDATA[alt="(.*?)".*?\/td><td>(.*?)<[\w\W\s]{0,7}td>(.*?)<[\w\W\s]{0,25}href="(.*?torrent)"]]></expres>
+<page>[makelist2.param1]</page>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B] BUSCADOR [/B] [/COLOR][COLOR skyblue] ElMejorTorrent [/COLOR] [COLOR lightslategray] Castellano[/COLOR] </title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <SetViewMode>55</SetViewMode>
+ <title>[COLOR skyblue][UPPERCASE][B] [makelist2.param2][/B][/UPPERCASE][/COLOR] [I][COLOR lightslategray][makelist2.param3][/I][/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</regex>
+]]></listrepeat>
+<expres><![CDATA[peli-descargar-torrent-(.*?)-.*?darkblue\'>(.*?)<.*?gray\;\'>(.*?)<]]></expres>
+<page>http://www.mejortorrent.com/secciones.php?sec=buscador&amp;valor=$doregex[search]</page>
+</regex>
+
+
+
+
+<regex>
+<name>search</name>
+<expres><![CDATA[#$pyFunction
+import xbmc
+import xbmcaddon
+import xbmcgui
+def GetLSProData(page_data,Cookie_Jar,m):
+    dialog = xbmcgui.Dialog()
+    d = dialog.input('Buscar Pelicula: ejemplo: Batman', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    return d
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+
+
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <title>[COLOR lightblue]Reproducir [B][makelist2.param2][/B] [/COLOR]</title>
+
+    <link>plugin://plugin.video.quasar/play?uri=http://www.mejortorrent.com[makelist.param2]</link>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+]]></listrepeat>
+<expres>href=\'(.*?torrent)\'</expres>
+<page>http://www.mejortorrent.com/secciones.php?sec=descargas&amp;ap=contar&amp;tabla=peliculas&amp;id=[makelist2.param1]&amp;link_bajar=1</page>
+</regex>
+
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B] BUSCADOR [/B] [/COLOR][COLOR skyblue] TorrentKing [/COLOR] [COLOR lightslategray] [/COLOR] </title>
+<link>$doregex[makelist2]</link>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+   <SetViewMode>55</SetViewMode>
+   <title>[COLOR lightblue][B][makelist2.param2][/COLOR][/B] [COLOR aquamarine] [makelist2.param3][/COLOR]</title>
+<link>$doregex[makelist]</link>
+ <thumbnail>[makelist2.param4]</thumbnail>
+
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)"\stitle="(.*?)"[\w\W\s]{0,199}title="(.*?)".*?data-src="(.*?)"]]></expres>
+<page>https://torrentking.eu/search?mk=$doregex[search]</page>
+</regex>
+
+<regex>
+<name>search</name>
+<expres><![CDATA[#$pyFunction
+import xbmc
+import xbmcaddon
+import xbmcgui
+def GetLSProData(page_data,Cookie_Jar,m):
+    dialog = xbmcgui.Dialog()
+    d = dialog.input('Buscar Pelicula: ejemplo: Batman', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    return d
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <SetViewMode>55</SetViewMode>
+   <title>[COLOR lightblue][B][makelist.param2][/COLOR][/B] [COLOR coral]Tamaño: [makelist.param3][/COLOR] [COLOR aquamarine]Seed:[makelist.param4] - Peers:[makelist.param5] [/COLOR]</title>
+   <link>plugin://plugin.video.quasar/play?uri=[makelist.param1]</link>
+ <thumbnail>[makelist2.param4]</thumbnail>
+
+]]></listrepeat>
+<expres><![CDATA[href="(magnet.*?)"\s[\w\W\s]{0,222}Stream[\w\W\s]{0,13}<td>(.*?)<[\w\W\s]{0,23}white-transparent">(.*?)<[\w\W\s]{0,23}white-transparent">(.*?)<[\w\W\s]{0,20}white-transparent">(.*?)<]]></expres>
+<page>[makelist2.param1]</page>
+</regex>
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]PasateATorrent[/B] [/COLOR][COLOR skyblue] CARTELERA [/COLOR] [COLOR lightslategray] Castellano[/COLOR] </title>
+<link>$doregex[makelist3]</link>
+
+
+<regex>
+<name>makelist3</name>
+<listrepeat><![CDATA[
+<title>Pagina [makelist3.param1]</title>
+<link>$doregex[makelist2]</link>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+]]></listrepeat>
+<expres>'(.*?)'</expres>
+<page>'1''2''3''4''5''6''7''8''9''10''11''12''13''14''15''16''17''18''19''20''21''22''23''24''25'</page>
+</regex>
+
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <SetViewMode>55</SetViewMode>
+ <title>[COLOR skyblue][UPPERCASE][B] [makelist2.param5][/B][/UPPERCASE][/COLOR]   [COLOR white]Calidad:[makelist2.param3][/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<thumbnail>[makelist2.param2]</thumbnail>
+</regex>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)"[\w\W\s]{0,72}src="(.*?)"[\w\W\s]{0,110}bloque_superior">(.*?)<[\w\W\s]{0,110}icono\_(.*?).png[\w\W\s]{0,300}bloque_inferior">(.*?)<]]></expres>
+<page>https://pasateatorrent.com/page/[makelist3.param1]/</page>
+</regex>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <SetViewMode>55</SetViewMode>
+ <title>[COLOR skyblue][UPPERCASE][B] [makelist2.param5][/B][/UPPERCASE][/COLOR]  Calidad:[makelist.param1]  Tamaño:[makelist.param2]  </title>
+<link>plugin://plugin.video.quasar/play?uri=[makelist.param3]</link>
+<thumbnail>[makelist2.param2]</thumbnail>
+</regex>
+]]></listrepeat>
+<expres>d>(.*?)<[\w\W\s]{0,7}td>(.*?)\.[\w\W\s]{0,16}href="(.*?)"</expres>
+<page>[makelist2.param1]</page>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]ElMejorTorrent[/B] [/COLOR][COLOR skyblue] ESTRENOS [/COLOR] [COLOR lightslategray] Castellano[/COLOR] </title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[COLOR lightblue]$doregex[name] [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>http://www.mejortorrent.com/uploads/imagenes/peliculas/$doregex[imagen].jpg</thumbnail>
+]]></listrepeat>
+<expres>peli-descargar-torrent-(.*?)-.*?\n.*?\/uploads\/imagenes\/peliculas\/(.*?)\.jpg</expres>
+<page>$doregex[select]</page>
+</regex>
+
+<regex>
+<name>select</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import xbmcgui
+   dialog = xbmcgui.Dialog()
+   ret = dialog.select('Elige una Calidad ', ['Peliculas en DVDRIP', 'Peliculas en HD'])
+   lists = ['http://www.mejortorrent.com/torrents-de-peliculas.html','http://www.mejortorrent.com/torrents-de-peliculas-hd-alta-definicion.html']
+   return lists[ret]
+]]></expres>
+<page></page>
+</regex>
+
+<regex>
+<name>imagen</name>
+<expres>$pyFunction:'[makelist2.param2]'.replace(" ", "%20")</expres>
+<page></page>
+</regex>
+<regex>
+<name>name</name>
+<expres>$pyFunction:'[makelist2.param2]'.replace(".", " ").replace("_", " ").replace("-", " ")</expres>
+<page></page>
+</regex>
+
+
+
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <title>[COLOR lightblue]Reproducir torrent with Quasar[/COLOR]</title>
+
+    <link>plugin://plugin.video.quasar/play?uri=http://www.mejortorrent.com[makelist.param2]</link>
+<thumbnail>http://www.mejortorrent.com/uploads/imagenes/peliculas/$doregex[imagen].jpg</thumbnail>
+]]></listrepeat>
+<expres>href=\'(.*?torrent)\'</expres>
+<page>http://www.mejortorrent.com/secciones.php?sec=descargas&amp;ap=contar&amp;tabla=peliculas&amp;id=[makelist2.param1]&amp;link_bajar=1</page>
+</regex>
+
+
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]Estrenos[/B] [/COLOR][COLOR skyblue]Castellano[/COLOR][COLOR lightslategray] [/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <SetViewMode>55</SetViewMode>
+ <title>[COLOR skyblue][UPPERCASE][B] [makelist2.param5][/B][/UPPERCASE][/COLOR]   [COLOR white]Calidad:[makelist2.param3][/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<thumbnail>[makelist2.param2]</thumbnail>
+</regex>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)"[\w\W\s]{0,72}src="(.*?)"[\w\W\s]{0,110}bloque_superior">(.*?)<[\w\W\s]{0,110}icono\_(.*?).png[\w\W\s]{0,300}bloque_inferior">(.*?)<]]></expres>
+<page>https://pasateatorrent.com</page>
+</regex>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <SetViewMode>55</SetViewMode>
+ <title>[COLOR skyblue][UPPERCASE][B] [makelist2.param5][/B][/UPPERCASE][/COLOR]  Calidad:[makelist.param1]  Tamaño:[makelist.param2]  </title>
+<link>plugin://plugin.video.quasar/play?uri=[makelist.param3]</link>
+<thumbnail>[makelist2.param2]</thumbnail>
+</regex>
+]]></listrepeat>
+<expres>d>(.*?)<[\w\W\s]{0,7}td>(.*?)\.[\w\W\s]{0,16}href="(.*?)"</expres>
+<page>[makelist2.param1]</page>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]Estrenos[/B] [/COLOR][COLOR skyblue] Latino [/COLOR] [COLOR lightslategray] [/COLOR] </title>
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[makelist.param2]</title>
+<link>plugin://plugin.video.quasar/play?uri=[makelist.param1]</link>
+<thumbnail>[makelist2.param2]</thumbnail>
+</regex>
+]]></listrepeat>
+<expres><![CDATA[href="(magnet.*?)[\w\W\s]{0,30}Download\s(.*?)using]]></expres>
+<page>https://www.skytorrents.in/search/all/ad/1/?l=en-us&amp;q=latino</page>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+<itm>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]Estrenos[/B] [/COLOR][COLOR skyblue] Castelano [/COLOR] [COLOR lightslategray] [/COLOR] </title>
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[makelist.param2]</title>
+<link>plugin://plugin.video.quasar/play?uri=[makelist.param1]</link>
+<thumbnail>[makelist2.param2]</thumbnail>
+</regex>
+]]></listrepeat>
+<expres><![CDATA[href="(magnet.*?)[\w\W\s]{0,30}Download\s(.*?)using]]></expres>
+<page>https://www.skytorrents.in/search/all/ad/1/?l=en-us&amp;q=castellano</page>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]TOP 40[/B] [/COLOR][COLOR skyblue] Latino[/COLOR] [COLOR lightslategray] [/COLOR] </title>
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[makelist.param2]</title>
+<link>plugin://plugin.video.quasar/play?uri=[makelist.param1]</link>
+<thumbnail>[makelist2.param2]</thumbnail>
+</regex>
+]]></listrepeat>
+<expres><![CDATA[href="(magnet.*?)[\w\W\s]{0,30}Download\s(.*?)using]]></expres>
+<page>https://www.skytorrents.in/search/all/ed/1/?l=en-us&amp;q=latino</page>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]TOP 40[/B] [/COLOR][COLOR skyblue] Castellano [/COLOR] [COLOR lightslategray] [/COLOR] </title>
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[makelist.param2]</title>
+<link>plugin://plugin.video.quasar/play?uri=[makelist.param1]</link>
+<thumbnail>[makelist2.param2]</thumbnail>
+</regex>
+]]></listrepeat>
+<expres><![CDATA[href="(magnet.*?)[\w\W\s]{0,30}Download\s(.*?)using]]></expres>
+<page>https://www.skytorrents.in/search/all/ed/1/?l=en-us&amp;q=castellano</page>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]MOVIES  MIX[/B] [/COLOR][COLOR skyblue] Estrenos / Audio Latino / Subtituladas [/COLOR] </title>
+<link>$doregex[makelist4]</link>
+
+<regex>
+<name>makelist4</name>
+<listrepeat><![CDATA[
+<title>[COLOR skyblue][B][makelist4.param2][/B] [/COLOR]</title>
+<link>$doregex[makelist3]</link>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+]]></listrepeat>
+<expres>ddmix.net\/peliculas\/(.*?)\/" title="(.*?)"</expres>
+<page>https://ddmix.net/</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist3</name>
+<listrepeat><![CDATA[
+<title>[COLOR skyblue]Page [makelist3.param1] [/COLOR]</title>
+<link>$doregex[makelist2]</link>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+]]></listrepeat>
+<expres><![CDATA[paginado:"(.*?)";]]></expres>
+<page>http://adryanlist.org/adryan/kozm.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+
+ <regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[makelist2.param2]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>http:[makelist2.param3]</thumbnail>
+]]></listrepeat>
+<expres>href="(.*?\/)"[\w\W\s]{0,30}alt="(.*?)"[\w\W\s]{0,2}src="(.*?)"</expres>
+<page>https://ddmix.net/peliculas/[makelist4.param1]/page/[makelist3.param1]/</page>
+</regex>
+
+ <regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param2] </title>
+<link>plugin://plugin.video.quasar/play?uri=[makelist.param1]</link>
+<thumbnail>http:[makelist2.param3]</thumbnail>
+]]></listrepeat>
+<expres>href="(magnet.*?)"[\w\W\s]{0,150}tooltiptext">(.*?)<</expres>
+<page>[makelist2.param1]</page>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<itm>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]DivxaTope[/B] [/COLOR][COLOR skyblue] Castellano[/COLOR] </title>
+<link>$doregex[makelist]</link>
+<thumbnail>http://www.divxatope.com/newtemp/template/images/logo.png</thumbnail>       <!--thumb del sitio  web-->
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param2]  ( [makelist.param3])</title>
+
+    <link>plugin://plugin.video.quasar/play?uri=$doregex[link-torrent]</link>
+  <regex>
+    <name>link-torrent</name>
+    <expres>br\s\/&gt;\n.*?&lt;a\shref="(http.*?)"</expres>
+    <page>http://www.divxatope.com/descarga-torrent/[makelist.param1]</page>
+    <referer>http://www.divxatope.com/categoria/peliculas</referer>
+    </regex>
+
+    <referer>http://www.divxatope.com/categoria/peliculas</referer>
+    <thumbnail>http://www.divxatope.com/uploads/images/fichas/f/[makelist.param4]</thumbnail>
+]]></listrepeat>
+<expres>a\shref="http:\/\/www.divxatope.com\/descargar\/(.*?)"\stitle=.*?escargar(.*?)\sen\s(.*?lu.*?ay.*?)gratis".*?\/thumbs\/(.*?)"</expres>
+<page>http://www.divxatope.com/categoria/peliculas</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+
+
+
+ <item>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]PelisMag.Net[/B] [/COLOR][COLOR skyblue] Castellano + Buscador de Peliculas y Series[/COLOR] </title>
+<link>http://ignora.me</link>
+<externallink>http://adryanlist.org/adryan/pelismag.xml</externallink>
+
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+  <iem>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]ZPeliculas[/B] [/COLOR][COLOR skyblue] Castellano[/COLOR] </title>
+<link>http://ignora.me</link>
+<externallink>http://adryanlist.org/adryan/zpeliculas.xml</externallink>
+
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]CineTux.COM[/B] [/COLOR][COLOR skyblue][/COLOR] </title>
+<link>http://ignora.me</link>
+<externallink>http://adryanlist.org/adryan/cinetux.xml</externallink>
+
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]Youtube[/B] [/COLOR][COLOR skyblue]Peliculas[/COLOR] </title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param2]</title>
+    <utube>[makelist.param1]</utube>
+]]></listrepeat>
+<expres>\sid="(.*?)"[\w\W]*?\t{4}(.*?)\t{3}</expres>
+<page>http://app1.vuelo-digital.org/multipremier.php</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<item>
+<title>[COLOR red][B]YOUTUBE[/B][/COLOR] [COLOR lightblue][][/COLOR]</title>
+<link>http://ignora.me</link>
+<externallink>http://adryanlist.org/adryan/youtubemovies.xml</externallink>
+
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+<info></info>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+<item>
+<title>[COLOR skyblue][B]Estrenos[/B][/COLOR] [COLOR lightblue][AlienMovies][V.O. Subtituladas][/COLOR]</title>
+<link>http://ignora.me</link>
+<externallink>http://adryanlist.org/adryan/pelialien.xml</externallink>
+
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+<info></info>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+<item>
+<title>[COLOR skyblue][B]Solo Estrenos [/B][/COLOR][COLOR yellow]HD[/COLOR] [COLOR lightblue][JessMax][/COLOR]</title>
+<link>http://ignora.me</link>
+<externallink>http://adryanlist.org/adryan/jessmax.xml</externallink>
+
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+<info></info>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+<item>
+<title>[COLOR skyblue][B]Estrenos[/B][/COLOR] [Latino]</title>
+<link>http://ignora.me</link>
+<externallink>http://adryanlist.org/adryan/peliculas.xml</externallink>
+
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+<info></info>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+-->
+<!--
+<item>
+<title>[COLOR skyblue][B]Estrenos[/B][/COLOR] [Castellano]</title>
+<link>http://ignora.me</link>
+<externallink>http://adryanlist.org/adryan/peliculaspa.xml</externallink>
+
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+<info></info>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+<item>
+<title>[COLOR white][B]Recien Actualizadas[/B][/COLOR]</title>
+<link>http://ignora.me</link>
+<externallink>http://adryanlist.org/adryan/series/p_actuales.xml</externallink>
+
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+<info></info>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+<item>
+<title>[COLOR white][B]Mas Vistas[/B][/COLOR]</title>
+<link>http://ignora.me</link>
+<externallink>http://adryanlist.org/adryan/series/movies_populares.xml</externallink>
+
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+<info></info>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+<item>
+<title>[COLOR white][B]INFANTILES[/B][/COLOR]</title>
+<link>http://ignora.me</link>
+<externallink>http://adryanlist.org/adryan/series/p_infantiles.xml</externallink>
+
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+<info></info>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+<item>
+<title>Mexicanas [Audio Latino]</title>
+<link>http://ignora.me</link>
+<externallink>http://adryanlist.org/adryan/series/p_mex.xml</externallink>
+
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+<info></info>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+<item>
+<title>Ultimas Agregadas [Audio Español & Latino]</title>
+<link>http://ignora.me</link>
+<externallink>http://adryanlist.org/adryan/ultimas.xml</externallink>
+
+
+<thumbnail>https://cdn1.iconfinder.com/data/icons/devices-media-circle-style/48/film_strip-512.png</thumbnail>
+<info></info>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+<item>
+<title>Audio Castellano</title>
+<link>http://ignora.me</link>
+<externallink>http://adryanlist.org/adryan/p_esp.xml</externallink>
+
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+<info></info>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+-->
+
+
+
+
+
+ <tem>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]Kickass Torrents[/B] [/COLOR][COLOR skyblue] Castellano[/COLOR] [COLOR lightslategray] Recientes[/COLOR] </title>
+<link>$doregex[showPages]</link>
+<thumbnail> </thumbnail>
+
+<regex>
+<name>showPages</name>
+<listrepeat><![CDATA[
+   <title>[COLOR skyblue]Pagina# [showPages.param1][/COLOR]</title>
+    <link>$doregex[makelist]</link>
+
+]]></listrepeat>
+<expres>([0-9]+),?</expres>
+<page>$doregex[getPageNumbers]</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+
+
+<regex>
+<name>getPageNumbers</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  frompage,topage=re.findall( "results ([0-9]+)-([0-9]+)",page_data)[0]
+  frompage=int(frompage)
+  topage=int(topage)
+  print range(frompage,topage)
+  return range(frompage,topage)
+]]></expres>
+<page>https://kat.cr/usearch/castellano%20category%3Amovies/1/?field=time_add&amp;sorder=desc</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer>http://kat.cr/movies/</referer>
+<cookieJar></cookieJar>
+</regex>
+
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[COLOR lightblue][makelist.param2][/COLOR]</title>
+<link>plugin://plugin.video.quasar/play?uri=magnet:[makelist.param1]</link>
+
+</regex>
+]]></listrepeat>
+<expres>href="magnet:(.*?)"[\w\W]*?class="cellMainLink">(.*?)<</expres>
+<page>https://kat.cr/usearch/castellano%20category%3Amovies/[showPages.param1]/?field=time_add&sorder=desc</page>
+<referer>https://kat.cr/usearch/castellano%20category%3Amovies/[showPages.param1]/?field=time_add&sorder=desc</referer>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <item>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]YourbitTorrents[/B] [/COLOR][COLOR skyblue] Top100 [/COLOR] [COLOR lightslategray] Recientes[/COLOR] </title>
+<link>$doregex[makelist]</link>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[makelist.param3]</title>
+<link>plugin://plugin.video.quasar/play?uri=https://yourbittorrent.com/down/[makelist.param1].torrent</link>
+</regex>
+]]></listrepeat>
+<expres><![CDATA[href="\/torrent\/(.*?)\/(.*?)">(.*?)<]]></expres>
+<page>https://yourbittorrent.com/movies.html</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+
+
+<itm>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]ShaaningTorrents[/B] [/COLOR][COLOR skyblue] hvec [/COLOR] [COLOR lightslategray]only KODI17 [/COLOR] </title>
+
+ <link>$doregex[makelist0]</link>
+
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+
+
+<regex>
+<name>makelist0</name>
+<listrepeat><![CDATA[
+<title>[COLOR lightblue][makelist0.param2][/COLOR]</title>
+<link>$doregex[showPages]</link>
+   <thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+]]></listrepeat>
+<expres>class="forumtitle[\w\W\s]{0,6}href="https://www.shaanig.org/(.*?)/">(.*?)<</expres>
+<page>https://www.shaanig.org/f4/</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+
+
+
+
+
+<regex>
+<name>showPages</name>
+<listrepeat><![CDATA[
+   <title>[COLOR skyblue]Page# [showPages.param1][/COLOR]</title>
+    <link>$doregex[makelist2]</link>
+     <thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+]]></listrepeat>
+<expres>([0-9]+),?</expres>
+<page>$doregex[getPageNumbers]</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+
+
+<regex>
+<name>getPageNumbers</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  frompage,topage=re.findall( "class=\"popupctrl\">Page ([0-9]+) of ([0-9]+)",page_data)[0]
+  frompage=int(frompage)
+  topage=int(topage)
+  print range(frompage,topage)
+  return range(frompage,topage)
+]]></expres>
+<page>https://www.shaanig.org/[makelist0.param1]/</page>
+<referer>https://www.shaanig.org/[makelist0.param1]/</referer>
+<agent>Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[makelist2.param2]</title>
+<link>$doregex[makelist]</link>
+]]></listrepeat>
+<expres>class="title" href="https://www.shaanig.org/[makelist0.param1]/(.*?)"[\w\W\s]{0,30}">(.*?)<</expres>
+<page>https://www.shaanig.org/[makelist0.param1]/index[showPages.param1].html</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR lightblue][makelist.param2][/COLOR]</title>
+<link>plugin://plugin.video.quasar/play?uri=[makelist.param1]</link>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+]]></listrepeat>
+<expres>href="(.*?.torrent)">(.*?)torrent</expres>
+<page>https://www.shaanig.org/[makelist0.param1]/[makelist2.param1]</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <itm>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]ExtraTorrents[/B] [/COLOR][COLOR skyblue] [/COLOR] [COLOR lightslategray] [/COLOR] </title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[COLOR lightblue][makelist.param2][/COLOR]</title>
+<link>plugin://plugin.video.quasar/play?uri=http://extratorrent.one//download/[makelist.param1]</link>
+
+</regex>
+]]></listrepeat>
+<expres>href="/torrent_download/(.*?)"[\w\W\s]{0,8}Download(.*?)torrent</expres>
+<page>http://extratorrent.one/search/?new=1&amp;search=latino&amp;s_cat=4</page>
+<referer>http://extratorrent.one/</referer>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+<itm>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]ExtraTorrents[/B] [/COLOR][COLOR skyblue]First CAMS [/COLOR] [COLOR lightslategray] [/COLOR] </title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[COLOR lightblue][makelist.param1][/COLOR]</title>
+<link>plugin://plugin.video.quasar/play?uri=http://extra.to/download/[makelist.param3].torrent</link>
+<thumbnail>http:[makelist.param1]</thumbnail>
+</regex>
+]]></listrepeat>
+<expres>url="https://extra.to/download/(.*?).torrent"</expres>
+<page>http://extratorrent.ch/rss.xml?type=hot&amp;cat=First+Cams</page>
+<referer>http://extratorrent.ch/</referer>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]NEWPCT[/B] [/COLOR][COLOR skyblue] -Estrenos[/COLOR] [COLOR lightslategray]    [Audio Latino] [/COLOR] </title>
+
+ <link>$doregex[makelist3]</link>
+
+ <regex>
+<name>makelist3</name>
+<listrepeat><![CDATA[
+<title>[makelist3.param3]</title>
+<link>plugin://plugin.video.quasar/play?uri=$doregex[link].torrent</link>
+ <thumbnail>[makelist3.param2]</thumbnail>
+]]></listrepeat>
+<expres>href='(.*?)'[\w\W\s]{0,60}src='(.*?)'[\w\W\s]{0,180}h3>(.*?)<</expres>
+<page>http://www.newpct.com/peliculas-latino/</page>
+<referer>http://www.newpct.com/</referer>
+</regex>
+
+<regex>
+<name>link</name>
+<expres>href='(.*?).torrent'</expres>
+<page>[makelist3.param1]</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]NEWPCT[/B] [/COLOR][COLOR skyblue] -Estrenos[/COLOR] [COLOR lightslategray]    [Audio Castellano] [/COLOR] </title>
+
+ <link>$doregex[makelist3]</link>
+
+ <regex>
+<name>makelist3</name>
+<listrepeat><![CDATA[
+<title>[makelist3.param3]</title>
+<link>plugin://plugin.video.quasar/play?uri=$doregex[link].torrent</link>
+ <thumbnail>[makelist3.param2]</thumbnail>
+]]></listrepeat>
+<expres>href='(.*?)'[\w\W\s]{0,60}src='(.*?)'[\w\W\s]{0,180}h3>(.*?)<</expres>
+<page>http://www.newpct.com/peliculas-castellano/estrenos-de-cine/</page>
+<referer>http://www.newpct.com/</referer>
+</regex>
+
+<regex>
+<name>link</name>
+<expres>href='(.*?).torrent'</expres>
+<page>[makelist3.param1]</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]NEWPCT[/B] [/COLOR][COLOR skyblue] -Peliculas BRRIP[/COLOR] [COLOR lightslategray]    [Audio Castellano] [/COLOR] </title>
+
+ <link>$doregex[makelist3]</link>
+
+ <regex>
+<name>makelist3</name>
+<listrepeat><![CDATA[
+<title>[makelist3.param3]</title>
+<link>plugin://plugin.video.quasar/play?uri=$doregex[link].torrent</link>
+ <thumbnail>[makelist3.param2]</thumbnail>
+]]></listrepeat>
+<expres>href='(.*?)'[\w\W\s]{0,60}src='(.*?)'[\w\W\s]{0,180}h3>(.*?)<</expres>
+<page>http://www.newpct.com/peliculas-castellano/peliculas-rip/</page>
+<referer>http://www.newpct.com/</referer>
+</regex>
+
+<regex>
+<name>link</name>
+<expres>href='(.*?).torrent'</expres>
+<page>[makelist3.param1]</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+ <tem>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]KickAss Torrents[/B] [/COLOR][COLOR skyblue] Latinos[/COLOR] [COLOR lightslategray] Recientes [/COLOR] </title>
+
+
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[COLOR lightblue][makelist.param2][/COLOR]</title>
+<link>plugin://plugin.video.quasar/play?uri=magnet:[makelist.param1]</link>
+
+</regex>
+]]></listrepeat>
+<expres>href="magnet:(.*?)"[\w\W]*?class="cellMainLink">(.*?)<</expres>
+<page>https://kat.cr/usearch/latino%20category:movies/</page>
+<referer>http://kat.cr/</referer>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+ <item>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]O Torrents [/B] [/COLOR][COLOR skyblue] VO[/COLOR] </title>
+<link>http://ignora.me</link>
+<externallink>http://adryanlist.org/adryan/otorrents.xml</externallink>
+
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+<info></info>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+<tem>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]ShAaNiG Torrents [/B] [/COLOR][COLOR skyblue] VO[/COLOR] </title>
+<link>$doregex[makelist3]</link>
+<thumbnail> </thumbnail>
+<regex>
+<name>makelist3</name>
+<listrepeat><![CDATA[
+   <title>[makelist3.param2]</title>
+    <link>$doregex[makelist2]</link>
+
+]]></listrepeat>
+<expres>href="(.*?)"</expres>
+<page>https://www.shaanig.org/f4/</page>
+</regex>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+   <title>[makelist2.param2]</title>
+    <link>$doregex[makelist]</link>
+
+
+]]></listrepeat>
+<expres>class="title" href="http://www.shaanig.org/(.*?)"[\w\W\s]{0,30}">(.*?)ShAaNiG</expres>
+<page>[makelist3.param1]</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <title>[COLOR lightblue][makelist.param2][/COLOR]</title>
+
+    <link>plugin://plugin.video.quasar/play?uri=[makelist.param1]</link>
+ <thumbnail>[makelist.param2]</thumbnail>
+]]></listrepeat>
+<expres>href="(.*?.torrent)">(.*?)torrent</expres>
+<page>http://www.shaanig.org/[makelist2.param1]</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]YIFY MOVIES [/B] [/COLOR][COLOR skyblue] VO[/COLOR] [COLOR lightslategray][/COLOR] </title>
+<link>http://ignora.me</link>
+<externallink>http://adryanlist.org/adryan/yify.xml</externallink>
+
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+<info></info>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]YIFY MOVIES RE[/B] [/COLOR][COLOR skyblue] VO[/COLOR] [COLOR lightslategray][/COLOR] </title>
+<link>$doregex[makelist2]</link>
+
+
+ <regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <title>[makelist2.param3]  - [makelist2.param4] </title>
+<link>$doregex[makelist]</link>
+<thumbnail>[makelist2.param2]</thumbnail>
+</regex>
+]]></listrepeat>
+<expres>a\shref="(.*?)"[\w\W\s]{0,30}src="(.*?)"[\w\W\s]{0,60}alt="(.*)"[\w\W\s]{0,60}images\/q\/(.*)\..</expres>
+<page>https://yifymovie.re/recent</page>
+</regex>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[makelist.param1]</title>
+<link>plugin://plugin.video.quasar/play?uri=magnet:?xt=urn:btih:[makelist.param1]</link>
+<thumbnail>[makelist2.param2]</thumbnail>
+</regex>
+]]></listrepeat>
+<expres><![CDATA[ href="(magnet.*)"]]></expres>
+<page>[makelist2.param1]</page>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+<tem>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]YIFY [/B] [/COLOR][COLOR skyblue] VO[/COLOR] [COLOR lightslategray][/COLOR] </title>
+<link>http://ignora.me</link>
+<externallink>http://adryanlist.org/adryan/yify2.xml</externallink>
+
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+<info></info>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR lightyellow]Top 100 Movies[/COLOR] </title>
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <title>[COLOR lightblue][makelist.param1][/COLOR]</title>
+
+    <link>plugin://plugin.video.quasar/play?uri=[makelist.param2]</link>
+ <thumbnail>[makelist.param2]</thumbnail>
+]]></listrepeat>
+<expres>CDATA\[(.*?)\][\w\W\s]{0,20}link>(.*?)<</expres>
+<page>https://thepiratebay.org/rss/top100/201</page>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR lightyellow]Top 100 Movies HD[/COLOR] </title>
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <title>[COLOR lightblue][makelist.param1][/COLOR]</title>
+
+    <link>plugin://plugin.video.quasar/play?uri=[makelist.param2]</link>
+ <thumbnail>[makelist.param2]</thumbnail>
+]]></listrepeat>
+<expres>CDATA\[(.*?)\][\w\W\s]{0,20}link>(.*?)<</expres>
+<page>https://thepiratebay.org/rss/top100/207</page>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR lightyellow]Top 100 [B]3D [/B] Movies [/COLOR] </title>
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <title>[COLOR lightblue][makelist.param1][/COLOR]</title>
+
+    <link>plugin://plugin.video.quasar/play?uri=[makelist.param2]</link>
+ <thumbnail>[makelist.param2]</thumbnail>
+]]></listrepeat>
+<expres>CDATA\[(.*?)\][\w\W\s]{0,20}link>(.*?)<</expres>
+<page>https://thepiratebay.org/rss/top100/207</page>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR lightyellow]Top 100 TV-Shows HD[/COLOR] </title>
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <title>[COLOR lightblue][makelist.param1][/COLOR]</title>
+
+    <link>plugin://plugin.video.quasar/play?uri=[makelist.param2]</link>
+ <thumbnail>[makelist.param2]</thumbnail>
+]]></listrepeat>
+<expres>CDATA\[(.*?)\][\w\W\s]{0,20}link>(.*?)<</expres>
+<page>https://thepiratebay.org/rss/top100/208</page>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR lightyellow]Top 100 TV-Shows[/COLOR] </title>
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <title>[COLOR lightblue][makelist.param1][/COLOR]</title>
+
+    <link>plugin://plugin.video.quasar/play?uri=[makelist.param2]</link>
+ <thumbnail>[makelist.param2]</thumbnail>
+]]></listrepeat>
+<expres>CDATA\[(.*?)\][\w\W\s]{0,20}link>(.*?)<</expres>
+<page>https://thepiratebay.org/rss/top100/205</page>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B] NEW MOVIES[/B] [/COLOR][COLOR skyblue] TorrentKing [/COLOR] [COLOR lightslategray] [/COLOR] </title>
+<link>$doregex[makelist]</link>
+
+
+<regex>
+    <name>makelist</name> movies  (all pages)
+ <listrepeat><![CDATA[
+   <title>[COLOR lightblue][B][makelist.param2][/COLOR][/B] [COLOR aquamarine] [makelist.param3][/COLOR]</title>
+   <link>$doregex[makelist2]</link>
+   <thumbnail>[makelist.param4]</thumbnail>
+   <info>[makelist.param3]</info>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re, requests
+def GetLSProData(page_data,Cookie_Jar,m):
+
+################################################################## FORMULARY #################################################################
+ starturl = 'https://torrentking.eu/'     ### usually, ~ 'http://website.com/category/' ###
+ categorylink = '' ### check the number of the param ###
+ centerurl = '/movies/'      ### something like  '/page/' ###
+ firstpage = 1 ### probably  = 1 ###
+ endurl = '/' ### can be empty ###    ### endurl without final / (SLASH) ###
+#
+ dataregex = 'href="(.*?)"\stitle="(.*?)"[\w\W\s]{0,199}title="(.*?)".*?data-src="(.*?)"'      ### To adapt ###
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': ''}      ### To adapt ###
+##############################################################################################################################################
+
+############################## GENERIC PART #####################################
+ fullurl = starturl + categorylink + centerurl + str(firstpage) + endurl #
+ source = requests.get(fullurl, headers= headers).text #
+ data = [] #
+#
+ last = 9 #
+ while firstpage <= last: #
+    try: #
+        fullurl = starturl + categorylink + centerurl + str(firstpage) + endurl #
+        source = requests.get(fullurl, headers=headers).text #
+        data += re.findall(dataregex, source) #
+        firstpage += 1 #
+    except: #
+        pass #
+ return data #
+##########################################################by#twogun#and#jujuuj###
+]]></expres><page></page>
+</regex>
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+   <SetViewMode>55</SetViewMode>
+   <title>[COLOR lightblue][B][makelist2.param2][/COLOR][/B] [COLOR coral]Tamaño: [makelist2.param3][/COLOR] [COLOR aquamarine]Seed:[makelist2.param4] - Peers:[makelist2.param5] [/COLOR]</title>
+   <link>plugin://plugin.video.quasar/play?uri=[makelist.param1]</link>
+ <thumbnail>[makelist.param4]</thumbnail>
+
+]]></listrepeat>
+<expres><![CDATA[href="(magnet.*?)"\s[\w\W\s]{0,222}Stream[\w\W\s]{0,13}<td>(.*?)<[\w\W\s]{0,23}white-transparent">(.*?)<[\w\W\s]{0,23}white-transparent">(.*?)<[\w\W\s]{0,20}white-transparent">(.*?)<]]></expres>
+<page>[makelist.param1]</page>
+</regex>
+
+
+
+
+
+
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B] MOST POPULAR MOVIES[/B] [/COLOR][COLOR skyblue] TorrentKing [/COLOR] [COLOR lightslategray] [/COLOR] </title>
+<link>$doregex[makelist]</link>
+
+
+<regex>
+    <name>makelist</name> movies  (all pages)
+ <listrepeat><![CDATA[
+   <title>[COLOR lightblue][B][makelist.param2][/COLOR][/B] [COLOR aquamarine] [makelist.param3][/COLOR]</title>
+   <link>$doregex[makelist2]</link>
+   <thumbnail>[makelist.param4]</thumbnail>
+   <info>[makelist.param3]</info>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re, requests
+def GetLSProData(page_data,Cookie_Jar,m):
+
+################################################################## FORMULARY #################################################################
+ starturl = 'https://torrentking.eu/most-popular-movies'     ### usually, ~ 'http://website.com/category/' ###
+ categorylink = '' ### check the number of the param ###
+ centerurl = '-'      ### something like  '/page/' ###
+ firstpage = 1 ### probably  = 1 ###
+ endurl = '/' ### can be empty ###    ### endurl without final / (SLASH) ###
+#
+ dataregex = 'href="(.*?)"\stitle="(.*?)"[\w\W\s]{0,199}title="(.*?)".*?data-src="(.*?)"'      ### To adapt ###
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': ''}      ### To adapt ###
+##############################################################################################################################################
+
+############################## GENERIC PART #####################################
+ fullurl = starturl + categorylink + centerurl + str(firstpage) + endurl #
+ source = requests.get(fullurl, headers= headers).text #
+ data = [] #
+#
+ last = 9 #
+ while firstpage <= last: #
+    try: #
+        fullurl = starturl + categorylink + centerurl + str(firstpage) + endurl #
+        source = requests.get(fullurl, headers=headers).text #
+        data += re.findall(dataregex, source) #
+        firstpage += 1 #
+    except: #
+        pass #
+ return data #
+##########################################################by#twogun#and#jujuuj###
+]]></expres><page></page>
+</regex>
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+   <SetViewMode>55</SetViewMode>
+   <title>[COLOR lightblue][B][makelist2.param2][/COLOR][/B] [COLOR coral]Tamaño: [makelist2.param3][/COLOR] [COLOR aquamarine]Seed:[makelist2.param4] - Peers:[makelist2.param5] [/COLOR]</title>
+   <link>plugin://plugin.video.quasar/play?uri=[makelist.param1]</link>
+ <thumbnail>[makelist.param4]</thumbnail>
+
+]]></listrepeat>
+<expres><![CDATA[href="(magnet.*?)"\s[\w\W\s]{0,222}Stream[\w\W\s]{0,13}<td>(.*?)<[\w\W\s]{0,23}white-transparent">(.*?)<[\w\W\s]{0,23}white-transparent">(.*?)<[\w\W\s]{0,20}white-transparent">(.*?)<]]></expres>
+<page>[makelist.param1]</page>
+</regex>
+
+
+
+
+
+
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B] MOST HOT MOVIES[/B] [/COLOR][COLOR skyblue] TorrentKing [/COLOR] [COLOR lightslategray] [/COLOR] </title>
+<link>$doregex[makelist]</link>
+
+
+<regex>
+    <name>makelist</name> movies  (all pages)
+ <listrepeat><![CDATA[
+   <title>[COLOR lightblue][B][makelist.param2][/COLOR][/B] [COLOR aquamarine] [makelist.param3][/COLOR]</title>
+   <link>$doregex[makelist2]</link>
+   <thumbnail>[makelist.param4]</thumbnail>
+   <info>[makelist.param3]</info>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re, requests
+def GetLSProData(page_data,Cookie_Jar,m):
+
+################################################################## FORMULARY #################################################################
+ starturl = 'https://torrentking.eu/most-hot-movies'     ### usually, ~ 'http://website.com/category/' ###
+ categorylink = '' ### check the number of the param ###
+ centerurl = '-'      ### something like  '/page/' ###
+ firstpage = 1 ### probably  = 1 ###
+ endurl = '/' ### can be empty ###    ### endurl without final / (SLASH) ###
+#
+ dataregex = 'href="(.*?)"\stitle="(.*?)"[\w\W\s]{0,199}title="(.*?)".*?data-src="(.*?)"'      ### To adapt ###
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Referer': ''}      ### To adapt ###
+##############################################################################################################################################
+
+############################## GENERIC PART #####################################
+ fullurl = starturl + categorylink + centerurl + str(firstpage) + endurl #
+ source = requests.get(fullurl, headers= headers).text #
+ data = [] #
+#
+ last = 9 #
+ while firstpage <= last: #
+    try: #
+        fullurl = starturl + categorylink + centerurl + str(firstpage) + endurl #
+        source = requests.get(fullurl, headers=headers).text #
+        data += re.findall(dataregex, source) #
+        firstpage += 1 #
+    except: #
+        pass #
+ return data #
+##########################################################by#twogun#and#jujuuj###
+]]></expres><page></page>
+</regex>
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+   <SetViewMode>55</SetViewMode>
+   <title>[COLOR lightblue][B][makelist2.param2][/COLOR][/B] [COLOR coral]Tamaño: [makelist2.param3][/COLOR] [COLOR aquamarine]Seed:[makelist2.param4] - Peers:[makelist2.param5] [/COLOR]</title>
+   <link>plugin://plugin.video.quasar/play?uri=[makelist.param1]</link>
+ <thumbnail>[makelist.param4]</thumbnail>
+
+]]></listrepeat>
+<expres><![CDATA[href="(magnet.*?)"\s[\w\W\s]{0,222}Stream[\w\W\s]{0,13}<td>(.*?)<[\w\W\s]{0,23}white-transparent">(.*?)<[\w\W\s]{0,23}white-transparent">(.*?)<[\w\W\s]{0,20}white-transparent">(.*?)<]]></expres>
+<page>[makelist.param1]</page>
+</regex>
+
+
+
+
+
+
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B] BUSCADOR [/B] [/COLOR][COLOR skyblue]DE SERIES [/COLOR] [COLOR lightslategray] [/COLOR] </title>
+<link>$doregex[makelist]</link>
+
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <SetViewMode>55</SetViewMode>
+   <title>[COLOR lightblue][B][makelist.param2][/COLOR][/B] [COLOR coral]Tamaño: [makelist.param3][/COLOR] [COLOR lightyellow]Subido:[makelist.param4][/COLOR] [COLOR aquamarine]Seed:[makelist.param5][/COLOR]    </title>
+   <link>plugin://plugin.video.quasar/play?uri=[makelist.param1]</link>
+ <thumbnail>[makelist2.param4]</thumbnail>
+
+]]></listrepeat>
+<expres><![CDATA[href="(.*?torrent)".*?title="(.*?)-[\w\W\s]{0,80}forum_thread_post">(.*?)<[\w\W\s]{0,35}forum_thread_post">(.*?)<[\w\W\s]{0,80}green">(.*?)<]]></expres>
+<page>https://eztv.ag/search/$doregex[search]</page>
+</regex>
+
+<regex>
+<name>search</name>
+<expres><![CDATA[#$pyFunction
+import xbmc
+import xbmcaddon
+import xbmcgui
+def GetLSProData(page_data,Cookie_Jar,m):
+    dialog = xbmcgui.Dialog()
+    d = dialog.input('Buscar Serie: ejemplo: The Walking Dead', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "-")
+    return d
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title> netai test</title>
+<link>$doregex[makelist]</link>
+
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <SetViewMode>55</SetViewMode>
+   <title>[COLOR lightblue][B][makelist.param3][/COLOR][/B]   </title>
+   <link>plugin://plugin.video.quasar/play?uri=$doregex[torrent]</link>
+ <thumbnail>[makelist.param1]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[171.*?src="(.*?)"[\w\W\s]{0,140}href="(.*?)".*?trong>(.*?)<\/]]></expres>
+<page>http://gruponetai.com/portal/Genero/animacion/</page>
+</regex>
+
+<regex>
+<name>torrent</name>
+<expres><![CDATA[href="(.*?\.torrent)"]]></expres>
+<page>[makelist.param2]</page>
+</regex>
+
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>

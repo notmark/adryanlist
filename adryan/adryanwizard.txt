@@ -1,0 +1,20 @@
+name="Para KODI 17 en Android"
+url="https://ia601507.us.archive.org/12/items/adryan-17.0.1_201707/adryan-17.0.1.zip"
+img="http://i.imgur.com/V4HpUD8.png"
+fanart="http://adryanlist.org/adryan/img/fanart.jpg"
+description="Instala la imagen AdryanList para Kodi 17 en [B][COLOR aquamarine]Android[/COLOR][/B]"
+
+name="KODI 17 en Windows 09-2017"
+url="https://archive.org/download/adryanwizard-win-17/adryanwizard-win-17.zip"
+img="http://i.imgur.com/XekH37W.png"
+fanart="http://adryanlist.org/adryan/img/fanart.jpg"
+description="Instala la imagen AdryanList para Kodi 17 en [B][COLOR aquamarine]Windows[/COLOR][/B]"
+
+name="Para KODI 16 en Windows"
+url="https://ia801501.us.archive.org/10/items/adryanwizard/kodi16-windows.zip"
+img="http://i.imgur.com/KE3kfXa.png"
+fanart="http://adryanlist.org/adryan/img/fanart.jpg"
+description="Instala la imagen AdryanList para Kodi 16 en [B][COLOR aquamarine]Windows[/COLOR][/B]"
+adryan-17.0.0.zip
+
+

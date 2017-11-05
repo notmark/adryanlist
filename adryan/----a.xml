@@ -1,0 +1,44 @@
+
+
+
+ http://tvonlinegratis.mobi/embed/pfutbol.html
+ 
+ rtmp://demo.iblups.com/demo/<playpath>skDpOyo29r <swfUrl>https://iblups.com/jwplayer/jwplayer.flash.swf <pageUrl>https://iblups.com/e_rovaldimix
+rtmp://demo.iblups.com/demo/<playpath>skDpOyo29r <swfUrl>https://iblups.com/jwplayer/jwplayer.flash.swf <pageUrl>https://iblups.com/e_rovaldimix
+
+
+https://ph2dov.oloadcdn.net/dl/l/vXVvAlqwYf0/U7-W3sQX2jE/Shrek+%282001%29+BRRip+Dual+Latino+1080p.mkv.mp4?mime=true
+
+ 
+<item>
+<title>TEST | http://livestream.com/accounts/2675843/events/1839332</title>
+<link>$doregex[get=URL]|User-Agent=iPhone</link>
+<regex>
+<name>get=URL</name>
+<expres><![CDATA[#$pyFunction
+import requests, re
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://livestream.com/accounts/2675843/events/1839332'):
+ headers = {'User-Agent': 'iPhone','Referer': 'http://livestream.com/'}
+ source = requests.get(url, headers=headers)
+ m3u8 = re.findall('smil[",\']\W[",\']m3u8_url.+?([^"]+)[",\']\W', source.text)[0]
+ return m3u8 + '|headers'
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://enl2015.wpengine.com/wp-content/uploads/2015/09/enlace3.png</thumbnail>
+</item>
+
+
+
+
+
+
+http://vemoxhlslive-i.akamaihd.net:80/hls/live/219940/vemoxchannel1/iOS/vemoxchannel1@219940/index.m3u8      http://videoplayer.vodobox.com/grindplayer/HLSProviderOSMF.swf
+http://ooyalahd2-f.akamaihd.net/i/latinalim_delivery@128959/master.m3u8?DVR-CapoLiveBroadcast.ts   ... http://www.kisstelevision.es/flowplayer-3.2.16.swf
+https://video02-atl.streamup.com/app/anahix5s-stream_aac/playlist.m3u8?DVR-CapoLiveBroadcast.ts
+https://video02-atl.streamup.com/app/anahix10s-stream_aac/playlist.m3u8?DVR-CapoLiveBroadcast.ts
+
+http://mitv.ddns.net:81/restream/tp.m3u8?canal=586&metodo=1 --- http://videoplayer.vodobox.com/grindplayer/GrindPlayer.swf --- http://videoplayer.vodobox.com/grindplayer/HLSProviderOSMF.swf
+
+http://208.86.20.109:8081/live/2400.stream/playlist.m3u8?token= 0ae030f4e30a13614643a3ce3568a164
