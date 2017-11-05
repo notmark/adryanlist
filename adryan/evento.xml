@@ -3,7 +3,7 @@
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR skyblue]  Game Of Thrones [/COLOR]  [COLOR aquamarine] [Todas las Temporadas][/COLOR]</title>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail><fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</fanart> 
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail><fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</fanart>
 <link>NA</link>
 <externallink>$doregex[select]</externallink>
 <regex>
@@ -13,7 +13,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
    import xbmcgui
    dialog = xbmcgui.Dialog()
    ret = dialog.select('Elige tu Audio preferido ', ['Audio Latino', 'Audio Castellano'])
-   lists = ['http://adryanlist.org/adryan/got_latino.xml', 'http://adryanlist.org/adryan/got_esp.xml']
+   lists = ['https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/got_latino.xml', 'https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/got_esp.xml']
    return lists[ret]
 ]]></expres>
 <page></page>
@@ -26,217 +26,217 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
+
 
 <item><urlsolve>https://www.yourupload.com/watch/0yn5sD7y1HD4</urlsolve>
- <thumbnail>https://image.tmdb.org/t/p/original/yXg63yNkgYffW72ItAAJnSIsgPY.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/yXg63yNkgYffW72ItAAJnSIsgPY.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 Este primer episodio de la séptima temporada se titula Rocadragón. Rocadragón, recordemos, es la fortaleza de la Isla de Rocadragón. Fue la fortaleza ancestral de la Casa Targaryen hasta la Guerra del Usurpador, cuando el rey Robert I se la concedió a su hermano Stannis Baratheon y además, es allí donde Daenerys Targaryen nació. De acuerdo a la sinopsis oficial, los Caminantes Blancos se aproximan al Muro. Bran Stark logra cruzarlo a tiempo, encontrándose con Edd el Penas, actual Lord Comandante de la Guardia Noche. Cersei, por su parte, intenta igualar fuerzas ante un ataque inminente en Desembarco. Y Daenerys, por fin, llega a casa.
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e01  [/COLOR][COLOR lightblue]Dragonstone[/COLOR]   [COLOR aquamarine]Sub [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
+
 
 
 <item><urlsolve>https://www.yourupload.com/watch/q2LsFKDUEn2R</urlsolve>
- <thumbnail>https://image.tmdb.org/t/p/original/yXg63yNkgYffW72ItAAJnSIsgPY.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/yXg63yNkgYffW72ItAAJnSIsgPY.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 Este primer episodio de la séptima temporada se titula Rocadragón. Rocadragón, recordemos, es la fortaleza de la Isla de Rocadragón. Fue la fortaleza ancestral de la Casa Targaryen hasta la Guerra del Usurpador, cuando el rey Robert I se la concedió a su hermano Stannis Baratheon y además, es allí donde Daenerys Targaryen nació. De acuerdo a la sinopsis oficial, los Caminantes Blancos se aproximan al Muro. Bran Stark logra cruzarlo a tiempo, encontrándose con Edd el Penas, actual Lord Comandante de la Guardia Noche. Cersei, por su parte, intenta igualar fuerzas ante un ataque inminente en Desembarco. Y Daenerys, por fin, llega a casa.
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e01  [/COLOR][COLOR lightblue]Dragonstone[/COLOR]   [COLOR aquamarine]Castellano [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
- 
- 
+
+
+
 <item><urlsolve>https://www.yourupload.com/watch/TF6R3Ol3JJWi</urlsolve>
- <thumbnail>https://image.tmdb.org/t/p/original/yXg63yNkgYffW72ItAAJnSIsgPY.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/yXg63yNkgYffW72ItAAJnSIsgPY.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 Este primer episodio de la séptima temporada se titula Rocadragón. Rocadragón, recordemos, es la fortaleza de la Isla de Rocadragón. Fue la fortaleza ancestral de la Casa Targaryen hasta la Guerra del Usurpador, cuando el rey Robert I se la concedió a su hermano Stannis Baratheon y además, es allí donde Daenerys Targaryen nació. De acuerdo a la sinopsis oficial, los Caminantes Blancos se aproximan al Muro. Bran Stark logra cruzarlo a tiempo, encontrándose con Edd el Penas, actual Lord Comandante de la Guardia Noche. Cersei, por su parte, intenta igualar fuerzas ante un ataque inminente en Desembarco. Y Daenerys, por fin, llega a casa.
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e01  [/COLOR][COLOR lightblue]Dragonstone[/COLOR]   [COLOR aquamarine]Latino [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
 
 
 
- 
- 
- 
- 
- 
+
+
+
+
+
+
  <item><urlsolve>https://www.yourupload.com/watch/a0LgVS46PtVP</urlsolve>
- <thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 Daenerys receives an unexpected visitor. Jon faces a revolt. Tyrion plans the conquest of Westeros.
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e02  [/COLOR][COLOR lightblue]Stormborn[/COLOR]   [COLOR aquamarine]Castellano [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
- 
- 
- 
- 
 
- 
- 
-  
+
+
+
+
+
+
+
+
  <item><urlsolve>https://www.yourupload.com/watch/lFpqWtMEEpJG</urlsolve>
- <thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 Daenerys receives an unexpected visitor. Jon faces a revolt. Tyrion plans the conquest of Westeros.
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e02  [/COLOR][COLOR lightblue]Stormborn[/COLOR]   [COLOR aquamarine]Subtitulado [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
 
- 
- 
+
+
+
 
   <item>
 <urlsolve>https://streamango.com/f/preeckdsaeksfcmd/JvTrN0s_S07E02_m720p_Lati_mkv</urlsolve>
- <thumbnail>https://image.tmdb.org/t/p/original/yXg63yNkgYffW72ItAAJnSIsgPY.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/yXg63yNkgYffW72ItAAJnSIsgPY.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e02  [/COLOR][COLOR lightblue]Stormborn[/COLOR]   [COLOR aquamarine]Latino[/COLOR][COLOR lightslategray]  [/COLOR]</title></item>
- 
- 
- 
 
- 
- 
+
+
+
+
+
  <item>
 <urlsolve>https://streamango.com/f/efnkcqtlstrolfqm/GMEofThr0nes_S07e03_720p_HDTV_VOSE_mkv</urlsolve>
- <thumbnail>https://image.tmdb.org/t/p/original/yXg63yNkgYffW72ItAAJnSIsgPY.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/yXg63yNkgYffW72ItAAJnSIsgPY.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e03  [/COLOR][COLOR lightblue]The Queen's Justice[/COLOR]   [COLOR aquamarine]Subtitulada[/COLOR][COLOR lightslategray]  [/COLOR]</title></item>
- 
- 
+
+
   <item>
 <urlsolve>https://streamango.com/f/epcrmocrtqcfmlos/_J_T_7x03_m720p_es_mkv</urlsolve>
- <thumbnail>https://image.tmdb.org/t/p/original/yXg63yNkgYffW72ItAAJnSIsgPY.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/yXg63yNkgYffW72ItAAJnSIsgPY.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e03  [/COLOR][COLOR lightblue]The Queen's Justice[/COLOR]   [COLOR aquamarine]Castellano[/COLOR][COLOR lightslategray]  [/COLOR]</title></item>
- 
- 
- 
+
+
+
   <item>
 <urlsolve>https://streamango.com/f/pndfkffqtcmktqap/tron703lat720p_mkv</urlsolve>
- <thumbnail>https://image.tmdb.org/t/p/original/yXg63yNkgYffW72ItAAJnSIsgPY.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/yXg63yNkgYffW72ItAAJnSIsgPY.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e03  [/COLOR][COLOR lightblue]The Queen's Justice[/COLOR]   [COLOR aquamarine]Latino[/COLOR][COLOR lightslategray]  [/COLOR]</title></item>
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
 
 <item>
 <urlsolve>https://streamango.com/f/msboandbpcnkndnr/GmeOfThr0nes_S07E04_m720p_WEBRip_VOSE_RAiDON_mkv_mp4</urlsolve>
- <thumbnail>https://image.tmdb.org/t/p/original/yXg63yNkgYffW72ItAAJnSIsgPY.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/yXg63yNkgYffW72ItAAJnSIsgPY.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e04  [/COLOR][COLOR lightblue]The Spoils of War[/COLOR]  [COLOR aquamarine]Subtitulado[/COLOR][COLOR lightslategray]  [/COLOR]</title></item>
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
      <item>
 <urlsolve>https://streamango.com/f/ecsfparfodpemofs/_T_R_N_7x04_m720p_es_mkv</urlsolve>
- <thumbnail>https://image.tmdb.org/t/p/original/yXg63yNkgYffW72ItAAJnSIsgPY.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/yXg63yNkgYffW72ItAAJnSIsgPY.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e04  [/COLOR][COLOR lightblue]The Spoils of War [/COLOR]  [COLOR aquamarine]Castellano[/COLOR][COLOR lightslategray]  [/COLOR]</title></item>
- 
- 
- 
+
+
+
       <item>
 <urlsolve>https://streamango.com/f/anlpetsaenfcfbqt/7Trons_7x04_720_Lat_mp4</urlsolve>
- <thumbnail>https://image.tmdb.org/t/p/original/yXg63yNkgYffW72ItAAJnSIsgPY.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/yXg63yNkgYffW72ItAAJnSIsgPY.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e04  [/COLOR][COLOR lightblue]The Spoils of War [/COLOR]  [COLOR aquamarine]Latino[/COLOR][COLOR lightslategray]  [/COLOR]</title></item>
- 
- 
 
- 
- 
- 
- 
- 
- 
-   
+
+
+
+
+
+
+
+
+
  <item><urlsolve>https://www.yourupload.com/watch/m4KiSQ51wdR5</urlsolve>
- <thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 Daenerys receives an unexpected visitor. Jon faces a revolt. Tyrion plans the conquest of Westeros.
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e04  [/COLOR][COLOR lightblue]The Spoils of War[/COLOR]   [COLOR aquamarine]Subtitulado [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
- 
+
+
   <item><urlsolve>https://www.yourupload.com/watch/dJ00VpCH53Mt</urlsolve>
- <thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 Daenerys receives an unexpected visitor. Jon faces a revolt. Tyrion plans the conquest of Westeros.
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e04  [/COLOR][COLOR lightblue]The Spoils of War[/COLOR]   [COLOR aquamarine]Castellano[/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
- 
+
+
    <item><urlsolve>https://www.yourupload.com/watch/68p1y6CgG8k7</urlsolve>
- <thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 Daenerys receives an unexpected visitor. Jon faces a revolt. Tyrion plans the conquest of Westeros.
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e04  [/COLOR][COLOR lightblue]The Spoils of War[/COLOR]   [COLOR aquamarine]Latino[/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
- 
- 
- 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  <item>
 <urlsolve>https://streamango.com/f/rcparnclopnktlat/got7x5_mp4</urlsolve>
-<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
@@ -244,15 +244,15 @@ Tyrion tries to find a way to make Daenerys listen to reason while Jon plans a d
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e05  [/COLOR][COLOR lightblue]Eastwatch[/COLOR]   [COLOR aquamarine]VO [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
- 
- 
- 
-  
+
+
+
+
+
 
  <item>
 <urlsolve>https://streamango.com/f/dqbpkadbklefepds/G4MEofTHR0N3S_S07E05_m720p_HDTV_VOSE_RAiDON_mkv_mp4</urlsolve>
-<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
@@ -260,11 +260,11 @@ Tyrion tries to find a way to make Daenerys listen to reason while Jon plans a d
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e05  [/COLOR][COLOR lightblue]Eastwatch[/COLOR]   [COLOR aquamarine]Subtitulado [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
- 
+
+
  <item>
 <urlsolve>https://streamango.com/f/natboaldtocerolf/GoT_s07e05_m720p_Vose_Alejo2016_mkv_mp4</urlsolve>
-<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
@@ -272,12 +272,12 @@ Tyrion tries to find a way to make Daenerys listen to reason while Jon plans a d
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e05  [/COLOR][COLOR lightblue]Eastwatch[/COLOR]   [COLOR aquamarine]Subtitulado [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
-  
-  
+
+
+
 <item>
 <urlsolve>https://streamango.com/f/qctcbofrpdamdodf/tro705lat720p_mkv_mp4</urlsolve>
-<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
@@ -285,10 +285,10 @@ Tyrion tries to find a way to make Daenerys listen to reason while Jon plans a d
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e05  [/COLOR][COLOR lightblue]Eastwatch[/COLOR]   [COLOR aquamarine]Latino [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
+
    <item>
 <urlsolve>https://streamango.com/f/smsosmtssdlbmpsn/tro705lat720p_mkv_mp4</urlsolve>
-<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
@@ -297,14 +297,14 @@ Tyrion tries to find a way to make Daenerys listen to reason while Jon plans a d
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e05  [/COLOR][COLOR lightblue]Eastwatch[/COLOR]   [COLOR aquamarine]Latino [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
- 
- 
+
+
+
+
+
   <item>
 <urlsolve>https://streamango.com/f/nnldlqdcorrmsmsf/G4MEofTHR0N3S_S07E05_m720p_DD_5_1_Dmsec_mkv_mp4</urlsolve>
-<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
@@ -312,11 +312,11 @@ Tyrion tries to find a way to make Daenerys listen to reason while Jon plans a d
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e05  [/COLOR][COLOR lightblue]Eastwatch[/COLOR]   [COLOR aquamarine]Castellano [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
- 
+
+
   <item>
 <urlsolve>https://streamango.com/f/dcstfpfftfflreqq/game_of_thrones_s07e05_720p_web_h264-tbs_mkv_mp4</urlsolve>
-<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
@@ -324,10 +324,10 @@ Tyrion tries to find a way to make Daenerys listen to reason while Jon plans a d
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e05  [/COLOR][COLOR lightblue]Eastwatch[/COLOR]   [COLOR aquamarine]Castellano [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
+
    <item>
 <urlsolve>https://streamango.com/f/aalcebopaktdfckp/JDTR0N0S_S07E05_m1080p_WEBRip_DD5_1_Dmsec_mkv</urlsolve>
-<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
@@ -335,205 +335,205 @@ Tyrion tries to find a way to make Daenerys listen to reason while Jon plans a d
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e05  [/COLOR][COLOR lightblue]Eastwatch[/COLOR]   [COLOR aquamarine]Castellano 1080p [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
      <item>
 <urlsolve>https://streamango.com/f/brnkrbsotaenpeed/GmeOfThr0nes_S07E06_m720p_WEBRip_LEAKED_VOSE_RAiDON_mkv_mp4</urlsolve>
-<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
- 
+
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e06  [/COLOR][COLOR lightblue] Death is the Enemy [/COLOR]   [COLOR aquamarine]Subtitulado 720p [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
- 
- 
 
- 
+
+
+
+
        <item>
 <urlsolve>https://streamango.com/f/mdnpodrrdpaoleot/GaTT_S07E06_m1080p_Vosebuenoss_mkv_mp4</urlsolve>
-<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
- 
+
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e06  [/COLOR][COLOR lightblue] Death is the Enemy [/COLOR]   [COLOR aquamarine]Subtitulado 1080p [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
 
- 
- 
- 
+
+
+
+
  <item>
 <urlsolve>https://streamango.com/f/pdsrsdqktfroqtsp/GameOfThrones_S07E06_m720p_AMZN_WEB_DL_LATINO_mkv</urlsolve>
-<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
- 
+
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e06  [/COLOR][COLOR lightblue] Death is the Enemy [/COLOR]   [COLOR aquamarine]Latino 720p [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
+
   <item>
 <urlsolve>https://streamango.com/f/mnqpdkaafqmtctst/GameOfThrones_S07E06_m720p_AMZN_WEB_DL_LATINO_mkv</urlsolve>
-<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
- 
+
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e06  [/COLOR][COLOR lightblue] Death is the Enemy [/COLOR]   [COLOR aquamarine]Latino 720p [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
- 
+
+
 
   <item>
 <urlsolve>https://streamango.com/f/kedconleklspfnsq/GMTHR0N3S_S07E06_m720p_AMZN_WEB_DL_DD5_1_RAiDON_mkv</urlsolve>
-<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
- 
+
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e06  [/COLOR][COLOR lightblue] Death is the Enemy [/COLOR]   [COLOR aquamarine]Castellano 720p [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
+
+
+
   <item>
 <urlsolve>https://streamango.com/f/qqafcebsprqmnqlk/GMTHR0N3S_S07E06_m1080p_AMZN_WEB_DL_DD5_1_RAiDON_mkv</urlsolve>
-<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
- 
+
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e06  [/COLOR][COLOR lightblue] Death is the Enemy [/COLOR]   [COLOR aquamarine]Castellano 1080p [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
- 
- 
- 
- 
- 
 
- 
- 
+
+
+
+
+
+
+
+
     <item>
 <urlsolve>https://streamango.com/f/bkarlmcqfekcdept/GoT_S07E07_m1080p_Vose_mkv_mp4</urlsolve>
-<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
- 
+
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e07  [/COLOR][COLOR lightblue] The Wolf and the Dragon [/COLOR]   [COLOR aquamarine]Subtitulado 1080p [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
- 
 
- 
- 
+
+
+
+
  <item>
 <urlsolve>https://streamango.com/f/ccccntkqelfmcqdt/gotron707vos720p_mkv</urlsolve>
-<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
- 
+
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e07  [/COLOR][COLOR lightblue] The Wolf and the Dragon [/COLOR]   [COLOR aquamarine]Subtitulado  [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
- 
- 
- 
 
- 
+
+
+
+
+
      <item>
 <urlsolve>https://streamango.com/f/nbkllfkcpbfmdran/J0g0_7x07_m720p_mkv</urlsolve>
-<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
- 
+
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e07  [/COLOR][COLOR lightblue] The Wolf and the Dragon [/COLOR]   [COLOR aquamarine]Castellano [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
- 
+
+
       <item>
 <urlsolve>https://streamango.com/f/oatabdekpaslecba/JGDTR0N0S_S07E07_m1080p_AMZN_WEB_DL_DD5_1_RAiDON_mkv_mp4</urlsolve>
-<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
- 
+
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e07  [/COLOR][COLOR lightblue] The Wolf and the Dragon [/COLOR]   [COLOR aquamarine]Castellano 1080p [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
- 
- 
- 
+
+
+
+
       <item>
 <urlsolve>https://streamango.com/f/lodkaqftsempcasb/GameofThrones_S07E07_m720p_AMZN_WEB_DL_LAT_mkv</urlsolve>
-<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
- 
+
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e07  [/COLOR][COLOR lightblue] The Wolf and the Dragon [/COLOR]   [COLOR aquamarine]Latino [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
- 
- 
+
+
        <item>
 <urlsolve>https://streamango.com/f/kcrtdrdqlcolsmel/GoT_S07E07_1080p_Lat_mkv_mp4</urlsolve>
-<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 <info>
 
- 
+
 
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]S07e07  [/COLOR][COLOR lightblue] The Wolf and the Dragon [/COLOR]   [COLOR aquamarine]Latino 1080p [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
-     
 
-	 
-	 
-	 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  <item>
 <title>[COLOR lime]•[/COLOR][COLOR skyblue]  Game Of Thrones [/COLOR]  [COLOR aquamarine] [Temporada 7] [/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -542,7 +542,7 @@ Tyrion tries to find a way to make Daenerys listen to reason while Jon plans a d
   <listrepeat><![CDATA[
         <title>$pyFunction:('[makelist.param3] ').replace('MexFLIX','').replace('_',' ').replace('.mp4','')</title>
         <link>$doregex[getUrl]</link>
-<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
@@ -556,7 +556,7 @@ Tyrion tries to find a way to make Daenerys listen to reason while Jon plans a d
 <rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
 <referer>http://diskokosmiko.mx/[makelist.param2]</referer>
 <connection>keep-alive</connection>
-<accept>*/*</accept>   
+<accept>*/*</accept>
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
 </regex>
@@ -567,18 +567,18 @@ Tyrion tries to find a way to make Daenerys listen to reason while Jon plans a d
 <referer>http://diskokosmiko.mx/mexflix17/24gottemp7-76491/list,1,1</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
-</regex>  
-<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail> 
+</regex>
+<thumbnail>https://image.tmdb.org/t/p/original/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gSAGgeUNUND2sFCHWXpx8FkkbFX.jpg</fanart>
 </item>
- 
- 
- 
 
- 
- 
 
- 
+
+
+
+
+
+
 
 <!--
 <item>
@@ -598,20 +598,20 @@ Tyrion tries to find a way to make Daenerys listen to reason while Jon plans a d
 
 
 
- 
 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -628,7 +628,7 @@ Tyrion tries to find a way to make Daenerys listen to reason while Jon plans a d
 
 <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail><fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</fanart></item>
 
- 
+
 
 
 <item>
@@ -644,23 +644,23 @@ Tyrion tries to find a way to make Daenerys listen to reason while Jon plans a d
 
 <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail><fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</fanart></item>
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue] Game of Thrones Premiere [/COLOR]  [COLOR aquamarine]  HBO LATINO[/COLOR]</title>
@@ -668,15 +668,15 @@ Tyrion tries to find a way to make Daenerys listen to reason while Jon plans a d
 
 <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail><fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</fanart></item>
 
- 
- 
-    
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
 
 
 <itm>
@@ -691,9 +691,9 @@ Tyrion tries to find a way to make Daenerys listen to reason while Jon plans a d
 <cookieJar></cookieJar>
 </regex>
 <regex>
-<name>it</name>	 
-<expres>Agent:"(.*?)";</expres>	 
-<page>http://adryanlist.org/adryan/fuckit.php</page> 
+<name>it</name>
+<expres>Agent:"(.*?)";</expres>
+<page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/fuckit.php</page>
 </regex>
 
 
@@ -702,12 +702,12 @@ Tyrion tries to find a way to make Daenerys listen to reason while Jon plans a d
 
 
 
- 
- 
 
 
- 
- 
+
+
+
+
 
 
 
@@ -820,33 +820,33 @@ Tyrion tries to find a way to make Daenerys listen to reason while Jon plans a d
 
 
 
-	
+
 	<item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue] Game of Thrones Premiere [/COLOR]  [COLOR aquamarine] [1] [/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://ok1.se:8000/live/michaud/michaud/420.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR lightblue]AdryanList[/COLOR][COLOR lightslategray]Game of Thrones[/COLOR] </link>
 
 <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail><fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</fanart></item>
 
- 
- 
- 
-	
+
+
+
+
 	<item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue] Game of Thrones Premiere [/COLOR]  [COLOR aquamarine] [2] [/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://ok1.se:8000/live/umar1/umar1/420.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR lightblue]AdryanList[/COLOR][COLOR lightslategray]Game of Thrones[/COLOR] </link>
 
 <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail><fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</fanart></item>
 
- 
 
- 
+
+
 	<item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue] Game of Thrones Premiere [/COLOR]  [COLOR aquamarine] [3] [/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://pro213.com/live/promphan874/bo1l61/2426.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR lightblue]AdryanList[/COLOR][COLOR lightslategray]Game of Thrones[/COLOR] </link>
 
 <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail><fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</fanart></item>
 
- 
+
 
  	<item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue] Game of Thrones Premiere [/COLOR]  [COLOR aquamarine] [4] [/COLOR]</title>
@@ -854,18 +854,18 @@ Tyrion tries to find a way to make Daenerys listen to reason while Jon plans a d
 
 <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail><fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</fanart></item>
 
- 
 
- 
+
+
  	<item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue] Game of Thrones Premiere [/COLOR]  [COLOR aquamarine] [5] [/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://sporti.tv:6500/live/T72B3TkeTS/GgoGAXtVbx/8411.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR lightblue]AdryanList[/COLOR][COLOR lightslategray]Game of Thrones[/COLOR] </link>
 
 <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail><fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</fanart></item>
 
- 
 
- 
+
+
  	<item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue] Game of Thrones Premiere [/COLOR]  [COLOR aquamarine] [6] [/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://sporti.tv:6500/live/nt4J6nrpEV/Bd8cIxGIMX/7649.ts
@@ -873,16 +873,15 @@ Tyrion tries to find a way to make Daenerys listen to reason while Jon plans a d
 
 <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail><fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</fanart></item>
 
- 
 
- 
+
+
  	<item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue] Game of Thrones Premiere [/COLOR]  [COLOR aquamarine] [7] [/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://sporti.tv:6500/live/nt4J6nrpEV/Bd8cIxGIMX/8411.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR lightblue]AdryanList[/COLOR][COLOR lightslategray]Game of Thrones[/COLOR] </link>
 
 <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail><fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</fanart></item>
 
- 
 
 
 
@@ -895,11 +894,12 @@ Tyrion tries to find a way to make Daenerys listen to reason while Jon plans a d
 
 
 
- 
 
 
 
- 
+
+
+
 
 
 
@@ -1006,9 +1006,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>$doregex[rtmp] playpath=alpha_$doregex[playpath]$doregex[playpath2] swfUrl=http://p.castamp.com/cplayer.swf live=true timeout=15 swfVfy=1 pageUrl=http://www.castamp.com/embed.php?c=alpha&amp;tk=$doregex[it]&amp;vwidth=680&amp;vheight=440</link>
 
  <regex>
-<name>it</name>	 
-<expres>Agent:"(.*?)";</expres>	 
-<page>http://adryanlist.org/adryan/fuckit.php</page> 
+<name>it</name>
+<expres>Agent:"(.*?)";</expres>
+<page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/fuckit.php</page>
 </regex>
 
 <regex>
@@ -1084,7 +1084,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			</regex>
 			<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail><fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</fanart></item>
 
-			
+
 
 
 
@@ -1129,13 +1129,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail><fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</fanart></item>
 
 
-	 
 
-	 
-	  
-	  
-	  
-	  
+
+
+
+
+
+
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue] Game of Thrones Premiere [/COLOR]  [COLOR aquamarine]  HBO US (z)[/COLOR]</title>
 <link>$doregex[get-id]</link>
@@ -1146,5 +1146,3 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail><fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BMjE3NTQ1NDg1Ml5BMl5BanBnXkFtZTgwNzY2NDA0MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg</fanart></item>
-
-

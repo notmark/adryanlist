@@ -98,7 +98,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
 </item>
 
 
@@ -124,7 +124,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
          <SetViewMode>55</SetViewMode>
 		 <title>$pyFunction:'[lista.param3]'.replace(".mp4", "  [COLOR blue][I]AdryanList[/I][/COLOR]").replace(".avi", "  [COLOR blue][I]AdryanList[/I][/COLOR]").replace(".mkv", "  [COLOR blue][I]AdryanList[/I][/COLOR]")</title>
         <link>$doregex[getUrl]</link>
-		<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+		<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
 		]]></listrepeat>
 <expres><![CDATA[href=\"(.*?,(.*?)\..*?)\".*?preview">(.*?mkv|.*?mp4|.*?avi)<]]><expres>
 <page>http://diskokosmiko.mx/action/SearchFiles?Phrase=adryanlist&amp;Mode=List&amp;Type=Video&amp;SizeFromMB=0&amp;SizeToMB=0&amp;pageNumber=10</page>
@@ -185,7 +185,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
 </item>
 
 
@@ -195,23 +195,23 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <itm>
 <title>[COLOR lime][B][  ][/B][/COLOR]    [COLOR lightgreen][B]BUSCAR PELICULA[/B] [/COLOR][COLOR skyblue] [/COLOR] </title>
 <link>http://ignora.me</link>
-<externallink>http://adryanlist.org/adryan/buscarpelicula.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/buscarpelicula.xml</externallink>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B]ESTRENOS LATINOS [/COLOR][COLOR aquamarine][/COLOR]  [/B]</title>
 <link>http://ignora.me</link>
-<externallink>http://adryanlist.org/adryan/peliculas_favoritas.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/peliculas_favoritas.xml</externallink>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
 </item>
 
 
 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B]ESTRENOS ESPAÑA | CASTELLANO [/COLOR][COLOR aquamarine][/COLOR]  [/B]</title>
 <link>http://ignora.me</link>
-<externallink>http://adryanlist.org/adryan/favoritas_esp.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/favoritas_esp.xml</externallink>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
 </item>
 
 
@@ -222,16 +222,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <iem>
 <title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B]ESTRENOS TORRENT  [/COLOR][COLOR skyblue] [/COLOR] [COLOR deepskyblue] - QUASAR REQUERIDO[/COLOR] [/B] </title>
 <link>http://ignora.me</link>
-<externallink>http://adryanlist.org/adryan/quasar.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/quasar.xml</externallink>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
  <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR lightgreen][B]MOVIES [/COLOR][COLOR skyblue]PACK[/COLOR] [/B]</title>
 <link>http://ignora.me</link>
-<externallink>http://adryanlist.org/adryan/moviepack.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/moviepack.xml</externallink>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
@@ -248,7 +248,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
         <link>$doregex[makelist]</link>
         ]]></listrepeat>
 <expres>peliculas:"(.*?)" name:"(.*?)";</expres>
-<page>http://adryanlist.org/adryan/kozm.txt</page>
+<page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/kozm.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -286,7 +286,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
 </item>
 
 
@@ -302,10 +302,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
  <title>[makelist2.param3]</title>
  <link>$doregex[makelist]</link>
- <thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
  ]]></listrepeat>
 <expres>youtuber:"(.*?)" playlist:"(.*?)" name:"(.*?)"; </expres>
-<page>http://adryanlist.org/adryan/kozm.txt</page>
+<page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/kozm.txt</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
 
@@ -322,14 +322,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <referer>https://www.youtube.com/channel/[makelist2.param1]/playlists</referer>
  <cookieJar></cookieJar>
  </regex>
- <thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR coral][B]EL RINCON DEL TERROR[/COLOR][COLOR skyblue] Cortesia de LOLO[/COLOR] [/B]</title>
 <link>ignorme</link>
-<externallink>http://adryanlist.org/adryan/terror.xml</externallink>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/terror.xml</externallink>
 
 <thumbnail>https://i.imgur.com/ZFweFnY.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -341,8 +341,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR lightgreen][B]EL RINCON DE LAS LISTAS [/COLOR][COLOR skyblue]Castellano[/COLOR] [/B]</title>
 <link>http://ignora.me</link>
-<externallink>http://adryanlist.org/adryan/rincon.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/rincon.xml</externallink>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
@@ -462,7 +462,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
   <page>http://www.cinecalidad.com/pelicula/[makelist.param1]</page>
   <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
-<cookieJar></cookieJar></regex></regex><thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<cookieJar></cookieJar></regex></regex><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
@@ -543,7 +543,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
   <page>http://www.cinecalidad.com/espana/pelicula/[makelist.param1]</page>
   <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
-<cookieJar></cookieJar></regex></regex><thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<cookieJar></cookieJar></regex></regex><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
@@ -635,7 +635,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <page>http://www.cinecalidad.com/pelicula/[makelist.param1]</page>
   <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
 <cookieJar></cookieJar></regex>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
@@ -729,7 +729,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <page>http://www.cinecalidad.to/espana/pelicula/[makelist.param1]</page>
   <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
 <cookieJar></cookieJar></regex>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
@@ -761,7 +761,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
     <link>$doregex[makelist2]</link>
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
    ]]></listrepeat>
    <expres>genero-peliculas\/(.*?)\/</expres>
    <page>http://www.cinecalidad.to/</page>
@@ -780,10 +780,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
     <link>$doregex[makelist]</link>
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
    ]]></listrepeat>
    <expres><![CDATA[paginado:"(.*?)";]]></expres>
-   <page>http://adryanlist.org/adryan/kozm.txt</page>
+   <page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/kozm.txt</page>
    <cookieJar></cookieJar>
 </regex>
 
@@ -863,7 +863,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
 <cookieJar></cookieJar></regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
@@ -892,7 +892,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
     <link>$doregex[makelist2]</link>
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
    ]]></listrepeat>
    <expres>genero-peliculas\/(.*?)\/</expres>
    <page>http://www.cinecalidad.to/espana/</page>
@@ -911,10 +911,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
     <link>$doregex[makelist]</link>
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
    ]]></listrepeat>
    <expres><![CDATA[paginado:"(.*?)";]]></expres>
-   <page>http://adryanlist.org/adryan/kozm.txt</page>
+   <page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/kozm.txt</page>
    <cookieJar></cookieJar>
 </regex>
 
@@ -993,7 +993,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <page>http://www.cinecalidad.com/espana/pelicula/[makelist.param1]</page>
   <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
 <cookieJar></cookieJar></regex>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
@@ -1018,7 +1018,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://ignora.me</link>
 <externallink>http://exabytetv.info/peliculas.m3u</externallink>
 <fanart>http://fotonin.com/data_images/out/5/776482-cool-movie-wallpaper.jpg</fanart>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
 <info></info>
 </item>
 
@@ -1074,10 +1074,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
    <listrepeat><![CDATA[
        <title>Pagina [makelist5.param1]</title>
        <link>$doregex[makelist4]</link>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
    ]]></listrepeat>
    <expres><![CDATA[paginado:"(.*?)";]]></expres>
-   <page>http://adryanlist.org/adryan/kozm.txt</page>
+   <page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/kozm.txt</page>
    <cookieJar></cookieJar>
 </regex>
 
@@ -1124,7 +1124,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
@@ -1213,7 +1213,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
@@ -1333,7 +1333,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
 
 
@@ -1352,7 +1352,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <SetViewMode>55</SetViewMode>
 <title>[lista.param2]</title>
 <link>$doregex[makelist0]</link>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[category\/(.*?)\/"\s>(.*?)<]]></expres>
 <page>http://miradetodo.io/</page>
@@ -1458,7 +1458,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
 
 
@@ -1472,8 +1472,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]EMULELAND[/B] [/COLOR][COLOR skyblue] | ESTRENOS | BUSCADOR | GENEROS | CALIDAD | [/COLOR]  </title>
 <link>http://ignora.me</link>
-<externallink>http://adryanlist.org/adryan/emuleland.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/emuleland.xml</externallink>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
@@ -1505,7 +1505,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres>href="(.*?).html.*?text:\s\'(.*?)\&.*?src="(.*?)"</expres>
 <page>http://www.cinevall.club</page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
  </item>
 
 
@@ -1571,7 +1571,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
  </item>
 
 
@@ -1587,8 +1587,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
 <title>[COLOR skyblue] [makelist1.param2]   [COLOR lightyellow][[makelist1.param3]][/COLOR][/COLOR]</title>
  <link>$doregex[makelist2]</link>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[org\/genre\/(.*?)\"\s>(.*?)<.*?i>(.*?)<]]></expres>
  <page>http://bassfox.org/movies</page>
@@ -1644,7 +1644,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
  </item>
 
 
@@ -1703,7 +1703,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
  </item>
 
 
@@ -1767,7 +1767,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
  </item>
 
 
@@ -1843,7 +1843,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
 
 
@@ -1871,7 +1871,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <SetViewMode>55</SetViewMode>
 <title>[COLOR lightblue] [makelist2.param2]  [/COLOR]</title>
 <link>$doregex[makelist3]</link>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
 <fanart>[makelist2.param3]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</fanart>
 ]]></listrepeat>
 <expres><![CDATA[Ntooltip\"\shref="(.*?)">(.*?)<[\w\W\s]{0,20}src="(.*?)"]]></expres>
@@ -1892,7 +1892,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
 <title>[B][COLOR skyblue][makelist2.param2][/COLOR] [COLOR aquamarine][makelist3.param1][/COLOR] [/B][COLOR deepskyblue][makelist3.param3][/COLOR]</title>
 <link>$doregex[id3]</link>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
 <fanart>[makelist2.param3]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0&amp;Referer=http://gnula.nu</fanart>
 ]]></listrepeat>
 <expres><![CDATA[em>(opc.*?)<\/em|href="(http://gamovideo.*?|https://vidoza.*?|https://kingvid.*?|https://openload.*?|https://streamango.*?|http://streamin.*?|http://streamcloud.*?|http://uptobox.*?|https://rapidvideo.*?)".*?class="(.*?)"]]></expres>
@@ -1925,7 +1925,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
 
 
@@ -2018,7 +2018,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
@@ -2043,7 +2043,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
    <SetViewMode>55</SetViewMode>
    <title>[COLOR skyblue] [makelist0.param2][/COLOR]</title>
    <link>$doregex[makelist]</link>
-   <thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+   <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[repelis.tv/genero/(.*?)"\stitle="(.*?)"]]></expres>
 <page>https://repelis.tv/</page>
@@ -2157,7 +2157,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
@@ -2230,7 +2230,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
 
 
@@ -2277,9 +2277,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]BassFox Movies[/B] [/COLOR][COLOR skyblue][I] Estrenos[/I][/COLOR] </title>
 <link>http://ignora.me</link>
-<externallink>http://adryanlist.org/adryan/estrenosbassfox.xml</externallink>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/estrenosbassfox.xml</externallink>
 <fanart>http://fotonin.com/data_images/out/5/776482-cool-movie-wallpaper.jpg</fanart>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
 <info></info>
 </item>
 
@@ -2292,7 +2292,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://ignora.me</link>
 <externallink>https://pastebin.com/raw/qkdjae9e</externallink>
 <fanart>http://fotonin.com/data_images/out/5/776482-cool-movie-wallpaper.jpg</fanart>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
 <info></info>
 </item>
 
@@ -2302,7 +2302,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://ignora.me</link>
 <externallink>http://srregio.net/regiopeliculas.m3u</externallink>
 <fanart>http://fotonin.com/data_images/out/5/776482-cool-movie-wallpaper.jpg</fanart>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
 <info></info>
 </item>
 
@@ -2311,7 +2311,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://ignora.me</link>
 <externallink>http://tecnotv.xyz/peliculas.m3u</externallink>
 <fanart>http://fotonin.com/data_images/out/5/776482-cool-movie-wallpaper.jpg</fanart>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
 <info></info>
 </item>
 
@@ -2321,7 +2321,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://ignora.me</link>
 <externallink>http://cecegeek.com/movies.m3u</externallink>
 <fanart>http://fotonin.com/data_images/out/5/776482-cool-movie-wallpaper.jpg</fanart>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
 <info></info>
 </item>
 
@@ -2391,7 +2391,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
@@ -2471,7 +2471,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 
 </item>
@@ -2557,7 +2557,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 </item>
 
@@ -2661,7 +2661,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 </item>
 
@@ -2744,7 +2744,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = '[makelist3.param1]'):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
@@ -2848,7 +2848,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = '[makelist3.param1]'):
         <page>$pyFunction:cloudflare.createCookie('http://gnula.nu',Cookie_Jar,'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36')</page>
         <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
@@ -2885,7 +2885,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = '[makelist3.param1]'):
 <page>[makelist2.param1]</page>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
 
 
@@ -2931,7 +2931,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = '[makelist3.param1]'):
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
 
 
@@ -2949,10 +2949,10 @@ def GetLSProData(page_data,Cookie_Jar,m,url = '[makelist3.param1]'):
    <listrepeat><![CDATA[
        <title>Pagina [makelist3.param1]</title>
         <link>$doregex[makelist0]</link>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
    ]]></listrepeat>
    <expres><![CDATA[paginado:"(.*?)";]]></expres>
-   <page>http://adryanlist.org/adryan/kozm.txt</page>
+   <page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/kozm.txt</page>
    <cookieJar></cookieJar>
 </regex>
 
@@ -2989,8 +2989,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url = '[makelist3.param1]'):
 
 
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
@@ -3006,9 +3006,9 @@ def GetLSProData(page_data,Cookie_Jar,m,url = '[makelist3.param1]'):
  <iem>
 <title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]Yaske[/B] [/COLOR][COLOR skyblue][I] Recientes[/I][/COLOR] </title>
 <link>http://ignora.me</link>
-<externallink>http://adryanlist.org/adryan/yaske.xml</externallink>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/yaske.xml</externallink>
 <fanart>http://fotonin.com/data_images/out/5/776482-cool-movie-wallpaper.jpg</fanart>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
 <info></info>
 </item>
 
@@ -3021,9 +3021,9 @@ def GetLSProData(page_data,Cookie_Jar,m,url = '[makelist3.param1]'):
  <itm>
 <title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]inkaPelis[/B] [/COLOR][COLOR skyblue] Estrenos | Generos[/COLOR] </title>
 <link>http://ignora.me</link>
-<externallink>http://adryanlist.org/adryan/inka.xml</externallink>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/inka.xml</externallink>
 <fanart>http://fotonin.com/data_images/out/5/776482-cool-movie-wallpaper.jpg</fanart>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
 </item>
 
 
@@ -3093,7 +3093,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = '[makelist3.param1]'):
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
 
 
@@ -3171,7 +3171,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
 
 
@@ -3190,10 +3190,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
        <title>Pagina [makelist3.param1]</title>
 
 <link>$doregex[makelist2]</link>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
    ]]></listrepeat>
    <expres><![CDATA[paginado:"(.*?)";]]></expres>
-   <page>http://adryanlist.org/adryan/kozm.txt</page>
+   <page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/kozm.txt</page>
    <cookieJar></cookieJar>
 </regex>
 
@@ -3242,7 +3242,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
 
 
@@ -3324,7 +3324,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres>(https:\/\/.*?)&amp;quot</expres>
 <page>[makelist2.param1]</page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
  </item>
 
 
@@ -3397,7 +3397,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
  </item>
 
 
@@ -3445,7 +3445,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
  </item>
 
 
@@ -3489,7 +3489,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>[makelist2.param1]</page>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
 
 
@@ -3513,10 +3513,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
        <title>Pagina [makelist3.param1]</title>
 
 <link>$doregex[makelist2]</link>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
    ]]></listrepeat>
    <expres><![CDATA[paginado:"(.*?)";]]></expres>
-   <page>http://adryanlist.org/adryan/kozm.txt</page>
+   <page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/kozm.txt</page>
    <cookieJar></cookieJar>
 </regex>
 
@@ -3568,7 +3568,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
 
 
@@ -3638,7 +3638,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
 
 
@@ -3785,7 +3785,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>page [makelist2.param1]</title>
 <link>$doregex[makelist3]</link>
 <referer></referer>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
 ]]></listrepeat>
 <expres> (.*?),</expres>
 <page>$doregex[get-number]</page>
@@ -3858,7 +3858,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='https://www.youtube.com/user/Disney
 <page></page>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
 
 
@@ -4028,7 +4028,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
 
 
@@ -4102,7 +4102,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
 
 
@@ -4129,7 +4129,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <listrepeat><![CDATA[
         <title>$pyFunction:'[COLOR skyblue][makelist4.param2][/COLOR]'.replace("1", "Enero").replace("2", "Febrero").replace("3", "Marzo").replace("4", "Abril").replace("5", "Mayo").replace("6", "Junio").replace("7", "Julio").replace("8", "Agosto").replace("9", "Septiembre").replace("10", "Octubre").replace("11", "Noviembre").replace("12", "Diciembre")</title>
         <link>$doregex[makelist3]</link>
-		<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+		<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
         ]]></listrepeat>
 <expres>href="(.*?)">(?!\.\.)(.*?)\/</expres>
 <page>http://media.bia4music.com/movie/2017/Film/</page>
@@ -4160,7 +4160,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
@@ -4237,7 +4237,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
@@ -4332,7 +4332,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>[makelist.param1]</page>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
@@ -4422,7 +4422,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 </item>
 
@@ -4545,7 +4545,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>[makelist.param1]</page>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
@@ -4608,7 +4608,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
    <listrepeat><![CDATA[
           <title>[UPPERCASE][COLOR skyblue][makelist.param2][/COLOR][/UPPERCASE]</title>
           <link>$doregex[makelist3]</link>
-		  <thumbnail>http://adryanlist.org/adryan/img/peliculas.jpg</thumbnail>
+		  <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/peliculas.jpg</thumbnail>
    ]]></listrepeat>
    <expres>a\shref="(.*?)".*?\">Ver(.*?)online</expres>
    <page>https://www.google.com.mx/search?q=$doregex[titulo]+site:gnula.nu</page>
@@ -4664,7 +4664,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
 
 
@@ -4752,7 +4752,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
@@ -5104,8 +5104,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <item>
 <title>Wiseplay listas </title>
 <link>http://ignora.me</link>
-<externallink>http://adryanlist.org/adryan/wise.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/wise.xml</externallink>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
 
@@ -5170,7 +5170,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title> netai test genero</title>
-<link>$doregex[makelist2]</link> 
+<link>$doregex[makelist2]</link>
 
 
 <regex>
@@ -5178,7 +5178,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
    <SetViewMode>55</SetViewMode>
    <title>[COLOR lightblue][B]Genero [makelist2.param1][/COLOR][/B]   </title>
-<link>$doregex[makelist]</link>  
+<link>$doregex[makelist]</link>
 ]]></listrepeat>
 <expres><![CDATA[option\sclass="level-0.*?">(.*?)<]]></expres>
 <page>http://gruponetai.com/portal/</page>
@@ -5194,7 +5194,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
    <SetViewMode>55</SetViewMode>
    <title>[COLOR lightblue][B][makelist.param3][/COLOR][/B]   </title>
    <link>plugin://plugin.video.quasar/play?uri=$doregex[torrent]</link>
- <thumbnail>[makelist.param1]</thumbnail>    
+ <thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[171.*?src="(.*?jpg)"[\w\W\s]{0,390}href="(.*?)".*?trong>(.*?)<\/]]></expres>
 <page>http://gruponetai.com/portal/Genero/[makelist2.param1]/</page>
@@ -5202,10 +5202,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-	
-						
-						
-						
+
+
+
+
 
 <regex>
 <name>torrent</name>

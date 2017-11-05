@@ -19,12 +19,12 @@
 <listrepeat><![CDATA[
 <title>[COLOR lightslategray][COLOR aquamarine][B][makelist.param1][/B][/COLOR][COLOR deepskyblue][B][makelist.param2] [makelist.param3][/B][/COLOR][/COLOR][makelist.param4] [makelist.param5]</title>
 <link>$doregex[ip]|User-Agent=iPad</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[title=.*?n\s(.*?)"|"(ahor.*?)">\n\s\s\s(.*?)\n|date">(.*?)</span>\n\s\s\s(.*)\n]]></expres>
 <page>http://www.formulatv.com/programacion/</page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
 <info>Cortesia de Adryanlist </info>
  </item>
 
@@ -34,38 +34,38 @@
 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]TDT[/B] [/COLOR][COLOR lightblue][I]  [/I][/COLOR]</title>
 <link>NA</link>
-<externallink>http://adryanlist.org/adryan/tdt.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/tdt.xml</externallink>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>
 </item>
 
 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]DIGITAL ESP[/B] [/COLOR][COLOR lightblue][I]  [/I][/COLOR]</title>
 <link>NA</link>
-<externallink>http://adryanlist.org/adryan/digital.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/digital.xml</externallink>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>
 </item>
 
 	<item>
 <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]MOVISTAR +[/B] [/COLOR][COLOR lightblue][I]  [/I][/COLOR]</title>
 <link>NA</link>
-<externallink>http://adryanlist.org/adryan/movistarplus.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/movistarplus.xml</externallink>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>
 </item>
 
 
 		<item>
 <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]DEPORTES  [/B] [/COLOR][COLOR lightblue][I]  [/I][/COLOR]</title>
 <link>NA</link>
-<externallink>http://adryanlist.org/adryan/espdep.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/espdep.xml</externallink>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>
 </item>
 
 
 			<item>
 <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]LOCALES [/B] [/COLOR][COLOR lightblue][I]  [/I][/COLOR]</title>
 <link>NA</link>
-<externallink>http://adryanlist.org/adryan/localesesp.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/localesesp.xml</externallink>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>
 </item>
 
 
@@ -82,8 +82,8 @@
 				<item>
 	<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]Lista España[/B] [/COLOR][COLOR lightblue][I]opcion 1[/I][/COLOR]  [B]      [/B]</title>
 <link>NA</link>
-<externallink>http://adryanlist.org/adryan/esp2.xml</externallink>
- <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/esp2.xml</externallink>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>
 			</item>
 
 
@@ -113,13 +113,13 @@
 <listrepeat><![CDATA[
 	<title>[makelist.param1]</title>
 	<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=HLSRETRY&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR lightblue]AdryanList[/COLOR] [makelist.param1]</link>
-	<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+	<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>
 ]]></listrepeat>
 <expres>(.*?),(http.*?)\n</expres>
 <page>http://civeci.com/SPAIN.txt</page>
 <agent>ipad</agent>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>
 </item>
 
 
@@ -131,13 +131,13 @@
 <listrepeat><![CDATA[
 	<title>[makelist.param1]</title>
 	<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=HLSRETRY&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR lightblue]AdryanList[/COLOR] [makelist.param1]</link>
-	<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+	<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>
 ]]></listrepeat>
 <expres>(.*?),(http.*?)\n</expres>
 <page>http://civeci.com/SPAIN2.txt</page>
 <agent>ipad</agent>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>
 </item>
 
 
@@ -149,7 +149,7 @@
 <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]Lista España[/B] [/COLOR][COLOR lightblue][I]opcion 3[/I][/COLOR]  [COLOR lightslategray] [B]f4mtester [/B] [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <externallink>http://exabytetv.info/addon/exabytetv-xt-ESP.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>
 </item>
 
 
@@ -158,7 +158,7 @@
 <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]Lista España[/B] [/COLOR][COLOR lightblue][I]opcion 4[/I][/COLOR]  [COLOR lightslategray] [B]f4mtester [/B] [/COLOR]</title>
 <link>$doregex[makelist]</link>
  <externallink>http://158.69.52.43/listas/get.php?user=DEMOPRUEBA&amp;pass=DEMOPRUEBA&amp;adult=true&amp;movie=true&amp;type=.m3u8</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>
 </item>
 
 
@@ -182,7 +182,7 @@
 <expres><![CDATA[href="(.*?)" title="(.*?)" target="tv"><img src="(.*?)"]]></expres>
 <page>http://cinestrenostv.tv/</page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>
 </item>
 
 
