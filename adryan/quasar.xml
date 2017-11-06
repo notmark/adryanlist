@@ -2086,3 +2086,54 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
 </item>
+
+
+
+
+
+
+
+
+
+<item>
+  <title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B] SEARCH | BUSCAR [/B] [/COLOR][COLOR skyblue] ETTV [/COLOR] [COLOR lightslategray] [/COLOR] </title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <SetViewMode>55</SetViewMode>
+   <title>[COLOR lightblue][B][makelist.param2][/COLOR][/B] [makelist.param3] Uploaded:[makelist.param4] Seeds:[makelist.param5]  </title>
+   <link>plugin://plugin.video.quasar/play?uri=$doregex[torrent]</link>
+
+]]></listrepeat>
+<expres><![CDATA[nowrap.*?href="(.*?)"><b>(.*?)<.*?nowrap;'>(.*?)<.*?nowrap;'>(.*?)[\w\W\s]{0,160}green'><b>(.*?)<]]></expres>
+<page>https://www.ettv.tv/torrents-search.php?search=$doregex[search]</page>
+</regex>
+
+<regex>
+<name>search</name>
+<expres><![CDATA[#$pyFunction
+import xbmc
+import xbmcaddon
+import xbmcgui
+def GetLSProData(page_data,Cookie_Jar,m):
+    dialog = xbmcgui.Dialog()
+    d = dialog.input('Buscar Pelicula: ejemplo: Batman', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    return d
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>torrent</name>
+<expres><![CDATA[href="(magnet.*?)"]]></expres>
+<page>https://www.ettv.tv[makelist.param1]</page>
+</regex>
+
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
