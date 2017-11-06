@@ -1925,10 +1925,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
-
-
-
 <item>
 <title> netai test</title>
 <link>$doregex[makelist]</link>
@@ -1950,6 +1946,100 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>torrent</name>
 <expres><![CDATA[href="(.*?\.torrent)"]]></expres>
 <page>[makelist.param2]</page>
+</regex>
+
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+
+
+<item>
+<title> ETTV TV   Latest Torrents</title>
+<link>$doregex[makelist]</link>
+
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <SetViewMode>55</SetViewMode>
+   <title>[COLOR lightblue][B][makelist.param1][/COLOR][/B]   </title>
+   <link>plugin://plugin.video.quasar/play?uri=$doregex[torrent]</link>
+ <thumbnail>[makelist.param1]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[nowrap.*?title="(.*?)"\shref="(.*?)"]]></expres>
+<page>https://www.ettv.tv/torrents.php</page>
+</regex>
+
+<regex>
+<name>torrent</name>
+<expres><![CDATA[href="(magnet.*?)"]]></expres>
+<page>https://www.ettv.tv[makelist.param2]</page>
+</regex>
+
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+
+<item>
+<title> ETTV TV  Latest Movies</title>
+<link>$doregex[makelist]</link>
+
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <SetViewMode>55</SetViewMode>
+   <title>[COLOR lightblue][B][makelist.param1][/COLOR][/B]   </title>
+   <link>plugin://plugin.video.quasar/play?uri=$doregex[torrent]</link>
+ <thumbnail>[makelist.param1]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[nowrap.*?title="(.*?)"\shref="(.*?)"]]></expres>
+<page>https://www.ettv.tv/torrents.php?parent_cat=Movies</page>
+</regex>
+
+<regex>
+<name>torrent</name>
+<expres><![CDATA[href="(magnet.*?)"]]></expres>
+<page>https://www.ettv.tv[makelist.param2]</page>
+</regex>
+
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+
+<item>
+<title> ETTV TV  TvShows</title>
+<link>$doregex[makelist]</link>
+
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <SetViewMode>55</SetViewMode>
+   <title>[COLOR lightblue][B][makelist.param1][/COLOR][/B]   </title>
+   <link>plugin://plugin.video.quasar/play?uri=$doregex[torrent]</link>
+ <thumbnail>[makelist.param1]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[nowrap.*?title="(.*?)"\shref="(.*?)"]]></expres>
+<page>https://www.ettv.tv/torrents.php?parent_cat=TV&parent_cat=TV&amp;sort=seeders&amp;order=desc</page>
+</regex>
+
+<regex>
+<name>torrent</name>
+<expres><![CDATA[href="(magnet.*?)"]]></expres>
+<page>https://www.ettv.tv[makelist.param2]</page>
 </regex>
 
 <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/torrent.png</thumbnail>
