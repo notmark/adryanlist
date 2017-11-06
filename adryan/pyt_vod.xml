@@ -1497,7 +1497,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <regex>
 <name>finalURL</name>
 <expres>file: '(.*?)'</expres>
-<page>http://cine.cinevall.com/[makelist3.param1].php</page>
+<page>http://cine.cinevall.club/[makelist3.param1].php</page>
 </regex>
 <thumbnail>http://www.cinevall.club/[makelist3.param3]</thumbnail>
  </item>
