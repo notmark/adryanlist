@@ -1938,7 +1938,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
    <link>plugin://plugin.video.quasar/play?uri=$doregex[torrent]</link>
  <thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[171.*?src="(.*?)"[\w\W\s]{0,140}href="(.*?)".*?trong>(.*?)<\/]]></expres>
+<expres><![CDATA[171.*?src="(.*?)"[\w\W\s]{0,430}href="(.*?)".*?trong>(.*?)<\/]]></expres>
 <page>http://gruponetai.com/portal/Genero/animacion/</page>
 </regex>
 
@@ -1959,7 +1959,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title> ETTV TV   Latest Torrents</title>
+  <title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B] LATEST TORRENTS[/B] [/COLOR][COLOR skyblue] ETTV [/COLOR] [COLOR lightslategray] [/COLOR] </title>
 <link>$doregex[makelist]</link>
 
 
@@ -1990,7 +1990,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title> ETTV TV  Latest Movies</title>
+  <title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B] LATEST MOVIES[/B] [/COLOR][COLOR skyblue] ETTV [/COLOR] [COLOR lightslategray] [/COLOR] </title>
 <link>$doregex[makelist]</link>
 
 
@@ -2020,7 +2020,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title> ETTV TV  TvShows</title>
+  <title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B] LATEST TVSHOWS[/B] [/COLOR][COLOR skyblue] ETTV [/COLOR] [COLOR lightslategray] [/COLOR] </title>
 <link>$doregex[makelist]</link>
 
 
@@ -2048,10 +2048,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title> ETTV TV  Categorias</title>
+  <title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B] CATEGORIES[/B] [/COLOR][COLOR skyblue] ETTV [/COLOR] [COLOR lightslategray] [/COLOR] </title>
 <link>$doregex[makelist2]</link>
-
-
 
 <regex>
 <name>makelist2</name>
@@ -2064,8 +2062,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres><![CDATA[checkbox.*?href='(.*?)'>(.*?)<]]></expres>
 <page>https://www.ettv.tv/torrents.php</page>
 </regex>
-
-
 
 
 <regex>
