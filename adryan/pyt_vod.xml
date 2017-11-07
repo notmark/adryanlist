@@ -5217,3 +5217,41 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
 </item>
+
+
+
+
+
+
+
+<item>
+<title> netai test streaming</title>
+<link>$doregex[makelist2]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param2]</title>
+ <link>$doregex[id3]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(https://open.*?|http://pow.*?)">(.*?)<]]></expres>
+<page>http://www.gruponetai.com/stream/2017/11/07/la-guerra-del-planeta-de-los-simios/</page>
+</regex>
+
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = '[makelist.param1]'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://adryantv.org/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
+</item>

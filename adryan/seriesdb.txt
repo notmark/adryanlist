@@ -409,7 +409,7 @@ Name:"Shameless T1 " url:"http://diskokosmiko.mx/chicho306/shameless-t1-38507" i
  Name:"Startgate Universe " url:"http://diskokosmiko.mx/naredo/stargate-universe-serie-completa-67028" img:""; server:"http://diskokosmiko.mx"
  Name:"Stranger Things " url:"http://diskokosmiko.mx/gemma-valencia/stranger-things-t1-castellano-46453" img:""; server:"http://diskokosmiko.mx"
  Name:"Super Girl " url:"http://diskokosmiko.mx/garroteca/supergirl-la-serie-45121" img:""; server:"http://diskokosmiko.mx"
- 
+
  Name:"El Coyote y el Correcaminos " url:"http://diskokosmiko.mx/naredo/el-coyote-y-el-correcaminos-21331" img:""; server:"http://diskokosmiko.mx"
  Name:"Lonney Tunes " url:"http://diskokosmiko.mx/anime1/lonney-tunes-27078" img:""; server:"http://diskokosmiko.mx"
  Name:"Merrie Melodies " url:"http://diskokosmiko.mx/jml/merrie-melodies-29936" img:""; server:"http://diskokosmiko.mx"
@@ -424,6 +424,8 @@ Name:"Shameless T1 " url:"http://diskokosmiko.mx/chicho306/shameless-t1-38507" i
  Name:"Cuando conoci al Chapo" url:"http://diskokosmiko.mx/chiscri/cuando-conoci-al-chapo-documental-89889" img:"https://www.thetvdb.com/banners/posters/336683-1.jpg"; server:"http://diskokosmiko.mx"
  Name:"Ballers" url:"http://diskokosmiko.mx/MSRJ/ballers-2015-2017-79663" img:"https://www.thetvdb.com/banners/posters/281714-2.jpg"; server:"http://diskokosmiko.mx"
  Name:"Club de Cuervos Temporada 3" url:"http://diskokosmiko.mx/rafamj/club-de-cuervos-temporada-3-86035" img:"https://www.thetvdb.com/banners/posters/299045-1.jpg"; server:"http://diskokosmiko.mx"
+ Name:"The Following Castellano" url:"http://diskokosmiko.mx/chinchetas/the-following-castellano-todas-temporadas-44920" img:""; server:"http://diskokosmiko.mx"
+
 
 
 
@@ -564,44 +566,3 @@ Name:" " url:"http://copiapop.com/JOE221277/blindspot-m720p-sa-59198
 Name:" " url:"http://copiapop.com/Catoal/breaking-bad-73718/list,1,1
 Name:" " url:"http://copiapop.com/Catoal/borgen-74361
 Name:" " url:"http://copiapop.com/ausoza/dawson-crece-74801/list,1,1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
