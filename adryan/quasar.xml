@@ -2097,7 +2097,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
   <title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B] SEARCH | BUSCAR [/B] [/COLOR][COLOR skyblue] ETTV [/COLOR] [COLOR lightslategray] [/COLOR] </title>
-<link>$doregex[makelist2]</link>
+<link>$doregex[makelist]</link>
 
 
 <regex>
