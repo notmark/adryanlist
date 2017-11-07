@@ -5226,7 +5226,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title> netai test streaming</title>
-<link>$doregex[makelist2]</link>
+<link>$doregex[makelist]</link>
 
 <regex>
 <name>makelist</name>
