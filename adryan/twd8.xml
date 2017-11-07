@@ -231,7 +231,7 @@ return u
 
 
 <item>
-<title>[COLOR skyblue]Walking Dead Temporada 8 capitulo 2  [/COLOR][COLOR aquamarine]Latino 720p[/COLOR][COLOR lightslategray][/COLOR]</title>
+<title>[COLOR skyblue]Walking Dead Temporada 8 capitulo 3  [/COLOR][COLOR aquamarine]Subtitulado 720p[/COLOR][COLOR lightslategray][/COLOR]</title>
 <link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
@@ -254,8 +254,12 @@ return u
 
 
 
+
+
+
+
    <item>
-   <title>[COLOR skyblue]Walking Dead Temporada 8 capitulo 2  [/COLOR][COLOR aquamarine]Subtitulado 720p[/COLOR][COLOR lightslategray][/COLOR]</title>
+   <title>[COLOR skyblue]Walking Dead Temporada 8 capitulo 3  [/COLOR][COLOR aquamarine]Latino 720p[/COLOR][COLOR lightslategray][/COLOR]</title>
    <link>$doregex[id3]</link>
    <regex>
    <name>id3</name>
