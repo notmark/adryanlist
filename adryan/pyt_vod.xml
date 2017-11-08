@@ -5200,13 +5200,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://gruponetai.com/portal/Genero/[makelist2.param1]/</page>
 </regex>
 
-
-
-
-
-
-
-
 <regex>
 <name>torrent</name>
 <expres><![CDATA[href="(.*?\.torrent)"]]></expres>
@@ -5219,7 +5212,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-
+http://gruponetai.com/portal/?s=ben&x=0&y=0
 
 
 
@@ -5254,4 +5247,50 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
+</item>
+
+
+
+
+
+<item>
+<title> netai test buscador torrents</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <SetViewMode>55</SetViewMode>
+   <title>[COLOR lightblue][B][makelist.param3][/COLOR][/B]   </title>
+   <link>plugin://plugin.video.quasar/play?uri=$doregex[torrent]</link>
+ <thumbnail>[makelist.param1]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[171.*?src="(.*?jpg)"[\w\W\s]{0,390}href="(.*?)".*?trong>(.*?)<\/]]></expres>
+<page>http://gruponetai.com/portal/?s=$doregex[search]</page>
+</regex>
+
+<regex>
+<name>search</name>
+<expres><![CDATA[#$pyFunction
+import xbmc
+import xbmcaddon
+import xbmcgui
+def GetLSProData(page_data,Cookie_Jar,m):
+    dialog = xbmcgui.Dialog()
+    d = dialog.input('Buscar por Titulo, Actor, director', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    return d
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>torrent</name>
+<expres><![CDATA[href="(.*?\.torrent)"]]></expres>
+<page>[makelist.param2]</page>
+</regex>
+
+<thumbnail>http://adryantv.org/adryan/img/torrent.png</thumbnail>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
 </item>
