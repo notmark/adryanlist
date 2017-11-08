@@ -688,34 +688,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
-
 <item>
-<title>[B][COLOR aquamarine]Multicanales MaxDeportes [/COLOR][COLOR lightblue]LigaSantander | LigaMX | LigaColombia [/B][/COLOR]  [COLOR white][brocast]  [/COLOR]  </title>
-
-
-<link>$doregex[makelist]</link>
-
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-   <title>[COLOR lightblue]   [makelist.param2]    [/COLOR]   </title>
-   <link>$doregex[bro.adca.st]</link>
-   <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
-]]></listrepeat>
-<expres>vip:"(.*?)" name:"(.*?)"</expres>
-<page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/servers.txt</page>
-</regex>
-
-
-
+<title>[B][COLOR aquamarine]Multicanales MaxDeportes [/COLOR][COLOR lightblue]LigaSantander | LigaMX | LigaColombia | Ligas Sudamerica [/B][/COLOR]  [COLOR white][broadcast]  [/COLOR]  </title>
+<link>$doregex[bro.adca.st]</link>
 <regex>
 <name>bro.adca.st</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=[makelist.param1]&p=1&c=0&stretching=uniform&old=0'):
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=$doregex[select]&p=1&c=0&stretching=uniform&old=0'):
  import requests, re, urllib
  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
- headers['Referer'] = 'http://maxdeportv.net/indexa.php?canal=1'
+ headers['Referer'] = 'http://vipracing.info/channel/canal-2'
  source = requests.get(url, headers=headers)
  m3u8 = re.findall('trap = "(.+?)"', source.text)[0]
  m3u8 = m3u8.decode('base64')
@@ -730,13 +712,28 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=
 ]]></expres>
 <page></page>
 </regex>
- <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/deportes.png</thumbnail>
-<fanart></fanart>
-<info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+
+ <regex>
+<name>select</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import xbmcgui
+   dialog = xbmcgui.Dialog()
+   ret = dialog.select('Elige un Canal ', ['739**', '15183', '16036', '715 **', '17220', '15308', '16042', '15445', '15129', '17263', '10762', '15226', '13137 **', '13638', '13631', '13525', '13637', '13634', '15446', '16687', '13633'])
+   lists = ['739', '15183', '16036', '715', '17220', '15308', '16042', '15445', '15129', '17263', '10762', '15226', '13137', '13638', '13631', '13525', '13637', '13634', '15446', '16687', '13633']
+   return lists[ret]
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/deportes.png</thumbnail>
+<info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
+</item>
+
+
 
 
 <item>
-<title>[B][COLOR aquamarine]Multicanales MaxDeportes [/COLOR][COLOR lightblue]LigaSantander | LigaMX | LigaColombia [/B][/COLOR]  [COLOR white][mips]  [/COLOR]  </title>
+<title>[B][COLOR aquamarine]Multicanales MaxDeportes [/COLOR][COLOR lightblue]LigaSantander | LigaMX | LigaColombia | Ligas Sudamerica [/B][/COLOR]  [COLOR white][mips]  [/COLOR]  </title>
 
  <link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]</link>
 			<regex>
@@ -770,8 +767,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=
 def GetLSProData(page_data,Cookie_Jar,m):
    import xbmcgui
    dialog = xbmcgui.Dialog()
-   ret = dialog.select('Elige un Canal ', ['Canal 2 ', 'Canal 3 ', 'Canal 6 ', 'Canal 7', 'Canal 10 ', 'Canal 13', 'Opcion 18', 'Opcion 20', 'Canal 31', 'Canal 32', 'Canal 34 ', 'Canal 36 Bein ñ', 'Canal 42 Bein ñ'])
-   lists = ['max2a3', 'max3a2', 'max6a1', 'max7a3', 'max10a4', 'max13a1', 'max18a3', 'max20a1', 'max31a3', 'max32a2', 'max34a3', 'max36a1', 'max42a1']
+   ret = dialog.select('Elige un Canal ', ['max2a3', 'max3a3', 'max7a3', 'max10a2', 'max13a1', 'max16a2', 'max18a5', 'max20a1', 'max31a3', 'max32a2', 'max34a4', 'max36a1'])
+   lists = ['max2a3', 'max3a3', 'max7a3', 'max10a2', 'max13a1', 'max16a2', 'max18a5', 'max20a1', 'max31a3', 'max32a2', 'max34a4', 'max36a1']
    return lists[ret]
 ]]></expres>
 <page></page>
@@ -812,7 +809,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-   <item>
+<item>
  <title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] NFL Network[/B][/COLOR]  [COLOR white] op2 [/COLOR] </title>
 <link>$doregex[ip]</link>
 			<regex>
