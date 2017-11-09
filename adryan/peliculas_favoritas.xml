@@ -45,18 +45,57 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/mmesrmmtnqtrrlaq/Brigsby_bear_2017_1080p-dual-lat_mp4'
+   try:
+       u = urlresolver.resolve(url)
+   except:
+       u = 'http://adryanlist.org/error.mp4'
+   return u
+]]></expres>
+<page></page>
+</regex>
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
+<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  <item>
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
  <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
  <link>$doregex[id3]</link>
-
  <regex>
  <name>id3</name>
  <expres><![CDATA[#$pyFunction
  def GetLSProData(page_data,Cookie_Jar,m):
     import urlresolver
-    url = 'https://streamango.com/f/mmesrmmtnqtrrlaq/Brigsby_bear_2017_1080p-dual-lat_mp4'
+    url = 'https://streamango.com/f/pqccdlqbtdknlefp/Pandemic_2016_1080p-dual-lat_mp4'
     try:
         u = urlresolver.resolve(url)
     except:
@@ -65,15 +104,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
  ]]></expres>
  <page></page>
  </regex>
-
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
- <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-
-
-
+ <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+ <page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
  <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-
- <regex><name>nombre</name><expres>Brigsby bear</expres><page></page></regex>
+ <regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
  <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
  <page></page></regex>
  </item>
@@ -85,81 +119,34 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
-
-
-
-
- <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
- <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
- <link>$doregex[id3]</link>
-
- <regex>
- <name>id3</name>
- <expres><![CDATA[#$pyFunction
- def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'https://streamango.com/f/pqccdlqbtdknlefp/Pandemic_2016_1080p-dual-lat_mp4'
- try:
-     u = urlresolver.resolve(url)
- except:
-     u = 'http://adryanlist.org/error.mp4'
- return u
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/ffemcbscmbpmonok/6_days_2017_1080p-dual-lat_mp4''
+   try:
+       u = urlresolver.resolve(url)
+   except:
+       u = 'http://adryanlist.org/error.mp4'
+   return u
 ]]></expres>
 <page></page>
 </regex>
-
-<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
-<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-
-
-
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-
-<regex><name>nombre</name><expres>Pandemic</expres><page></page></regex>
+<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
 
 
 
-
-
-
- <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
- <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
- <link>$doregex[id3]</link>
-
- <regex>
- <name>id3</name>
- <expres><![CDATA[#$pyFunction
- def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'https://streamango.com/f/ffemcbscmbpmonok/6_days_2017_1080p-dual-lat_mp4'
- try:
-     u = urlresolver.resolve(url)
- except:
-     u = 'http://adryanlist.org/error.mp4'
- return u
-]]></expres>
-<page></page>
-</regex>
-
-<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
-<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-
-
-
-<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-
-<regex><name>nombre</name><expres>6 Days</expres><page></page></regex>
-<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
-<page></page></regex>
-</item>
 
 
 
@@ -174,65 +161,61 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
 <link>$doregex[id3]</link>
-
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
    import urlresolver
    url = 'https://streamango.com/f/dknqbadrrqqscnkf/I_daniel_blake_2016_1080p-dual-lat_mp4'
- try:
-     u = urlresolver.resolve(url)
- except:
-     u = 'http://adryanlist.org/error.mp4'
- return u
+   try:
+       u = urlresolver.resolve(url)
+   except:
+       u = 'http://adryanlist.org/error.mp4'
+   return u
 ]]></expres>
 <page></page>
 </regex>
-
-<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
-<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-
-
-
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-
-<regex><name>nombre</name><expres>I Daniel Blake</expres><page></page></regex>
+<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
 
+
+
+
+
+
+
+
+
+
+
 <item>
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
 <link>$doregex[id3]</link>
-
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
    import urlresolver
    url = 'https://streamango.com/f/cabqfrqnfldrknkk/Atomic_blonde_2017_1080p-dual-lat_mp4'
- try:
-     u = urlresolver.resolve(url)
- except:
-     u = 'http://adryanlist.org/error.mp4'
- return u
+   try:
+       u = urlresolver.resolve(url)
+   except:
+       u = 'http://adryanlist.org/error.mp4'
+   return u
 ]]></expres>
 <page></page>
 </regex>
-
-<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
-<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-
-
-
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-
-<regex><name>nombre</name><expres>Atomic Blonde</expres><page></page></regex>
+<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -247,12 +230,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
+
 <item>
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
 <link>$doregex[id3]</link>
-
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -267,18 +249,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-
-<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
-<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-
-
-
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-
-<regex><name>nombre</name><expres>Amateur night</expres><page></page></regex>
+<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
+
+
+
 
 
 
@@ -333,9 +313,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
 <link>$doregex[id3]</link>
-
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -374,13 +352,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
 <item>
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
 <link>$doregex[id3]</link>
-
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -423,9 +398,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
 <link>$doregex[id3]</link>
-
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -468,9 +441,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
 <link>$doregex[id3]</link>
-
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -519,13 +490,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
 <item>
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
 <link>$doregex[id3]</link>
-
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -564,13 +532,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
 <item>
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
 <link>$doregex[id3]</link>
-
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -585,15 +550,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-
-<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
-<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-
-
-
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-
-<regex><name>nombre</name><expres>Sleight</expres><page></page></regex>
+<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -613,9 +573,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
 <link>$doregex[id3]</link>
-
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -630,15 +588,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-
-<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
-<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-
-
-
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-
-<regex><name>nombre</name><expres>Viceroys house</expres><page></page></regex>
+<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -658,9 +611,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
 <link>$doregex[id3]</link>
-
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -675,51 +626,42 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
+<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
 
+
+
+
+
+
+
+<item>
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
-<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-
-
-
-<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-
-<regex><name>nombre</name><expres>Grey lady</expres><page></page></regex>
-<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
-<page></page></regex>
-</item>
-
-
-
-
- <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
- <link>$doregex[id3]</link>
-
+<link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'https://streamango.com/f/koapfmkfpmmmaofc/Wheelman_2017_1080p-dual-lat_mp4'
-    try:
-        u = urlresolver.resolve(url)
-    except:
-        u = 'http://adryanlist.org/error.mp4'
-    return u
+   import urlresolver
+   url = 'https://streamango.com/f/koapfmkfpmmmaofc/Wheelman_2017_1080p-dual-lat_mp4'
+   try:
+       u = urlresolver.resolve(url)
+   except:
+       u = 'http://adryanlist.org/error.mp4'
+   return u
 ]]></expres>
 <page></page>
 </regex>
-
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
-<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-
-
-
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-
-<regex><name>nombre</name><expres>Wheelman</expres><page></page></regex>
+<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -729,35 +671,30 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
- <link>$doregex[id3]</link>
-
+<link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'https://streamango.com/f/dtctrdmflacobbcn/1922_2017_1080p-dual-lat_mp4'
-    try:
-        u = urlresolver.resolve(url)
-    except:
-        u = 'http://adryanlist.org/error.mp4'
-    return u
+   import urlresolver
+   url = 'https://streamango.com/f/dtctrdmflacobbcn/1922_2017_1080p-dual-lat_mp4'
+   try:
+       u = urlresolver.resolve(url)
+   except:
+       u = 'http://adryanlist.org/error.mp4'
+   return u
 ]]></expres>
 <page></page>
 </regex>
-
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
-<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-
-
-
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-
-<regex><name>nombre</name><expres>1922</expres><page></page></regex>
+<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -777,35 +714,31 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+
+
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
- <link>$doregex[id3]</link>
-
+<link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'https://streamango.com/embed/lmsblpndmmkebfnd/The_circle_2017_1080p-dual-lat_mp4'
-    try:
-        u = urlresolver.resolve(url)
-    except:
-        u = 'http://adryanlist.org/error.mp4'
-    return u
+   import urlresolver
+   url = 'https://streamango.com/embed/lmsblpndmmkebfnd/The_circle_2017_1080p-dual-lat_mp4'
+   try:
+       u = urlresolver.resolve(url)
+   except:
+       u = 'http://adryanlist.org/error.mp4'
+   return u
 ]]></expres>
 <page></page>
 </regex>
-
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
-<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-
-
-
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-
-<regex><name>nombre</name><expres>El Circulo</expres><page></page></regex>
+<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -815,38 +748,35 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
- <link>$doregex[id3]</link>
-
+<link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'https://streamango.com/embed/dqdcalmortmqrrtf/Kidnap_2017_1080p-dual-lat_mp4'
-    try:
-        u = urlresolver.resolve(url)
-    except:
-        u = 'http://adryanlist.org/error.mp4'
-    return u
+   import urlresolver
+   url = 'https://streamango.com/embed/dqdcalmortmqrrtf/Kidnap_2017_1080p-dual-lat_mp4'
+   try:
+       u = urlresolver.resolve(url)
+   except:
+       u = 'http://adryanlist.org/error.mp4'
+   return u
 ]]></expres>
 <page></page>
 </regex>
-
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
-<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-
-
-
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-
-<regex><name>nombre</name><expres>Kidnap</expres><page></page></regex>
+<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
+
+
+
 
 
 
@@ -892,35 +822,28 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
- <link>$doregex[id3]</link>
-
+<link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'https://streamango.com/f/ktrmoormbndmecnp/The_dark_tower_2017_1080p-dual-lat_mp4'
-    try:
-        u = urlresolver.resolve(url)
-    except:
-        u = 'http://adryanlist.org/error.mp4'
-    return u
+   import urlresolver
+   url = 'https://streamango.com/f/ktrmoormbndmecnp/The_dark_tower_2017_1080p-dual-lat_mp4'
+   try:
+       u = urlresolver.resolve(url)
+   except:
+       u = 'http://adryanlist.org/error.mp4'
+   return u
 ]]></expres>
 <page></page>
 </regex>
-
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
-<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-
-
-
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-
-<regex><name>nombre</name><expres>The dark tower</expres><page></page></regex>
+<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -938,35 +861,30 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
- <link>$doregex[id3]</link>
-
+<link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'https://streamango.com/f/kmfosnqlstamqqbm/Batman_vs_two-face_2017_1080p-dual-lat_mp4'
-    try:
-        u = urlresolver.resolve(url)
-    except:
-        u = 'http://adryanlist.org/error.mp4'
-    return u
+   import urlresolver
+   url = 'https://streamango.com/f/kmfosnqlstamqqbm/Batman_vs_two-face_2017_1080p-dual-lat_mp4'
+   try:
+       u = urlresolver.resolve(url)
+   except:
+       u = 'http://adryanlist.org/error.mp4'
+   return u
 ]]></expres>
 <page></page>
 </regex>
-
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
-<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-
-
-
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-
-<regex><name>nombre</name><expres>Batman vs two face</expres><page></page></regex>
+<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -980,35 +898,31 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+
+
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
- <link>$doregex[id3]</link>
-
+<link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'https://streamango.com/f/dnkspptcobsefbfp/Annabelle_2_creation_2017_1080p-dual-lat_mp4'
-    try:
-        u = urlresolver.resolve(url)
-    except:
-        u = 'http://adryanlist.org/error.mp4'
-    return u
+   import urlresolver
+   url = 'https://streamango.com/f/dnkspptcobsefbfp/Annabelle_2_creation_2017_1080p-dual-lat_mp4'
+   try:
+       u = urlresolver.resolve(url)
+   except:
+       u = 'http://adryanlist.org/error.mp4'
+   return u
 ]]></expres>
 <page></page>
 </regex>
-
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
-<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-
-
-
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-
-<regex><name>nombre</name><expres>Annabelle 2 creation</expres><page></page></regex>
+<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -1022,35 +936,31 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+
+
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
- <link>$doregex[id3]</link>
-
+<link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'https://streamango.com/f/acmdcbmkplmbrcrr/War_for_the_planet_of_the_apes_2017_1080p-dual-lat_mp4'
-    try:
-        u = urlresolver.resolve(url)
-    except:
-        u = 'http://adryanlist.org/error.mp4'
-    return u
+   import urlresolver
+   url = 'https://streamango.com/f/acmdcbmkplmbrcrr/War_for_the_planet_of_the_apes_2017_1080p-dual-lat_mp4'
+   try:
+       u = urlresolver.resolve(url)
+   except:
+       u = 'http://adryanlist.org/error.mp4'
+   return u
 ]]></expres>
 <page></page>
 </regex>
-
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
-<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-
-
-
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-
-<regex><name>nombre</name><expres>War for the planet of the apes</expres><page></page></regex>
+<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -1064,35 +974,29 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
- <link>$doregex[id3]</link>
-
+<link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'https://streamango.com/f/bblrtefsmcmpanrc/The_babysitter_2017_1080p-dual-lat_mp4'
-    try:
-        u = urlresolver.resolve(url)
-    except:
-        u = 'http://adryanlist.org/error.mp4'
-    return u
+   import urlresolver
+   url = 'https://streamango.com/f/bblrtefsmcmpanrc/The_babysitter_2017_1080p-dual-lat_mp4'
+   try:
+       u = urlresolver.resolve(url)
+   except:
+       u = 'http://adryanlist.org/error.mp4'
+   return u
 ]]></expres>
 <page></page>
 </regex>
-
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
-<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-
-
-
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-
-<regex><name>nombre</name><expres>The babysitter</expres><page></page></regex>
+<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -1106,35 +1010,29 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
- <link>$doregex[id3]</link>
-
+<link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'https://streamango.com/f/lbrtkkederfesqck/Annabelle_2_creation_2017_1080p-dual-lat_mp4'
-    try:
-        u = urlresolver.resolve(url)
-    except:
-        u = 'http://adryanlist.org/error.mp4'
-    return u
+   import urlresolver
+   url = 'https://streamango.com/f/lbrtkkederfesqck/Annabelle_2_creation_2017_1080p-dual-lat_mp4'
+   try:
+       u = urlresolver.resolve(url)
+   except:
+       u = 'http://adryanlist.org/error.mp4'
+   return u
 ]]></expres>
 <page></page>
 </regex>
-
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
-<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-
-
-
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-
-<regex><name>nombre</name><expres>Annabelle 2 creation</expres><page></page></regex>
+<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -1148,18 +1046,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
- <link>$doregex[id3]</link>
-
+<link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'https://streamango.com/f/bnrtceddsfedopds/The_hitmans_bodyguard_2017_1080p-dual-lat_mp4'
+   import urlresolver
+   url = 'https://streamango.com/f/bnrtceddsfedopds/The_hitmans_bodyguard_2017_1080p-dual-lat_mp4'
     try:
         u = urlresolver.resolve(url)
     except:
