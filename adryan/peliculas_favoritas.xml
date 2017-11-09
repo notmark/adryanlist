@@ -1,18 +1,34 @@
 <SetwatchMode>55</SetwatchMode>
 
- <item>
-<title>[COLOR aquamarine][B]ESTRENOS EN AUDIO LATINO / apoya este proyecto [/B]  [/COLOR]                 </title>
-
- <link>$doregex[id3]</link>
-
-<info>
-
- ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
- <title>[COLOR skyblue]Transformers El Ultimo Caballero [/COLOR][COLOR aquamarine]TS  [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
 
 
 
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/qnsanobbakkkkkdb/Strange_weather_2016_1080p-dual-lat_mp4'
+   try:
+       u = urlresolver.resolve(url)
+   except:
+       u = 'http://adryanlist.org/error.mp4'
+   return u
+]]></expres>
+<page></page>
+</regex>
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
+<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
 
 
 
@@ -20,38 +36,10 @@
 
 
 
-  <item>
-  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
-  <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
-  <link>$doregex[id3]</link>
 
-  <regex>
-  <name>id3</name>
-  <expres><![CDATA[#$pyFunction
-  def GetLSProData(page_data,Cookie_Jar,m):
-     import urlresolver
-     url = 'https://streamango.com/f/qnsanobbakkkkkdb/Strange_weather_2016_1080p-dual-lat_mp4'
-     try:
-         u = urlresolver.resolve(url)
-     except:
-         u = 'http://adryanlist.org/error.mp4'
-     return u
-  ]]></expres>
-  <page></page>
-  </regex>
 
-  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
-  <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-  <info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-  [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
 
-  <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-
-  <regex><name>nombre</name><expres>Strange weather</expres><page></page></regex>
-  <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
-  <page></page></regex>
-  </item>
 
 
 
@@ -80,8 +68,8 @@
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
  <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
- <info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
- [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
  <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -125,8 +113,8 @@
 
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -163,8 +151,8 @@
 
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -206,8 +194,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -239,8 +227,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -282,8 +270,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -307,9 +295,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
 <link>$doregex[id3]</link>
-
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -324,15 +310,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-
-<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
-<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
-
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-
-<regex><name>nombre</name><expres>The glass castle</expres><page></page></regex>
+<regex><name>nombre</name><expres>The Glass Castle</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -372,8 +353,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -417,8 +398,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -462,8 +443,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -507,8 +488,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -562,8 +543,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -607,8 +588,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -652,8 +633,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -697,8 +678,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -733,8 +714,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -771,8 +752,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -819,8 +800,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -857,8 +838,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -896,8 +877,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -934,8 +915,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -980,8 +961,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -1022,8 +1003,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -1064,8 +1045,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -1106,8 +1087,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -1148,8 +1129,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -1190,8 +1171,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -1229,8 +1210,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -1267,8 +1248,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -1305,8 +1286,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -1343,8 +1324,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -1381,8 +1362,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -1422,8 +1403,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -1460,8 +1441,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -1498,8 +1479,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -1545,8 +1526,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -1585,8 +1566,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -1624,8 +1605,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -1662,8 +1643,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -1701,8 +1682,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -1738,8 +1719,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -1772,8 +1753,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -1817,8 +1798,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
 
@@ -1852,8 +1833,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]HD [/COLOR][COLOR lightslategray] uptobox [/COLOR]</title>
 
@@ -1890,8 +1871,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]HD [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
 
@@ -1924,8 +1905,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]HD [/COLOR][COLOR lightslategray] uptobox [/COLOR]</title>
 
@@ -1960,8 +1941,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]HD [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
 
@@ -1993,8 +1974,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]HD [/COLOR][COLOR lightslategray] uptobox [/COLOR]</title>
 
@@ -2027,8 +2008,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]HD [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
 
@@ -2062,8 +2043,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]HD [/COLOR][COLOR lightslategray] uptobox [/COLOR]</title>
 
@@ -2097,8 +2078,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]HD [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
 
@@ -2132,8 +2113,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]HD [/COLOR][COLOR lightslategray] uptobox [/COLOR]</title>
 
@@ -2166,8 +2147,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]HD [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
 
@@ -2200,8 +2181,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]HD [/COLOR][COLOR lightslategray] uptobox [/COLOR]</title>
 
@@ -2237,8 +2218,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]HD [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
 
@@ -2276,8 +2257,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]HD [/COLOR][COLOR lightslategray] uptobox [/COLOR]</title>
 
@@ -2311,8 +2292,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]HD [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
 
@@ -2348,8 +2329,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]HD [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
 
@@ -2385,8 +2366,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]HD [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
 
@@ -2422,8 +2403,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]HD [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
 
@@ -2471,8 +2452,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]  [/COLOR][COLOR lightslategray]  [/COLOR]</title>
 
@@ -2520,8 +2501,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] uptobox [/COLOR]</title>
 
@@ -2556,8 +2537,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] uptobox [/COLOR]</title>
 
@@ -2592,8 +2573,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] uptobox [/COLOR]</title>
 
@@ -2631,8 +2612,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] 1080p[/COLOR][COLOR lightslategray] sm [/COLOR]</title>
 
@@ -2667,8 +2648,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray]sm [/COLOR]</title>
 
@@ -2765,8 +2746,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
@@ -2799,8 +2780,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
@@ -2831,8 +2812,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
@@ -2860,8 +2841,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
@@ -2891,8 +2872,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
@@ -2920,8 +2901,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
@@ -2950,8 +2931,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
@@ -2982,8 +2963,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
@@ -3013,8 +2994,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
@@ -3042,8 +3023,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
@@ -3071,8 +3052,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
@@ -3100,8 +3081,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
@@ -3130,8 +3111,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
@@ -3160,8 +3141,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
@@ -3192,8 +3173,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
@@ -3220,8 +3201,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
@@ -3252,8 +3233,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
@@ -3282,8 +3263,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
@@ -3313,8 +3294,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
@@ -3344,8 +3325,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
@@ -3379,8 +3360,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
@@ -3409,8 +3390,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
@@ -3439,8 +3420,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
@@ -3469,8 +3450,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+
+
 
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title>
 
