@@ -66,7 +66,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
 <page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
+<regex><name>nombre</name><expres>Brigsby bear</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -107,7 +107,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
  <page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
  <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
- <regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
+ <regex><name>nombre</name><expres>Pandemic</expres><page></page></regex>
  <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
  <page></page></regex>
  </item>
@@ -140,7 +140,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
 <page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
+<regex><name>nombre</name><expres>6 Days</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -179,7 +179,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
 <page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
+<regex><name>nombre</name><expres>I daniel blake</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -215,7 +215,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
 <page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
+<regex><name>nombre</name><expres>Atomic blonde</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -252,7 +252,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
 <page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
+<regex><name>nombre</name><expres>Amateur night</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -553,7 +553,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
 <page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
+<regex><name>nombre</name><expres>Sleight</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -591,7 +591,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
 <page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
+<regex><name>nombre</name><expres>Viceroys house</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -629,7 +629,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
 <page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
+<regex><name>nombre</name><expres>Grey Lady</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -661,7 +661,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
 <page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
+<regex><name>nombre</name><expres>Wheelman</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -694,7 +694,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
 <page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
+<regex><name>nombre</name><expres>1922</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -738,7 +738,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
 <page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
+<regex><name>nombre</name><expres>The Circle</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -770,7 +770,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
 <page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
+<regex><name>nombre</name><expres>Kidnap</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -843,7 +843,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
 <page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
+<regex><name>nombre</name><expres>The dark tower</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -884,7 +884,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
 <page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
+<regex><name>nombre</name><expres>Batman vs two face</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -922,7 +922,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
 <page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
+<regex><name>nombre</name><expres>Annabelle 2 creation</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -960,7 +960,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
 <page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
+<regex><name>nombre</name><expres>War for the planet of the apes</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -996,7 +996,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
 <page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
+<regex><name>nombre</name><expres>The babysitter</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -1032,7 +1032,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
 <page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
-<regex><name>nombre</name><expres>Strange Weather</expres><page></page></regex>
+<regex><name>nombre</name><expres>Annabelle 2 creation</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
