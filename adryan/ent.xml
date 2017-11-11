@@ -2160,7 +2160,7 @@ Tu donacion permite que
 
 
  <item>
-<title>[COLOR lightblue]TeleXitos [/COLOR] abcast </title>
+<title>[COLOR lightblue]TeleXitos [/COLOR] Telemundo </title>
 
 <link>http://tecnotv.xyz/tv3/telemundo</link>
 <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
@@ -2174,7 +2174,7 @@ Tu donacion permite que
 
 
  <item>
-<title>[COLOR lightblue]Unimas [/COLOR] abcast </title>
+<title>[COLOR lightblue]Unimas [/COLOR]  </title>
 
 <link>http://tecnotv.xyz/tv3/unimas</link>
 <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
@@ -2188,10 +2188,24 @@ Tu donacion permite que
 
 
 
-  <item>
- <title>[COLOR lightblue]Univision  [/COLOR] abcast </title>
+<item>
+<title>[COLOR lightblue]Univision  [/COLOR]  vk</title>
 
- <link>http://tecnotv.xyz/tv3/univision</link>
+<link>https://live63.vkuserlive.com/639914/live/6GAh2XxDfGA/playlist.m3u8</link>
+<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
+<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<info>
+Tu donacion permite que
+[B][COLOR lightyellow]Adryanlist[/COLOR][/B] siga actualizando
+[COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info>
+</item>
+
+
+
+  <item>
+ <title>[COLOR lightblue]Univision  [/COLOR] vk </title>
+
+ <link>https://live83.vkuserlive.com/637604/live/444626494/3bIVJuRXRMSkhqRD8/playlist.m3u8</link>
  <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <info>
@@ -2200,16 +2214,28 @@ Tu donacion permite que
  [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info>
 </item>
 
+<item>
+<title>[COLOR lightblue]Univision  [/COLOR]  </title>
+
+<link>http://tecnotv.xyz/tv3/univision</link>
+<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
+<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<info>
+Tu donacion permite que
+[B][COLOR lightyellow]Adryanlist[/COLOR][/B] siga actualizando
+[COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info>
+</item>
+
 
 
  <item>
 <title>[COLOR lightblue]Univision  [/COLOR] abcast </title>
 
-<link>$doregex[adryan_IP]|Referer=http://abcast.net/embed.php?file=univision</link>
+<link>$doregex[adryan_IP]|Referer=http://abcast.net/embed.php?file=Chivasss69</link>
 <regex>
 <name>adryan_IP</name>
 <expres>source:\s"(.*?)"</expres>
-<page>http://abcast.net/embed.php?file=univision</page>
+<page>http://abcast.net/embed.php?file=Chivasss69</page>
 </regex>
 
 
@@ -2217,11 +2243,8 @@ Tu donacion permite que
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 
 <info>
-
 Tu donacion permite que
 [B][COLOR lightyellow]Adryanlist[/COLOR][/B] siga actualizando
-
-
  [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
 
 
@@ -2230,7 +2253,7 @@ Tu donacion permite que
 
 
 <item>
-<title>[COLOR lightblue]Univision  [/COLOR] abcast </title>
+<title>[COLOR lightblue]Univision  [/COLOR] test </title>
 
 <link>http://sced.cdnak.neulion.net:80/250/nlds/univision/as/live/udnoo_hd_400_ipad.m3u8</link>
 
@@ -2287,13 +2310,14 @@ Tu donacion permite que
 
 
 
+http://138.197.109.108/loadbalance//l_23884_5515120_1838.ts
 
 
 
- <iem>
+ <item>
 <title>[COLOR lightblue]Telemundo [/COLOR]</title>
 
-<link>http://$doregex[adryan_IP]/loadbalance/15847258663262532849/playlist.m3u8$doregex[adryan_AuthSign]|User-Agent=iPhone</link>
+<link>http://$doregex[adryan_IP]/loadbalance/98582293832928293199/playlist.m3u8$doregex[adryan_AuthSign]|User-Agent=iPhone</link>
 <regex>
 <name>adryan_IP</name>
 <expres>location:http://(.*)/loadbalance</expres>
