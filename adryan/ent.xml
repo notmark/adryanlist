@@ -17,11 +17,11 @@
 
 
 
-<item><title>           [COLOR deepskyblue][B]A D R Y A N[/COLOR] [COLOR skyblue]L I S T[/COLOR][/B]</title><link>http://ignorame</link><externallink>http://adryanlist.org/adryan/list.xml</externallink>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<item><title>           [COLOR deepskyblue][B]A D R Y A N[/COLOR] [COLOR skyblue]L I S T[/COLOR][/B]</title><link>http://ignorame</link><externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/list.xml</externallink>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
+<info>Adryanlist es GRATIS, pero funciona gracias a  tus donaciones, para mantener las listas y el addon funcionando, es por ello que  te pido tu apoyo realizando una pequeña donacion "VOLUNTARIA" mediante PAYPAL  ya sea al correo adrian.bu@gmail.com o  entrando directamente a la pagina http://paypal.me/adryanlist, Gracias a tus donaciones este proyecto seguira adelante</info><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -53,7 +53,7 @@ Tu donacion permite que
 <listrepeat><![CDATA[
 <title>[COLOR white] [makelist.param2]     [/COLOR]   </title>
 <link>$doregex[ip]|User-Agent=iPad</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)".*?Watch(.*?)Full]]></expres>
 <page>http://www.ibrod.tv/tvchans.php</page>
@@ -89,8 +89,8 @@ Tu donacion permite que
         <page>http://www.ibrod.tv/[makelist.param1]</page>
         <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -136,8 +136,8 @@ Tu donacion permite que
 <page>http://uktv.robssatellitetv.com/watch-uk-tv-online/[makelist.param1].php</page>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -234,8 +234,8 @@ return m3u8
 <page></page>
 <referer></referer>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -281,8 +281,8 @@ Tu donacion permite que
 
 
 
-  <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+  <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -298,7 +298,7 @@ Tu donacion permite que
 <tem>
 <title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]WorldTV [/B] [/COLOR][COLOR lightslategray][streamgaroo][/COLOR] </title>
 <link>$doregex[makelist]</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
 
 
 
@@ -748,8 +748,8 @@ def GetLSProData(page_data, Cookie_Jar, m, offon= '[makelist.param1]', title= '[
 <page></page>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -786,16 +786,16 @@ Tu donacion permite que
 <expres>channel='(.*?)'</expres>
 <page>http://tvpor-internet.com/[makelist.param1]</page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.jpg</thumbnail>
 ]]></listrepeat> <!-- si la pones  en tu addon favor de mencionar Adryanlist -->
 <expres>href="(.*?)">(.*?)en-vivo</expres>
 <page>http://tvpor-internet.com/envivo/</page><!-- si la pones  en tu addon favor de mencionar Adryanlist -->
 <referer></referer>
 <cookieJar></cookieJar>
-</regex><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.jpg</thumbnail>
+</regex><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.jpg</thumbnail>
 <!-- si la pones  en tu addon favor de mencionar Adryanlist -->
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -826,9 +826,9 @@ Tu donacion permite que
 <expres>items-canales[\W\w\S]{0,18}href="(.*?)"[\W\w\S]{0,35}src="(.*?)"[\W\w\S]{0,40}alt="(.*?)"</expres>
 <page>https://www.cxntv.com/canales/</page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/ent.png</thumbnail>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/ent.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -903,8 +903,8 @@ Tu donacion permite que
 <X-Requested>XMLHttpRequest</X-Requested>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -948,9 +948,9 @@ Tu donacion permite que
 <page>http://latino-webtv.com/</page><!-- si la pones  en tu addon favor de mencionar Adryanlist -->
 <referer></referer>
 <cookieJar></cookieJar>
-</regex><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.jpg</thumbnail><!-- si la pones  en tu addon favor de mencionar Adryanlist -->
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+</regex><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.jpg</thumbnail><!-- si la pones  en tu addon favor de mencionar Adryanlist -->
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -987,9 +987,9 @@ Tu donacion permite que
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/247.jpg</thumbnail>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/247.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1060,10 +1060,10 @@ Tu donacion permite que
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/247.jpg</thumbnail>
-	<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/247.jpg</thumbnail>
+	<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1142,10 +1142,10 @@ _psn12v?
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/247.jpg</thumbnail>
-	<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/247.jpg</thumbnail>
+	<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1178,9 +1178,9 @@ Tu donacion permite que
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/247.jpg</thumbnail>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/247.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1219,14 +1219,14 @@ Tu donacion permite que
 <agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
 <referer>http://www.[makelist.param4]</referer>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/deportes.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/deportes.jpg</thumbnail>
 ]]></listrepeat>
 <expres>type:"Ent" canal="(.*?)" channel="(.*?)" pub="(.*?)" server="(.*?)"</expres>
-<page>http://adryanlist.org/adryan/servers.txt</page>
+<page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/servers.txt</page>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1251,8 +1251,8 @@ Tu donacion permite que
    <expres><![CDATA[href="(.*?)/">(.*?)/<]]></expres>
    <page>http://latino-webtv.ml:8880</page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1268,10 +1268,10 @@ Tu donacion permite que
 
 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]MUSICA[/B] [/COLOR][COLOR lightslategray]Canales Musicales[/COLOR]</title>
-<externallink>http://adryanlist.org/adryan/music.xml</externallink>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/music.xml</externallink>
 <link>NA</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1283,10 +1283,10 @@ Tu donacion permite que
 
 	<tem>
 <title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B][/COLOR][COLOR deepskyblue]Canales TotalPlay • Stalker • Latinos[/COLOR][/B]</title>
-<externallink>http://adryanlist.org/adryan/darkuz.xml</externallink>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/darkuz.xml</externallink>
 <link>NA</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1316,8 +1316,8 @@ Tu donacion permite que
 <title>[COLOR deepskyblue]BANDA ANCHA [COLOR skyblue][/COLOR][/COLOR]</title>
 
 <link>https://banetworks.interactivemedia.com.mx/live/_definst_/ngrp:bandaancha_all/playlist.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1326,26 +1326,18 @@ Tu donacion permite que
 
 
  [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
-  <item>
-<title>[COLOR deepskyblue]Retro Music [COLOR skyblue][/COLOR][/COLOR]</title>
-
-<link>http://198.24.183.198:1936/theretrochannel/stream/playlist.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-
-<info>
-
-Tu donacion permite que
-[B][COLOR lightyellow]Adryanlist[/COLOR][/B] siga actualizando
 
 
- [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
+
+
+
+
     <item>
 <title>[COLOR deepskyblue]Vive Canal  [COLOR skyblue][/COLOR][/COLOR]</title>
 <link>rtmp://38.96.148.213:1935/vivecanaltest/ playpath=myStream.sdp swfUrl=http://vjs.zencdn.net/swf/5.1.0/video-js.swf live=1 pageUrl=http://www.globalmedia.mx/#!/ViveCanal</link>
 <thumbnail>https://pbs.twimg.com/profile_images/841371397804851200/B-IX0wwx.jpg</thumbnail>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1359,8 +1351,8 @@ Tu donacion permite que
 
  <item><title>[COLOR deepskyblue]Hits [COLOR skyblue]Musica[/COLOR][/COLOR]</title>
 <link>https://wowzaprod4-i.akamaihd.net/hls/live/253920/fc13c4a3/playlist.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 <info>
 
 Tu donacion permite que
@@ -1372,8 +1364,8 @@ Tu donacion permite que
 
 <item><title>[COLOR deepskyblue]Retro [COLOR skyblue]Musica[/COLOR][/COLOR]</title>
 <link>https://wowzaprod4-i.akamaihd.net/hls/live/253920/148a6ff0_1_270/chunklist.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 <info>
 
 Tu donacion permite que
@@ -1384,8 +1376,8 @@ Tu donacion permite que
 
 <item><title>[COLOR deepskyblue]indie [COLOR skyblue]Musica[/COLOR][/COLOR]</title>
 <link>https://wowzaprod4-i.akamaihd.net/hls/live/253920/d3daa538_1_540/chunklist.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 <info>
 
 Tu donacion permite que
@@ -1396,8 +1388,8 @@ Tu donacion permite que
 
 <item><title>[COLOR deepskyblue]Rock Latino [COLOR skyblue]Musica[/COLOR][/COLOR]</title>
 <link>https://wowzaprod4-i.akamaihd.net/hls/live/253920/ce9bebcc_1_540/chunklist.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 <info>
 
 Tu donacion permite que
@@ -1408,8 +1400,8 @@ Tu donacion permite que
 
 <item><title>[COLOR deepskyblue]Rock Nacional: [COLOR skyblue]Musica[/COLOR][/COLOR]</title>
 <link>http://stmv4.questreaming.com/questreaming/questreaming/playlist.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 <info>
 
 Tu donacion permite que
@@ -1427,9 +1419,9 @@ Tu donacion permite que
 <item>
 <title>[COLOR deepskyblue]Locomotion [COLOR skyblue][/COLOR][/COLOR]</title>
 <thumbnail>http://uploads.tapatalk-cdn.com/20170308/e95d78b5cf4dd88a5265762d4fda2b87.jpg</thumbnail>
-<link>http://locomotiontv.com/envivo/loco_app/stream.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<link>http://locomotiontv.com/envivo/loco_channel/stream.m3u8</link>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1444,20 +1436,8 @@ Tu donacion permite que
 
 <item><title>[COLOR deepskyblue]Dibujos Animados [COLOR skyblue][/COLOR][/COLOR]</title>
 <link>http://video7.stream.mx:1935/raxatv/raxatv/77146.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<info>
-
-Tu donacion permite que
-[B][COLOR lightyellow]Adryanlist[/COLOR][/B] siga actualizando
-
-
- [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
-
-<item><title>[COLOR deepskyblue]Simpsons 24/7 [COLOR skyblue][/COLOR][/COLOR]</title>
-<link>http://mediacp.cloudserver.cl:1935/CloudserverChanel/CloudserverChanel/playlist.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 <info>
 
 Tu donacion permite que
@@ -1468,19 +1448,25 @@ Tu donacion permite que
 
 
 
-<item><title>[COLOR deepskyblue]Chile [COLOR skyblue][/COLOR][/COLOR]</title>
+
+
+
+
+
+
+<item><title>[COLOR deepskyblue]g Chile [COLOR skyblue][/COLOR][/COLOR]</title>
 <link>https://wowzaprod4-i.akamaihd.net/hls/live/253920/8be6db2d/playlist.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
 
 
 
   <item>
-<title>[COLOR deepskyblue]Caricaturas 1 [COLOR skyblue][/COLOR][/COLOR]</title>
+<title>[COLOR deepskyblue]Caricaturas Retro [COLOR skyblue][/COLOR][/COLOR]</title>
 <link>http://cm.hostlagarto.com:8081/ACS-NETWORK/acs.myStream/chunks.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1492,8 +1478,8 @@ Tu donacion permite que
   <item>
 <title>[COLOR deepskyblue]Music Choice [COLOR skyblue][/COLOR][/COLOR]</title>
 <link>http://edge.music-choice-vc-chaina2.top.comcast.net/VideoChannels/MC133/chunklist.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1505,8 +1491,8 @@ Tu donacion permite que
   <item>
 <title>[COLOR deepskyblue]Music Choice 02 [COLOR skyblue][/COLOR][/COLOR]</title>
 <link>http://edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/MC121/chunklist.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1539,235 +1525,11 @@ Tu donacion permite que
 <title>[COLOR deepskyblue]Adult Swim Live 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
 <link>http://adultswimhls-i.akamaihd.net/hls/live/238460/adultswim/main/1/master_Layer5.m3u8</link></item>
 
-
-
-<item>
-<thumbnail>https://i.ytimg.com/vi/uxv3s7xTYHU/maxresdefault.jpg</thumbnail>
-<title>[COLOR deepskyblue]Band of Brothers 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://173.208.216.114:8082/live/bandofbrothers/chunks.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>http://when-will.net/images/artikel/2015/september/Black-Jesus.jpg</thumbnail>
-<title>[COLOR deepskyblue]Black Jesus 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://adultswim-vodlive.cdn.turner.com/live/black-jesus/stream.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>https://az616578.vo.msecnd.net/files/responsive/cover/main/desktop/2016/02/04/635902157570767435-1810430449_buffy-vampire-slayer.jpg</thumbnail>
-<title>[COLOR deepskyblue]Buffy the Vampire Slayer 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://173.208.216.114:8082/live/buffy/chunks.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>https://upload.wikimedia.org/wikipedia/en/f/f0/Cheers_intro_logo.jpg</thumbnail>
-<title>[COLOR deepskyblue]Cheers 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://173.208.216.114:8082/live/cheers/chunks.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>https://upload.wikimedia.org/wikipedia/en/a/af/Fireflyopeninglogo.JPG</thumbnail>
-<title>[COLOR deepskyblue]Firefly 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://173.208.216.114:8082/live/firefly/chunks.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>https://graphic-engine.swarthmore.edu/wp-content/uploads/2008/09/fringe_apple.jpg</thumbnail>
-<title>[COLOR deepskyblue]Fringe 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://173.208.216.114:8082/live/fringe/chunks.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>https://blog.cyrildason.com/wp-content/uploads/2016/11/House-MD.png</thumbnail>
-<title>[COLOR deepskyblue]House M.D. 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://173.208.216.114:8082/live/house/chunks.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/House_of_Cards.svg/1200px-House_of_Cards.svg.png</thumbnail>
-<title>[COLOR deepskyblue]House of Cards 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://173.208.216.114:8082/live/houseofcards/chunks.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>https://www.wbkidsgo.com/portals/4/Images/Content/Properties/Looney%20Tunes/show-logo-looneyTunes.png?ver=2015-12-03-184959-977</thumbnail>
-<title>[COLOR deepskyblue]Looney Tunes 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://173.208.216.114:8082/live/looney/chunks.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>http://www.indiewire.com/wp-content/uploads/2014/09/lost-season-six.jpg</thumbnail>
-<title>[COLOR deepskyblue]Lost 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://173.208.216.114:8082/live/lost/chunks.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>https://i.ytimg.com/vi/SgoRKIpGIs0/maxresdefault.jpg</thumbnail>
-<title>[COLOR deepskyblue]Mr. Pickles 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://adultswim-vodlive.cdn.turner.com/live/mr-pickles/stream.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>https://i.pinimg.com/originals/81/ab/fa/81abfa244f3a2a825968644e069da1d6.jpg</thumbnail>
-<title>[COLOR deepskyblue]New Girl 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://173.208.216.114:8082/live/newgirl/chunks.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>http://channelpear.com/images/media/4974.jpg</thumbnail>
-<title>[COLOR deepskyblue]Off The Air 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://adultswim-vodlive.cdn.turner.com/off-the-air/stream.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>https://userscontent2.emaze.com/images/3aad53e1-b1ed-4615-b73f-5da38c50f186/b6e7a922-ea23-4d64-aaa1-47f1ad5ce794.png</thumbnail>
-<title>[COLOR deepskyblue]Rick and Morty 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/b/b4/Saved_by_the_Bell_logo.png</thumbnail>
-<title>[COLOR deepskyblue]Saved by the Bell 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://173.208.216.114:8082/live/sbtb/chunks.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Steven_Universe_logo.svg/1200px-Steven_Universe_logo.svg.png</thumbnail>
-<title>[COLOR deepskyblue]Steven Universehttps://live.ponies.fr/hls/sug-hd/sug.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>https://i1.wp.com/scenome.com/wp-content/uploads/2015/05/Suits.jpeg</thumbnail>
-<title>[COLOR deepskyblue]Suits 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://173.208.216.114:8082/live/suits/chunks.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>http://vignette2.wikia.nocookie.net/theericandreshow/images/6/69/The_Eric_Andre_Logo.png</thumbnail>
-<title>[COLOR deepskyblue]The Eric Andre Show 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://adultswim-vodlive.cdn.turner.com/live/eric-andre/stream.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>https://www.wbkidsgo.com/portals/4/Images/Content/Properties/The%20Flintstones/character-logo-flintstones.png?ver=2016-01-17-155623-623</thumbnail>
-<title>[COLOR deepskyblue]The Flintstones 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://173.208.216.114:8082/live/flintstones/chunks.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>https://vignette3.wikia.nocookie.net/nickelodeon/images/f/f9/The-ren-and-stimpy-show-4f281fc000ecc.png</thumbnail>
-<title>[COLOR deepskyblue]The Ren & Stimpy Show 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://173.208.216.114:8082/live/ren/playlist.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>http://channelpear.com/images/media/4835.jpg</thumbnail>
-<title>[COLOR deepskyblue]The Venture Bros. 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://adultswim-vodlive.cdn.turner.com/the-venture-bros/stream.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>http://images.amcnetworks.com/amc.com/wp-content/uploads/2010/12/the-walking-dead-logo-white-C.png</thumbnail>
-<title>[COLOR deepskyblue]The Walking Dead 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://173.208.216.114:8082/live/twd/chunks.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>https://jpjam.files.wordpress.com/2013/09/the-west-wing.jpg</thumbnail>
-<title>[COLOR deepskyblue]The West Wing 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://173.208.216.114:8082/live/westwing/chunks.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>https://fanart.tv/fanart/tv/79126/hdtvlogo/the-wire-534909478faad.png</thumbnail>
-<title>[COLOR deepskyblue]The Wire 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://173.208.216.114:8082/live/thewire/chunks.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>http://channelpear.com/images/media/4874.png</thumbnail>
-<title>[COLOR deepskyblue]Tim and Eric 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://adultswim-vodlive.cdn.turner.com/tim-and-eric/stream.m3u8</link></item>
-
-
-
-<item>
-<thumbnail>http://wallpaper.pickywallpapers.com/1600x1200/tom-and-jerry.jpg</thumbnail>
-<title>[COLOR deepskyblue]Tom and Jerry 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://173.208.216.114:8082/live/tomnjerry/chunks.m3u8</link></item>
-
-
-
-
-
-
-
-
-
-
-
-
-   <item>
-<title>[COLOR deepskyblue]Buffy 24/7 [COLOR skyblue]English[/COLOR][/COLOR]</title>
-<link>http://173.208.216.114:8082/live/buffy/chunks.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<info>
-
-Tu donacion permite que
-[B][COLOR lightyellow]Adryanlist[/COLOR][/B] siga actualizando
-
-
- [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <item>
 <title>[COLOR deepskyblue]Canal 4 jujuy - Argentina [COLOR skyblue][/COLOR][/COLOR]</title>
 <link>http://streaming.wirenetserver.com.ar:1935/canal4/live_1/livestream.m3u8</link>
-	<thumbnail>http://y.cdn.entutele.com/media/channels/big/.gif</thumbnail><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+	<thumbnail>http://y.cdn.entutele.com/media/channels/big/.gif</thumbnail><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1778,8 +1540,8 @@ Tu donacion permite que
  [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
 
 
-<item><title>[COLOR lightblue] C5N Argentina[/COLOR]</title> <link>http://us.watcha.live/ch1/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<item><title>[COLOR lightblue] C5N Argentina[/COLOR]</title> <link>http://us.watcha.live/ch1/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1788,8 +1550,8 @@ Tu donacion permite que
 
 
  [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
-<item><title>[COLOR lightblue] A24 Argentina[/COLOR]</title> <link>http://us.watcha.live/ch2/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<item><title>[COLOR lightblue] A24 Argentina[/COLOR]</title> <link>http://us.watcha.live/ch2/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1798,8 +1560,8 @@ Tu donacion permite que
 
 
  [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
-<item><title>[COLOR lightblue] AMERICA Argentina[/COLOR]</title> <link>http://us.watcha.live/ch3/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<item><title>[COLOR lightblue] AMERICA Argentina[/COLOR]</title> <link>http://us.watcha.live/ch3/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1808,8 +1570,8 @@ Tu donacion permite que
 
 
  [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
-<item><title>[COLOR lightblue] TVP Argentina[/COLOR]</title> <link>http://us.watcha.live/ch4/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<item><title>[COLOR lightblue] TVP Argentina[/COLOR]</title> <link>http://us.watcha.live/ch4/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1818,8 +1580,8 @@ Tu donacion permite que
 
 
  [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
-<item><title>[COLOR lightblue] CANAL 9 Argentina[/COLOR]</title> <link>http://us.watcha.live/ch5/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<item><title>[COLOR lightblue] CANAL 9 Argentina[/COLOR]</title> <link>http://us.watcha.live/ch5/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1828,8 +1590,8 @@ Tu donacion permite que
 
 
  [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
-<item><title>[COLOR lightblue] TELEFE  Argentina[/COLOR]</title> <link>http://us.watcha.live/ch6/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<item><title>[COLOR lightblue] TELEFE  Argentina[/COLOR]</title> <link>http://us.watcha.live/ch6/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1838,8 +1600,8 @@ Tu donacion permite que
 
 
  [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
-<item><title>[COLOR lightblue] TELEFE  Argentina[/COLOR]</title> <link>https://vivoplay-i.akamaihd.net/hls/live/261555/canal1/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<item><title>[COLOR lightblue] TELEFE  Argentina[/COLOR]</title> <link>https://vivoplay-i.akamaihd.net/hls/live/261555/canal1/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1848,8 +1610,8 @@ Tu donacion permite que
 
 
  [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
-<item><title>[COLOR lightblue] Canal 26  Argentina[/COLOR]</title> <link>http://200.115.193.177/live/26hd-720/chunklist_w1668179291.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<item><title>[COLOR lightblue] Canal 26  Argentina[/COLOR]</title> <link>http://200.115.193.177/live/26hd-720/chunklist_w1668179291.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1858,8 +1620,8 @@ Tu donacion permite que
 
 
  [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
-<item><title>[COLOR lightblue] EL TRECE  Argentina[/COLOR]</title> <link>http://us.watcha.live/ch7/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<item><title>[COLOR lightblue] EL TRECE  Argentina[/COLOR]</title> <link>http://us.watcha.live/ch7/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1868,8 +1630,8 @@ Tu donacion permite que
 
 
  [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
-<item><title>[COLOR lightblue] DEPORTV  Argentina[/COLOR]</title> <link>http://us.watcha.live/ch8/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<item><title>[COLOR lightblue] DEPORTV  Argentina[/COLOR]</title> <link>http://us.watcha.live/ch8/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1878,8 +1640,8 @@ Tu donacion permite que
 
 
  [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
- <item><title>[COLOR lightblue] CN23   Argentina[/COLOR]</title> <link>http://us.watcha.live/ch11/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+ <item><title>[COLOR lightblue] CN23   Argentina[/COLOR]</title> <link>http://us.watcha.live/ch11/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1888,8 +1650,8 @@ Tu donacion permite que
 
 
  [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
-<item><title>[COLOR lightblue] 360TV   Argentina[/COLOR]</title> <link>http://us.watcha.live/ch12/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<item><title>[COLOR lightblue] 360TV   Argentina[/COLOR]</title> <link>http://us.watcha.live/ch12/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1898,8 +1660,8 @@ Tu donacion permite que
 
 
  [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
-<item><title>[COLOR lightblue] RT NOTICIAS  Argentina[/COLOR]</title> <link>http://us.watcha.live/ch13/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<item><title>[COLOR lightblue] RT NOTICIAS  Argentina[/COLOR]</title> <link>http://us.watcha.live/ch13/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1908,8 +1670,8 @@ Tu donacion permite que
 
 
  [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
-<item><title>[COLOR lightblue] ENCUENTRO   Argentina[/COLOR]</title> <link>http://us.watcha.live/ch14/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<item><title>[COLOR lightblue] ENCUENTRO   Argentina[/COLOR]</title> <link>http://us.watcha.live/ch14/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1918,8 +1680,8 @@ Tu donacion permite que
 
 
  [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
-<item><title>[COLOR lightblue] PAKA PAKA  Argentina[/COLOR]</title> <link>http://us.watcha.live/ch15/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<item><title>[COLOR lightblue] PAKA PAKA  Argentina[/COLOR]</title> <link>http://us.watcha.live/ch15/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1928,8 +1690,8 @@ Tu donacion permite que
 
 
  [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
- <item><title>[COLOR lightblue] TATETI  Argentina[/COLOR]</title> <link>http://us.watcha.live/ch16/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+ <item><title>[COLOR lightblue] TATETI  Argentina[/COLOR]</title> <link>http://us.watcha.live/ch16/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1938,8 +1700,8 @@ Tu donacion permite que
 
 
  [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
- <item><title>[COLOR lightblue] CINEAR  Argentina[/COLOR]</title> <link>http://us.watcha.live/ch17/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+ <item><title>[COLOR lightblue] CINEAR  Argentina[/COLOR]</title> <link>http://us.watcha.live/ch17/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0</link> <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1968,8 +1730,8 @@ Tu donacion permite que
 <expres>smil","m3u8_url":"(.*)","secure_m3u8_url</expres>
 <page>http://new.livestream.com/accounts/5730046/events/2966225/player?width=960&amp;height=540&amp;autoPlay=true&amp;mute=false</page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -1981,10 +1743,10 @@ Tu donacion permite que
 
 <item>
 <title>[COLOR lightblue]TeleFormula Mexico[/COLOR]</title>
-<link>http://gformula.mmdlive.lldns.net/gformula/b581f3f2830142f686b4ca590001d108/manifest.m3u8</link>
+<link>http://gformula.mmdlive.lldns.net/gformula/596433f167b64696bb03398fecdefbad/manifest.m3u8</link>
 
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2036,8 +1798,8 @@ Tu donacion permite que
  <item>
 <title>[COLOR lightblue]Multimedios [/COLOR]</title>
 <link>http://mdstrm.com/live-stream-playlist/57b4dbf5dbbfc8f16bb63ce1.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2058,8 +1820,8 @@ Tu donacion permite que
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2075,8 +1837,8 @@ Tu donacion permite que
  <item>
 <title>[COLOR lightblue]GalaTV Merida[/COLOR]</title>
 <link>http://74.222.3.185:1935/live/ngrp:galatvmerida_all/playlist.m3u8?</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2088,8 +1850,8 @@ Tu donacion permite que
  <item>
  <title>[COLOR lightblue]GalaTV Cancun[/COLOR]</title>
 <link>http://74.222.3.185:1935/live/ngrp:galatvcancun_all/playlist.m3u8</link>
-			<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+			<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2106,8 +1868,8 @@ Tu donacion permite que
  <item>
 <title>[COLOR lightblue]CGTN en español - China [/COLOR]</title>
 <link>http://live.cgtn.com/1000e/prog_index.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2121,8 +1883,8 @@ Tu donacion permite que
 <item>
 <title>[COLOR lightblue]Oromar TV [/COLOR]</title>
 <link>http://proxy.cablefamilia.com/hls/oromartv_hi/index.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2137,25 +1899,12 @@ Tu donacion permite que
 
 
 
-<item>
-<title>[COLOR lightblue]RedBull TV[/COLOR]</title>
-<link>$doregex[get-m3u8]</link>
-<regex>
-<name>get-m3u8</name>
-<expres>"stream_url":"(.*?)"</expres>
-<page>http://www.redbull.tv/tv</page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-
-<info>
-
-Tu donacion permite que
-[B][COLOR lightyellow]Adryanlist[/COLOR][/B] siga actualizando
 
 
- [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
+
+
+
+
 
 
 
@@ -2163,8 +1912,8 @@ Tu donacion permite que
 <title>[COLOR lightblue]TeleXitos [/COLOR] Telemundo </title>
 
 <link>http://tecnotv.xyz/tv3/telemundo</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 <info>
 Tu donacion permite que
 [B][COLOR lightyellow]Adryanlist[/COLOR][/B] siga actualizando
@@ -2177,8 +1926,8 @@ Tu donacion permite que
 <title>[COLOR lightblue]Unimas [/COLOR]  </title>
 
 <link>http://tecnotv.xyz/tv3/unimas</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 <info>
 Tu donacion permite que
 [B][COLOR lightyellow]Adryanlist[/COLOR][/B] siga actualizando
@@ -2188,38 +1937,14 @@ Tu donacion permite que
 
 
 
-<item>
-<title>[COLOR lightblue]Univision  [/COLOR]  vk</title>
 
-<link>https://live63.vkuserlive.com/639914/live/6GAh2XxDfGA/playlist.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<info>
-Tu donacion permite que
-[B][COLOR lightyellow]Adryanlist[/COLOR][/B] siga actualizando
-[COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info>
-</item>
-
-
-
-  <item>
- <title>[COLOR lightblue]Univision  [/COLOR] vk </title>
-
- <link>https://live83.vkuserlive.com/637604/live/444626494/3bIVJuRXRMSkhqRD8/playlist.m3u8</link>
- <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<info>
-Tu donacion permite que
-[B][COLOR lightyellow]Adryanlist[/COLOR][/B] siga actualizando
- [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info>
-</item>
 
 <item>
 <title>[COLOR lightblue]Univision  [/COLOR]  </title>
 
 <link>http://tecnotv.xyz/tv3/univision</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 <info>
 Tu donacion permite que
 [B][COLOR lightyellow]Adryanlist[/COLOR][/B] siga actualizando
@@ -2239,8 +1964,8 @@ Tu donacion permite que
 </regex>
 
 
- <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 Tu donacion permite que
@@ -2253,14 +1978,14 @@ Tu donacion permite que
 
 
 <item>
-<title>[COLOR lightblue]Univision  [/COLOR] test </title>
+<title>[COLOR lightblue]Univision  /  univsion deportes [/COLOR] test </title>
 
 <link>http://sced.cdnak.neulion.net:80/250/nlds/univision/as/live/udnoo_hd_400_ipad.m3u8</link>
 
 
 
- <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2297,8 +2022,8 @@ Tu donacion permite que
 <referer>http://lacasadeltikitaka.club</referer>
 </regex>
 
- <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2338,8 +2063,8 @@ http://138.197.109.108/loadbalance//l_23884_5515120_1838.ts
 <referer>http://lacasadeltikitaka.club</referer>
 </regex>
 
- <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2397,8 +2122,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://v2.ustreamix.com/stream.php?
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/deportes.jpg</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/deportes.jpg</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2431,77 +2156,9 @@ Tu donacion permite que
 
 
 
- <item>
-<title>[COLOR lightblue]Unimas [/COLOR] </title>
-<link>http://$doregex[adryan_IP]/loadbalance/18325311513185526992/playlist.m3u8$doregex[adryan_AuthSign]|User-Agent=iPhone</link>
-<regex>
-<name>adryan_IP</name>
-<expres>location:http://(.*)/loadbalance</expres>
-<page>$doregex[adryan_page]</page>
-<noredirect>true</noredirect>
-<includeheaders></includeheaders>
-</regex>
-<regex>
-<name>adryan_AuthSign</name>
-<expres>m3u8(.*)</expres>
-<page>$doregex[adryan_page]</page>
-</regex>
-
-<regex>
-<name>adryan_page</name>
-<expres>"(.*m3u8.*?)"</expres>
-<page>http://pxstream.tv/embed/up06x35h945y/</page>
-<referer>http://lacasadeltikitaka.club</referer>
-</regex>
-
-
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-
-<info>
-
-Tu donacion permite que
-[B][COLOR lightyellow]Adryanlist[/COLOR][/B] siga actualizando
-
-
- [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
 
 
 
-
- <item>
-<title>[COLOR lightblue]Unimas PAC[/COLOR] </title>
-	<link>$doregex[ip2]</link>
-
-	<regex>
-<name>ip2</name>
-<expres>$pyFunction:'$doregex[ip]'.replace('\/','/')</expres>
-<page></page>
-</regex>
-
-<regex>
-<name>ip</name>
-<expres>hls":"(.*?)\"</expres>
-<page>$doregex[link]</page>
-</regex>
-
-<regex>
-<name>link</name>
-<expres>iframe\ssrc="(https://vk.*?)"</expres>
-<page>http://chiivass.es.tl/UNIMAS.PAC.htm</page>
-</regex>
-
-
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-
-<info>
-
-Tu donacion permite que
-[B][COLOR lightyellow]Adryanlist[/COLOR][/B] siga actualizando
-
-
- [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
 
 
 
@@ -2540,8 +2197,8 @@ Tu donacion permite que
    <item>
 <title>[COLOR lightblue]Telemundo 14 [ams] [/COLOR] </title>
 <link>https://hls-ord-3a.vaughnsoft.net/ams/live/live_tvhdenvivo14/chunklist.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2554,8 +2211,8 @@ Tu donacion permite que
     <item>
 <title>[COLOR lightblue]Telemundo 11 [ams] [/COLOR] .</title>
 <link>https://hls-ord-3a.vaughnsoft.net/ams/live/live_anahix11/chunklist.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2567,8 +2224,8 @@ Tu donacion permite que
     <item>
 <title>[COLOR lightblue]Telemundo 11[/COLOR] .</title>
 <link>https://hls-ord-3a.vaughnsoft.net/nyc/live/live_anahix11/chunklist.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2581,8 +2238,8 @@ Tu donacion permite que
      <item>
 <title>[COLOR lightblue]Telemundo 49[/COLOR] .</title>
 <link>https://hls-ord-3a.vaughnsoft.net/ord/live/live_telemundo50/chunklist.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2595,8 +2252,8 @@ Tu donacion permite que
      <item>
 <title>[COLOR lightblue]Telemundo 49[/COLOR] .</title>
 <link>https://hls-ord-3a.vaughnsoft.net/ams/live/live_telemundo50/chunklist.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2609,8 +2266,8 @@ Tu donacion permite que
 	     <item>
 <title>[COLOR lightblue]Telemundo LC[/COLOR] .</title>
 <link>https://hls-ord-3a.vaughnsoft.net/ams/live/live_luzclarita/chunklist.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2623,8 +2280,8 @@ Tu donacion permite que
 	     <item>
 <title>[COLOR lightblue]Telemundo LC[/COLOR] .</title>
 <link>https://hls-ord-3a.vaughnsoft.net/ord/live/live_luzclarita/chunklist.m3u8</link>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2646,16 +2303,15 @@ Tu donacion permite que
 
  <item>
 <title>[COLOR lightblue]Telemundo Internacional[/COLOR]</title>
-<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<link>$doregex[GetPageUrl]|Referer=http://vercanalestv.com/tv/nacionales/canal-plus-estrenos.html&amp;User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed.php?file=telemundoes&amp;width=650&amp;height=397</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
-<cookieJar></cookieJar>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
 </regex>
-  <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+  <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2732,8 +2388,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://livestream.com/accounts/16
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2783,8 +2439,8 @@ Tu donacion permite que
 <expres>"hls":"(.*?)"</expres>
 <page>http://json.dacast.com/b/63852/c/88933</page>
 </regex>
- <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2800,8 +2456,8 @@ Tu donacion permite que
  <item>
 <title>WAPA PR Puerto Rico </title>
 <link>https://dcunilive30-lh.akamaihd.net/i/dclive_1@535532/master.m3u8</link>
- <thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2838,8 +2494,8 @@ Tu donacion permite que
 <page>http://json.dacast.com/b/34772/c/40898</page>
 </regex>
 <thumbnail>https://media.licdn.com/media/p/7/000/1f7/30e/2b7da59.png</thumbnail>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2872,8 +2528,8 @@ Tu donacion permite que
     <item>
 <title>[COLOR lightblue] DTV[/COLOR]</title>
 <link>http://lsdhcdnhls-lh.akamaihd.net/i/hcdnarsatHLS_2@301805/master.m3u8</link>
-<info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2886,8 +2542,8 @@ Tu donacion permite que
     <item>
 <title>[COLOR lightblue] TDC[/COLOR]</title>
 <link>http://painel.serveron.com.br:1935/8166/8166/chunklist_w266638799.m3u8</link>
-<info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -2961,8 +2617,8 @@ Tu donacion permite que
 <expres>channel='(.*?)'</expres>
 <page>http://tvpor-internet.com/hbo-en-vivo.html</page>
 </regex>
-<thumbnail>http://y.cdn.entutele.com/media/channels/big/.gif</thumbnail><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>http://y.cdn.entutele.com/media/channels/big/.gif</thumbnail><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3007,8 +2663,8 @@ Tu donacion permite que
 <expres>channel='(.*?)'</expres>
 <page>http://tvpor-internet.com/fox-action-en-vivo.html</page>
 </regex>
-<thumbnail>http://y.cdn.entutele.com/media/channels/big/fox-action.gif</thumbnail><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>http://y.cdn.entutele.com/media/channels/big/fox-action.gif</thumbnail><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3042,8 +2698,8 @@ Tu donacion permite que
 <expres>channel='(.*?)'</expres>
 <page>http://tvpor-internet.com/fox-1-en-vivo.html</page>
 </regex>
-<thumbnail>http://y.cdn.entutele.com/media/channels/big/fox-1.gif</thumbnail><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>http://y.cdn.entutele.com/media/channels/big/fox-1.gif</thumbnail><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3076,8 +2732,8 @@ Tu donacion permite que
 <expres>channel='(.*?)'</expres>
 <page>http://tvpor-internet.com/space-en-vivo.html</page>
 </regex>
-<thumbnail>http://y.cdn.entutele.com/media/channels/big/space-hd.gif</thumbnail><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>http://y.cdn.entutele.com/media/channels/big/space-hd.gif</thumbnail><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3110,8 +2766,8 @@ Tu donacion permite que
 <expres>channel='(.*?)'</expres>
 <page>http://tvpor-internet.com/warner-en-vivo.html</page>
 </regex>
-<thumbnail>http://y.cdn.entutele.com/media/channels/big/warner-hd.gif</thumbnail><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>http://y.cdn.entutele.com/media/channels/big/warner-hd.gif</thumbnail><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3145,8 +2801,8 @@ Tu donacion permite que
 <expres>channel='(.*?)'</expres>
 <page>http://tvpor-internet.com/tlnovelas-en-vivo.html</page>
 </regex>
-<thumbnail>http://y.cdn.entutele.com/media/channels/big/tlnovelas.gif</thumbnail><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>http://y.cdn.entutele.com/media/channels/big/tlnovelas.gif</thumbnail><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3180,8 +2836,8 @@ Tu donacion permite que
 <expres>channel='(.*?)'</expres>
 <page>http://tvpor-internet.com/tnt-latino-en-vivo.html</page>
 </regex>
-<thumbnail>http://y.cdn.entutele.com/media/channels/big/tnt-hd.gif</thumbnail><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>http://y.cdn.entutele.com/media/channels/big/tnt-hd.gif</thumbnail><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3222,8 +2878,8 @@ Tu donacion permite que
 <page>http://tvpor-internet.com/disney-channel-en-vivo.html</page>
 <referer>http://www.mips.tv</referer>
 </regex>
-<thumbnail>http://y.cdn.entutele.com/media/channels/big/disney-channel.gif</thumbnail><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>http://y.cdn.entutele.com/media/channels/big/disney-channel.gif</thumbnail><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3272,8 +2928,8 @@ Tu donacion permite que
 </regex>
 
 
-<thumbnail>http://y.cdn.entutele.com/media/channels/big/cartoon-network.gif</thumbnail><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>http://y.cdn.entutele.com/media/channels/big/cartoon-network.gif</thumbnail><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3318,8 +2974,8 @@ Tu donacion permite que
 <expres>channel='(.*?)'</expres>
 <page>http://tvpor-internet.com/nickelodeon-en-vivo.html</page>
 </regex>
-<thumbnail>http://y.cdn.entutele.com/media/channels/big/nick-hd.gif</thumbnail><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>http://y.cdn.entutele.com/media/channels/big/nick-hd.gif</thumbnail><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3352,8 +3008,8 @@ Tu donacion permite que
 <page>http://tvpor-internet.com/disney-xd-en-vivo.html</page>
 <referer>http://www.mips.tv</referer>
 </regex>
-<thumbnail>http://y.cdn.entutele.com/media/channels/big/disney-xd.gif</thumbnail><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>http://y.cdn.entutele.com/media/channels/big/disney-xd.gif</thumbnail><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3371,8 +3027,8 @@ Tu donacion permite que
 <title>[COLOR deepskyblue]Disney Jr [COLOR skyblue][TVI][/COLOR][/COLOR]</title>
 <link>http://wowza2.mysoltv.com:1992/Latino_Disney_JR/index.m3u8</link>
 
-<thumbnail>http://y.cdn.entutele.com/media/channels/big/disney-jr.gif</thumbnail><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>http://y.cdn.entutele.com/media/channels/big/disney-jr.gif</thumbnail><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3407,8 +3063,8 @@ Tu donacion permite que
 <page>http://tvpor-internet.com/mtv-latino-en-vivo.html</page>
 <referer>http://www.mips.tv</referer>
 </regex>
-<thumbnail>http://y.cdn.entutele.com/media/channels/big/mtv.gif</thumbnail><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>http://y.cdn.entutele.com/media/channels/big/mtv.gif</thumbnail><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3441,8 +3097,8 @@ Tu donacion permite que
 <page>http://tvpor-internet.com/Telehit-en-vivo.html</page>
 <referer>http://www.mips.tv</referer>
 </regex>
-<thumbnail>http://y.cdn.entutele.com/media/channels/big/telehit.gif</thumbnail><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>http://y.cdn.entutele.com/media/channels/big/telehit.gif</thumbnail><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3476,8 +3132,8 @@ Tu donacion permite que
 <page>http://tvpor-internet.com/venevision-en-vivo.html</page>
 <referer>http://247bay.tv</referer>
 </regex>
-<thumbnail>http://y.cdn.entutele.com/media/channels/big/.gif</thumbnail><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>http://y.cdn.entutele.com/media/channels/big/.gif</thumbnail><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3510,8 +3166,8 @@ Tu donacion permite que
 <page>http://tvpor-internet.com/discovery-latino-en-vivo.html</page>
 <referer>http://www.mips.tv</referer>
 </regex>
-<thumbnail>http://y.cdn.entutele.com/media/channels/big/discovery-channel.gif</thumbnail><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>http://y.cdn.entutele.com/media/channels/big/discovery-channel.gif</thumbnail><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3540,8 +3196,8 @@ Tu donacion permite que
 <page>http://www.streaming-hub.com/arte/</page>
 <referer>http://www.streaming-hub.com/</referer>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3558,8 +3214,8 @@ Tu donacion permite que
 
 
 
- <item><title>Telesur </title><link>$doregex[get-url]</link><regex><name>get-url</name><expres>file: "(.*?)"</expres><page>$doregex[get-ifr]</page><referer>http://tv.vera.com.uy</referer></regex><regex><name>get-ifr</name><expres>'src', '(.*extras.*?)'</expres><page>http://tv.vera.com.uy/canal/6028</page><referer>http://tv.vera.com.uy</referer><cookieJar></cookieJar></regex><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+ <item><title>Telesur </title><link>$doregex[get-url]</link><regex><name>get-url</name><expres>file: "(.*?)"</expres><page>$doregex[get-ifr]</page><referer>http://tv.vera.com.uy</referer></regex><regex><name>get-ifr</name><expres>'src', '(.*extras.*?)'</expres><page>http://tv.vera.com.uy/canal/6028</page><referer>http://tv.vera.com.uy</referer><cookieJar></cookieJar></regex><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3583,8 +3239,8 @@ Tu donacion permite que
 
 
 
-<item><title>NASA NTV 1</title><link>http://nasa-i.akamaihd.net/hls/live/253565/NASA-NTV1-Public/master_500.m3u8</link><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<item><title>NASA NTV 1</title><link>http://nasa-i.akamaihd.net/hls/live/253565/NASA-NTV1-Public/master_500.m3u8</link><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3597,8 +3253,8 @@ Tu donacion permite que
 
 
 
- <item><title>NASA NTV 2</title><link>https://nasa-i.akamaihd.net/hls/live/253566/NASA-NTV2-Media/master.m3u8</link><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+ <item><title>NASA NTV 2</title><link>https://nasa-i.akamaihd.net/hls/live/253566/NASA-NTV2-Media/master.m3u8</link><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3608,8 +3264,8 @@ Tu donacion permite que
 
  [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
 
-<item><title>NASA TV HD</title><utube>RtU_mdL2vBM</utube><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<item><title>NASA TV HD</title><utube>RtU_mdL2vBM</utube><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3628,8 +3284,8 @@ Tu donacion permite que
 
 
 <item><thumbnail>http://mw1.iptv66.tv/stalker_portal/misc/logos/320/60.png</thumbnail><title>Al Jazeera UK</title>
-<link>http://aljazeera-eng-apple-live.adaptive.level3.net/apple/aljazeera/english/appleman.m3u8</link><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<link>http://aljazeera-eng-apple-live.adaptive.level3.net/apple/aljazeera/english/appleman.m3u8</link><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3648,8 +3304,8 @@ Tu donacion permite que
 
 
 <item><thumbnail></thumbnail><title>EfektoTV</title>
-<link>http://grupomac-lh.akamaihd.net:80/i/004rss0k8_1@301782/master.m3u8</link><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<link>http://grupomac-lh.akamaihd.net:80/i/004rss0k8_1@301782/master.m3u8</link><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3668,8 +3324,8 @@ Tu donacion permite que
 
 
 <item><thumbnail>http://i2.esmas.com/2015/06/22/778598/foro-tv--280x370.jpg</thumbnail><title>Foro TV </title>
-<link>http://185417-f.akamaihd.net/i/n0tf0r0_1@81283/master.m3u8</link><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<link>http://185417-f.akamaihd.net/i/n0tf0r0_1@81283/master.m3u8</link><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3685,8 +3341,8 @@ Tu donacion permite que
 
 
  <item><thumbnail>http://mw1.iptv66.tv/stalker_portal/misc/logos/320/419.png</thumbnail><title>France 24</title>
-<link>http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8</link><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<link>http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8</link><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3700,8 +3356,8 @@ Tu donacion permite que
 
 
 
- <item><title>RT en Español</title><link>$doregex[get-url]</link><regex><name>get-url</name><expres>file: "(.*?)"</expres><page>$doregex[get-ifr]</page><referer>http://tv.vera.com.uy</referer></regex><regex><name>get-ifr</name><expres>'src', '(.*extras.*?)'</expres><page>http://tv.vera.com.uy/canal/6027</page><referer>http://tv.vera.com.uy</referer><cookieJar></cookieJar></regex><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+ <item><title>RT en Español</title><link>$doregex[get-url]</link><regex><name>get-url</name><expres>file: "(.*?)"</expres><page>$doregex[get-ifr]</page><referer>http://tv.vera.com.uy</referer></regex><regex><name>get-ifr</name><expres>'src', '(.*extras.*?)'</expres><page>http://tv.vera.com.uy/canal/6027</page><referer>http://tv.vera.com.uy</referer><cookieJar></cookieJar></regex><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3718,8 +3374,8 @@ Tu donacion permite que
 
 
 
- <item><title>France 24</title><link>$doregex[get-url]</link><regex><name>get-url</name><expres>file: "(.*?)"</expres><page>$doregex[get-ifr]</page><referer>http://tv.vera.com.uy</referer></regex><regex><name>get-ifr</name><expres>'src', '(.*extras.*?)'</expres><page>http://tv.vera.com.uy/canal/9845</page><referer>http://tv.vera.com.uy</referer><cookieJar></cookieJar></regex><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+ <item><title>France 24</title><link>$doregex[get-url]</link><regex><name>get-url</name><expres>file: "(.*?)"</expres><page>$doregex[get-ifr]</page><referer>http://tv.vera.com.uy</referer></regex><regex><name>get-ifr</name><expres>'src', '(.*extras.*?)'</expres><page>http://tv.vera.com.uy/canal/9845</page><referer>http://tv.vera.com.uy</referer><cookieJar></cookieJar></regex><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3734,8 +3390,8 @@ Tu donacion permite que
 
 
 <item><thumbnail></thumbnail><title>RT Russia Today</title>
-<link>http://rt.ashttp14.visionip.tv/live/rt-global-live-HD/playlist.m3u8</link><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<link>http://rt.ashttp14.visionip.tv/live/rt-global-live-HD/playlist.m3u8</link><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3751,8 +3407,8 @@ Tu donacion permite que
 
 
 <item><thumbnail></thumbnail><title>Russia Today</title>
-<link>http://rt.ashttp14.visionip.tv/live/rt-global-live-HD/playlist.m3u8</link><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<link>http://rt.ashttp14.visionip.tv/live/rt-global-live-HD/playlist.m3u8</link><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3764,8 +3420,8 @@ Tu donacion permite que
 
 
 <item><thumbnail>http://mw1.iptv66.tv/stalker_portal/misc/logos/320/3610.png</thumbnail><title>TRT World</title>
-<link>http://trtcanlitv-lh.akamaihd.net/i/TRTWORLD_1@321783/master.m3u8</link><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<link>http://trtcanlitv-lh.akamaihd.net/i/TRTWORLD_1@321783/master.m3u8</link><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3815,8 +3471,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3838,8 +3494,8 @@ Tu donacion permite que
 
 
 
-  <item><title>[COLOR deepskyblue]Miami TV[/COLOR]</title><link>http://usaserver.miamitvchannel.com/miamitv/smil:miamitv/playlist.m3u8</link><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+  <item><title>[COLOR deepskyblue]Miami TV[/COLOR]</title><link>http://usaserver.miamitvchannel.com/miamitv/smil:miamitv/playlist.m3u8</link><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3849,8 +3505,8 @@ Tu donacion permite que
 
  [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
 
-<item><title>[COLOR deepskyblue]Miami TV[/COLOR]</title><link>http://mexicoserver.miamitvchannel.com/miamitv/smil:miamitvmexico/playlist.m3u8?tecnotv.info?iptv.m3u8</link><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<item><title>[COLOR deepskyblue]Miami TV[/COLOR]</title><link>http://mexicoserver.miamitvchannel.com/miamitv/smil:miamitvmexico/playlist.m3u8?tecnotv.info?iptv.m3u8</link><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -3994,8 +3650,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -4034,8 +3690,8 @@ Tu donacion permite que
 <cookieJar></cookieJar>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -4071,9 +3727,9 @@ Tu donacion permite que
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/247.jpg</thumbnail>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/247.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -4133,9 +3789,9 @@ Tu donacion permite que
 
 
 
-<thumbnail>http://adryanlist.org/adryan/img/adryflix.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.jpg</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -4162,8 +3818,8 @@ Tu donacion permite que
 
 
 <item>
-<title>[COLOR orange]Futurama Random[/COLOR] </title> <link>http://4.sendvid.com/cx1ihlnd.mp4/</link><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<title>[COLOR orange]Futurama Random[/COLOR] </title> <link>http://4.sendvid.com/cx1ihlnd.mp4/</link><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -4214,8 +3870,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -4262,8 +3918,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres>plugin://plugin.video.youtube/play/?video_id=R6MlUcmOul8</expres>
 <page></page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -4288,8 +3944,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -4385,8 +4041,8 @@ class InputWindow(xbmcgui.WindowDialog):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -4481,8 +4137,8 @@ class InputWindow(xbmcgui.WindowDialog):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -4578,8 +4234,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <agent>Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1</agent>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -4704,8 +4360,8 @@ class InputWindow(xbmcgui.WindowDialog):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -4729,12 +4385,12 @@ Tu donacion permite que
 def GetLSProData(page_data,Cookie_Jar,m):
   import xbmc
   xbmc.executebuiltin("XBMC.Notification(AdryanList,[B]Donaciones: [COLOR yellow]al Paypal adrian.bu@gmail.com[/B][/COLOR] ,10000)")
-  return 'http://adryanlist.org/adryan/multicanales.xml'
+  return 'https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/multicanales.xml'
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/entretenimiento.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>
 
@@ -4744,7 +4400,7 @@ Tu donacion permite que
 
  [COLOR skyblue][B]http://paypal.me/Adryanlist[/B][/COLOR]</info></item>
 
- http://adryanlist.org/adryan/cita.php
+ https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/cita.php
 
 
  <item>
@@ -4753,14 +4409,14 @@ Tu donacion permite que
 <regex>
 <name>prog</name>
 <expres><![CDATA[cita:"(.+)"]]></expres>
-<page>http://adryanlist.org/adryan/cita.php</page>
+<page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/cita.php</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:49.0) Gecko/20100101 Firefox/49.0</agent>
 <referer></referer>
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/donacion.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/donacion.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
@@ -4775,10 +4431,10 @@ Tu donacion permite que
 <regex>
 <name>get_key</name>
 <expres>Agent:"(.*?)"</expres>
-<page>http://adryanlist.org/adryan/tokenv.php</page>
+<page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/tokenv.php</page>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/donacion.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/donacion.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
@@ -4793,11 +4449,11 @@ Tu donacion permite que
 <regex>
 <name>get_key</name>
 <expres>Agent:"(.*?)"</expres>
-<page>http://adryanlist.org/adryan/tokenv.php</page>
+<page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/tokenv.php</page>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/donacion.png</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/donacion.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 
 <info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
