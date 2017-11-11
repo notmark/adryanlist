@@ -425,7 +425,7 @@ Name:"Shameless T1 " url:"http://diskokosmiko.mx/chicho306/shameless-t1-38507" i
  Name:"Ballers" url:"http://diskokosmiko.mx/MSRJ/ballers-2015-2017-79663" img:"https://www.thetvdb.com/banners/posters/281714-2.jpg"; server:"http://diskokosmiko.mx"
  Name:"Club de Cuervos Temporada 3" url:"http://diskokosmiko.mx/rafamj/club-de-cuervos-temporada-3-86035" img:"https://www.thetvdb.com/banners/posters/299045-1.jpg"; server:"http://diskokosmiko.mx"
  Name:"The Following Castellano" url:"http://diskokosmiko.mx/chinchetas/the-following-castellano-todas-temporadas-44920" img:""; server:"http://diskokosmiko.mx"
-
+ Name:"WestWorld Castellano y Latino" url:"http://diskokosmiko.mx/trivianita/westworld-latino-y-castellano-completa-40676" img:"https://www.thetvdb.com/banners/posters/296762-3.jpg"; server:"http://diskokosmiko.mx"
 
 
 
