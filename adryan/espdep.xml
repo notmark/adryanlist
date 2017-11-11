@@ -13,7 +13,7 @@
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>   </item>
 
 
 
@@ -29,7 +29,7 @@
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>   </item>
 
 
 
@@ -44,7 +44,7 @@
 <page>http://livesports.pw/embed.php?file=barliga&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>   </item>
 
 
 
@@ -65,7 +65,7 @@
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>   </item>
 
 
 
@@ -87,7 +87,7 @@
 <page>http://livesports.pw/embed.php?file=beinsport&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>   </item>
 
 
 
@@ -108,7 +108,7 @@
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>   </item>
 
 
 
@@ -128,7 +128,7 @@
 <agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>   </item>
 
 
 
@@ -148,7 +148,7 @@
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>   </item>
 
 
 
@@ -168,7 +168,7 @@
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>   </item>
 
 
 
@@ -188,7 +188,7 @@
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>   </item>
 
 
 
@@ -208,7 +208,7 @@
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>   </item>
 
 
 
@@ -228,7 +228,7 @@
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>   </item>
 
 
 
@@ -265,7 +265,7 @@
 <page>http://livesports.pw/embed.php?file=deporteone&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>   </item>
 
 
 
@@ -279,7 +279,7 @@
 <referer>http://vercanalestv.com/tv/deportes/canal-plus-deportes.html</referer>
 <agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>   </item>
 
 
 <item>
@@ -292,11 +292,24 @@
 <referer>http://vercanalestv.com/tv/deportes/canal-plus-deportes.html</referer>
 <agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>   </item>
 
 
 
 
+
+
+<item>
+<title>[UPPERCASE][COLOR skyblue] M Deportes 2  [/UPPERCASE][/COLOR] </title>
+
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>videoUrl = '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=deportedosm&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>   </item>
 
 
 
@@ -354,4 +367,4 @@
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>   </item>
