@@ -2253,39 +2253,68 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=
 
 
 
-
-
-
-
-
-
  <item>
-<title>[B][COLOR lightyellow]Multicanal[/COLOR][/B] [COLOR lightblue]Revo 01  [/COLOR][COLOR white][I] letslive [/I][/COLOR]</title>
-  <link>http://$doregex[ip]$doregex[m3u8]|User-Agent=iPad</link>
-			<regex>
-			<name>ip</name>
-			<expres>redirect=(.*)</expres>
-			<page>http://www.publetslive.xyz:1935/loadbalancer</page>
-			<referer>http://www.letslive.tv/membedplayer/$doregex[canal]/1/750/480</referer>
-			</regex>
-			<regex>
-			<name>m3u8</name>
-			<expres>ea \+ \'(.*?)'</expres>
-			<page>http://www.letslive.tv/membedplayer/$doregex[canal]/1/750/480</page>
-			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-			<referer>http://nowwatchtvlive.cc/channel-tab-frame/nflnetwork-1.php</referer>
-			</regex>
-
-			<regex>
-			<name>canal</name>
-			<expres>channel='(.*?)'</expres>
-			<page>http://revolucionariostv.eu/elitegol/Repros/c1.php</page>
-			</regex>
+<title>[B][COLOR lightyellow]Multicanal[/COLOR][/B] [COLOR lightblue]Revo 01  [/COLOR][COLOR white][I] bro [/I][/COLOR]</title>
+<link>$doregex[bro.adca.st]</link>
+<regex>
+<name>bro.adca.st</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=21607&p=1&c=0&stretching=uniform&old=0'):
+import requests, re, urllib
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
+headers['Referer'] = 'http://revolucionariostv.eu/elitegol/Repros/c1.php'
+source = requests.get(url, headers=headers)
+m3u8 = re.findall('trap = "(.+?)"', source.text)[0]
+m3u8 = m3u8.decode('base64')
+tokenpage = re.findall('fass = "(.+?)"', source.text)[0]
+headers['Referer'] = url
+headers['X-Requested-With'] = 'XMLHttpRequest'
+headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
+headers['Accept-Language'] = 'en-US,en;q=0.5'
+source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
+return m3u8
+]]></expres>
+<page></page>
+</regex>
  <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
+
+
+
+
+
  <item>
+<title>[B][COLOR lightyellow]Multicanal[/COLOR][/B] [COLOR lightblue]Revo 02  [/COLOR][COLOR white][I] bro [/I][/COLOR]</title>
+<link>$doregex[bro.adca.st]</link>
+<regex>
+<name>bro.adca.st</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=21616&p=1&c=0&stretching=uniform&old=0'):
+import requests, re, urllib
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
+headers['Referer'] = 'http://revolucionariostv.eu/elitegol/Repros/c1.php'
+source = requests.get(url, headers=headers)
+m3u8 = re.findall('trap = "(.+?)"', source.text)[0]
+m3u8 = m3u8.decode('base64')
+tokenpage = re.findall('fass = "(.+?)"', source.text)[0]
+headers['Referer'] = url
+headers['X-Requested-With'] = 'XMLHttpRequest'
+headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
+headers['Accept-Language'] = 'en-US,en;q=0.5'
+source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
+return m3u8
+]]></expres>
+<page></page>
+</regex>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+
+
+
+ <itm>
 <title>[B][COLOR lightyellow]Multicanal[/COLOR][/B] [COLOR lightblue]Revo 02  [/COLOR][COLOR white][I] letslive [/I][/COLOR]</title>
   <link>http://$doregex[ip]$doregex[m3u8]|User-Agent=iPad</link>
 			<regex>
@@ -2386,6 +2415,19 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=
 <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
+<item>
+<title>[B][COLOR lightyellow]Multicanal[/COLOR][/B] [COLOR lightblue]TikiTaka 01 [/COLOR][COLOR white][I] abc [/I][/COLOR]</title>
+<link>http://$doregex[uno]|User-Agent=iPad&amp;Referer=http://lacasadeltikitaka.club/directo/canal1.php</link>
+<regex>
+<name>uno</name>
+<expres>source: "(.*?)"</expres>
+<page>http://abcast.net/embed.php?file=lateleonline</page>
+<referer>http://lacasadeltikitaka.club/directo/canal1.php</referer>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+
+
+
 
 
 <item>
@@ -2408,34 +2450,6 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=
 
 
 
-
-
-
-
-   <item>
-<title>[B][COLOR lightyellow]Multicanal[/COLOR][/B] [COLOR lightblue]TikiTaka 02-a [/COLOR][COLOR white][I]  [/I][/COLOR]</title>
-<link>$doregex[adryan]|User-Agent=iPad</link>
-<regex>
-<name>adryan</name>
-<expres>file:"(.*?)"</expres>
-<page>http://widestream.io/embed-7231</page>
-</regex>
-
-<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
-
-
-
-
-   <item>
-<title>[B][COLOR lightyellow]Multicanal[/COLOR][/B] [COLOR lightblue]TikiTaka 03 [/COLOR][COLOR white][I]  [/I][/COLOR]</title>
-<link>$doregex[adryan]|User-Agent=iPhone</link>
-<regex>
-<name>adryan</name>
-<expres>source: '(.*?)'</expres>
-<page>http://lacasadeltikitaka.club/directo/canal3.php</page>
-</regex>
-
-<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
