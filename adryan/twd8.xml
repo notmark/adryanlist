@@ -162,11 +162,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 def GetLSProData(page_data,Cookie_Jar,m):
    import urlresolver
    url = 'https://streamango.com/f/ebpsfaprcqfnarfq/W_lk1ng_S08E02_Lat_720p_AUDIO_CORREGIDO_mkv_mp4'
-try:
-    u = urlresolver.resolve(url)
-except:
-    u = 'http://adryanlist.org/error.mp4'
-return u
+   try:
+       u = urlresolver.resolve(url)
+   except:
+       u = 'http://adryanlist.org/error.mp4'
+   return u
 ]]></expres>
 <page></page>
 </regex>
@@ -187,11 +187,11 @@ return u
 def GetLSProData(page_data,Cookie_Jar,m):
    import urlresolver
    url = 'https://streamango.com/f/fklqpsbkptplcdpf/TWD_8x02_m1080p_Vose_mkv_mp4'
-try:
-    u = urlresolver.resolve(url)
-except:
-    u = 'http://adryanlist.org/error.mp4'
-return u
+   try:
+       u = urlresolver.resolve(url)
+   except:
+       u = 'http://adryanlist.org/error.mp4'
+   return u
 ]]></expres>
 <page></page>
 </regex>
@@ -212,11 +212,11 @@ return u
 def GetLSProData(page_data,Cookie_Jar,m):
    import urlresolver
    url = 'https://streamango.com/f/lfclpkesebmssper/TWD_8x02_m720p_Vose_Dmsec_mkv_mp4'
-try:
-    u = urlresolver.resolve(url)
-except:
-    u = 'http://adryanlist.org/error.mp4'
-return u
+   try:
+       u = urlresolver.resolve(url)
+   except:
+       u = 'http://adryanlist.org/error.mp4'
+   return u
 ]]></expres>
 <page></page>
 </regex>
@@ -239,11 +239,11 @@ return u
 def GetLSProData(page_data,Cookie_Jar,m):
    import urlresolver
    url = 'https://streamango.com/f/qnkeosodkomemanf/wadea803vos720p_mkv_mp4'
-try:
-    u = urlresolver.resolve(url)
-except:
-    u = 'http://adryanlist.org/error.mp4'
-return u
+   try:
+       u = urlresolver.resolve(url)
+   except:
+       u = 'http://adryanlist.org/error.mp4'
+   return u
 ]]></expres>
 <page></page>
 </regex>
@@ -257,25 +257,47 @@ return u
 
 
 
-
-   <item>
-   <title>[COLOR skyblue]Walking Dead Temporada 8 capitulo 3  [/COLOR][COLOR aquamarine]Latino 720p[/COLOR][COLOR lightslategray][/COLOR]</title>
-   <link>$doregex[id3]</link>
-   <regex>
-   <name>id3</name>
-   <expres><![CDATA[#$pyFunction
-   def GetLSProData(page_data,Cookie_Jar,m):
-      import urlresolver
-      url = 'https://streamango.com/f/llscsttfqkfoqprm/W_Lk34s_S08E03_720P_Lat_mkv_mp4'
+<item>
+<title>[COLOR skyblue]Walking Dead Temporada 8 capitulo 3  [/COLOR][COLOR aquamarine]Subtitulado 720p[/COLOR][COLOR lightslategray][/COLOR]</title>
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/llscsttfqkfoqprm/W_Lk34s_S08E03_720P_Lat_mkv_mp4'
    try:
        u = urlresolver.resolve(url)
    except:
        u = 'http://adryanlist.org/error.mp4'
    return u
-   ]]></expres>
-   <page></page>
-   </regex>
-   <thumbnail>https://www.thetvdb.com/banners/_cache/posters/153021-63.jpg</thumbnail><fanart>https://www.thetvdb.com/banners/fanart/original/153021-88.jpg</fanart>
-   <info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-   [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
-   </item>
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://www.thetvdb.com/banners/_cache/posters/153021-63.jpg</thumbnail><fanart>https://www.thetvdb.com/banners/fanart/original/153021-88.jpg</fanart>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
+
+
+<item>
+<title>[COLOR skyblue]Walking Dead Temporada 8 capitulo 4  [/COLOR][COLOR aquamarine]Subtitulado 720p[/COLOR][COLOR lightslategray][/COLOR]</title>
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/llmpbeapeddnomeb/TWD_8x04_m720p_Vose_mkv_mp4'
+   try:
+       u = urlresolver.resolve(url)
+   except:
+       u = 'http://adryanlist.org/error.mp4'
+   return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://www.thetvdb.com/banners/_cache/posters/153021-63.jpg</thumbnail><fanart>https://www.thetvdb.com/banners/fanart/original/153021-88.jpg</fanart>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+</item>
