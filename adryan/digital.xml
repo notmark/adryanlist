@@ -81,7 +81,7 @@
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed.php?file=sysfesp&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -100,7 +100,7 @@
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed.php?file=foxespana&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -135,7 +135,7 @@
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed.php?file=disneychannel</page>
 <cookieJar></cookieJar>
 </regex>
@@ -315,7 +315,7 @@
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed.php?file=amcesptele&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -330,7 +330,7 @@
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed.php?file=tcmespmp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -348,7 +348,7 @@
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed.php?file=crimenyinvestigacion&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -363,7 +363,7 @@
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed.php?file=darkes&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -380,7 +380,7 @@
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embedn.php?file=calltrees&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -398,7 +398,7 @@
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed.php?file=clan&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -413,7 +413,7 @@
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed.php?file=cocinaesp&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -431,7 +431,7 @@
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embedn.php?file=comedycentral&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -453,7 +453,7 @@
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embedn.php?file=hollywesp&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -509,7 +509,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://tst.es.flash.glb.ipercast.ne
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed.php?file=aandeesp&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -524,7 +524,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://tst.es.flash.glb.ipercast.ne
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed2.php?file=nickjr&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -537,7 +537,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://tst.es.flash.glb.ipercast.ne
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed2.php?file=nickelones&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -573,7 +573,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://lsdencuentrohls-lh.akamaihd.
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed.php?file=panda&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -590,7 +590,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://lsdencuentrohls-lh.akamaihd.
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embedn.php?file=babytv&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -605,7 +605,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://lsdencuentrohls-lh.akamaihd.
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embedn.php?file=tntesp&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -722,7 +722,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://hlslive.lcdn.une.net.co/v1/A
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed.php?file=torotv&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -747,7 +747,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://hlslive.lcdn.une.net.co/v1/A
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embedn.php?file=torotv&amp;width=650&amp;height=397</page>
 <referer>http://www.teletoro.com/</referer>
 <agent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36</agent>
