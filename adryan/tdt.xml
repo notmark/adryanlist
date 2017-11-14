@@ -11,7 +11,7 @@
 
 
 <item>
-<title>[UPPERCASE][COLOR skyblue] La 1  [/UPPERCASE][/COLOR] </title>
+<title>[UPPERCASE][COLOR skyblue] La 1  [/UPPERCASE][/COLOR] *</title>
 <link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
 <regex>
 <name>get-id</name>
@@ -32,7 +32,7 @@
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed2.php?file=launotelefivegb&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -45,7 +45,7 @@
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed2.php?file=tvdostelefive&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -60,7 +60,7 @@
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed2.php?file=antenatress&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -127,7 +127,7 @@
  <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed2.php?file=lacuatro&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -158,7 +158,7 @@
  <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed2.php?file=telecinco&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -231,7 +231,7 @@
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed2.php?file=divinity&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -269,7 +269,7 @@
  <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed2.php?file=energy&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -297,7 +297,7 @@
  <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed2.php?file=boing&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -312,7 +312,7 @@
  <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embed2.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed2.php?file=cosmos&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
