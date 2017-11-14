@@ -10,7 +10,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=pluscero&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=pluscero&amp;width=650&amp;height=397</page>
 <agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
@@ -23,7 +23,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=movestr&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=movestr&amp;width=650&amp;height=397</page>
 <agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
@@ -36,7 +36,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=accion&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=accion&amp;width=650&amp;height=397</page>
 <agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
 </regex>
 
@@ -54,7 +54,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=dicneesp&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=dicneesp&amp;width=650&amp;height=397</page>
 <agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
 </regex>
 
@@ -88,7 +88,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=mseries&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=mseries&amp;width=650&amp;height=397</page>
 <agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
 </regex>
 
@@ -110,7 +110,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=seriesxtra&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=seriesxtra&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -145,7 +145,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=mxtra&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=mxtra&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -199,7 +199,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=mcomedia&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=mcomedia&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 

@@ -2,12 +2,12 @@
 
 
 
-<item><title>[UPPERCASE][COLOR skyblue]  Caza y Pesca [/UPPERCASE][/COLOR] </title>
+<item><title>[UPPERCASE][COLOR skyblue]  Caza y Pesca* [/UPPERCASE][/COLOR] </title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=cazaypesca&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=cazaypesca&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -23,7 +23,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=partidazo&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=partidazo&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -40,7 +40,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=barliga&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=barliga&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>   </item>
@@ -59,7 +59,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=beinlaliga&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=beinlaliga&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -83,7 +83,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=beinsport&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=beinsport&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>   </item>
@@ -102,7 +102,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=teledeporteesp&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=teledeporteesp&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -142,7 +142,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=eurosportsdosesp&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=eurosportsdosesp&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -162,7 +162,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=eurosportsesp&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=eurosportsesp&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -182,7 +182,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=golfesp&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=golfesp&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -202,7 +202,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=motogpm&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=motogpm&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -222,7 +222,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=funoesp&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=funoesp&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -261,7 +261,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=deporteone&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=deporteone&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>   </item>
@@ -305,7 +305,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=deportedosm&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=deportedosm&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/esp.jpg</thumbnail>   </item>
@@ -361,7 +361,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=futbolespm&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=futbolespm&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 

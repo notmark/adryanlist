@@ -82,7 +82,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=sysfesp&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=sysfesp&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -101,7 +101,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=foxespana&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=foxespana&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -136,7 +136,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=disneychannel</page>
+<page>http://livesports.pw/embed2.php?file=disneychannel</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -316,7 +316,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=amcesptele&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=amcesptele&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -331,7 +331,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=tcmespmp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=tcmespmp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -349,7 +349,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=crimenyinvestigacion&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=crimenyinvestigacion&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -364,7 +364,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=darkes&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=darkes&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -399,7 +399,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=clan&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=clan&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -414,7 +414,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=cocinaesp&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=cocinaesp&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -510,7 +510,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://tst.es.flash.glb.ipercast.ne
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=aandeesp&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=aandeesp&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -574,7 +574,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://lsdencuentrohls-lh.akamaihd.
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=panda&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=panda&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -723,7 +723,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://hlslive.lcdn.une.net.co/v1/A
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=torotv&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=torotv&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
