@@ -3,7 +3,7 @@
 
 
 <item>
-<title>[COLOR skyblue]Un Jefe en Pa{ales} [/COLOR]</title>
+<title>[COLOR skyblue]Un Jefe en Pañales [/COLOR]</title>
 <link>$doregex[url]|user-agent=Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.11$$lsname=[COLOR deepskyblue]101 Dalmatas</link>
 <thumbnail>https://image.tmdb.org/t/p/original/frf7zxnpK5KiFrh5feAaA36GvQf.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/8keMlLuzB9XIUBnbdEq5DCqZdHQ.jpg</fanart>
@@ -30,7 +30,7 @@
 </item>
 
 <item>
-<title>[COLOR skyblue]Un Jefe en Pa{ales} [/COLOR]</title>
+<title>[COLOR skyblue]Un Jefe en Pañales [/COLOR]</title>
 <link>$doregex[url]|user-agent=Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.11$$lsname=[COLOR deepskyblue]101 Dalmatas</link>
 <thumbnail>https://image.tmdb.org/t/p/original/frf7zxnpK5KiFrh5feAaA36GvQf.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/8keMlLuzB9XIUBnbdEq5DCqZdHQ.jpg</fanart>
