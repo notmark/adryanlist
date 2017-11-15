@@ -7,33 +7,653 @@
 </item>
 
 
- 
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
 
 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/qlbqlodcqdkbcono/Maudie_2016_1080p-dual-cast_mp4'
+  try:
+      u = urlresolver.resolve(url)
+  except:
+      u = 'http://adryanlist.org/error.mp4'
+  return u
+]]></expres>
+<page></page>
+</regex>
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
+<regex><name>nombre</name><expres>Maudie</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+
+
+
+
+
+
+
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+<link>$doregex[id3]</link>
+
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/tcqnbtrqanbpqdmd/The_boss_baby_2017_1080p-dual-cast_mp4'
+  try:
+      u = urlresolver.resolve(url)
+  except:
+      u = 'http://adryanlist.org/error.mp4'
+  return u
+]]></expres>
+<page></page>
+</regex>
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
+<regex><name>nombre</name><expres>The boss baby</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+
+
+
+
+
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+<link>$doregex[id3]</link>
+
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/adbsdqnlcccokard/Cars_3_2017_1080p-dual-cast_mp4'
+  try:
+      u = urlresolver.resolve(url)
+  except:
+      u = 'http://adryanlist.org/error.mp4'
+  return u
+]]></expres>
+<page></page>
+</regex>
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
+<regex><name>nombre</name><expres>Cars 3</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+
+
+
+
+
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+<link>$doregex[id3]</link>
+
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/amlfaadnndpktfqm/Patriots_day_2016_1080p-dual-cast_mp4'
+  try:
+      u = urlresolver.resolve(url)
+  except:
+      u = 'http://adryanlist.org/error.mp4'
+  return u
+]]></expres>
+<page></page>
+</regex>
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
+<regex><name>nombre</name><expres>Patriots day</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+
+
+
+
+
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+<link>$doregex[id3]</link>
+
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/qpfqbrbmoopmprnl/The_beguiled_2017_1080p-dual-cast_mp4'
+  try:
+      u = urlresolver.resolve(url)
+  except:
+      u = 'http://adryanlist.org/error.mp4'
+  return u
+]]></expres>
+<page></page>
+</regex>
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
+<regex><name>nombre</name><expres>The beguiled</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+
+
+
+
+
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+<link>$doregex[id3]</link>
+
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/edensodpmemsfsco/Marjorie_prime_2017_1080p-dual-lat_mp4'
+  try:
+      u = urlresolver.resolve(url)
+  except:
+      u = 'http://adryanlist.org/error.mp4'
+  return u
+]]></expres>
+<page></page>
+</regex>
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
+<regex><name>nombre</name><expres>Marjorie prime</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+
+
+
+
+
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+<link>$doregex[id3]</link>
+
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/nsmopdaplmrnplad/It_comes_at_night_2017_1080p-dual-cast_mp4'
+  try:
+      u = urlresolver.resolve(url)
+  except:
+      u = 'http://adryanlist.org/error.mp4'
+  return u
+]]></expres>
+<page></page>
+</regex>
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
+<regex><name>nombre</name><expres>It comes at night</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+
+
+
+
+
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+<link>$doregex[id3]</link>
+
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/okroqfbbcepodqme/The_beguiled_2017_1080p-dual-cast_mp4'
+  try:
+      u = urlresolver.resolve(url)
+  except:
+      u = 'http://adryanlist.org/error.mp4'
+  return u
+]]></expres>
+<page></page>
+</regex>
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
+<regex><name>nombre</name><expres>The beguiled</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+
+
+
+
+
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+<link>$doregex[id3]</link>
+
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/tnbdkblotqbqpsbt/Hhhh_2017_1080p-dual-cast_mp4'
+  try:
+      u = urlresolver.resolve(url)
+  except:
+      u = 'http://adryanlist.org/error.mp4'
+  return u
+]]></expres>
+<page></page>
+</regex>
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
+<regex><name>nombre</name><expres>Hhhh</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+
+
+
+
+
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+<link>$doregex[id3]</link>
+
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/cemodopctrsfcrml/War_for_the_planet_of_the_apes_2017_1080p-dual-cast_mp4'
+  try:
+      u = urlresolver.resolve(url)
+  except:
+      u = 'http://adryanlist.org/error.mp4'
+  return u
+]]></expres>
+<page></page>
+</regex>
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
+<regex><name>nombre</name><expres>War for the planet of the apes</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+
+
+
+
+
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+<link>$doregex[id3]</link>
+
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/nldcdfakpamcqaqm/Maudie_2016_1080p-dual-cast_mp4'
+  try:
+      u = urlresolver.resolve(url)
+  except:
+      u = 'http://adryanlist.org/error.mp4'
+  return u
+]]></expres>
+<page></page>
+</regex>
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
+<regex><name>nombre</name><expres>Maudie</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+
+
+
+
+
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+<link>$doregex[id3]</link>
+
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/dptdclekrlmkqcac/Dirty_dancing_2017_1080p-dual-cast_mp4'
+  try:
+      u = urlresolver.resolve(url)
+  except:
+      u = 'http://adryanlist.org/error.mp4'
+  return u
+]]></expres>
+<page></page>
+</regex>
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
+<regex><name>nombre</name><expres>Dirty dancing</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+
+
+
+
+
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+<link>$doregex[id3]</link>
+
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/cfrdqmndqpdekpdm/The_space_between_us_2017_1080p-dual-cast_mp4'
+  try:
+      u = urlresolver.resolve(url)
+  except:
+      u = 'http://adryanlist.org/error.mp4'
+  return u
+]]></expres>
+<page></page>
+</regex>
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
+<regex><name>nombre</name><expres>The space between us</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+
+
+
+
+
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+<link>$doregex[id3]</link>
+
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/cdsdpblassoasqro/1922_2017_1080p-dual-cast_mp4'
+  try:
+      u = urlresolver.resolve(url)
+  except:
+      u = 'http://adryanlist.org/error.mp4'
+  return u
+]]></expres>
+<page></page>
+</regex>
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
+<regex><name>nombre</name><expres>1922</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+
+
+
+
+
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+<link>$doregex[id3]</link>
+
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/fsmpdalldoddqmrp/Hhhh_2017_1080p-dual-cast_mp4'
+  try:
+      u = urlresolver.resolve(url)
+  except:
+      u = 'http://adryanlist.org/error.mp4'
+  return u
+]]></expres>
+<page></page>
+</regex>
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
+<regex><name>nombre</name><expres>Hhhh</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+
+
+
+
+
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+<link>$doregex[id3]</link>
+
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/ckebsdscbdrpaqfa/Wheelman_2017_1080p-dual-cast_mp4'
+  try:
+      u = urlresolver.resolve(url)
+  except:
+      u = 'http://adryanlist.org/error.mp4'
+  return u
+]]></expres>
+<page></page>
+</regex>
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
+<regex><name>nombre</name><expres>Wheelman</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+
+
+
+
+
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+<link>$doregex[id3]</link>
+
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/nqapdoqfnlnorfse/Cult_of_chucky_2017_1080p-dual-cast_mp4'
+  try:
+      u = urlresolver.resolve(url)
+  except:
+      u = 'http://adryanlist.org/error.mp4'
+  return u
+]]></expres>
+<page></page>
+</regex>
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
+<regex><name>nombre</name><expres>Cult of chucky</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+
+
+
+
+
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+<link>$doregex[id3]</link>
+
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/mtebeemapbedatel/Cars_3_2017_1080p-dual-lat_mp4'
+  try:
+      u = urlresolver.resolve(url)
+  except:
+      u = 'http://adryanlist.org/error.mp4'
+  return u
+]]></expres>
+<page></page>
+</regex>
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine][/COLOR][COLOR lightslategray][/COLOR]</title>
+<regex><name>nombre</name><expres>Cars 3</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -49,7 +669,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] sm  [/COLOR]</title>
@@ -63,14 +683,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
+
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -86,7 +706,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] sm  [/COLOR]</title>
@@ -99,14 +719,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
+
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -122,7 +742,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] sm  [/COLOR]</title>
@@ -139,14 +759,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
+
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -162,7 +782,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] sm  [/COLOR]</title>
@@ -180,14 +800,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
+
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -203,7 +823,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] sm  [/COLOR]</title>
@@ -221,14 +841,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
+
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -244,7 +864,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] sm  [/COLOR]</title>
@@ -259,20 +879,20 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-  
 
 
 
 
 
- 
+
+
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -288,7 +908,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] sm  [/COLOR]</title>
@@ -303,14 +923,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
+
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -326,7 +946,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] sm  [/COLOR]</title>
@@ -341,14 +961,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
+
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -364,7 +984,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] sm  [/COLOR]</title>
@@ -379,14 +999,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
+
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -402,7 +1022,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] sm  [/COLOR]</title>
@@ -417,14 +1037,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
+
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -440,7 +1060,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] sm  [/COLOR]</title>
@@ -457,14 +1077,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
+
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -480,7 +1100,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] sm  [/COLOR]</title>
@@ -496,15 +1116,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
- 
+
+
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -520,7 +1140,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] sm  [/COLOR]</title>
@@ -535,15 +1155,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
- 
+
+
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -559,7 +1179,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] sm  [/COLOR]</title>
@@ -574,15 +1194,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
- 
+
+
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -598,7 +1218,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] sm  [/COLOR]</title>
@@ -614,15 +1234,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
- 
+
+
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -638,7 +1258,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] sm  [/COLOR]</title>
@@ -653,15 +1273,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
- 
+
+
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -677,7 +1297,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] sm  [/COLOR]</title>
@@ -691,23 +1311,23 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -723,7 +1343,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] sm  [/COLOR]</title>
@@ -736,11 +1356,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -756,7 +1376,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] uptobox  [/COLOR]</title>
@@ -768,11 +1388,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -788,7 +1408,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] sm   [/COLOR]</title>
@@ -802,11 +1422,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -820,9 +1440,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] yu   [/COLOR]</title>
@@ -838,11 +1458,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -858,7 +1478,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] ol   [/COLOR]</title>
@@ -874,11 +1494,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -894,7 +1514,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray]ol    [/COLOR]</title>
@@ -915,11 +1535,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -935,7 +1555,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] yu   [/COLOR]</title>
@@ -951,11 +1571,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -971,7 +1591,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray]sm    [/COLOR]</title>
@@ -987,11 +1607,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -1007,7 +1627,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray]  ol  [/COLOR]</title>
@@ -1024,13 +1644,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
+
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
 <link>$doregex[id3]</link>
- 
+
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
@@ -1044,7 +1664,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
 <regex>
 <name>id2</name>
@@ -1059,7 +1679,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
 <regex>
 <name>id1</name>
@@ -1074,9 +1694,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray]  [/COLOR]</title>
@@ -1090,9 +1710,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
+
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
 <link>$doregex[id3]</link>
@@ -1111,11 +1731,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- 
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray]  [/COLOR]</title>
@@ -1133,13 +1753,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
+
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
 <link>$doregex[id3]</link>
- 
+
 
 
 <regex>
@@ -1155,9 +1775,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray]  [/COLOR]</title>
@@ -1176,9 +1796,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
+
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1195,9 +1815,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
@@ -1207,10 +1827,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
- 
+
+
              <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1227,9 +1847,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
@@ -1239,10 +1859,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
- 
+
+
             <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1259,9 +1879,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
@@ -1271,10 +1891,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
- 
+
+
              <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1291,9 +1911,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
@@ -1303,10 +1923,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
- 
+
+
              <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1323,9 +1943,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
@@ -1335,10 +1955,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
- 
+
+
              <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1355,9 +1975,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
@@ -1367,10 +1987,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
- 
+
+
              <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1387,9 +2007,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
@@ -1399,10 +2019,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
- 
+
+
           <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1419,9 +2039,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
@@ -1431,10 +2051,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
-    
+
+
           <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1451,9 +2071,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
@@ -1463,10 +2083,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
-    
+
+
              <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1483,9 +2103,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
@@ -1495,10 +2115,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
- 
+
+
              <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1515,9 +2135,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
@@ -1527,10 +2147,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
- 
+
+
             <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1547,9 +2167,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
@@ -1559,10 +2179,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
-  
+
+
            <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1579,9 +2199,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
@@ -1591,10 +2211,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
-   
+
+
           <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1611,9 +2231,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
@@ -1623,10 +2243,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
-   
+
+
          <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1643,9 +2263,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
@@ -1655,10 +2275,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
-     
+
+
            <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1675,9 +2295,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
@@ -1687,13 +2307,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
- 
-  
+
+
+
 
 
  <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1710,9 +2330,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
@@ -1722,12 +2342,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
- 
+
+
 
 
  <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1744,9 +2364,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] uptobox [/COLOR]</title>
@@ -1756,12 +2376,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
- 
+
+
 
 
  <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1778,9 +2398,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] uptobox [/COLOR]</title>
@@ -1790,12 +2410,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
- 
+
+
 
 
  <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1812,9 +2432,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] uptobox [/COLOR]</title>
@@ -1824,12 +2444,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
- 
+
+
 
 
  <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1846,9 +2466,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] uptobox [/COLOR]</title>
@@ -1858,12 +2478,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
- 
+
+
 
 
  <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1880,9 +2500,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] uptobox [/COLOR]</title>
@@ -1892,12 +2512,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
- 
+
+
 
 
  <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1914,9 +2534,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] uptobox [/COLOR]</title>
@@ -1926,12 +2546,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
- 
+
+
 
 
  <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1948,9 +2568,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] uptobox [/COLOR]</title>
@@ -1960,12 +2580,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
- 
+
+
 
 
  <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -1982,9 +2602,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] uptobox [/COLOR]</title>
@@ -1994,43 +2614,43 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
-  
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
- 
 
- 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
  <link>$doregex[id3]</link>
@@ -2047,9 +2667,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
+</regex>
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] uptobox [/COLOR]</title>
@@ -2059,7 +2679,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
- 
+
 
 <item>
  <link>$doregex[id3]</link>
@@ -2079,7 +2699,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/ev90LOaW2COmsScsuVz5pPFzQSI.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/ev90LOaW2COmsScsuVz5pPFzQSI.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/ev90LOaW2COmsScsuVz5pPFzQSI.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2087,7 +2707,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
+
 
 <item>
  <link>$doregex[id3]</link>
@@ -2107,7 +2727,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/riImvrWE0GHFyML6tD2FwpkDb0R.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/riImvrWE0GHFyML6tD2FwpkDb0R.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/riImvrWE0GHFyML6tD2FwpkDb0R.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2115,7 +2735,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
+
 
 <item>
  <link>$doregex[id3]</link>
@@ -2135,7 +2755,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/u8dgbTGCtbgt1Mlkbn9jGukIavT.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/u8dgbTGCtbgt1Mlkbn9jGukIavT.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/u8dgbTGCtbgt1Mlkbn9jGukIavT.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2143,7 +2763,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
+
 
 <item>
  <link>$doregex[id3]</link>
@@ -2163,7 +2783,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/n5RikV29yCTd3GYWnT3h7MWOa9k.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/n5RikV29yCTd3GYWnT3h7MWOa9k.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/n5RikV29yCTd3GYWnT3h7MWOa9k.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2171,7 +2791,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
+
 
 
 
@@ -2193,7 +2813,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/vaXOuodDDqfnK8EPg3hxILr2uL7.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/vaXOuodDDqfnK8EPg3hxILr2uL7.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/vaXOuodDDqfnK8EPg3hxILr2uL7.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2201,7 +2821,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
+
 
 
 
@@ -2224,7 +2844,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/fJAvGOitU8y53ByeHnM4avtKFaG.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/fJAvGOitU8y53ByeHnM4avtKFaG.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/fJAvGOitU8y53ByeHnM4avtKFaG.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2232,9 +2852,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
- 
- 
+
+
+
 
 <item>
  <link>$doregex[id3]</link>
@@ -2254,7 +2874,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/bUie6wrbHEThBhpKoPbqZ6KQrU6.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/bUie6wrbHEThBhpKoPbqZ6KQrU6.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/bUie6wrbHEThBhpKoPbqZ6KQrU6.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2262,7 +2882,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
+
 
 
 
@@ -2285,7 +2905,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/9Foi0qjOtCN2vlezYtNag687KeH.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/9Foi0qjOtCN2vlezYtNag687KeH.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/9Foi0qjOtCN2vlezYtNag687KeH.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2293,7 +2913,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
+
 
 
 
@@ -2316,7 +2936,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/yQcYGucF3IKa7nPGHESmkeiXvpZ.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/yQcYGucF3IKa7nPGHESmkeiXvpZ.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/yQcYGucF3IKa7nPGHESmkeiXvpZ.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2324,7 +2944,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
+
 
 
 
@@ -2347,7 +2967,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/vxrdHZqbF0YCcDtlwTVi4fzwuKS.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/vxrdHZqbF0YCcDtlwTVi4fzwuKS.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/vxrdHZqbF0YCcDtlwTVi4fzwuKS.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2357,7 +2977,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -2376,7 +2996,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/6DZ6TWmcqUtiLq1TtuEJktfTVhY.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/6DZ6TWmcqUtiLq1TtuEJktfTVhY.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/6DZ6TWmcqUtiLq1TtuEJktfTVhY.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2384,9 +3004,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
 
- 
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -2405,7 +3025,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/j5iby97AvVREebMJpxMKbc0XrFL.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/j5iby97AvVREebMJpxMKbc0XrFL.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/j5iby97AvVREebMJpxMKbc0XrFL.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2413,9 +3033,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
 
- 
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -2434,7 +3054,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/w640/vh5iYhj80l1inSdep61sF8g1S8m.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/w640/vh5iYhj80l1inSdep61sF8g1S8m.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/w640/vh5iYhj80l1inSdep61sF8g1S8m.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2442,9 +3062,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
 
- 
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -2463,7 +3083,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/mlb2BYXwS9blOkhuk8OgSffNzlt.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/mlb2BYXwS9blOkhuk8OgSffNzlt.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/mlb2BYXwS9blOkhuk8OgSffNzlt.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2471,9 +3091,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
 
- 
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -2492,7 +3112,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/oVTYLF4D14p1fvXj6UeP7x0D8hA.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/oVTYLF4D14p1fvXj6UeP7x0D8hA.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/oVTYLF4D14p1fvXj6UeP7x0D8hA.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2500,7 +3120,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
+
 
 <item>
  <link>$doregex[id3]</link>
@@ -2520,7 +3140,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/5RhJKVfXChP9HfRZBoJIE2qoQ8u.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/5RhJKVfXChP9HfRZBoJIE2qoQ8u.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/5RhJKVfXChP9HfRZBoJIE2qoQ8u.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2528,9 +3148,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
 
- 
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -2549,7 +3169,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/2t2GG8lhLuxK4PWGndq5KuRUhep.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/2t2GG8lhLuxK4PWGndq5KuRUhep.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/2t2GG8lhLuxK4PWGndq5KuRUhep.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2557,9 +3177,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
 
- 
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -2578,7 +3198,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/noPnbURTzyk83mEPfAptMmz7RgK.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/noPnbURTzyk83mEPfAptMmz7RgK.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/noPnbURTzyk83mEPfAptMmz7RgK.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2586,15 +3206,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
 
 
 <item>
@@ -2615,7 +3235,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/7n4aQYGyr6YBpVuScEWZJGaLxq5.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/7n4aQYGyr6YBpVuScEWZJGaLxq5.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/7n4aQYGyr6YBpVuScEWZJGaLxq5.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2623,7 +3243,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
+
 
 
 <item>
@@ -2644,7 +3264,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/gY3yFNM2MM9k0cAFxClyKtzR31T.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/gY3yFNM2MM9k0cAFxClyKtzR31T.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gY3yFNM2MM9k0cAFxClyKtzR31T.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2652,7 +3272,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
+
 
 
 <item>
@@ -2673,7 +3293,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/gC5KeAvpiKLx5NuRsA4aKjLGkVt.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/gC5KeAvpiKLx5NuRsA4aKjLGkVt.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gC5KeAvpiKLx5NuRsA4aKjLGkVt.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2681,7 +3301,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
+
 
 
 <item>
@@ -2702,7 +3322,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/kdg6Y06jfq9FV7qknWNcKLYtBJn.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/kdg6Y06jfq9FV7qknWNcKLYtBJn.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/kdg6Y06jfq9FV7qknWNcKLYtBJn.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2710,7 +3330,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
+
 
 
 <item>
@@ -2731,7 +3351,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/uPHYfUZLgMFhmufqNrZFRsqaByo.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/uPHYfUZLgMFhmufqNrZFRsqaByo.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/uPHYfUZLgMFhmufqNrZFRsqaByo.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2739,7 +3359,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
+
 
 
 <item>
@@ -2760,7 +3380,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/fAQ8StdThqEWEvrFhRrGmm2OMVI.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/fAQ8StdThqEWEvrFhRrGmm2OMVI.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/fAQ8StdThqEWEvrFhRrGmm2OMVI.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2768,7 +3388,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
+
 
 
 <item>
@@ -2789,7 +3409,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/44jotbmLRwHSIcd4wVAYCVmli8D.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/44jotbmLRwHSIcd4wVAYCVmli8D.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/44jotbmLRwHSIcd4wVAYCVmli8D.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2797,7 +3417,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
+
 
 
 <item>
@@ -2818,7 +3438,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/5GUrTeOyHELrf7TjcR0okAFpeSw.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/5GUrTeOyHELrf7TjcR0okAFpeSw.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/5GUrTeOyHELrf7TjcR0okAFpeSw.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2826,7 +3446,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
+
 
 
 <item>
@@ -2847,7 +3467,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/ymiDPbfLCRQo0PSlwPwf6Yh8iRr.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/ymiDPbfLCRQo0PSlwPwf6Yh8iRr.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/ymiDPbfLCRQo0PSlwPwf6Yh8iRr.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2855,7 +3475,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
+
 
 
 <item>
@@ -2876,7 +3496,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/uZ3MDYjX4VYToRX5ILtjMR7sVWL.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/uZ3MDYjX4VYToRX5ILtjMR7sVWL.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/uZ3MDYjX4VYToRX5ILtjMR7sVWL.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2884,7 +3504,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
+
 
 
 <item>
@@ -2905,7 +3525,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/fCnFO90hoQufEHYdRYUpsbfOb8T.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/fCnFO90hoQufEHYdRYUpsbfOb8T.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/fCnFO90hoQufEHYdRYUpsbfOb8T.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2913,7 +3533,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
- 
+
 
 
 <item>
@@ -2934,7 +3554,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/zCSYCgLpdMNMIhPyrBEh2PuxN0G.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/zCSYCgLpdMNMIhPyrBEh2PuxN0G.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/zCSYCgLpdMNMIhPyrBEh2PuxN0G.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
@@ -2943,12 +3563,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -2967,16 +3587,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/eX9iEZdU2w1elGQhNY50DmKqiaE.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/eX9iEZdU2w1elGQhNY50DmKqiaE.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/eX9iEZdU2w1elGQhNY50DmKqiaE.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]City of tiny lights 2016.1080p[/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 </item>
- 
- 
- 
- 
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -2995,16 +3615,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/hV03WNm0BMl9OYZNkPbtF4m0RNL.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/hV03WNm0BMl9OYZNkPbtF4m0RNL.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/hV03WNm0BMl9OYZNkPbtF4m0RNL.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]El guardian invisible 2017.1080p[/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 </item>
- 
- 
- 
- 
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3023,16 +3643,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/inaxmeEYwAT3o7jA3mXUI503uiy.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/inaxmeEYwAT3o7jA3mXUI503uiy.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/inaxmeEYwAT3o7jA3mXUI503uiy.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Opening.night.2016.1080p[/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 </item>
- 
- 
- 
- 
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3051,21 +3671,21 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/yV95cXcHhmuUAW8bjAayPynf7Lf.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/yV95cXcHhmuUAW8bjAayPynf7Lf.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/yV95cXcHhmuUAW8bjAayPynf7Lf.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Naked.2017.1080p[/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 </item>
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3084,16 +3704,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/slnVDrdDc4DjGYE4GtJ107SUmIt.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/slnVDrdDc4DjGYE4GtJ107SUmIt.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/slnVDrdDc4DjGYE4GtJ107SUmIt.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Intruders  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3112,16 +3732,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/5fQ2bwOus2WlDOiN3waDhevqTPW.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/5fQ2bwOus2WlDOiN3waDhevqTPW.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/5fQ2bwOus2WlDOiN3waDhevqTPW.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Acosada En La Red[/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3140,16 +3760,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/fG2SZwAAY4mNscLfvSiKyBxaVQy.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/fG2SZwAAY4mNscLfvSiKyBxaVQy.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/fG2SZwAAY4mNscLfvSiKyBxaVQy.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Security [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3168,16 +3788,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/qQB4RKFeUMqLBiMdwMbpgdePBeO.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/qQB4RKFeUMqLBiMdwMbpgdePBeO.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/qQB4RKFeUMqLBiMdwMbpgdePBeO.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Guardians [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3196,25 +3816,25 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/2qSm5Ru9LeAnzSb3oWJtsogwfxb.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/2qSm5Ru9LeAnzSb3oWJtsogwfxb.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/2qSm5Ru9LeAnzSb3oWJtsogwfxb.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]El Templo[/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
- 
- 
 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3233,16 +3853,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/kV7qvP63zcmKIRL4vO49n4duzXQ.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/kV7qvP63zcmKIRL4vO49n4duzXQ.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/kV7qvP63zcmKIRL4vO49n4duzXQ.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Ejecta[/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
+
+
+
+
 
 <item>
  <link>$doregex[id3]</link>
@@ -3262,16 +3882,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/l6dYn7kQV1eSFLyPHvCNkl63Am7.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/l6dYn7kQV1eSFLyPHvCNkl63Am7.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/l6dYn7kQV1eSFLyPHvCNkl63Am7.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Simbad El Quinto Viaje[/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3290,16 +3910,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/x3SLmtWUuWyiNrpkTdTpJhyexGu.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/x3SLmtWUuWyiNrpkTdTpJhyexGu.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/x3SLmtWUuWyiNrpkTdTpJhyexGu.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Fuera Del Mapa[/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3318,16 +3938,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/8U8qUjXsMWY7gPEWJiGzpV4sdaC.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/8U8qUjXsMWY7gPEWJiGzpV4sdaC.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/8U8qUjXsMWY7gPEWJiGzpV4sdaC.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]German Angst[/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3346,16 +3966,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/wrDjVTyREUAEiS1gtbnZky10Qip.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/wrDjVTyREUAEiS1gtbnZky10Qip.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/wrDjVTyREUAEiS1gtbnZky10Qip.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Sharknado 5 Aletamiento Global[/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3374,16 +3994,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/dXu1LbSCch4ysm0Ky9I0aMPQXGE.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/dXu1LbSCch4ysm0Ky9I0aMPQXGE.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/dXu1LbSCch4ysm0Ky9I0aMPQXGE.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Desnudo [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3402,16 +4022,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/pPo6WIj2X0dodejoxZyE6eKS5VI.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/pPo6WIj2X0dodejoxZyE6eKS5VI.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/pPo6WIj2X0dodejoxZyE6eKS5VI.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]The Saint[/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3430,16 +4050,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/1Zl62Ws2GvttUiVu5iLkmYGiEgT.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/1Zl62Ws2GvttUiVu5iLkmYGiEgT.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/1Zl62Ws2GvttUiVu5iLkmYGiEgT.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Quien Se Queda Con Wesley[/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3458,16 +4078,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/tlgTK26t4sAo5k3qT6CcpKlfvIR.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/tlgTK26t4sAo5k3qT6CcpKlfvIR.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/tlgTK26t4sAo5k3qT6CcpKlfvIR.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Bad Santa 2[/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3486,29 +4106,29 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/7YRzCtieoHsVJdAYij5lFlay7ch.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/7YRzCtieoHsVJdAYij5lFlay7ch.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/7YRzCtieoHsVJdAYij5lFlay7ch.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Beyond The Gates[/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
-
- 
 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3527,20 +4147,20 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/sEUVbq3KoMgB8Jf37PNrUNSiW1H.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/sEUVbq3KoMgB8Jf37PNrUNSiW1H.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/sEUVbq3KoMgB8Jf37PNrUNSiW1H.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Slasher.com  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
 
- 
- 
- 
- 
+
+
+
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3559,16 +4179,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/2bghzTAXTR3V5DPYGqECqow2u4l.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/2bghzTAXTR3V5DPYGqECqow2u4l.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/2bghzTAXTR3V5DPYGqECqow2u4l.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]La Madre Perfecta [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3587,16 +4207,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/ipuhr7RGLZ40WlA2R6LPPjeWA2l.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/ipuhr7RGLZ40WlA2R6LPPjeWA2l.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/ipuhr7RGLZ40WlA2R6LPPjeWA2l.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]La Huida (RunningAway) [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3615,16 +4235,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/7ri8UINqW7ixMLliTlPnBWPJE7N.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/7ri8UINqW7ixMLliTlPnBWPJE7N.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/7ri8UINqW7ixMLliTlPnBWPJE7N.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]El Ataque Del Tiburon De Cinco Cabezas [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3643,16 +4263,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/9UOHnG8acTyKW0qxICGNekJ0JAv.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/9UOHnG8acTyKW0qxICGNekJ0JAv.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/9UOHnG8acTyKW0qxICGNekJ0JAv.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]The Black Room [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3671,16 +4291,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/ciJU1MyGWNRLMhdQ1DrU9RCnM4z.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/ciJU1MyGWNRLMhdQ1DrU9RCnM4z.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/ciJU1MyGWNRLMhdQ1DrU9RCnM4z.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]The Demolisher  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
-
- 
 
 
 
@@ -3691,13 +4306,18 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3716,17 +4336,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/iwukU7nUUNfdxIQwOfM4kZ40LGz.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/iwukU7nUUNfdxIQwOfM4kZ40LGz.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/iwukU7nUUNfdxIQwOfM4kZ40LGz.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Piranha Sharks  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
- 
+
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3745,17 +4365,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/5hjpfY7faXYclLRK0DDPPWtShyp.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/5hjpfY7faXYclLRK0DDPPWtShyp.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/5hjpfY7faXYclLRK0DDPPWtShyp.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]The Evil in Us [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
- 
+
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3774,17 +4394,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/fvdLWJgAhjaXqbhB6dlBqOxoeh0.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/fvdLWJgAhjaXqbhB6dlBqOxoeh0.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/fvdLWJgAhjaXqbhB6dlBqOxoeh0.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Primer Ministro [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
- 
+
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3803,17 +4423,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/3YVpkVjbCGhzK9aiTae8RIHhtmh.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/3YVpkVjbCGhzK9aiTae8RIHhtmh.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/3YVpkVjbCGhzK9aiTae8RIHhtmh.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Una Noche Con Mi Exsuegro  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
- 
+
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3832,17 +4452,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/77XZdVMnUAlQtYWiDetX1k37L9K.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/77XZdVMnUAlQtYWiDetX1k37L9K.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/77XZdVMnUAlQtYWiDetX1k37L9K.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Orbita 9  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
- 
+
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3861,17 +4481,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/inaxmeEYwAT3o7jA3mXUI503uiy.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/inaxmeEYwAT3o7jA3mXUI503uiy.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/inaxmeEYwAT3o7jA3mXUI503uiy.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Opening Night  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
- 
+
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3890,17 +4510,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/g71ffZ2tC3RhxHpY3ScqdspmuuQ.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/g71ffZ2tC3RhxHpY3ScqdspmuuQ.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/g71ffZ2tC3RhxHpY3ScqdspmuuQ.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]La Lista De Jessica Darling [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
- 
+
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3919,18 +4539,18 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/1JrF1Y9mJkABp59GZELTGEG6kM2.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/1JrF1Y9mJkABp59GZELTGEG6kM2.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/1JrF1Y9mJkABp59GZELTGEG6kM2.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Lost Boy [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
-  
- 
- 
+
+
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3949,17 +4569,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/5b1zDwWxoDG8p8aHoRYfzOd7Lvy.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/5b1zDwWxoDG8p8aHoRYfzOd7Lvy.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/5b1zDwWxoDG8p8aHoRYfzOd7Lvy.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Fast And Furious 8 [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
- 
+
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -3978,17 +4598,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/lQeMIscify0kGiNsgqxmuVMshnI.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/lQeMIscify0kGiNsgqxmuVMshnI.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/lQeMIscify0kGiNsgqxmuVMshnI.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Message From The King [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
- 
+
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4007,17 +4627,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/yeLR8pdgtGXSj7JzDoClMxsSdCi.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/yeLR8pdgtGXSj7JzDoClMxsSdCi.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/yeLR8pdgtGXSj7JzDoClMxsSdCi.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]El Tiempo De Los Amantes [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
- 
+
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4036,17 +4656,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/aFE9loQYUkbgEvGtPKms8UBn7Ii.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/aFE9loQYUkbgEvGtPKms8UBn7Ii.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/aFE9loQYUkbgEvGtPKms8UBn7Ii.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Boost [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
- 
+
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4065,17 +4685,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/1BMryyUR0XT6ySPpDKSdjVBQWvX.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/1BMryyUR0XT6ySPpDKSdjVBQWvX.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/1BMryyUR0XT6ySPpDKSdjVBQWvX.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]El Hijo De Jean [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
- 
+
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4094,34 +4714,34 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/gfsi9okwZnh7XqGKInPhAjcJ2i8.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/gfsi9okwZnh7XqGKInPhAjcJ2i8.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/gfsi9okwZnh7XqGKInPhAjcJ2i8.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Un Plus Une  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
 
- 
- 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  <item> <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4140,15 +4760,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/jzgeijqp3ly2s93jxgE7kBsYZVb.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/jzgeijqp3ly2s93jxgE7kBsYZVb.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/jzgeijqp3ly2s93jxgE7kBsYZVb.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]Te Vigilo [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
+
+
+
  <item> <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4167,15 +4787,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/eX9iEZdU2w1elGQhNY50DmKqiaE.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/eX9iEZdU2w1elGQhNY50DmKqiaE.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/eX9iEZdU2w1elGQhNY50DmKqiaE.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]City of Tiny Lights [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
+
+
+
  <item> <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4194,19 +4814,19 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/zCSYCgLpdMNMIhPyrBEh2PuxN0G.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/zCSYCgLpdMNMIhPyrBEh2PuxN0G.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/zCSYCgLpdMNMIhPyrBEh2PuxN0G.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]Crudo  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
 
- 
- 
- 
+
+
+
+
+
+
  <item> <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4225,15 +4845,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/w640/tAnm6pUTSkCxmvzfLWV4VJbHwSt.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/w640/tAnm6pUTSkCxmvzfLWV4VJbHwSt.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/w640/tAnm6pUTSkCxmvzfLWV4VJbHwSt.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]Indignacion [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
+
+
+
 
  <item> <item>
  <link>$doregex[id3]</link>
@@ -4253,15 +4873,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/haAMFKYUvCCVw9Gqo1AAShilwlG.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/haAMFKYUvCCVw9Gqo1AAShilwlG.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/haAMFKYUvCCVw9Gqo1AAShilwlG.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]La Novia Perfecta [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
+
+
+
  <item> <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4280,15 +4900,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/w640/k4sLETi3sAPXpcxTFMOml7XeMMU.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/w640/k4sLETi3sAPXpcxTFMOml7XeMMU.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/w640/k4sLETi3sAPXpcxTFMOml7XeMMU.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]La Otra Mujer  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
+
+
+
  <item> <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4307,15 +4927,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/zwXXvPg49BUMuUrgF1jrYZqfDQp.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/zwXXvPg49BUMuUrgF1jrYZqfDQp.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/zwXXvPg49BUMuUrgF1jrYZqfDQp.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]La Sospecha De Una Madre [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
+
+
+
  <item> <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4334,15 +4954,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/lphJuUkFlGNTLBH0NNrSHf2X9zE.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/lphJuUkFlGNTLBH0NNrSHf2X9zE.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/lphJuUkFlGNTLBH0NNrSHf2X9zE.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]Summer Shark Attack [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
+
+
+
  <item> <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4361,15 +4981,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/pkbxIuntAf1zq96K9855AwKGMr.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/pkbxIuntAf1zq96K9855AwKGMr.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/pkbxIuntAf1zq96K9855AwKGMr.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]This Beautiful Fantastic [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
+
+
+
  <item> <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4388,15 +5008,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original//oYDALaC6ke1hzQHIRjmeffpEEP3.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original//oYDALaC6ke1hzQHIRjmeffpEEP3.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original//oYDALaC6ke1hzQHIRjmeffpEEP3.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]Un Verano Para Recordar  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
+
+
+
  <item> <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4415,15 +5035,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/16Hwyy2YYONr8reUAiyUJIaXQs2.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/16Hwyy2YYONr8reUAiyUJIaXQs2.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/16Hwyy2YYONr8reUAiyUJIaXQs2.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]Across The River [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
+
+
+
  <item> <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4442,15 +5062,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/seTB8Awb1HPmoREbkETH4fO2fJ2.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/seTB8Awb1HPmoREbkETH4fO2fJ2.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/seTB8Awb1HPmoREbkETH4fO2fJ2.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]Al Filo De Los Diecisiete [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
+
+
+
  <item> <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4469,15 +5089,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/yC5E0UgyjUKU2uyW2fGVnrTmAY8.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/yC5E0UgyjUKU2uyW2fGVnrTmAY8.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/yC5E0UgyjUKU2uyW2fGVnrTmAY8.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]Big Driver [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
+
+
+
  <item> <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4496,15 +5116,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]Black.butterfly [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
+
+
+
  <item> <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4523,15 +5143,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/k5W0WTRtnjS7jdILC8p97ovpfQG.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/k5W0WTRtnjS7jdILC8p97ovpfQG.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/k5W0WTRtnjS7jdILC8p97ovpfQG.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]Dejame Salir  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
+
+
+
  <item> <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4550,15 +5170,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/5orNI85HBUSiSHozB4f1utjjvnP.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/5orNI85HBUSiSHozB4f1utjjvnP.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/5orNI85HBUSiSHozB4f1utjjvnP.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]El Teniente Otomano  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
+
+
+
  <item> <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4577,15 +5197,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/8j9MhnsdM8MB9wXjDWYRCIyR8i7.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/8j9MhnsdM8MB9wXjDWYRCIyR8i7.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/8j9MhnsdM8MB9wXjDWYRCIyR8i7.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]El Viaje De Max  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
+
+
+
  <item> <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4604,15 +5224,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/ruj4uRO7tuMJj2sKMAGEyjKzD6Z.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/ruj4uRO7tuMJj2sKMAGEyjKzD6Z.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/ruj4uRO7tuMJj2sKMAGEyjKzD6Z.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]Estacion Espacial 76 [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
+
+
+
  <item> <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4631,15 +5251,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/lYUrFPD2zBp7ufi3WOH8INTBzTi.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/lYUrFPD2zBp7ufi3WOH8INTBzTi.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/lYUrFPD2zBp7ufi3WOH8INTBzTi.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]Follow [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
+
+
+
  <item> <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4658,15 +5278,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/mWiqc87iTs1qujxm2Q0NRzGvWSN.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/mWiqc87iTs1qujxm2Q0NRzGvWSN.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/mWiqc87iTs1qujxm2Q0NRzGvWSN.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]Invicto (Boyka Undisputed IV) [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
+
+
+
  <item> <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4685,15 +5305,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/r7tDHGsFzHY0YBCaaNctvAxZhpc.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/r7tDHGsFzHY0YBCaaNctvAxZhpc.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/r7tDHGsFzHY0YBCaaNctvAxZhpc.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]La Increible Jessica James [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
+
+
+
  <item> <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4712,15 +5332,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/mGxnjJIDLVbHeN3vzxYoOQ0S65t.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/mGxnjJIDLVbHeN3vzxYoOQ0S65t.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/mGxnjJIDLVbHeN3vzxYoOQ0S65t.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]La Profesora [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
+
+
+
  <item> <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4739,15 +5359,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/kMGCtLqZEedeIJqfzKpRCFmHVIu.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/kMGCtLqZEedeIJqfzKpRCFmHVIu.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/kMGCtLqZEedeIJqfzKpRCFmHVIu.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]Lethal Seduction [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
+
+
+
  <item> <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4766,15 +5386,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/t7GCogR4nNYpK6buK1jb4KiPV7y.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/t7GCogR4nNYpK6buK1jb4KiPV7y.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/t7GCogR4nNYpK6buK1jb4KiPV7y.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
  <title>[COLOR skyblue]Psycho-Pass [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title></item>
 
- 
- 
- 
 
 
 
@@ -4782,13 +5399,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
 
 <item>
  <link>$doregex[id3]</link>
@@ -4816,16 +5436,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/yFE5ALjp94oYIAnCDVhhCerH0ve.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/yFE5ALjp94oYIAnCDVhhCerH0ve.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/fR0NPtsOy0BpYY4axTfi8KgfAnh.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Arrasando El Campo De Batalla [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
- 
- 
+
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4844,16 +5464,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/F8Wb1Qi5IiFEpTsnSnKYEfX0Ki.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/F8Wb1Qi5IiFEpTsnSnKYEfX0Ki.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/jGPSVArC0GS2VVc0aGAqGTjfFOG.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]Ghost.in.the.shell [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
- 
- 
+
+
+
+
+
 <item>
  <link>$doregex[id3]</link>
 <regex>
@@ -4872,23 +5492,18 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
- <thumbnail>https://image.tmdb.org/t/p/original/t6xZjzexBG94KOsoGJQ8USRA8SS.jpg</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/t6xZjzexBG94KOsoGJQ8USRA8SS.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/original/hRIWza0mi7myTxZWq7I5GoBWFd1.jpg</fanart>
 <info>
  ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 <title>[COLOR skyblue]La Espada Sagrada  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] [/COLOR]</title> </item>
- 
- 
- 
- 
- 
+
+
+
+
+
  			<item>
 <title>>>  Pagina 2</title>
 <link>NA</link>
 <externallink>http://adryanlist.org/adryan/favoritas_esp2.xml</externallink>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>	 
-
-
-  
-  
-  
+<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart></item>
