@@ -45,13 +45,16 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR skyblue][makelist.param2][/COLOR]</title>
+<title>[COLOR skyblue][makelist.param1][/COLOR]</title>
 <link>$doregex[decodificarlo]</link>
  <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
 ]]></listrepeat>
-<expres>href=\'(.*?)\&(.*?)\'>EN\sVIVO</expres>
+<expres>i>(.*?)<[\w\W\s]{0,210}href="(.*?)"[\w\W\s]{0,90}IR\sA\sVER</expres>
 <page>http://beistv.net/</page>
 </regex>
+
+
+
 
 
 <regex>
@@ -63,7 +66,7 @@
 <regex>
 <name>ip</name>
 <expres>source:"(.*?)"</expres>
-<page>[makelist.param1]</page>
+<page>[makelist.param2]</page>
 </regex>
 
 
