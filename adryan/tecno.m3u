@@ -570,14 +570,14 @@ http://streaming.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/live.smil/.m3u8
 #EXTINF:-1,NEOX
 http://a3live-lh.akamaihd.net/i/nxhds/geoneox_1@35261/master.m3u8
 #EXTINF:-1,La sexta
-http://a3live-lh.akamaihd.net/i/lasexta_1@35272/index_2_av-b.m3u8[/QUOTE]
+http://a3live-lh.akamaihd.net/i/lasexta_1@35272/index_2_av-b.m3u8
 
 
 
 
 
 
-#EXTINF:-1,Deportes
+#EXTINF:-1,FOX HD
 http://35.196.195.222/hls/live/channel5.m3u8
 #EXTINF:-1,TNT
 http://35.196.195.222/hls/live/channel8.m3u8
@@ -591,12 +591,20 @@ http://35.196.195.222/hls/live/channel7.m3u8
 http://35.196.195.222/hls/live/channel4.m3u8
 #EXTINF:-1,Fox Sports2
 http://35.196.195.222/hls/live/channel6.m3u8
-#EXTINF:-1,TNT Sports
-http://gratis.iptvcanales.com/~ifkpxwth/redirect/diademuertos/J02/509.m3u8
-#EXTINF:-1,TycSports
-http://gratis.iptvcanales.com/~ifkpxwth/redirect/diademuertos/J02/274.m3u8
-#EXTINF:-1,Depo
-http://live.abcast.net:8081/edge/ver51eabdcd931163d03523d82f27829f5d/chunks.m3u8?nimblesessionid=325377&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMy8yMDE3IDU6MTQ6MzggUE0maGFzaF92YWx1ZT14RFMrR202TzhMLysrTGRVNzA4TExBPT0mdmFsaWRtaW51dGVzPTEyMA==
+
+#EXTINF:-1,2
+http://35.196.195.222/hls/live/channel2.m3u8
+#EXTINF:-1,6
+http://35.196.195.222/hls/live/channel6.m3u8
+#EXTINF:-1,9
+http://35.196.195.222/hls/live/channel9.m3u8
+#EXTINF:-1,10
+http://35.196.195.222/hls/live/channel10.m3u8
+#EXTINF:-1,11
+http://35.196.195.222/hls/live/channel11.m3u8
+#EXTINF:-1, 5
+http://37.220.128.130:9100/5
+
 
 
 #EXTINF:-1,TEST(c)
