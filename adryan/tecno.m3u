@@ -289,6 +289,41 @@ http://adryan.jl.serv.net.mx/adryan.php?c=180&pf=3&k=DonacionParaQueSiga&f=.m3u8
 
 
 
+#EXTINF:-1,DISCOVERY CHANNEL (c)
+http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(DISCOVERY_CHANNEL_HD)/Stream(01)/index.m3u8
+#EXTINF:-1,DISCOVERY H&H (c)
+http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(DISCOVERY_HOME_HEALTH_HD)/Stream(01)/index.m3u8
+#EXTINF:-1,ID (c)
+http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(ID_HD)/Stream(01)/index.m3u8
+#EXTINF:-1,ANIMAL PLANET (c)
+http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(ANIMAL_PLANET_HD)/Stream(01)/index.m3u8
+#EXTINF:-1,A&E (c)
+http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(AE)/Stream(01)/index.m3u8
+#EXTINF:-1,FOX LIFE (c)
+http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(FOX_LIFE)/Stream(01)/index.m3u8
+#EXTINF:-1,FOX SERIES (c)
+http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(FOX1_HD)/Stream(01)/index.m3u8
+#EXTINF:-1,HBO (c)
+http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(HBO_HD)/Stream(01)/index.m3u8
+#EXTINF:-1,HBO 2 (c)
+http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(HBO_2_HD)/Stream(01)/index.m3u8
+#EXTINF:-1,HBO PLUS (c)
+http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(HBO_PLUS_HD)/Stream(01)/index.m3u8
+#EXTINF:-1,HBO FAMILY (c)
+http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(HBO_FAMILY_HD)/Stream(01)/index.m3u8
+#EXTINF:-1,DISNEY JUNIOR (c)
+http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(DISNEY_JR)/Stream(01)/index.m3u8
+#EXTINF:-1,NATGEO KIDS (c)
+http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(NATGEO_KIDS_HD)/Stream(01)/index.m3u8
+#EXTINF:-1,TOONCAST (c)
+http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(TOONCAST)/Stream(01)/index.m3u8
+#EXTINF:-1,CARTOON NETWORT (c)
+http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(CARTOON_NETWORK_HD)/Stream(01)/index.m3u8
+
+
+
+
+
 
 #EXTINF:-1,Heart TVhttp://ooyalahd2-f.akamaihd.net/i/globalradio02_delivery@156522/index_398_av-p.m3u8
 #EXTINF:-1,Capital TV
@@ -562,3 +597,19 @@ http://gratis.iptvcanales.com/~ifkpxwth/redirect/diademuertos/J02/509.m3u8
 http://gratis.iptvcanales.com/~ifkpxwth/redirect/diademuertos/J02/274.m3u8
 #EXTINF:-1,Depo
 http://live.abcast.net:8081/edge/ver51eabdcd931163d03523d82f27829f5d/chunks.m3u8?nimblesessionid=325377&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMy8yMDE3IDU6MTQ6MzggUE0maGFzaF92YWx1ZT14RFMrR202TzhMLysrTGRVNzA4TExBPT0mdmFsaWRtaW51dGVzPTEyMA==
+
+
+#EXTINF:-1,TEST(c)
+http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(ESPN_HD)/Stream(01)/index.m3u8
+#EXTINF:-1,TEST(c)
+http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(ESPN_2_HD)/Stream(01)/index.m3u8
+#EXTINF:-1,TEST(c)
+http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(ESPN)/Stream(01)/index.m3u8
+#EXTINF:-1,TEST(c)
+http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(ESPN_2)/Stream(01)/index.m3u8
+#EXTINF:-1,TEST(c)
+http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(FOX_SPORTS_HD)/Stream(01)/index.m3u8
+#EXTINF:-1,TEST(c)
+http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(FOX_SPORTS_2_HD)/Stream(01)/index.m3u8
+#EXTINF:-1,TEST(c)
+http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(TVC_DEPORTES)/Stream(01)/index.m3u8
