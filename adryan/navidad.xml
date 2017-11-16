@@ -69,7 +69,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/trivianita/peliculas-navidenas-el-rockero-41241/list,1,1</referer>
+<referer>http://diskokosmiko.mx/BellaNapoli/peliculas-navidenas-85927/list,1,1</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
@@ -112,7 +112,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/trivianita/peliculas-navidenas-el-rockero-41241/list,1,1</referer>
+<referer>http://diskokosmiko.mx/frankiepentangelli/cine-club-navidad-41970/list,1,1</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
