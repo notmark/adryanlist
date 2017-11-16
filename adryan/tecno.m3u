@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-id=" " tvg-logo="http://adryan.org/adryan/img/icon.png",• • • • •  A D R Y A N L I S T • • • • • •
 http://NA
 
-#EXTINF:-1 tvg-id=" " tvg-logo="http://adryan.org/adryan/img/alist.jpg",--- Donaciones http://paypal.me/adryanlist 
+#EXTINF:-1 tvg-id=" " tvg-logo="http://adryan.org/adryan/img/alist.jpg",--- Donaciones http://paypal.me/adryanlist
 https://hls.ssh101.com/live/rojax2d/index.m3u8
 #EXTINF:-1 tvg-id=" " tvg-logo="http://adryan.org/adryan/img/alist.jpg",--- Para el Manetener los Servidores
 https://hls.ssh101.com/live/rojax2d/index.m3u8
@@ -285,3 +285,280 @@ http://adryan.jl.serv.net.mx/adryan.php?c=172&pf=3&k=DonacionParaQueSiga&f=.m3u8
 http://adryan.jl.serv.net.mx/adryan.php?c=950&pf=3&k=DonacionParaQueSiga&f=.m3u8
 #EXTINF:-1,AYMSPORTS
 http://adryan.jl.serv.net.mx/adryan.php?c=180&pf=3&k=DonacionParaQueSiga&f=.m3u8
+
+
+
+
+
+#EXTINF:-1,Heart TVhttp://ooyalahd2-f.akamaihd.net/i/globalradio02_delivery@156522/index_398_av-p.m3u8
+#EXTINF:-1,Capital TV
+http://ooyalahd2-f.akamaihd.net/i/globalradio01_delivery@156521/index_656_av-p.m3u8
+#EXTINF:-1,Heart TV HD
+http://ooyalahd2-f.akamaihd.net/i/globalradio02_delivery@156522/master.m3u8
+#EXTINF:-1,Capital TV HD
+http://ooyalahd2-f.akamaihd.net/i/globalradio01_delivery@156521/master.m3u8
+#EXTINF:-1, Kronehit TV
+http://bitcdn-kronehit-live.bitmovin.com/m3u8s/bitcodin.m3u8
+#EXTINF:-1,Radio Capital TV
+http://capital_tv-lh.akamaihd.net/i/CapitalTv_1@183098/index_5_av-p.m3u8?sd=10&rebase=on?e74
+#EXTINF:-1,OTTO 80 FM
+http://live.youiptv.ch:1935/8FM/ngrp:8FM_all/playlist.m3u8?e74
+#EXTINF:-1,Hit tv
+http://tst.es.flash.glb.ipercast.net/tst.es-live/live/chuklist.m3u8
+#EXTINF:-1,Virgin TV
+rtmp://fms.105.net:1935/live/virgin2
+#EXTINF:-1,RETRO
+http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
+#EXTINF:-1,Deluxe Music
+http://server55.livestreamingcdn.com:1935/tulixdemo/tulixdemo/playlist.m3u8
+#EXTINF:-1,NRJ HIts
+http://5.196.138.6:1935/live/nrjbelgique_720p/chunklist_w1562122761.m3u8
+#EXTINF:-1,105 MUSIC
+http://fms.105.net:1935/live/105Test1/playlist.m3u8
+#EXTINF:-1,RADIO MONTE CARLO TV
+http://wow01.105.net/live/rmc1/chunklist_w776440177.m3u8
+#EXTINF:-1,Radio Italia Vision
+http://livetr.teleromagna.it/lifestyle/live/playlist.m3u8
+#EXTINF:-1,Radio Linea N.1 TV
+http://flash2.streaming.xdevel.com/radiolineatv/radiolineatv/playlist.m3u8
+#EXTINF:-1,Radio Number One TV
+http://wma02.fluidstream.net/RN1TV/livestream/playlist.m3u8
+#EXTINF:-1,Radio 51 TV
+http://wms.shared.streamshow.it:80/canale51/canale51/playlist.m3u8
+#EXTINF:-1,Radio Bruno
+http://37.48.83.35/radiobrunotv/radiobrunotv/playlist.m3u8
+#EXTINF:-1,RADIO ITALIA TV
+http://radioitaliatv-lh.akamaihd.net/i/radioitaliatv_1@329645/index_720x480_av-p.m3u8
+#EXTINF:-1,Radio Taormina TV
+http://flash5.streaming.xdevel.com:80/taorminatv/taorminatv/playlist.m3u8
+#EXTINF:-1,Radionorba Tv
+http://85.17.80.132:80/radionorbatv/norbatv_source.stream/playlist.m3u8
+#EXTINF:-1,Visual Radio
+http://wms.shared.streamshow.it/visualradio/mp4:visualradio/chunklist.m3u8
+#EXTINF:-1,The Voice
+http://31.13.217.76:1935/rtplive/thevoice_live.stream/playlist.m3u8
+#EXTINF:-1,Stars.TV
+http://starstv.live.e55-po.insyscd.net/starstvhd.smil/chunklist_b1100000.m3u8
+#EXTINF:-1,Bridge TV
+http://bl.webcaster.pro/media/start/free_9d6a8624a7702dddd15b6c4fbf272152_hd/65_91554723/6b805dbede42bab6bbb6c3b829e4a31b/4639979456.m3u8
+#EXTINF:-1,BRIDGE TV DANCE
+http://93.91.113.8:9999/play/a09a
+#EXTINF:-1,One.by HD
+http://rtmp.one.by:1300
+#EXTINF:-1,OneBY UHD
+http://rtmp.one.by:1400
+#EXTINF:-1,OneRUS HD
+http://rtmp.one.by:2300
+#EXTINF:-1,Music Choice Play
+http://edge.music-choice-play-chaina1.top.comcast.net/PlayMetadataInserter/play/chunklist.m3u8
+#EXTINF:-1,OCKA EXSPRES TV
+http://se01.se.ocko-live.service.cdn.cra.cz/playlist/live/ocko/live_hq.m3u8
+#EXTINF:-1,OCKA TV
+http://se01.se.ocko-live.service.cdn.cra.cz/playlist/live/ocko/live_lq.m3u8
+#EXTINF:-1,OCKA TV OLDS
+http://se02.se.ocko-live.service.cdn.cra.cz/playlist/live/ocko_gold/live_hq.m3u8
+#EXTINF:-1,ESKA BEST MUSIC TV
+http://stream.cdn.smcloud.net/best-t/best_720p/playlist.m3u8
+#EXTINF:-1,ESKA PARTY TV
+http://stream.cdn.smcloud.net/eska_party-t/eska_party_720p/playlist.m3u8
+#EXTINF:-1,ESKA ROCK TV
+http://stream.cdn.smcloud.net/eska_rock-t/eska_rock_720p/playlist.m3u8
+#EXTINF:-1,MUSIC VOX TV
+http://stream.cdn.smcloud.net/vox2-p/stream1/playlist.m3u8
+#EXTINF:-1,MUSIC VOX TV Olds cool
+http://stream.cdn.smcloud.net/vox-t/vox_720p/playlist.m3u8
+#EXTINF:-1,Polo PARTY TV
+http://stream.cdn.smcloud.net/polo_party-t/polo_party_720p/playlist.m3u8
+#EXTINF:-1,MUSIC box
+http://94.43.239.178:8080/CHANNEL470/BITRATE0/playlist.m3u8
+#EXTINF:-1,Music Box UA
+http://212.26.132.86/hls/mb_ua.m3u8
+#EXTINF:-1,Banovina TV
+http://video.radio-banovina.hr:1935/live/myStream/playlist.m3u8
+#EXTINF:-1,Top sound TV
+http://tvstream.tvtopsound.com:1935/live/ngrp:mpegts.stream_all/chunklist_w1960175513_b1248000.m3u8
+#EXTINF:-1,Duga Plus
+http://w10.streamgb.com:1935/dugaplus/dugaplus/playlist.m3u8
+#EXTINF:-1,Power HD
+http://powertv.cdnturk.com/powertv/powertv.smil/playlist.m3u8
+#EXTINF:-1,Power Turk HD
+http://powertv.cdnturk.com/powertv/powerturktv.smil/playlist.m3u8
+#EXTINF:-1,Nebiset
+http://hls.nebiset.tv/nebiset.m3u8
+#EXTINF:-1,XITE BASE
+http://highvolume03.streampartner.nl:1935/vleugels_hd5/livestream/index.m3u8
+#EXTINF:-1,XITE POP
+http://highvolume03.streampartner.nl:1935/vleugels_hd4/livestream/playlist.m3u8
+#EXTINF:-1,KLIPKAR TV
+http://live.wowza.kpnstreaming.nl/omropfryslanlive/OFstream01.smil/playlist.m3u8
+#EXTINF:-1,Amazing
+http://dcs-188-64-85-40.atmcdn.pl/hls/mm/multimedia/live/amazing/live.livx/playlist.m3u8
+#EXTINF:-1,m2o tv
+http://m2otv-lh.akamaihd.net/i/m2oTv_1@186074/index_600_av-b.m3u8
+#EXTINF:-1,NR1 TV
+http://mn-l.mncdn.com/birnumaramedya_live/nr1tv.sdp/master.m3u8
+#EXTINF:-1,HIT Music
+http://1mstream.digicable.hu/hitmusic/hitmusic.m3u8
+#EXTINF:-1,AlbMusic TV
+http://188.138.17.8:1935/albuk/albmus.stream/playlist.m3u8
+#EXTINF:-1,AlbMusic TV 2
+http://188.138.17.8:1935/albuk/albuk2.stream/playlist.m3u8
+#EXTINF:-1,AlbMusic TV 2
+rtmp://188.138.17.8:1935/albuk/albuk2.stream
+#EXTINF:-1,City TV
+http://nodeb.gocaster.net:1935/CGL/_definst_/mp4:TODAYFM_TEST2/stream.m3u8
+#EXTINF:-1,Kronehit HD
+http://bitcdn-kronehit-live.bitmovin.com/hls/3000k/bitcodin.m3u8?version=3#no_vod
+#EXTINF:-1,Magic TV
+http://31.13.217.76:1935/magictv/magictv_live.stream/playlist.m3u8
+#EXTINF:-1,JAYZEE
+http://77.92.76.135:1935/jayzee/livestream/master.m3u8
+#EXTINF:-1,Vibee TV
+http://46.101.21.42:8081/live/live2/playlist.m3u8
+#EXTINF:-1,DREAM
+http://live.netd.com.tr/S2/HLS_LIVE/dreamtv/1000/prog_index.m3u8
+#EXTINF:-1,DREAM TURK
+http://live.netd.com.tr/S1/HLS_LIVE/dreamturktv/1000/prog_index.m3u8
+#EXTINF:-1,TRT MUZIK
+http://trtcanlitv-lh.akamaihd.net/i/TRTMUZIK_1@181845/master.m3u8
+#EXTINF:-1,ROMA TV BG
+http://185.46.161.3/hls/sd.m3u8
+#EXTINF:-1,DSTV MUSIC
+rtmp://46.249.95.140/live/livestream
+#EXTINF:-1,Klik TV
+http://92.62.234.201:11234
+#EXTINF:-1,Rock One TV
+mmsh://mediatv2.topix.it/24RockOne66
+#EXTINF:-1,1Music (Mold)
+http://x1-music-channelx.api.channel.livestream.com/3.0/playlist.m3u8
+#EXTINF:-1,Med Muzik
+http://178.33.61.33:1936/medmuzik/muzikakurdi/playlist.m3u8
+#EXTINF:-1,Visual Radio
+http://wms.shared.streamshow.it/visualradio/mp4:visualradio/chunklist.m3u8
+#EXTINF:-1,CMC TV
+http://cmctv.ios.internapcdn.net/cmctv_vitalstream_com/live_1/CMCUSA/CCURstream0.m3u8
+#EXTINF:-1,ATOMIC TV
+http://5.154.185.153/hls/live.m3u8
+#EXTINF:-1,The Voice
+http://31.13.217.76:1935/rtplive/thevoice_live.stream/playlist.m3u8
+#EXTINF:-1,INDIES TV
+http://ec.playmedia.fr/indies-live/live/playlist.m3u8
+#EXTINF:-1,Radio Contact Vision
+http://contact-lh.akamaihd.net/i/CONTACT_1@321283/index_1200_av-p.m3u8
+#EXTINF:-1,RADIO U TV
+http://cdn-live-egress.rbmtv.com/rightbrainmedia-live-109/mp4:radioutv2/playlist.m3u8
+#EXTINF:-1,GD TV
+rtmp://glasdrine.cutuk.net:1935/3ghu788/GlasDrine
+#EXTINF:-1,1Music
+http://stream.1music.hu/stream/1music.m3u8
+#EXTINF:-1,4 Music
+http://stream01.yamgo.com/iPhone/HLS_TS/mptslive/4_music-mobile.3gp.m3u8
+#EXTINF:-1,4fun TV
+http://video.popler.tv:1935/publishlive/4funtv/playlist.m3u8
+#EXTINF:-1,Clubbing TV
+http://stream01.yamgo.com/iPhone/HLS_TS/mptslive/clubbingtv-mobile.3gp.m3u8
+#EXTINF:-1,DFM
+http://tv.artcom-venture.de:1322/dmf/tv_360.m3u8
+#EXTINF:-1,Slagr TV
+http://slagrtv-live-hls.ssl.cdn.cra.cz:80/channels/slagrtv/playlist/cze/live_hq.m3u8
+#EXTINF:-1,GO TV
+http://nstream17.gotv.at:1936/live/gotvlive_576p/playlist.m3u8
+#EXTINF:-1,HIHOP TV
+http://stream.cdn.smcloud.net/hiphoptv-p/stream1/playlist.m3u8
+#EXTINF:-1,Topestrada Music
+http://4.31.30.145:9269
+#EXTINF:-1,TV Istogo
+http://4.31.30.145:9022
+#EXTINF:-1,Code Fashion
+http://stream01.yamgo.com/iPhone/HLS_TS/mptslive/clubbingtv-mobile.3gp.m3u8
+
+
+
+
+
+
+
+
+
+#EXTINF:-1, AMC
+http://37.220.128.130:9100/11
+#EXTINF:-1, AZTECA CINEMA
+https://vivoplay-i.akamaihd.net/hls/live/255328/canal9/master2500k.m3u8
+#EXTINF:-1, Telecine Action
+http://BelcoCanaisHdPremium@stmv2.srvstm.com/mandruva/mandruva/playlist.m3u8
+#EXTINF:-1, CINE +
+http://189.86.89.116/hls-live/livecm/_definst_/liveevent/livestream.m3u8
+#EXTINF:-1, Cine AR
+http://ar.watcha.live/ch17/hi.m3u8
+#EXTINF:-1, Katy HD Movies
+https://hls-ord-1a.vaughnsoft.net/ams/live/live_katyhd/chunklist.m3u8
+#EXTINF:-1, Vitato Movie
+https://hls-ord-1a.vaughnsoft.net/ams/live/live_vitatotv/chunklist.m3u8
+#EXTINF:-1, CINE STAR
+https://hls-ord-1a.vaughnsoft.net/ams/live/live_cine_star/chunklist.m3u8
+#EXTINF:-1, Cine Calidad
+https://hls-ord-1a.vaughnsoft.net/nyc/live/live_cine_calidad/chunklist.m3u8
+#EXTINF:-1, Movies2
+http://dlhls.cdn.zhanqi.tv/zqlive/35180_KUDhx.m3u8
+#EXTINF:-1, Movies3
+http://dlhls.cdn.zhanqi.tv/zqlive/49427_jmACJ.m3u8
+#EXTINF:-1, Movies4
+http://dlhls.cdn.zhanqi.tv/zqlive/102444_ZGmRp.m3u8
+
+
+
+
+
+
+
+
+#EXTINF:-1,A3S Atreseries
+http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/index_3_av-b.m3u8
+#EXTINF:-1,RealMadridTV
+http://rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/index_1000_av-b.m3u8
+#EXTINF:-1,RMTV
+http://rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/index_1000_av-b.m3u8
+#EXTINF:-1,MEGA
+http://a3live-lh.akamaihd.net/i/mega/geomega_1@328914/index_4_av-b.m3u8
+#EXTINF:-1,MEGA2
+http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/index_3_av-p.m3u8
+#EXTINF:-1,MEGA3
+http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/index_2_av-b.m3u8
+#EXTINF:-1,Antena3(720p)
+http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_4_av-p.m3u8
+#EXTINF:-1,Antena3
+http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_2_av-p.m3u8
+#EXTINF:-1,LaSexta(720p)
+http://a3live-lh.akamaihd.net/i/lasexta_1@35272/index_4_av-p.m3u8
+#EXTINF:-1,13 TV
+http://streaming.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/live.smil/.m3u8
+#EXTINF:-1,NEOX
+http://a3live-lh.akamaihd.net/i/nxhds/geoneox_1@35261/master.m3u8
+#EXTINF:-1,La sexta
+http://a3live-lh.akamaihd.net/i/lasexta_1@35272/index_2_av-b.m3u8[/QUOTE]
+
+
+
+
+
+
+#EXTINF:-1,Deportes
+http://35.196.195.222/hls/live/channel5.m3u8
+#EXTINF:-1,TNT
+http://35.196.195.222/hls/live/channel8.m3u8
+#EXTINF:-1,ESPN
+http://35.196.195.222/hls/live/channel1.m3u8
+#EXTINF:-1,ESPN2
+http://35.196.195.222/hls/live/channel3.m3u8
+#EXTINF:-1,ESPN3
+http://35.196.195.222/hls/live/channel7.m3u8
+#EXTINF:-1,Fox Sports
+http://35.196.195.222/hls/live/channel4.m3u8
+#EXTINF:-1,Fox Sports2
+http://35.196.195.222/hls/live/channel6.m3u8
+#EXTINF:-1,TNT Sports
+http://gratis.iptvcanales.com/~ifkpxwth/redirect/diademuertos/J02/509.m3u8
+#EXTINF:-1,TycSports
+http://gratis.iptvcanales.com/~ifkpxwth/redirect/diademuertos/J02/274.m3u8
+#EXTINF:-1,Depo
+http://live.abcast.net:8081/edge/ver51eabdcd931163d03523d82f27829f5d/chunks.m3u8?nimblesessionid=325377&wmsAuthSign=c2VydmVyX3RpbWU9MTEvMy8yMDE3IDU6MTQ6MzggUE0maGFzaF92YWx1ZT14RFMrR202TzhMLysrTGRVNzA4TExBPT0mdmFsaWRtaW51dGVzPTEyMA==
