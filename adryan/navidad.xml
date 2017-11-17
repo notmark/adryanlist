@@ -39,45 +39,6 @@
 
 
 
-<item>
-<title> [COLOR lime]•[/COLOR]    [COLOR coral][B]Sala 1 [/COLOR][COLOR skyblue]en Audio Latino[/COLOR] [/B]</title>
-<link>$doregex[makelist]</link>
-
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>$pyFunction:'[makelist.param3]'.replace(".mp4", " [COLOR blue][I]by Adryanlist[/I][/COLOR]").replace(".avi", " [COLOR blue][I]by Adryanlist[/I][/COLOR]")</title>
-<link>$doregex[getUrl]</link>
-<thumbnail>http://adryanlist.org/adryan/img/navidad.png</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/BellaNapoli/peliculas-navidenas-85927/list,1,15</page>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/trivianita/peliculas-navidenas-el-rockero-41241/list,1,15</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://adryanlist.org/adryan/img/navidad.png</thumbnail>
-</item>
-
-
 
 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR coral][B]Sala 2 [/COLOR][COLOR skyblue]en Audio Latino[/COLOR] [/B]</title>
@@ -129,7 +90,7 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>$pyFunction:'[makelist.param3]'.replace(".mp4", " [COLOR blue][I]by Adryanlist[/I][/COLOR]").replace(".avi", " [COLOR blue][I]by Adryanlist[/I][/COLOR]")</title>
+<title>[makelist.param3]</title>
 <link>$doregex[getUrl]</link>
 <thumbnail>http://adryanlist.org/adryan/img/navidad.png</thumbnail>
 ]]></listrepeat>
@@ -159,8 +120,3 @@
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/navidad.png</thumbnail>
 </item>
-
-
-
-
-
