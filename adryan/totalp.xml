@@ -94,8 +94,19 @@ def GetLSProData(page_data,Cookie_Jar,m):
  			<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/tp.jpg</thumbnail>
 <fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
+<item>
+<title>[COLOR lime]•  [/COLOR][COLOR skyblue][B]TotalPlay[/B] [/COLOR] [COLOR lightslategray][ Opcion [COLOR lightblue][B]Adryanlist Claro[/B] [/COLOR]][/COLOR][COLOR lightslategray][B]   [/B] [/COLOR] </title>
+<link>NA</link>2
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/claro.m3u</externallink>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/tp.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
-
+<item>
+<title>[COLOR lime]•  [/COLOR][COLOR skyblue][B]TotalPlay[/B] [/COLOR] [COLOR lightslategray][ Opcion [COLOR lightblue][B]Latinos fta[/B] [/COLOR]][/COLOR][COLOR lightslategray][B]   [/B] [/COLOR] </title>
+<link>NA</link>2
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/fta2.m3u</externallink>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/tp.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
 			<item>
 		<title>[COLOR lime]•  [/COLOR][COLOR skyblue][B]TotalPlay[/B] [/COLOR] [COLOR lightslategray][ Opcion [COLOR lightblue][B]G67[/B] [/COLOR]][/COLOR][COLOR lightslategray][B]  [/B] [/COLOR] </title>
