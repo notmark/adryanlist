@@ -36,10 +36,8 @@
 <thumbnail>http://adryanlist.org/adryan/img/navidad.png</thumbnail>
 </item>
 
-
-
 <item>
-<title> [COLOR lime]•[/COLOR]    [COLOR coral][B]Sala 2 [/COLOR][COLOR skyblue]en Audio Latino[/COLOR] [/B]</title>
+<title> [COLOR lime]•[/COLOR]    [COLOR coral][B]Sala -2 [/COLOR][COLOR skyblue]en Audio Latino[/COLOR] [/B]</title>
 <link>$doregex[makelist]</link>
 
 <regex>
@@ -69,12 +67,16 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/BellaNapoli/peliculas-navidenas-85927/list,1,1</referer>
+<referer>http://diskokosmiko.mx/trivianita/peliculas-navidenas-el-rockero-41241/list,1,1</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/navidad.png</thumbnail>
 </item>
+
+
+
+
 
 
 
