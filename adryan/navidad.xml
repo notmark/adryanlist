@@ -41,7 +41,7 @@
 
 
 <item>
-<title> [COLOR lime]•[/COLOR]    [COLOR coral][B]Sala 2 [/COLOR][COLOR skyblue]en Audio Latino[/COLOR] [/B]</title>
+<title> [COLOR lime]•[/COLOR]    [COLOR coral][B]Sala 2 [/COLOR][COLOR skyblue]en Audio Castellano[/COLOR] [/B]</title>
 <link>$doregex[makelist]</link>
 
 <regex>
