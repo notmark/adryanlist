@@ -10,12 +10,6 @@
 
 
 
-<item>
-<title>[UPPERCASE][COLOR skyblue] Gran Hermano [/UPPERCASE][/COLOR] </title>
-<link>http://mset-prod-1.live-delivery.ooyala.com/out/u/3vkkbgnvsm2r5/104951/RsZXlnNTE6re1fFuFEI0UrdA2Uj7pNGM/cn/5d62490854b545598f64eaa84709400b_4.m3u8|User-Agent=iPad</link>
- <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
-
-
 
 
  <item>
@@ -162,10 +156,10 @@
 
 
 <item><title>[UPPERCASE][COLOR skyblue] TNT [/UPPERCASE][/COLOR] </title>
-<link>$doregex[get-id]|User-Agent=iPad</link>
+<link>$doregex[get-id]|Referer=http://verdirectotv.com/tv/digitales/plus-series.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
 <name>get-id</name>
-<expres>[",\'](h.*m3u8.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://vergol.com/live2/tnt.php</page>
 <referer>http://vertelevisor.com/tv/nacionales/axn.html</referer>
 </regex>
@@ -173,10 +167,10 @@
 
 
  <item><title>[UPPERCASE][COLOR skyblue] Calle 13 [/UPPERCASE][/COLOR] </title>
-<link>$doregex[get-id]|User-Agent=iPad</link>
+ <link>$doregex[get-id]|Referer=http://verdirectotv.com/tv/digitales/plus-series.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
 <name>get-id</name>
-<expres>[",\'](h.*m3u8.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://vergol.com/live/calle13.php</page>
 <referer>http://vertelevisor.com/tv/nacionales/axn.html</referer>
 <agent>iPad</agent>
@@ -186,10 +180,10 @@
 
 
   <item><title>[UPPERCASE][COLOR skyblue] Syfy [/UPPERCASE][/COLOR] </title>
-<link>$doregex[get-id]|User-Agent=iPad</link>
+  <link>$doregex[get-id]|Referer=http://verdirectotv.com/tv/digitales/plus-series.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
 <name>get-id</name>
-<expres>[",\'](h.*m3u8.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://vergol.com/live2/syfy.php</page>
 <referer>http://vertelevisor.com/tv/nacionales/axn.html</referer>
 <agent>iPad</agent>
@@ -199,10 +193,10 @@
 
 
   <item><title>[UPPERCASE][COLOR skyblue] Paramount Comedy [/UPPERCASE][/COLOR] </title>
-<link>$doregex[get-id]|User-Agent=iPad</link>
+  <link>$doregex[get-id]|Referer=http://verdirectotv.com/tv/digitales/plus-series.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
 <name>get-id</name>
-<expres>[",\'](h.*m3u8.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://vergol.com/live/paramountcomedy.php</page>
 <referer>http://vertelevisor.com/tv/nacionales/axn.html</referer>
 <agent>iPad</agent>
@@ -211,10 +205,10 @@
 
 
   <item><title>[UPPERCASE][COLOR skyblue] Hollywood [/UPPERCASE][/COLOR] </title>
-<link>$doregex[get-id]|User-Agent=iPad</link>
+  <link>$doregex[get-id]|Referer=http://verdirectotv.com/tv/digitales/plus-series.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
 <name>get-id</name>
-<expres>[",\'](h.*m3u8.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://vergol.com/live/hollywood.php</page>
 <referer>http://vertelevisor.com/tv/nacionales/axn.html</referer>
 <agent>iPad</agent>
@@ -236,10 +230,10 @@
 
 
     <item><title>[UPPERCASE][COLOR skyblue] Bio [/UPPERCASE][/COLOR] </title>
-<link>$doregex[get-id]|User-Agent=iPad</link>
-<regex>
-<name>get-id</name>
-<expres>[",\'](h.*m3u8.*?)'</expres>
+    <link>$doregex[get-id]|Referer=http://verdirectotv.com/tv/digitales/plus-series.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
+  <regex>
+  <name>get-id</name>
+  <expres>source: '(.*?)'</expres>
 <page>http://vergol.com/live/ten.php</page>
 <referer>http://vertelevisor.com/tv/nacionales/axn.html</referer>
 <agent>iPad</agent>
@@ -331,7 +325,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed2.php?file=tcmespmp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=tcmesp</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -454,7 +448,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embedn.php?file=hollywesp&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=hollywesp&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -509,7 +503,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://tst.es.flash.glb.ipercast.ne
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>source: '(.*?)'</expres>
+<expres>videoUrl = '(.*?)'</expres>
 <page>http://livesports.pw/embed2.php?file=aandeesp&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -524,7 +518,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://tst.es.flash.glb.ipercast.ne
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>source: '(.*?)'</expres>
+<expres>videoUrl = '(.*?)'</expres>
 <page>http://livesports.pw/embed2.php?file=nickjr&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -722,7 +716,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://hlslive.lcdn.une.net.co/v1/A
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>source: '(.*?)'</expres>
+<expres>videoUrl = '(.*?)'</expres>
 <page>http://livesports.pw/embed2.php?file=torotv&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -730,25 +724,14 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://hlslive.lcdn.une.net.co/v1/A
 
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
-<item>
-<title>[UPPERCASE][COLOR skyblue] Toros[/UPPERCASE][/COLOR] </title>
-<link>$doregex[get-id]|User-Agent=iPad</link>
-<regex>
-<name>get-id</name>
-<expres>[",\'](h.*m3u8.*?)[",\']</expres>
-<page>http://tumarcador.xyz/verdirectotv/9</page>
-<referer>http://verdirectotv.com/tv/digitales2/plustoros.html</referer>
-<agent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36&amp;Referer=http://www.dinozap.info/redirect/embedredi.php</agent>
-</regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
  <item><title>[UPPERCASE][COLOR skyblue] Toros [/UPPERCASE][/COLOR] </title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embedn.php?file=torotv&amp;width=650&amp;height=397</page>
+<page>http://livesports.pw/embed2.php?file=torotv&amp;width=650&amp;height=397</page>
 <referer>http://www.teletoro.com/</referer>
 <agent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36</agent>
 </regex>
@@ -759,11 +742,5 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://hlslive.lcdn.une.net.co/v1/A
 
 	<item><title>[UPPERCASE][COLOR skyblue] Toros   from teletoro.com [/UPPERCASE][/COLOR] </title>
 <link>https://hls.ssh101.com/live/SD360/index.m3u8|User-Agent=iPad</link>
-<regex>
-<name>get-id</name>
-<expres>[",\'](h.*m3u8.*?)[",\']</expres>
-<page>http://tumarcador.xyz/verdirectotv/9</page>
-<referer>http://verdirectotv.com/tv/digitales2/plustoros.html</referer>
-<agent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36&amp;Referer=http://www.dinozap.info/redirect/embedredi.php</agent>
-</regex>
+
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail><thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
