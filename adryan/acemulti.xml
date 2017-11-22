@@ -10,7 +10,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
-<title>[COLOR lightgreen][makelist.param1] [/COLOR]  [COLOR deepskyblue][makelist.param2] [/COLOR][COLOR lightslategray][makelist.param3] [/COLOR] [COLOR skyblue][B][makelist.param5] [/B] [/COLOR][COLOR lightyellow] [makelist.param7] [/COLOR]  [COLOR lightblue][[makelist.param4]] [/COLOR]</title>
+<title>[COLOR lightgreen][makelist.param1] [/COLOR]  [COLOR deepskyblue][makelist.param2] [/COLOR][COLOR lightslategray][makelist.param3] [/COLOR] [COLOR skyblue][B][makelist.param5] [/B] [/COLOR][COLOR lightyellow] [makelist.param6] [/COLOR]  [COLOR lightblue][[makelist.param4]] [/COLOR]</title>
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Adryanlist+[makelist.param5]+Arenavision</link>
 			<regex>
 			<name>hash</name>
@@ -49,7 +49,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
-<title>[COLOR lightgreen][makelist.param1] [/COLOR]  [COLOR deepskyblue][makelist.param2] [/COLOR][COLOR lightslategray][makelist.param3] [/COLOR] [COLOR skyblue][B][makelist.param5] [/B] [/COLOR][COLOR lightyellow] [makelist.param7] [/COLOR]  [COLOR lightblue][[makelist.param4]] [/COLOR]</title>
+<title>[COLOR lightgreen][makelist.param1] [/COLOR]  [COLOR deepskyblue][makelist.param2] [/COLOR][COLOR lightslategray][makelist.param3] [/COLOR] [COLOR skyblue][B][makelist.param5] [/B] [/COLOR][COLOR lightyellow] [makelist.param6] [/COLOR]  [COLOR lightblue][[makelist.param4]] [/COLOR]</title>
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Adryanlist+[makelist.param5]+Arenavision</link>
 			<regex>
 			<name>hash</name>
@@ -89,7 +89,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
-<title>[COLOR lightgreen][makelist.param1] [/COLOR]  [COLOR deepskyblue][makelist.param2] [/COLOR][COLOR lightslategray][makelist.param3] [/COLOR] [COLOR skyblue][B][makelist.param5] [/B] [/COLOR][COLOR lightyellow] [makelist.param7] [/COLOR]  [COLOR lightblue][[makelist.param4]] [/COLOR]</title>
+<title>[COLOR lightgreen][makelist.param1] [/COLOR]  [COLOR deepskyblue][makelist.param2] [/COLOR][COLOR lightslategray][makelist.param3] [/COLOR] [COLOR skyblue][B][makelist.param5] [/B] [/COLOR][COLOR lightyellow] [makelist.param6] [/COLOR]  [COLOR lightblue][[makelist.param4]] [/COLOR]</title>
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Adryanlist+[makelist.param5]+Arenavision</link>
 			<regex>
 			<name>hash</name>
@@ -125,7 +125,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
-<title>[COLOR lightgreen][makelist.param1] [/COLOR]  [COLOR deepskyblue][makelist.param2] [/COLOR][COLOR lightslategray][makelist.param3] [/COLOR] [COLOR skyblue][B][makelist.param5] [/B] [/COLOR][COLOR lightyellow] [makelist.param7] [/COLOR]  [COLOR lightblue][[makelist.param4]] [/COLOR]</title>
+<title>[COLOR lightgreen][makelist.param1] [/COLOR]  [COLOR deepskyblue][makelist.param2] [/COLOR][COLOR lightslategray][makelist.param3] [/COLOR] [COLOR skyblue][B][makelist.param5] [/B] [/COLOR][COLOR lightyellow] [makelist.param6] [/COLOR]  [COLOR lightblue][[makelist.param4]] [/COLOR]</title>
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Adryanlist+[makelist.param5]+Arenavision</link>
 			<regex>
 			<name>hash</name>
@@ -164,7 +164,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
-<title>[COLOR lightgreen][makelist.param1] [/COLOR]  [COLOR deepskyblue][makelist.param2] [/COLOR][COLOR lightslategray][makelist.param3] [/COLOR] [COLOR skyblue][B][makelist.param5] [/B] [/COLOR][COLOR lightyellow] [makelist.param7] [/COLOR]  [COLOR lightblue][[makelist.param4]] [/COLOR]</title>
+<title>[COLOR lightgreen][makelist.param1] [/COLOR]  [COLOR deepskyblue][makelist.param2] [/COLOR][COLOR lightslategray][makelist.param3] [/COLOR] [COLOR skyblue][B][makelist.param5] [/B] [/COLOR][COLOR lightyellow] [makelist.param6] [/COLOR]  [COLOR lightblue][[makelist.param4]] [/COLOR]</title>
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Adryanlist+[makelist.param5]+Arenavision</link>
 			<regex>
 			<name>hash</name>
@@ -198,7 +198,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
-<title>[COLOR lightgreen][makelist.param1] [/COLOR]  [COLOR deepskyblue][makelist.param2] [/COLOR][COLOR lightslategray][makelist.param3] [/COLOR] [COLOR skyblue][B][makelist.param5] [/B] [/COLOR][COLOR lightyellow] [makelist.param7] [/COLOR]  [COLOR lightblue][[makelist.param4]] [/COLOR]</title>
+<title>[COLOR lightgreen][makelist.param1] [/COLOR]  [COLOR deepskyblue][makelist.param2] [/COLOR][COLOR lightslategray][makelist.param3] [/COLOR] [COLOR skyblue][B][makelist.param5] [/B] [/COLOR][COLOR lightyellow] [makelist.param6] [/COLOR]  [COLOR lightblue][[makelist.param4]] [/COLOR]</title>
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Adryanlist+[makelist.param5]+Arenavision</link>
 			<regex>
 			<name>hash</name>
@@ -232,7 +232,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
-<title>[COLOR lightgreen][makelist.param1] [/COLOR]  [COLOR deepskyblue][makelist.param2] [/COLOR][COLOR lightslategray][makelist.param3] [/COLOR] [COLOR skyblue][B][makelist.param5] [/B] [/COLOR][COLOR lightyellow] [makelist.param7] [/COLOR]  [COLOR lightblue][[makelist.param4]] [/COLOR]</title>
+<title>[COLOR lightgreen][makelist.param1] [/COLOR]  [COLOR deepskyblue][makelist.param2] [/COLOR][COLOR lightslategray][makelist.param3] [/COLOR] [COLOR skyblue][B][makelist.param5] [/B] [/COLOR][COLOR lightyellow] [makelist.param6] [/COLOR]  [COLOR lightblue][[makelist.param4]] [/COLOR]</title>
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Adryanlist+[makelist.param5]+Arenavision</link>
 			<regex>
 			<name>hash</name>
@@ -268,7 +268,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
-<title>[COLOR lightgreen][makelist.param1] [/COLOR]  [COLOR deepskyblue][makelist.param2] [/COLOR][COLOR lightslategray][makelist.param3] [/COLOR] [COLOR skyblue][B][makelist.param5] [/B] [/COLOR][COLOR lightyellow] [makelist.param7] [/COLOR]  [COLOR lightblue][[makelist.param4]] [/COLOR]</title>
+<title>[COLOR lightgreen][makelist.param1] [/COLOR]  [COLOR deepskyblue][makelist.param2] [/COLOR][COLOR lightslategray][makelist.param3] [/COLOR] [COLOR skyblue][B][makelist.param5] [/B] [/COLOR][COLOR lightyellow] [makelist.param6] [/COLOR]  [COLOR lightblue][[makelist.param4]] [/COLOR]</title>
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Adryanlist+[makelist.param5]+Arenavision</link>
 			<regex>
 			<name>hash</name>
