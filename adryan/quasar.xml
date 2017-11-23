@@ -58,7 +58,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B] BUSCADOR [/B] [/COLOR][COLOR skyblue] GranTorrent [/COLOR] [COLOR lightslategray] Castellano[/COLOR] </title>
+<title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B] BUSCADOR [/B] [/COLOR][COLOR skyblue] GranTorrent [/COLOR] [COLOR lightslategray]** Castellano[/COLOR] </title>
 <link>$doregex[makelist2]</link>
 
 
@@ -74,10 +74,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres><![CDATA[imagen-post[\w\W\s]{0,8}href="(.*?)"[\w\W\s]{0,7}src="(.*?)"[\w\W\s]{0,400}bloque-inferior">\n(.*?)<]]></expres>
 <page>https://grantorrent.com/?s=$doregex[search]</page>
 </regex>
-
-
-
-
 
 <regex>
 <name>search</name>
@@ -105,7 +101,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>[makelist2.param2]</thumbnail>
 </regex>
 ]]></listrepeat>
-<expres><![CDATA[alt="(.*?)".*?\/td><td>(.*?)<[\w\W\s]{0,7}td>(.*?)<[\w\W\s]{0,25}href="(.*?torrent)"]]></expres>
+<expres><![CDATA[alt="(.*?)".*?td>\n<td>(.*?)<.*?\n<td>(.*?)<.*?\n.*?href="(.*?torrent)"]]></expres>
 <page>[makelist2.param1]</page>
 </regex>
 <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/torrent.png</thumbnail>
@@ -114,7 +110,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-
+alt="(.*?)".*?td>\n<td>(.*?)<.*?\n<td>(.*?)<.*?\n.*?href="(.*?torrent)"
 
 
 
@@ -290,9 +286,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>https://grantorrent.com/page/[makelist3.param1]/</page>
 </regex>
 
+<expres><![CDATA[alt="(.*?)".*?td>\n<td>(.*?)<.*?\n<td>(.*?)<.*?\n.*?href="(.*?torrent)"]]></expres>
 
-
-
+href="(.*?)".*?src="(.*?)".*?\n.*?bloque-superior\">\n(.*?)<.*?\n.*?\n.*?\n.*?\n.*?bloque-inferior\">\n(.*?)<
 
 
 <regex>
