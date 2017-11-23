@@ -1167,7 +1167,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <regex>
 <name>makelist3</name>
 <listrepeat><![CDATA[
-<title>[makelist3.param3]</title>
+<title>[makelist3.param2]</title>
 <link>plugin://plugin.video.quasar/play?uri=$doregex[link].torrent</link>
  <thumbnail>[makelist3.param2]</thumbnail>
 ]]></listrepeat>
@@ -1189,6 +1189,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
 </item>
 
+
+
+
+
 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]NEWPCT[/B] [/COLOR][COLOR skyblue] -Peliculas BRRIP[/COLOR] [COLOR lightslategray]    [Audio Castellano] [/COLOR] </title>
 
@@ -1197,7 +1201,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <regex>
 <name>makelist3</name>
 <listrepeat><![CDATA[
-<title>[makelist3.param3]</title>
+<title>[makelist3.param2]</title>
 <link>plugin://plugin.video.quasar/play?uri=$doregex[link].torrent</link>
  <thumbnail>[makelist3.param2]</thumbnail>
 ]]></listrepeat>
