@@ -287,7 +287,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)"[\w\W\s]{0,72}src="(.*?)"[\w\W\s]{0,110}bloque_superior">(.*?)<[\w\W\s]{0,110}icono\_(.*?).png[\w\W\s]{0,300}bloque_inferior">(.*?)<]]></expres>
-<page>https://pasateatorrent.com/page/[makelist3.param1]/</page>
+<page>https://grantorrent.com/page/[makelist3.param1]/</page>
 </regex>
 
 <regex>
@@ -399,7 +399,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)"[\w\W\s]{0,72}src="(.*?)"[\w\W\s]{0,110}bloque_superior">(.*?)<[\w\W\s]{0,110}icono\_(.*?).png[\w\W\s]{0,300}bloque_inferior">(.*?)<]]></expres>
-<page>https://pasateatorrent.com</page>
+<page>https://grantorrent.com</page>
 </regex>
 
 <regex>
@@ -888,64 +888,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- <tem>
-<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]Kickass Torrents[/B] [/COLOR][COLOR skyblue] Castellano[/COLOR] [COLOR lightslategray] Recientes[/COLOR] </title>
-<link>$doregex[showPages]</link>
-<thumbnail> </thumbnail>
-
-<regex>
-<name>showPages</name>
-<listrepeat><![CDATA[
-   <title>[COLOR skyblue]Pagina# [showPages.param1][/COLOR]</title>
-    <link>$doregex[makelist]</link>
-
-]]></listrepeat>
-<expres>([0-9]+),?</expres>
-<page>$doregex[getPageNumbers]</page>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
-
-
-<regex>
-<name>getPageNumbers</name>
-<expres><![CDATA[#$pyFunction
-import re
-def GetLSProData(page_data,Cookie_Jar,m):
-  frompage,topage=re.findall( "results ([0-9]+)-([0-9]+)",page_data)[0]
-  frompage=int(frompage)
-  topage=int(topage)
-  print range(frompage,topage)
-  return range(frompage,topage)
-]]></expres>
-<page>https://kat.cr/usearch/castellano%20category%3Amovies/1/?field=time_add&amp;sorder=desc</page>
-<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-<referer>http://kat.cr/movies/</referer>
-<cookieJar></cookieJar>
-</regex>
-
-
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
- <title>[COLOR lightblue][makelist.param2][/COLOR]</title>
-<link>plugin://plugin.video.quasar/play?uri=magnet:[makelist.param1]</link>
-
-</regex>
-]]></listrepeat>
-<expres>href="magnet:(.*?)"[\w\W]*?class="cellMainLink">(.*?)<</expres>
-<page>https://kat.cr/usearch/castellano%20category%3Amovies/[showPages.param1]/?field=time_add&sorder=desc</page>
-<referer>https://kat.cr/usearch/castellano%20category%3Amovies/[showPages.param1]/?field=time_add&sorder=desc</referer>
-<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-</regex>
-<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/torrent.png</thumbnail>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
-</item>
-
-
-
-
 
 
 
@@ -1234,7 +1176,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>plugin://plugin.video.quasar/play?uri=$doregex[link].torrent</link>
  <thumbnail>[makelist3.param2]</thumbnail>
 ]]></listrepeat>
-<expres>href='(.*?)'[\w\W\s]{0,60}src='(.*?)'[\w\W\s]{0,180}h3>(.*?)<</expres>
+<expres>href="(.*?)".*?Descargar(.*?)gratis.*?src="(.*?)</expres>
 <page>http://www.newpct.com/estrenos-de-cine/</page>
 <referer>http://www.newpct.com/</referer>
 </regex>
@@ -1264,7 +1206,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>plugin://plugin.video.quasar/play?uri=$doregex[link].torrent</link>
  <thumbnail>[makelist3.param2]</thumbnail>
 ]]></listrepeat>
-<expres>href='(.*?)'[\w\W\s]{0,60}src='(.*?)'[\w\W\s]{0,180}h3>(.*?)<</expres>
+<expres>href="(.*?)".*?Descargar(.*?)gratis.*?src="(.*?)</expres>
 <page>http://www.newpct.com/peliculas/</page>
 <referer>http://www.newpct.com/</referer>
 </regex>
