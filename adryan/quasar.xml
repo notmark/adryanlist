@@ -186,7 +186,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B] BUSCADOR [/B] [/COLOR][COLOR skyblue] TorrentKing [/COLOR] [COLOR lightslategray] [/COLOR] </title>
+<title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B] BUSCADOR [/B] [/COLOR][COLOR skyblue] TorrentKing* [/COLOR] [COLOR lightslategray] [/COLOR] </title>
 <link>$doregex[makelist2]</link>
 
 <regex>
@@ -198,9 +198,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <thumbnail>[makelist2.param4]</thumbnail>
 
 ]]></listrepeat>
-<expres><![CDATA[href="(.*?)"\stitle="(.*?)"[\w\W\s]{0,199}title="(.*?)".*?data-src="(.*?)"]]></expres>
+<expres><![CDATA[href="(.*?)"\stitle="(.*?)"[\w\W\s]{0,180}movie-image.*?data-src="(.*?)"]]></expres>
 <page>https://torrentking.eu/search?mk=$doregex[search]</page>
 </regex>
+
+
+
+
+
+
 
 <regex>
 <name>search</name>
