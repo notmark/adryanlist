@@ -250,9 +250,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
-
-
 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]PasateATorrent[/B] [/COLOR][COLOR skyblue] CARTELERA [/COLOR] [COLOR lightslategray] Castellano[/COLOR] </title>
 <link>$doregex[makelist3]</link>
@@ -277,37 +274,34 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>makelist2</name>
 <listrepeat><![CDATA[
  <SetViewMode>55</SetViewMode>
- <title>[COLOR skyblue][UPPERCASE][B] [makelist2.param5][/B][/UPPERCASE][/COLOR]   [COLOR white]Calidad:[makelist2.param3][/COLOR]  </title>
+ <title>[COLOR skyblue][UPPERCASE][B][makelist2.param3]   [/B][/UPPERCASE][/COLOR]  </title>
 <link>$doregex[makelist]</link>
 <thumbnail>[makelist2.param2]</thumbnail>
 </regex>
 ]]></listrepeat>
-<expres><![CDATA[href="(.*?)".*?src="(.*?)"[\w\W\s]{0,350}bloque_superior">\n(.*?)<[\w\W\s]{0,110}icono\_(.*?).png[\w\W\s]{0,40}bloque_inferior">\n(.*?)<]]></expres>
+<expres><![CDATA[imagen-post[\w\W\s]{0,8}href="(.*?)".*?src=(.*?)".*?\n.*?bloque-inferior">\n(.*?)<]]></expres>
 <page>https://grantorrent.com/page/[makelist3.param1]/</page>
 </regex>
 
-<expres><![CDATA[alt="(.*?)".*?td>\n<td>(.*?)<.*?\n<td>(.*?)<.*?\n.*?href="(.*?torrent)"]]></expres>
 
-href="(.*?)".*?src="(.*?)".*?\n.*?bloque-superior\">\n(.*?)<.*?\n.*?\n.*?\n.*?\n.*?bloque-inferior\">\n(.*?)<
 
 
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
  <SetViewMode>55</SetViewMode>
- <title>[COLOR skyblue][UPPERCASE][B] [makelist2.param5][/B][/UPPERCASE][/COLOR]  Calidad:[makelist.param1]  Tamaño:[makelist.param2]  </title>
-<link>plugin://plugin.video.quasar/play?uri=[makelist.param3]</link>
+ <title>[COLOR skyblue][UPPERCASE][B] [makelist2.param3][/B][/UPPERCASE][/COLOR]  Calidad:[makelist.param2]  Tamaño:[makelist.param3]  </title>
+<link>plugin://plugin.video.quasar/play?uri=[makelist.param4]</link>
 <thumbnail>[makelist2.param2]</thumbnail>
 </regex>
 ]]></listrepeat>
-<expres>d>(.*?)<[\w\W\s]{0,7}td>(.*?)\.[\w\W\s]{0,16}href="(.*?)"</expres>
+<expres><![CDATA[alt="(.*?)".*?td>\n<td>(.*?)<.*?\n<td>(.*?)<.*?\n.*?href="(.*?torrent)"]]></expres>
 <page>[makelist2.param1]</page>
 </regex>
 <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/torrent.png</thumbnail>
 <info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
 </item>
-
 
 
 
