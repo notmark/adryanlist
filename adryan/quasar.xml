@@ -286,9 +286,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>[makelist2.param2]</thumbnail>
 </regex>
 ]]></listrepeat>
-<expres><![CDATA[href="(.*?)"[\w\W\s]{0,72}src="(.*?)"[\w\W\s]{0,110}bloque_superior">(.*?)<[\w\W\s]{0,110}icono\_(.*?).png[\w\W\s]{0,300}bloque_inferior">(.*?)<]]></expres>
+<expres><![CDATA[href="(.*?)".*?src="(.*?)"[\w\W\s]{0,350}bloque_superior">\n(.*?)<[\w\W\s]{0,110}icono\_(.*?).png[\w\W\s]{0,40}bloque_inferior">\n(.*?)<]]></expres>
 <page>https://grantorrent.com/page/[makelist3.param1]/</page>
 </regex>
+
+
+
+
+
 
 <regex>
 <name>makelist</name>
@@ -398,7 +403,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>[makelist2.param2]</thumbnail>
 </regex>
 ]]></listrepeat>
-<expres><![CDATA[href="(.*?)"[\w\W\s]{0,72}src="(.*?)"[\w\W\s]{0,110}bloque_superior">(.*?)<[\w\W\s]{0,110}icono\_(.*?).png[\w\W\s]{0,300}bloque_inferior">(.*?)<]]></expres>
+<expres><![CDATA[href="(.*?)".*?src="(.*?)"[\w\W\s]{0,350}bloque_superior">\n(.*?)<[\w\W\s]{0,110}icono\_(.*?).png[\w\W\s]{0,40}bloque_inferior">\n(.*?)<]]></expres>
 <page>https://grantorrent.com</page>
 </regex>
 
