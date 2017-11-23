@@ -1190,21 +1190,23 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]NEWPCT[/B] [/COLOR][COLOR skyblue] -Estrenos[/COLOR] [COLOR lightslategray]    [Audio Latino] [/COLOR] </title>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]NEWPCT[/B] [/COLOR][COLOR skyblue] Estrenos[/COLOR] [COLOR lightslategray]    [Audio Latino] [/COLOR] </title>
 
  <link>$doregex[makelist3]</link>
 
  <regex>
 <name>makelist3</name>
 <listrepeat><![CDATA[
-<title>[makelist3.param3]</title>
+<title>[makelist3.param2]</title>
 <link>plugin://plugin.video.quasar/play?uri=$doregex[link].torrent</link>
- <thumbnail>[makelist3.param2]</thumbnail>
+ <thumbnail>[makelist3.param3]</thumbnail>
 ]]></listrepeat>
-<expres>href='(.*?)'[\w\W\s]{0,60}src='(.*?)'[\w\W\s]{0,180}h3>(.*?)<</expres>
+<expres>href="(.*?)".*?Descargar(.*?)gratis.*?src="(.*?)</expres>
 <page>http://www.newpct.com/peliculas-latino/</page>
 <referer>http://www.newpct.com/</referer>
 </regex>
+
+
 
 <regex>
 <name>link</name>
@@ -1233,7 +1235,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <thumbnail>[makelist3.param2]</thumbnail>
 ]]></listrepeat>
 <expres>href='(.*?)'[\w\W\s]{0,60}src='(.*?)'[\w\W\s]{0,180}h3>(.*?)<</expres>
-<page>http://www.newpct.com/peliculas-castellano/estrenos-de-cine/</page>
+<page>http://www.newpct.com/estrenos-de-cine/</page>
 <referer>http://www.newpct.com/</referer>
 </regex>
 
@@ -1263,7 +1265,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <thumbnail>[makelist3.param2]</thumbnail>
 ]]></listrepeat>
 <expres>href='(.*?)'[\w\W\s]{0,60}src='(.*?)'[\w\W\s]{0,180}h3>(.*?)<</expres>
-<page>http://www.newpct.com/peliculas-castellano/peliculas-rip/</page>
+<page>http://www.newpct.com/peliculas/</page>
 <referer>http://www.newpct.com/</referer>
 </regex>
 
@@ -1291,29 +1293,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- <tem>
-<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]KickAss Torrents[/B] [/COLOR][COLOR skyblue] Latinos[/COLOR] [COLOR lightslategray] Recientes [/COLOR] </title>
-
-
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
- <title>[COLOR lightblue][makelist.param2][/COLOR]</title>
-<link>plugin://plugin.video.quasar/play?uri=magnet:[makelist.param1]</link>
-
-</regex>
-]]></listrepeat>
-<expres>href="magnet:(.*?)"[\w\W]*?class="cellMainLink">(.*?)<</expres>
-<page>https://kat.cr/usearch/latino%20category:movies/</page>
-<referer>http://kat.cr/</referer>
-<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-</regex>
-<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/torrent.png</thumbnail>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
-</item>
-
 
 
 
@@ -1334,52 +1313,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<tem>
-<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]ShAaNiG Torrents [/B] [/COLOR][COLOR skyblue] VO[/COLOR] </title>
-<link>$doregex[makelist3]</link>
-<thumbnail> </thumbnail>
-<regex>
-<name>makelist3</name>
-<listrepeat><![CDATA[
-   <title>[makelist3.param2]</title>
-    <link>$doregex[makelist2]</link>
-
-]]></listrepeat>
-<expres>href="(.*?)"</expres>
-<page>https://www.shaanig.org/f4/</page>
-</regex>
-
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-   <title>[makelist2.param2]</title>
-    <link>$doregex[makelist]</link>
-
-
-]]></listrepeat>
-<expres>class="title" href="http://www.shaanig.org/(.*?)"[\w\W\s]{0,30}">(.*?)ShAaNiG</expres>
-<page>[makelist3.param1]</page>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-   <title>[COLOR lightblue][makelist.param2][/COLOR]</title>
-
-    <link>plugin://plugin.video.quasar/play?uri=[makelist.param1]</link>
- <thumbnail>[makelist.param2]</thumbnail>
-]]></listrepeat>
-<expres>href="(.*?.torrent)">(.*?)torrent</expres>
-<page>http://www.shaanig.org/[makelist2.param1]</page>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/torrent.png</thumbnail>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
-</item>
 
 
 
@@ -1618,7 +1551,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<!--
 
 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B] NEW MOVIES[/B] [/COLOR][COLOR skyblue] TorrentKing [/COLOR] [COLOR lightslategray] [/COLOR] </title>
