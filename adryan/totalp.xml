@@ -21,29 +21,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
- <item>
-	<title>[COLOR lime]•  [/COLOR][COLOR skyblue][B]TotalPlay[/B] [/COLOR] [COLOR lightslategray][ Opcion [COLOR lightblue][B]Exabyte[/B][/COLOR]  ][/COLOR][COLOR lightslategray][B]  [COLOR lightgreen]   [/B] [/COLOR] [/COLOR] </title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-	<title>[makelist.param1]</title>
-	<link>[makelist.param2]</link>
-<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/tp.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
-]]></listrepeat>
-<expres>#EXTINF:-.*?,(.*)\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
-<page>http://exabytetv.info/lista.m3u</page>
-<agent>$doregex[it]</agent>
-<cookieJar></cookieJar>
-</regex>
-<name>it</name>
-<expres>Agent:"(.*?)";</expres>
-<page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/fuckit.php</page>
-</regex>
-<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/tp.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
-</item>
+
 
 
 

@@ -28,7 +28,7 @@
 
 
  <item>
-<title>[B][COLOR lightyellow]EVENTO (LIGA MX / LA LIGA)[/COLOR][COLOR lightblue] [/COLOR][COLOR skyblue] [/B] [COLOR aquamarine]  [/COLOR][/COLOR] </title>
+<title>[B][COLOR lightyellow]EVENTO (LIGA MX / LA LIGA)[/COLOR][COLOR lightblue] opciones 1[/COLOR][COLOR skyblue] [/B] [COLOR aquamarine] Liguilla mx, Juegos de Vuelta Sabado y Domingo   [/COLOR][/COLOR] </title>
 <link>$doregex[bro.adca.st]</link>
 
 
@@ -72,6 +72,49 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
+
+ <item>
+<title>[B][COLOR lightyellow]EVENTO (LIGA MX / LA LIGA)[/COLOR][COLOR lightblue] opciones 2[/COLOR][COLOR skyblue] [/B] [COLOR aquamarine] Liguilla mx, Juegos de Vuelta Sabado y Domingo   [/COLOR][/COLOR] </title>
+<link>$doregex[bro.adca.st]</link>
+
+
+<regex>
+<name>bro.adca.st</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=$doregex[select]&p=1&c=0&stretching=uniform&old=0'):
+ import requests, re, urllib
+ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
+ headers['Referer'] = 'http://lol.xrivonet.info/rivo/rivo5.html'
+ source = requests.get(url, headers=headers)
+ m3u8 = re.findall('trap = "(.+?)"', source.text)[0]
+ m3u8 = m3u8.decode('base64')
+ tokenpage = re.findall('fass = "(.+?)"', source.text)[0]
+ headers['Referer'] = url
+ headers['X-Requested-With'] = 'XMLHttpRequest'
+ headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
+ headers['Accept-Language'] = 'en-US,en;q=0.5'
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
+ return m3u8
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>select</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import xbmcgui
+   dialog = xbmcgui.Dialog()
+   ret = dialog.select('Elige un Canal ', ['Opcion 1', 'Opcion 2', 'Opcion 3', 'Opcion 4', 'Opcion 5'])
+   lists = ['21911', '7386', '21611', '21675', '415']
+   return lists[ret]
+]]></expres>
+<page></page>
+</regex>
+
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/deportes.png</thumbnail>
+<info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
+</item>
 
 
 
@@ -1179,6 +1222,39 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
+
+
+
+<item>
+<title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] RivoSports BC[/B][/COLOR]   [COLOR white]  [/COLOR]</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+  import re,requests
+  headers = {'User-Agent': 'Mozilla/5.0 (X11 Linux i686 rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': 'http://veremos.date/all.php?id=rivo22&p=0&c=0&stretching=uniform'}
+  url = '$doregex[url2]'
+  source = requests.get(url, headers=headers).text
+  data1 = re.findall('return\(\[([^\]]+)', source)[0]
+  data2 = re.findall('\+ ([^\.]+).join', source)[0]
+  data2 = re.findall(data2 + ' = \W(.+)\]', source)[0]
+  data1 = ''.join(data1).replace('"','').replace(',', '').replace(' ', '').replace('\/','/')
+  data2 = ''.join(data2).replace('"','').replace(',', '').replace(' ', '').replace('\/','/')
+  data3 = re.findall('getElementById\W"([^"]+)', source)[0]
+  data3 = re.findall(data3 + '\W*(.+?=*)\W', source)[0]
+  return data1 + data2 + data3
+]]></expres>
+<page></page>
+</regex>
+
+<regex>
+<name>url2</name>
+<expres><![CDATA[src="(.*?)"]]></expres>
+<page>http://veremos.date/all.php?id=rivo22&amp;p=0&amp;c=0&amp;stretching=uniform</page>
+<referer>http://lol.xrivonet.info/rivo/rivo.html</referer>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
