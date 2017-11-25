@@ -1659,6 +1659,16 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=
 
 
 
+<item>
+<title>[B][COLOR deepskyblue]Multicanal[/COLOR][COLOR lightblue] Futbol Andres[/B][/COLOR]  [COLOR white]   wide  [/COLOR] </title>
+<link>$doregex[get-id]</link>
+<regex>
+<name>get-id</name>
+<expres>file:"(.*?)"</expres>
+<page>http://widestream.io/embed-7231</page>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+
 
 
 
@@ -1669,7 +1679,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=
 <regex>
 <name>get-id</name>
 <expres>file:"(.*?)"</expres>
-<page>http://widestream.io/embed-16337</page>
+<page>http://widestream.io/embed-14405</page>
 </regex>
 <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
