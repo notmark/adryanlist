@@ -293,41 +293,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<item>
-<title> [COLOR lime]•[/COLOR]    [COLOR lightgreen][B]CINE CLASICO [/COLOR][COLOR skyblue]MEXICO[/COLOR] [/B]</title>
-<link>$doregex[makelist2]</link>
-
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
- <title>[makelist2.param3]</title>
- <link>$doregex[makelist]</link>
- <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
- ]]></listrepeat>
-<expres>youtuber:"(.*?)" playlist:"(.*?)" name:"(.*?)"; </expres>
-<page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/kozm.txt</page>
-<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
-</regex>
-
-
- <regex>
- <name>makelist</name>
- <listrepeat><![CDATA[
-     <title>[makelist.param2]</title>
-     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-     <thumbnail>NA</thumbnail>
- ]]></listrepeat>
- <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
- <page>https://www.youtube.com/playlist?list=[makelist2.param2]</page>
- <referer>https://www.youtube.com/channel/[makelist2.param1]/playlists</referer>
- <cookieJar></cookieJar>
- </regex>
- <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
-</item>
-
 
 <item>
-<title> [COLOR lime]•[/COLOR]    [COLOR coral][B]EL RINCON DEL TERROR[/COLOR][COLOR skyblue] Cortesia de LOLO[/COLOR] [/B]</title>
+<title> [COLOR lime]•[/COLOR]    [COLOR lightgreen][B]EL RINCON DEL TERROR[/COLOR][COLOR skyblue] [/COLOR] [/B]</title>
 <link>ignorme</link>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/terror.xml</externallink>
 
@@ -3379,48 +3347,72 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-	 <item>
-<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]CINETUX NET [/B] [/COLOR][COLOR skyblue] Estrenos [Audio Latino] [/COLOR]   </title>
-<link>$doregex[makelist3]</link>
+ <item>
+ <title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]CINETUX NET [/B] [/COLOR][COLOR skyblue] Estrenos [Audio Latino] [/COLOR]   </title>
+ <link>$doregex[makelist3]</link>
+
+  <regex>
+ <name>makelist3</name>
+ <listrepeat><![CDATA[
+ <title>Pagina [makelist3.param1]</title>
+ <link>$doregex[makelist2]</link>
+ ]]></listrepeat>
+ <expres>'(.*?)'</expres>
+ <page>'1''2''3''4''5''6''7''8''9''10''11''12''13''14''15''16''17''18''19''20''21''22''23''24''25'</page>
+ </regex>
+
+
+    <regex>
+ <name>makelist2</name>
+ <listrepeat><![CDATA[
+ <title>[makelist2.param2] [makelist2.param3] </title>
+ <link>$doregex[makelist]</link>
+ <thumbnail>[makelist2.param1]</thumbnail>
+ ]]></listrepeat>
+ <expres>src="(.*?)"\salt="(.*?)".*?quality">(.*?)<.*?href="(.*?)"</expres>
+ <page>http://www.cinetux.net/idioma/latino/page/[makelist3.param1]/</page>
+ </regex>
+
+
 
  <regex>
-<name>makelist3</name>
-<listrepeat><![CDATA[
-<title>Pagina [makelist3.param1]</title>
-<link>$doregex[makelist2]</link>
-]]></listrepeat>
-<expres>'(.*?)'</expres>
-<page>'1''2''3''4''5''6''7''8''9''10''11''12''13''14''15''16''17''18''19''20''21''22''23''24''25'</page>
-</regex>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+ <title>[B][makelist2.param2][/B] [makelist2.param3]        SERVER:[makelist.param1]</title>
+ <link>$doregex[id3]</link>
+ <thumbnail>[makelist2.param3]</thumbnail>
+ <fanart>[makelist2.param2]</fanart>
+ ]]></listrepeat>
+ <expres>data-lazy-src="(.*?)"</expres>
+ <page>[makelist2.param4]</page>
+ <referer></referer>
+ <cookieJar></cookieJar>
+ </regex>
+
+ <regex>
+ <name>id3</name>
+ <expres><![CDATA[#$pyFunction
+ def GetLSProData(page_data,Cookie_Jar,m):
+     import urlresolver
+     url = '$doregex[url]'
+     try:
+         u = urlresolver.resolve(url)
+     except:
+         u = 'http://adryantv.org/error.mp4'
+     return u
+ ]]></expres>
+ <page></page>
+ </regex>
+
+ <regex>
+ <name>url</name>
+ <expres>replace\(\"(.*?)"</expres>
+ <page>[makelist.param1]</page>
+ </regex>
 
 
-   <regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-<title>[makelist2.param2] [makelist2.param3] </title>
-<link>$doregex[makelist]</link>
-<thumbnail>[makelist2.param1]</thumbnail>
-]]></listrepeat>
-<expres>src="(.*?)"\salt="(.*?)"[\w\W\s]{0,80}quality">(.*?)<[\w\W\s]{0,12}href="(.*?)"</expres>
-<page>http://www.cinetux.net/idioma/latino/page/[makelist3.param1]/</page>
-</regex>
-
-
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[makelist2.param2] [makelist2.param3]        SERVER:[makelist.param1]</title>
-<urlsolve>[makelist.param1]</urlsolve>
-<thumbnail>[makelist2.param3]</thumbnail>
-<fanart>[makelist2.param2]</fanart>
-]]></listrepeat>
-<expres>data-lazy-src="(.*?)"</expres>
-<page>[makelist2.param4]</page>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
- </item>
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
+  </item>
 
 
 
