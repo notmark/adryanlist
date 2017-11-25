@@ -1744,72 +1744,76 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<item>
-<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]NEWPCT[/B] [/COLOR][COLORskyblue][Latino + Castellano][/COLOR] </title>
 
-<link>$doregex[makelist2]</link>
+ <item>
+ <title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]NEWPCT[/B] [/COLOR][COLORskyblue][Latino + Castellano][/COLOR] </title>
 
-
- <regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-<title>[COLOR skyblue] [makelist2.param3]   [/COLOR]</title>
-<link>$doregex[makelist3]</link>
-<thumbnail>[makelist2.param2]</thumbnail>
-<fanart>[makelist2.param2]</fanart>
-]]></listrepeat>
-<expres><![CDATA[href='(.*?)'[\w\W\s]{0,57}src='(.*?)'[\w\W\s]{0,230}h3>(.*?)<]]></expres>
-<page>$doregex[select]</page>
-</regex>
+ <link>$doregex[makelist2]</link>
 
 
-
-
-
-<regex>
-<name>select</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-   import xbmcgui
-   dialog = xbmcgui.Dialog()
-   ret = dialog.select('Elige una Seccion ', ['DVDRIP-BRRIP Castellano', 'Peliculas Latino', 'Estrenos de Cine Castellano', 'Peliculas Alta Definicion HD', 'Peliculas en 3D HD', 'Otras Peliculas', 'Peliculas x264 MKV', 'Peliculas V.O.Subtituladas'])
-   lists = ['http://www.newpct.com/peliculas-castellano/peliculas-rip/', 'http://www.newpct.com/peliculas-latino/', 'http://www.newpct.com/peliculas-castellano/estrenos-de-cine/', 'http://www.newpct.com/cine-alta-definicion-hd/', 'http://www.newpct.com/peliculas-en-3d-hd/', 'http://www.newpct.com/otras-peliculas/', 'http://www.newpct.com/peliculas-x264-mkv/', 'http://www.newpct.com/peliculas-vo/']
-   return lists[ret]
-]]></expres>
-<page></page>
-</regex>
-
+  <regex>
+ <name>makelist2</name>
+ <listrepeat><![CDATA[
+ <title>[COLOR skyblue] [makelist2.param2]   [/COLOR]</title>
+ <link>$doregex[makelist3]</link>
+ <thumbnail>[makelist2.param3]</thumbnail>
+ <fanart>[makelist2.param3]</fanart>
+ ]]></listrepeat>
+ <expres>href="(.*?)".*?Descargar(.*?)gratis.*?src="(.*?)"</expres>
+ <page>$doregex[select]</page>
+ </regex>
 
 
 
  <regex>
-<name>makelist3</name>
-<listrepeat><![CDATA[
-<title>[COLOR skyblue] [makelist2.param3]              server: [makelist3.param1][/COLOR]</title>
- <link>$doregex[id3]</link>
-<thumbnail>[makelist2.param2]</thumbnail>
-<fanart>[makelist2.param2]</fanart>
-]]></listrepeat>
-<expres><![CDATA[href='(https://openload.co/f/.*?|https://powvideo.*?|http://uptobox.*?|https://vidabc.*?)']]></expres>
-<page>[makelist2.param1]</page>
-</regex>
+ <name>select</name>
+ <expres><![CDATA[#$pyFunction
+ def GetLSProData(page_data,Cookie_Jar,m):
+    import xbmcgui
+    dialog = xbmcgui.Dialog()
+    ret = dialog.select('Elige una Seccion ', ['Peliculas Castellano', 'Peliculas Latino', 'Estrenos de Cine Castellano', 'Peliculas Alta Definicion HD', 'Peliculas en 3D HD', 'Otras Peliculas', 'Peliculas x264 MKV', 'Peliculas V.O.Subtituladas'])
+    lists = ['http://www.newpct.com/peliculas/', 'http://www.newpct.com/peliculas-latino/', 'http://www.newpct.com/estrenos-de-cine/', 'http://www.newpct.com/peliculas-hd/', 'http://www.newpct.com/peliculas-3d/', 'http://www.newpct.com/otras-peliculas/', 'http://www.newpct.com/peliculas-x264-mkv/' ]
+    return lists[ret]
+ ]]></expres>
+ <page></page>
+ </regex>
 
-<regex>
-<name>id3</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = '[makelist3.param1]'
-    try:
-        u = urlresolver.resolve(url)
-    except:
-        u = 'http://adryantv.org/error.mp4'
-    return u
-]]></expres>
-<page></page>
-</regex>
 
-<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
+
+
+
+
+
+  <regex>
+ <name>makelist3</name>
+ <listrepeat><![CDATA[
+ <title>[COLOR skyblue] [makelist2.param2]              server: [makelist3.param1][/COLOR]</title>
+  <link>$doregex[id3]</link>
+ <thumbnail>[makelist2.param3]</thumbnail>
+ <fanart>[makelist2.param3]</fanart>
+ ]]></listrepeat>
+ <expres><![CDATA[href='(https://openload.co/f/.*?|https://powvideo.*?|http://uptobox.*?|https://vidabc.*?)']]></expres>
+ <page>[makelist2.param1]</page>
+ </regex>
+
+ <regex>
+ <name>id3</name>
+ <expres><![CDATA[#$pyFunction
+ def GetLSProData(page_data,Cookie_Jar,m):
+     import urlresolver
+     url = '[makelist3.param1]'
+     try:
+         u = urlresolver.resolve(url)
+     except:
+         u = 'http://adryantv.org/error.mp4'
+     return u
+ ]]></expres>
+ <page></page>
+ </regex>
+
+ <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
+
+
 
 
 
