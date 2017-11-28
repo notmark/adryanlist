@@ -3309,7 +3309,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B]SERIES PLUS[/B] [/COLOR][COLOR skyblue] en proceso [/COLOR] </title>
+<title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B]SERIES PLUS[/B] [/COLOR][COLOR skyblue] en proceso * [/COLOR] </title>
 <link>$doregex[makelist2]</link>
 
 
@@ -3319,20 +3319,18 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <SetViewMode>55</SetViewMode>
         <title>[B][makelist2.param1] [/B] [COLOR lightslategray][makelist2.param6]  [/COLOR]</title>
 <link>$doregex[makelist]</link>
-<thumbnail>https://www.thetvdb.com/banners/posters/[makelist2.param7]-1.jpg</thumbnail>
-<fanart>https://www.thetvdb.com/banners/fanart/original/[makelist2.param7]-1.jpg</fanart>
+<thumbnail>https://www.thetvdb.com/banners/posters/$doregex[imagen]-1.jpg</thumbnail>
 ]]></listrepeat>
 <expres>Name:(.*?)\|\surl:(.*?)\|\sFecha:(.*?)\|\sClase:(.*?)\|\sIdioma:(.*?)\|\sTemporada:(.*?)\|\sid:(.*?)\|</expres>
-<page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan//listascompartidas.txt</page>
+<page>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/listascompartidas.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
 <regex>
 <name>imagen</name>
 <expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
-<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page>
+<page>https://www.thetvdb.com/?tab=listseries&amp;function=Search&amp;string=[makelist2.param1]</page>
 </regex>
-
 
 <regex>
   <name>makelist</name>
