@@ -917,10 +917,8 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 
 
 
-
-
 <item>
-<title>SPORTS DEVIL LIVE TV</title>
+<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]SPORTS DEVIL LIVE TV[/B] [/COLOR][COLOR lightblue][I][/I][/COLOR]</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.SportsDevil/?item=url=customs.cfg&amp;mode=1</jsonrpc>
 <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
@@ -941,7 +939,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 
 
 <item>
-<title>ROJA IPTV M3U</title>
+<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]ROJA IPTV M3U[/B] [/COLOR][COLOR lightblue][I][/I][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
@@ -982,7 +980,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 
 
 <item>
-<title>EDOCTOR</title>
+<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]EDOCTOR[/B] [/COLOR][COLOR lightblue][I][/I][/COLOR]</title>
 <link>rs</link>
 <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
 <externallink>https://raw.githubusercontent.com/hadjistyllis/myapp/master/TV%20category.m3u</externallink>
@@ -1004,7 +1002,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 
 
 <item>
- <title>IPTV EMBED</title>
+ <title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]IPTV EMBED[/B] [/COLOR][COLOR lightblue][I][/I][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -1027,7 +1025,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 
 
 <item>
-<title>DAILY IPTV M3U 2</title>
+<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]DAILY IPTV M3U 2[/B] [/COLOR][COLOR lightblue][I][/I][/COLOR]</title>
 <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <link>$doregex[makelist]</link>
@@ -1071,7 +1069,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 
 
 <item>
-<title>DAILY PLAYLIST COUNTRIES</title>
+<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]DAILY PLAYLIST COUNTRIES[/B] [/COLOR][COLOR lightblue][I][/I][/COLOR]</title>
 <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 
@@ -1138,7 +1136,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 
 
 <item>
-<title>M3U LIST</title>
+<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]M3U LIST[/B] [/COLOR][COLOR lightblue][I][/I][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 
@@ -1190,7 +1188,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 
 
  <item>
-<title>DiarLima IPTV BRASIL </title>
+<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]DiarLima IPTV BRASIL[/B] [/COLOR][COLOR lightblue][I][/I][/COLOR]</title>
 <link>rs</link>
 <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
 <externallink>http://secretv.j2mf4.com/RSIPTV/World/brasil.html</externallink>
@@ -1207,7 +1205,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 
 
 <item>
-<title>WORLD DAILY SERVERS IPTV</title>title>
+<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]WORLD DAILY SERVERS IPTV[/B] [/COLOR][COLOR lightblue][I][/I][/COLOR]</title>
 <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <link>$doregex[makelist]</link>
@@ -1240,27 +1238,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 
 
 
-<item>
-<title>SERVER ORBIT</title>
-<thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-     <title> [COLOR deepskyblue]Logins4U...[/COLOR]    [COLOR darkorange][I]([makelist.param1])[/I][/COLOR]  </title>
-	 <thumbnail>http://adryanlist.org/adryan/img/iptv.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
-    <link>NA</link>
-    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
-]]></listrepeat>
-<expres>(http:\/\/orbit-iptv.com:2500\/.*?get.php.*?)&lt;</expres>
-<page>http://www.m3uliste.pw/</page>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
 
-</item>
 
 
 
@@ -1270,7 +1248,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 
 
 <item>
-<title>M3U LISTS Updated Daily</title>
+<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]M3U LISTS Updated Daily[/B] [/COLOR][COLOR lightblue][I][/I][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 <regex>
@@ -1315,7 +1293,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 
 
 <item>
-<title>ULTIMATE IPTV</title>
+<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]ULTIMATE IPTV[/B] [/COLOR][COLOR lightblue][I][/I][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 <regex>
@@ -1357,7 +1335,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 
 
 <item>
-<title>IPTV SHARING</title>
+<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]IPTV SHARING[/B] [/COLOR][COLOR lightblue][I][/I][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 <regex>
@@ -1400,7 +1378,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 
 
  <item>
-<title>IPTV FREE</title>
+<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]IPTV FREE[/B] [/COLOR][COLOR lightblue][I][/I][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 <regex>
