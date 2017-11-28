@@ -5,11 +5,11 @@
 
 
 <item>
-<title>[UPPERCASE][COLOR skyblue]  #0[/UPPERCASE][/COLOR]* </title>
+<title>[UPPERCASE][COLOR skyblue]  #0[/UPPERCASE][/COLOR] </title>
 <link>$doregex[GetPageUrl]|Referer=http://telefivegb.com/tv-spain/ver-canal-plus0-hd-online-gratis-vivo/&amp;User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed.php?file=pluscero&amp;width=650&amp;height=397</page>
 <agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
 <referer>http://telefivegb.com/tv-spain/ver-canal-plus0-hd-online-gratis-vivo/</referer>
@@ -55,7 +55,7 @@
 <link>$doregex[GetPageUrl]|Referer=http://vercanalestv.com/tv/nacionales/canal-plus-estrenos.html&amp;User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed.php?file=dicneesp&amp;width=650&amp;height=397</page>
 <agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
 </regex>
