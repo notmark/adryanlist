@@ -5064,12 +5064,48 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://dl.dlfile.pro/2/</page>
 <cookieJar></cookieJar>
 </regex>
+<thumbnail> </thumbnail>
+</item>
 
 
+
+
+
+<item>
+<title>Peliculas</title>
+<link>$doregex[makelist3]</link>
+<regex>
+  <name>makelist3</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:'[COLOR skyblue][makelist3.param2][/COLOR] [makelist3.param3][makelist3.param4]'.replace(".", " ").replace("mp4", "[COLOR aquamarine]Adryanlist[/COLOR]").replace("mkv", "[COLOR aquamarine]Adryanlist[/COLOR]")</title>
+        <link>http://condor1726.dedicatedpanel.com/PELICULAS/[makelist3.param1]</link>
+
+        ]]></listrepeat>
+<expres>href="(.*?)">(.*?).(20.*?)(.*?mkv|mp4)<</expres>
+<page>http://condor1726.dedicatedpanel.com/PELICULAS/?C=M;O=D</page>
+<cookieJar></cookieJar>
+</regex>
 
 <thumbnail> </thumbnail>
 </item>
 
+<item>
+<title>Peliculas CAM</title>
+<link>$doregex[makelist3]</link>
+<regex>
+  <name>makelist3</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:'[COLOR skyblue][makelist3.param2][/COLOR] [makelist3.param3][makelist3.param4]'.replace(".", " ").replace("mp4", "[COLOR aquamarine]Adryanlist[/COLOR]").replace("mkv", "[COLOR aquamarine]Adryanlist[/COLOR]")</title>
+        <link>http://condor1726.dedicatedpanel.com/CAM-PELIS/[makelist3.param1]</link>
+
+        ]]></listrepeat>
+<expres>href="(.*?)">(.*?).(20.*?)(.*?mkv|mp4)<</expres>
+<page>http://condor1726.dedicatedpanel.com/CAM-PELIS/</page>
+<cookieJar></cookieJar>
+</regex>
+
+<thumbnail> </thumbnail>
+</item>
 
 
 
