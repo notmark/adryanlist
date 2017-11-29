@@ -1,4 +1,4 @@
-name="KODI 17 en Windows 09-2017"
+name="Instalar Wizard 1.1 [No incluye Quasar]"
 url="https://archive.org/download/adryanwizardnov17/adryanwizard.zip"
 img="http://i.imgur.com/XekH37W.png"
 fanart="http://adryanlist.org/adryan/img/fanart.jpg"
