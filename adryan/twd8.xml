@@ -11,7 +11,7 @@
 <name>makelist3</name>
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
-<title>[COLOR lightblue]TWD s08 capitulo 3 | [COLOR lightgreen]Idioma:[B][makelist3.param1][/B][/COLOR]  [COLOR lightblue]Calidad:[B][makelist3.param5][/B][/COLOR]  [COLOR aquamarine]Server:[B][makelist3.param3][/B][/COLOR]        [/COLOR]</title>
+<title>[COLOR lightblue]TWD s08 capitulo 1 | [COLOR lightgreen]Idioma:[B][makelist3.param1][/B][/COLOR]  [COLOR lightblue]Calidad:[B][makelist3.param5][/B][/COLOR]  [COLOR aquamarine]Server:[B][makelist3.param3][/B][/COLOR]        [/COLOR]</title>
 <link>$doregex[id3]</link>
 <thumbnail>http://www.seriespapaya.com/[makelist1.param1]</thumbnail>
 <fanart>http://www.seriespapaya.com/[makelist1.param1]</fanart>
@@ -56,7 +56,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>makelist3</name>
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
-<title>[COLOR lightblue]TWD s08 capitulo 3 | [COLOR lightgreen]Idioma:[B][makelist3.param1][/B][/COLOR]  [COLOR lightblue]Calidad:[B][makelist3.param5][/B][/COLOR]  [COLOR aquamarine]Server:[B][makelist3.param3][/B][/COLOR]        [/COLOR]</title>
+<title>[COLOR lightblue]TWD s08 capitulo 2 | [COLOR lightgreen]Idioma:[B][makelist3.param1][/B][/COLOR]  [COLOR lightblue]Calidad:[B][makelist3.param5][/B][/COLOR]  [COLOR aquamarine]Server:[B][makelist3.param3][/B][/COLOR]        [/COLOR]</title>
 <link>$doregex[id3]</link>
 <thumbnail>http://www.seriespapaya.com/[makelist1.param1]</thumbnail>
 <fanart>http://www.seriespapaya.com/[makelist1.param1]</fanart>
@@ -151,7 +151,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>makelist3</name>
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
-<title>[COLOR lightblue]TWD s08 capitulo 3 | [COLOR lightgreen]Idioma:[B][makelist3.param1][/B][/COLOR]  [COLOR lightblue]Calidad:[B][makelist3.param5][/B][/COLOR]  [COLOR aquamarine]Server:[B][makelist3.param3][/B][/COLOR]        [/COLOR]</title>
+<title>[COLOR lightblue]TWD s08 capitulo 4 | [COLOR lightgreen]Idioma:[B][makelist3.param1][/B][/COLOR]  [COLOR lightblue]Calidad:[B][makelist3.param5][/B][/COLOR]  [COLOR aquamarine]Server:[B][makelist3.param3][/B][/COLOR]        [/COLOR]</title>
 <link>$doregex[id3]</link>
 <thumbnail>http://www.seriespapaya.com/[makelist1.param1]</thumbnail>
 <fanart>http://www.seriespapaya.com/[makelist1.param1]</fanart>
@@ -198,7 +198,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>makelist3</name>
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
-<title>[COLOR lightblue]TWD s08 capitulo 3 | [COLOR lightgreen]Idioma:[B][makelist3.param1][/B][/COLOR]  [COLOR lightblue]Calidad:[B][makelist3.param5][/B][/COLOR]  [COLOR aquamarine]Server:[B][makelist3.param3][/B][/COLOR]        [/COLOR]</title>
+<title>[COLOR lightblue]TWD s08 capitulo 5 | [COLOR lightgreen]Idioma:[B][makelist3.param1][/B][/COLOR]  [COLOR lightblue]Calidad:[B][makelist3.param5][/B][/COLOR]  [COLOR aquamarine]Server:[B][makelist3.param3][/B][/COLOR]        [/COLOR]</title>
 <link>$doregex[id3]</link>
 <thumbnail>http://www.seriespapaya.com/[makelist1.param1]</thumbnail>
 <fanart>http://www.seriespapaya.com/[makelist1.param1]</fanart>
