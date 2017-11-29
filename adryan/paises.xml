@@ -1890,61 +1890,18 @@ def GetLSProData(page_data,Cookie_Jar,m, url='http://shidurlive.com/embed/chvnex
 
 
 
-			<item>
-			<title>TVS Ecuador</title>
-<link>http://181.198.10.23:1935/live/_definst_/mp4:mystream_360p/playlist.m3u8</link></item>
 
 <item>
 			<title>UCSG TV Ecuador</title>
 <link>rtmp://ecuastream.net:1935/UCSGHQ/UCSGHQ</link></item>
 
-<item>
-			<title>Digital TV Canal 28 Macas Ecuador</title>
-<link>http://enhd.co:1935/9208/9208/playlist.m3u8</link></item>
 
 
 
 
-			<item>
-			<title>TC</title>
-			<link>rtmp://50.97.142.130:1935/live/_definst_ playpath=mp4:10001_480p swfUrl=http://elcanaldelfutbol.com/static/embed/jwplayer.flash.swf live=1 pageUrl=http://www.getwealthyschool.com/pop/tcpop1.html</link>
-			<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tc_ec.png</thumbnail>
-			</item>
 
 
 
-			<item>
-			<title>TC</title>
-			<link>rtmp://50.97.142.130:1935/live/_definst_ playpath=mp4:10001_480p swfUrl=http://elcanaldelfutbol.com/static/embed/jwplayer.flash.swf live=1 pageUrl=http://www.tctelevision.com/calle7/tctv/vivoL2.php </link>
-			<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tc_ec.png</thumbnail>
-			</item>
-
-			<item>
-			<title>ECTV</title>
-			<link>rtmp://38.96.148.216:1935/live/ playpath=internacional swfUrl=http://p.jwpcdn.com/6/9/jwplayer.flash.swf pageUrl=http://www.ecuadortv.ec/ live=true timeout=15</link>
-			<thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/ecuador_tv.png</thumbnail>
-			</item>
-
-
-			<item>
-			<title>ECUADOR TV lOCAL</title>
-			<link>http://38.96.148.216:1935/live/myStream2/playlist.m3u8</link>
-			<thumbnail></thumbnail>
-			</item>
-
-			<item>
-			<title>ECUADOR TV Internacional</title>
-			<link>http://38.96.148.216:1935/live/internacional/ecuadortvinternacional2.m3u8</link>
-			<thumbnail></thumbnail>
-			</item>
-
-
-
-			<item>
-			<title>Ecuavisa</title>
-			<link>rtmp://62.210.83.152:1935/liverepeat playpath=ecuatv1 swfUrl=http://direct-stream.biz/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://direct-stream.biz/embednews.php?c=ecuatv1&vw=600&vh=400</link>
-
-			</item>
 
 
 
@@ -1956,129 +1913,23 @@ def GetLSProData(page_data,Cookie_Jar,m, url='http://shidurlive.com/embed/chvnex
 			</item>
 
 
-			<item>
-			<title>Oromar TV</title>
-			<link>rtmp://stream.gcorpvision.com:19356/live/ playpath=oromartv swfUrl=http://ecuafut.me.la/jwplayerskin/skin-xml-base64/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://livesenales.ucoz.net/oromartv.html</link>
-
-			</item>
 
 
 
 
 
- <item>
-           <title> Oromar</title>
-           <link>rtmp://stream.gcorpvision.com:19356/live/ playpath=oromartv swfUrl=http://ecuafut.me.la/jwplayerskin/skin-xml-base64/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://livesenales.ucoz.net/oromartv.html</link>
-           <thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Oromar_logo.png/350px-Oromar_logo.png</thumbnail>
-           </item>
-
-		   <item>
-           <title> Gama tv</title>
-           <sportsdevil>http://www.tv-porinternet.com/2013/03/gama-tv-en-vivo-por-internet.html</sportsdevil>
-           <referer>http://www.tv-porinternet.com/</referer>
-           <thumbnail>http://tvonlinegratis.com/wp-content/uploads/2014/01/gamatv-500x500.png</thumbnail>
-		   </item>
-
-		   <item>
-           <title> Ecuador TV</title>
-           <link>http://ecuadortv_livehd-lh.akamaihd.net/i/00gmbhwfy_1@323284/master.m3u8?</link>
-           <thumbnail>http://digishopecuador.com/wp-content/gallery/gigantografias/ectv-pagina.jpg</thumbnail>
-           </item>
-
-           <item>
-           <title> TC  </title>
-           <link>http://50.97.142.130:1935/hls2/amlst:10001_ios_hd/playlist.m3u8</link>
-           <thumbnail>https://upload.wikimedia.org/wikipedia/commons/4/45/Tc_logo.png</thumbnail>
-           </item>
-
-		   <item>
-           <title> RTS  </title>
-           <link>http://d2rcb4pdmqg3cg.cloudfront.net/liverts/smil:liverts.smil/chunklist_b899152.m3u8</link>
-           <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Rts_logo.png/200px-Rts_logo.png</thumbnail>
-           </item>
-
-
-
-		   <item>
-           <title> Teleamazonas </title>
-           <sportsdevil>http://livestream.com/accounts/12674554/envivo</sportsdevil>
-           <referer>http://livestream.com</referer>
-           </item>
 
 
 
 
 
-		           <item>
-           <title> Teleamazonas</title>
-           <link>rtmp://$doregex[get-ip]/live/ playpath=teleamazonaspop?id=73168$doregex[pk] conn=S:OK swfUrl=http://www.embeducaster.com/static/scripts/fplayer.swf pageUrl=http://www.embeducaster.com/ live=true timeout=15</link>
-           <regex>
-           <name>get-ip</name>
-           <expres>redirect=(.*)</expres>
-           <page>http://www.embeducaster.com:1935/loadbalancer</page>
-           </regex>
-           <regex>
-           <name>pk</name>
-           <expres>ea=(.*)'</expres>
-           <page>http://www.embeducaster.com/embedplayer/teleamazonaspop/1/650/400</page>
-           <referer>http://www.tvdeecuador.com</referer>
-          </regex>
-          <thumbnail>http://3.bp.blogspot.com/-g8QVuaFCJfs/T-Z2y_777KI/AAAAAAAAAnw/xhFexK2IK5c/s400/teleamazonas.gif</thumbnail>
-		  </item>
-
-
-
-
-		   <item>
-           <title> Tele Amazonas </title>
-           <link>rtmp://$doregex[rtmpip]/live playpath=teleamazonaspop?id=73168\26pk=$doregex[pkval] conn=S:OK swfUrl=http://www.embeducaster.com/static/scripts/fplayer.swf pageUrl=http://www.embeducaster.com live=1 timeout=20</link>
-           <regex>
-           <name>rtmpip</name>
-           <expres>redirect=(.*)</expres>
-           <page>http://www.embeducaster.com:1935/loadbalancer</page>
-           <referer>http://www.embeducaster.com/static/scripts/fplayer.swf</referer>
-           </regex>
-           <regex>
-           <name>pkval</name>
-           <expres>pk=(.*)'</expres>
-           <page>http://www.embeducaster.com/embedplayer/teleamazonaspop/1/600/400</page>
-           <referer>http://www.getwealthyschool.com</referer>
-           </regex>
-           <thumbnail>http://3.bp.blogspot.com/-g8QVuaFCJfs/T-Z2y_777KI/AAAAAAAAAnw/xhFexK2IK5c/s400/teleamazonas.gif</thumbnail>
-		   </item>
-
-		   <item>
-           <title> ECUAVISA</title>
-           <link>rtmp://62.210.88.232:1935/liverepeat playpath=ecuatv1  swfUrl=http://direct-stream.biz/jwplayer/jwplayer.flash.swf pageUrl=http://direct-stream.biz/embednews.php?c=ecuatv1&vw=600&vh=400 timeout=20</link>
-           <thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Logo_Ecuavisa.svg/534px-Logo_Ecuavisa.svg.png</thumbnail>
-           </item>
-
-		   <item>
-           <title> Ecuavisa</title>
-           <link>rtmp://62.210.83.152:1935/liverepeat playpath=ecuatv1 swfUrl=http://direct-stream.biz/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://direct-stream.biz/embednews.php?c=ecuatv1&vw=600&vh=400</link>
-           <thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Logo_Ecuavisa.svg/534px-Logo_Ecuavisa.svg.png</thumbnail>
-           </item>
-           <item>
-
-		   <title> Canal Uno</title>
-           <link>rtmp://62.210.83.154:1935/liverepeat playpath=ecuatv2 swfUrl=http://direct-stream.biz/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://direct-stream.biz/embednews.php?c=ecuatv2&vw=600&vh=400</link>
-           <thumbnail>https://yt3.ggpht.com/-zX-WgqD_lUA/AAAAAAAAAAI/AAAAAAAAAAA/-bnw7I0as-s/s900-c-k-no/photo.jpg</thumbnail>
-           </item>
            <item>
            <title> Television Nacional</title>
            <link>http://xtvncanalecx.api.channel.livestream.com/3.0/playlist.m3u8</link>
            <thumbnail>http://jaramillobustamante.com/images/fotos_lightbox/marcas/logo_marca_exportacion_ecuador.jpg</thumbnail>
            </item>
-           <item>
-           <title> TVS Ecuador</title>
-           <link>http://181.198.10.23:1935/live/_definst_/mp4:mystream_360p/playlist.m3u8</link>
-           <thumbnail>https://pbs.twimg.com/profile_images/378800000431128547/f5ab81dec8d00d85870e355cd83f4e6e_400x400.png</thumbnail>
-           </item>
-           <item>
-           <title> TVS Ecuador Opc.2</title>
-           <link>http://181.198.10.23:1935/live/mystream/playlist.m3u8</link>
-           <thumbnail>https://pbs.twimg.com/profile_images/378800000431128547/f5ab81dec8d00d85870e355cd83f4e6e_400x400.png</thumbnail>
-           </item>
+
+
 
 		   <item>
            <title> UCGS TV</title>
@@ -2090,46 +1941,6 @@ def GetLSProData(page_data,Cookie_Jar,m, url='http://shidurlive.com/embed/chvnex
            <link>http://ecuastream.net:1935/UCSGHQ/UCSGHQ/playlist.m3u8</link>
            <thumbnail>https://pbs.twimg.com/profile_images/491309783782158338/Hb01Gy___400x400.jpeg</thumbnail>
            </item>
-		   <item>
-           <title> Digital TV</title>
-           <link>http://enhd.co:1935/9208/9208/playlist.m3u8</link>
-           <thumbnail></thumbnail>
-           </item>
-
-		   <item>
-           <title> CanelaTV</title>
-           <link>http://38.96.148.216:1935/live/canelatv/playlist.m3u8</link>
-           <thumbnail>http://www.ecuaonlinetvhd.com/images/small/canela.png</thumbnail>
-           </item>
-           <item>
-           <title> CanelaTV Opcion 2</title>
-           <link>rtmp://38.96.148.216:1935/live/ playpath=canelatv swfUrl=http://www.nasa.gov/sites/default/files/mediastreaming/jwplayer.flash.swf pageUrl=http://ecualive.me.la/live/tvdeecuador/canela-tv.html conn=S:OK</link>
-           <thumbnail>http://www.ecuaonlinetvhd.com/images/small/canela.png</thumbnail>
-           </item>
-
-
-           <item>
-           <title> MI TVS</title>
-           <link>rtmp://181.198.10.23:1935/live/ playpath=mystream swfUrl=http://www.nasa.gov/sites/default/files/mediastreaming/jwplayer.flash.swf live=1 pageUrl=http://ecualive.me.la/live/tvdeecuador/tvs.html timeout=20</link>
-           <thumbnail>https://lh6.googleusercontent.com/-g0gEArPXc8Y/UVE9WVryzWI/AAAAAAAAA-w/gNhRV0W9fAo/s241/tvs-gr.gif</thumbnail>
-           </item>
-
-
-
-
- <item>
-	<title>ECOTEL</title>
-	<link>rtmp://enhd.co:1935/ecoteltv/ playpath=ecoteltv swfUrl=http://enhd.co/system/misc/jwplayer6/jwplayer.flash.swf live=1 pageUrl=http://www.ecotel.tv/en-vivo/</link>
-	<thumbnail>http://www.ecotel.tv/wp-content/uploads/2014/12/senal-en-vivo.jpg</thumbnail>
-	</item>
-
-
-
- <item>
-        <title>UTV</title>
-        <link>rtmp://online.utn.edu.ec/online/utvstream</link>
-        <thumbnail>http://www.ucsgrtv.com/television/images/programacion/utvlogo.jpg</thumbnail>
-        </item>
 
 
 
@@ -2140,37 +1951,17 @@ def GetLSProData(page_data,Cookie_Jar,m, url='http://shidurlive.com/embed/chvnex
 
 
 
-      <item>
-	<title>ecuador tv</title>
-	<link>rtmp://38.96.148.216:1935/live/ playpath=internacional swfUrl=http://ecuafut.me.la/jwplayerskin/skin-xml-base64/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://livesenales.ucoz.net/ecuatvinternacional.html</link>
-
-	</item>
-
-
-
-        <item>
-	<title>TC Television</title>
-	<link>rtmp://174.127.72.180:1935/live/_definst_ playpath=mp4:10003 swfUrl=http://static.elcanaldelfutbol.com/embed/jwplayer.flash.swf live=1 pageUrl=http://www.tctelevision.com/calle7/tcinternacional/index.php</link>
-	<thumbnail>http://www.tctelevision.com/sites/all/themes/centum/logo.png</thumbnail>
-	</item>
 
 
 
 
-        <item>
-	<title>Canela TV</title>
-	<link>http://38.96.148.216:1935/live/canelatv/playlist.m3u8</link>
-
-	</item>
 
 
 
 
-        <item>
-	<title>Uno Ecuador</title>
-	<link>rtmp://62.210.83.154:1935/liverepeat playpath=ecuatv2 swfUrl=http://direct-stream.biz/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://direct-stream.biz/embednews.php?c=ecuatv2&vw=600&vh=400</link>
 
-	</item>
+
+
 
 
 
