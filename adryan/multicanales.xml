@@ -28,7 +28,7 @@
 
 
  <item>
-<title>[B][COLOR lightyellow]EVENTO (LIGA MX / LA LIGA)[/COLOR][COLOR lightblue] opciones 1[/COLOR][COLOR skyblue] [/B] [COLOR aquamarine] Liguilla mx, Juegos de Vuelta Sabado y Domingo   [/COLOR][/COLOR] </title>
+<title>[B][COLOR lightyellow]EVENTO (LIGA MX)[/COLOR][COLOR lightblue] opciones 1[/COLOR][COLOR skyblue] [/B] [COLOR aquamarine] Liguilla mx, Juegos de Vuelta Sabado y Domingo   [/COLOR][/COLOR] </title>
 <link>$doregex[bro.adca.st]</link>
 
 
@@ -74,7 +74,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
  <item>
-<title>[B][COLOR lightyellow]EVENTO (LIGA MX / LA LIGA)[/COLOR][COLOR lightblue] opciones 2[/COLOR][COLOR skyblue] [/B] [COLOR aquamarine] Liguilla mx, Juegos de Vuelta Sabado y Domingo   [/COLOR][/COLOR] </title>
+<title>[B][COLOR lightyellow]EVENTO (LIGA MX)[/COLOR][COLOR lightblue] opciones 2[/COLOR][COLOR skyblue] [/B] [COLOR aquamarine] Liguilla mx, Juegos de Vuelta Sabado y Domingo   [/COLOR][/COLOR] </title>
 <link>$doregex[bro.adca.st]</link>
 
 
@@ -106,7 +106,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
    import xbmcgui
    dialog = xbmcgui.Dialog()
    ret = dialog.select('Elige un Canal ', ['Opcion 1', 'Opcion 2', 'Opcion 3', 'Opcion 4', 'Opcion 5'])
-   lists = ['21911', '7386', '21611', '21675', '415']
+   lists = ['6023', '4435', '4432', '21675', '415']
    return lists[ret]
 ]]></expres>
 <page></page>
