@@ -14,21 +14,34 @@ Name:Marvel Agente Carter | url:http://diskokosmiko.mx/shipwreck/marvel-agente-c
 Name:Marvel Agents of Shield | url:http://diskokosmiko.mx/SeriesHD/marvel-agentes-of-shield-t1-46487/list,1,1| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1| id:263365|
 Name:Marvel Agents of Shield | url:http://diskokosmiko.mx/SeriesHD/marvel-agentes-of-shield-t2-46488/list,1,1| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 2| id:263365|
 Name:Marvel Agents of Shield | url:http://diskokosmiko.mx/SeriesHD/marvel-agentes-of-shield-t3-46489/list,1,1| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 3| id:263365|
-Name:Al Descubierto | url:http://diskokosmiko.mx/gosseyn/al-descubierto-castellano-74332/list,1,3| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1| id: |
-Name:Alcatraz | url:http://diskokosmiko.mx/FLAYSINA/alcatraz-serie-completa-37892/list,1,1| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1| id: |
-Name:Algo que celebrar | url:http://diskokosmiko.mx/trivianita/algo-que-celebrar-completael-rockero-31685/list,1,1| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1| id: |
-Name:Alias | url:http://diskokosmiko.mx/LadyBlue/alias-temporadas-1-y-2-45306/list,1,10| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1 y 2| id:285333|
-Name:Alias | url:http://diskokosmiko.mx/yancarlito-reynoso/alias-jj-63671/list,1,3| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1| id:285333|
+Name:Al Descubierto | url:http://diskokosmiko.mx/gosseyn/al-descubierto-castellano-74332/list,1,3| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1| id:	82155|
+Name:Alcatraz | url:http://diskokosmiko.mx/FLAYSINA/alcatraz-serie-completa-37892/list,1,1| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1| id:	248646|
+Name:Algo que celebrar | url:http://diskokosmiko.mx/trivianita/algo-que-celebrar-completael-rockero-31685/list,1,1| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1| id:290591|
+Name:Alias | url:http://diskokosmiko.mx/LadyBlue/alias-temporadas-1-y-2-45306/list,1,10| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1 y 2| id:	75930|
+Name:Alias | url:http://diskokosmiko.mx/yancarlito-reynoso/alias-jj-63671/list,1,3| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1| id:	75930|
 Name:Ahi Abajo | url:http://diskokosmiko.mx/FLAYSINA/alli-abajo-1-2-temporadas-38639/list,1,2| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1 y 2| id: |
-Name:Ahi Abajo | url:http://diskokosmiko.mx/SeriesHD/alli-abajo-t3-63421/list,1,1| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 3| id: |
-Name:Warehouse | url:http://diskokosmiko.mx/trivianita/warehouse-13-78132/list,1,3| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1| id: |
-Name:Alpha House | url:http://diskokosmiko.mx/SeriesHD/alpha-house-t1-51067/list,1,1| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1| id:3012160|
-Name:Alpha house | url:http://diskokosmiko.mx/SeriesHD/alpha-house-t2-51068/list,1,1| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 2| id:3012160|
-Name:Alphas | url:http://diskokosmiko.mx/trivianita/alphas-76142/list,1,2| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1| id:1183865 |
-Name:American Crime Story | url:http://diskokosmiko.mx/SeriesHD/american-crime-story-t1-42916/list,1,1| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1| id: |
-Name:American Crime Story | url:http://diskokosmiko.mx/SeriesHD/american-crime-dual-t3-62605/list,1,1| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 3| id: |
-Name:American Gods | url:http://kbagi.com/juanitronic/american-gods-569317/list,1,1| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1| id: |
-Name:American Gothic | url:http://diskokosmiko.mx/SeriesHD/american-gothic-t1-43083/list,1,1| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1| id: |
+Name:Ahi Abajo | url:http://diskokosmiko.mx/SeriesHD/alli-abajo-t3-63421/list,1,1| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 3| id:84676|
+Name:Warehouse | url:http://diskokosmiko.mx/trivianita/warehouse-13-78132/list,1,3| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1| id:84676|
+Name:Alpha House | url:http://diskokosmiko.mx/SeriesHD/alpha-house-t1-51067/list,1,1| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1| id:269008|
+Name:Alpha house | url:http://diskokosmiko.mx/SeriesHD/alpha-house-t2-51068/list,1,1| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 2| id:269008|
+Name:Alphas | url:http://diskokosmiko.mx/trivianita/alphas-76142/list,1,2| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1| id:210841|
+Name:American Crime Story | url:http://diskokosmiko.mx/SeriesHD/american-crime-story-t1-42916/list,1,1| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1| id:289108|
+Name:American Crime Story | url:http://diskokosmiko.mx/SeriesHD/american-crime-dual-t3-62605/list,1,1| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 3| id:289108|
+Name:American Gods | url:http://kbagi.com/juanitronic/american-gods-569317/list,1,1| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1| id:253573|
+Name:American Gothic | url:http://diskokosmiko.mx/SeriesHD/american-gothic-t1-43083/list,1,1| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1| id:309053|
+
+name: titulo de la serie
+Url: la url de la serie
+fecha: año de la series
+clase:aqui se puede cambiar por genero principal de la serie para separarlas
+Idioma: esta en castellano, latino o subitutilado
+Temporada:  si es una temporada en concreto o varias  o ela serie completa
+id: es el id de https://www.thetvdb.com .. para poder ponerle el poster o caratula automaticamente
+espero entiendas el regex y te funcione..  creo que es mas sencillo  ellenar esta tabla. que ir agregando varios xml con codigo
+ya despues con el regex . podemos mostrar letras, generos, años, idioma..  etc.
+
+saludos. 
+
 
 Name: | url:http://diskokosmiko.mx/SeriesHD/american-horror-story-dual-t6-44765/list,1,1| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 6| id: |
 Name: | url:http://diskokosmiko.mx/trivianita/american-horror-story-74058/list,1,3| Fecha:2017| Clase:serie| Idioma:Castellano| Temporada:Temporada 1| id: |
