@@ -1758,11 +1758,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <link>$doregex[makelist3]</link>
  <thumbnail>[makelist2.param3]</thumbnail>
  <fanart>[makelist2.param3]</fanart>
- ]]></listrepeat>
- <expres>href="(.*?)".*?Descargar(.*?)gratis.*?src="(.*?)"</expres>
+]]></listrepeat>
+ <expres>href="(.*?)".*?Descargar(.*?)gratis.*?src="(.*?)</expres>
  <page>$doregex[select]</page>
  </regex>
-
 
 
  <regex>
