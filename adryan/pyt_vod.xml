@@ -2292,7 +2292,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]Peliculas Sr.Regio[/B] [/COLOR][COLOR skyblue][I]  [/I][/COLOR] </title>
 <link>http://ignora.me</link>
-<externallink>http://srregio.net/regiopeliculas.m3u</externallink>
+<externallink>http://srregio.xyz/regioflix.m3u</externallink>
 <fanart>http://fotonin.com/data_images/out/5/776482-cool-movie-wallpaper.jpg</fanart>
 <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail>
 <info></info>

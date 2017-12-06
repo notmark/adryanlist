@@ -96,9 +96,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 			<item>
-		<title>[COLOR lime]•  [/COLOR][COLOR skyblue][B]TotalPlay[/B] [/COLOR] [COLOR lightslategray][ Opcion [COLOR lightblue][B]GeantSat[/B] [/COLOR]][/COLOR][COLOR lightslategray][B]  [/B] [/COLOR] </title>
+		<title>[COLOR lime]•  [/COLOR][COLOR skyblue][B]TotalPlay[/B] [/COLOR] [COLOR lightslategray][ Opcion [COLOR lightblue][B]Regio[/B] [/COLOR]][/COLOR][COLOR lightslategray][B]  [/B] [/COLOR] </title>
 <link>NA</link>
-<externallink>http://www.geantsat.com/freeiptv/s9.m3u</externallink>
+<externallink>http://srregio.xyz/regiotv.m3u</externallink>
  			<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/tp.jpg</thumbnail>
 <fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
