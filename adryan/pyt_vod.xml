@@ -1763,7 +1763,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <page>$doregex[select]</page>
  </regex>
 
-
  <regex>
  <name>select</name>
  <expres><![CDATA[#$pyFunction
