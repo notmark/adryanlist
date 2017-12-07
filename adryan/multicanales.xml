@@ -2115,8 +2115,15 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=
 
 
 
+<item>
+<title>[B][COLOR lightyellow]Multicanal[/COLOR][/B] [COLOR lightblue]Revo 01  [/COLOR][COLOR white][I] sportsdevil [/I][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://revolucionariostv.eu/elitegol/Repros/c1.php</link>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
-
+<item>
+<title>[B][COLOR lightyellow]Multicanal[/COLOR][/B] [COLOR lightblue]Revo 02  [/COLOR][COLOR white][I] sportsdevil [/I][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://revolucionariostv.eu/elitegol/Repros/c2.php</link>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
@@ -2332,6 +2339,20 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=
     </regex>
 <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/deportes.png</thumbnail>
 <info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+
+
+
+
+<item>
+<title>[B][COLOR lightyellow]Multicanal[/COLOR][/B] [COLOR lightblue]Tiki01  [/COLOR][COLOR white][I] sportsdevil [/I][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://lacasadeltikitaka.club/directo/canal1.php</link>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
+
+
+<item>
+<title>[B][COLOR lightyellow]Multicanal[/COLOR][/B] [COLOR lightblue]Tiki02  [/COLOR][COLOR white][I] sportsdevil [/I][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://lacasadeltikitaka.club/directo/canal2.php</link>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/deportes.png</thumbnail><info>Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info></item>
 
 
 
