@@ -1,4 +1,4 @@
-<item>
+<itm>
 <title>[COLOR aquamarine][B]Selecciona una lista[/B][/COLOR]</title>
 
 <link>NA</link>
@@ -33,13 +33,22 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
+https://raw.githubusercontent.com/G67/G/master/G67C.m3u
+
+
+
+http://chileiptv.cl/cl.m3u
 
 
 
 
 
 
-  						<item>
+
+
+
+
+<item>
 		<title>[COLOR lime]•  [/COLOR][COLOR skyblue][B]TotalPlay[/B] [/COLOR] [COLOR lightslategray][ Opcion [COLOR lightblue][B]Adryanlist IZZI[/B] [/COLOR]][/COLOR][COLOR lightslategray][B]   [/B] [/COLOR] </title>
 <link>NA</link>2
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/izzi.xml</externallink>
@@ -48,29 +57,22 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
-
-
-
-
-
-
-
-			<item>
-		<title>[COLOR lime]•  [/COLOR][COLOR skyblue][B]TotalPlay[/B] [/COLOR] [COLOR lightslategray][ Opcion [COLOR lightblue][B]TecnoTV[/B] [/COLOR]][/COLOR][COLOR lightslategray][B]  [/B] [/COLOR] </title>
-<link>NA</link>
-<externallink>http://tecnotv.xyz/lista.m3u</externallink>
- 			<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/tp.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
-
-
-
-  						<item>
-		<title>[COLOR lime]•  [/COLOR][COLOR skyblue][B]TotalPlay[/B] [/COLOR] [COLOR lightslategray][ Opcion [COLOR lightblue][B]Adryanlist TP[/B] [/COLOR]][/COLOR][COLOR lightslategray][B]   [/B] [/COLOR] </title>
+<item>
+		<title>[COLOR lime]•  [/COLOR][COLOR skyblue][B]TotalPlay[/B] [/COLOR] [COLOR lightslategray][ Opcion [COLOR lightblue][B]IZZI[/B] [/COLOR]][/COLOR][COLOR lightslategray][B]   [/B] [/COLOR] </title>
 <link>NA</link>2
-<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/tecno.m3u</externallink>
+<externallink>https://pastebin.com/raw/cyH7vTu8</externallink>
  			<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/tp.jpg</thumbnail>
 <fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
+
+
+
+
+
+
+
+
+
+
 
 <item>
 <title>[COLOR lime]•  [/COLOR][COLOR skyblue][B]TotalPlay[/B] [/COLOR] [COLOR lightslategray][ Opcion [COLOR lightblue][B]Adryanlist Claro[/B] [/COLOR]][/COLOR][COLOR lightslategray][B]   [/B] [/COLOR] </title>
@@ -93,17 +95,27 @@ def GetLSProData(page_data,Cookie_Jar,m):
  			<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/tp.jpg</thumbnail>
 <fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
-
+<item>
+<title>[COLOR lime]•  [/COLOR][COLOR skyblue][B]TotalPlay[/B] [/COLOR] [COLOR lightslategray][ Opcion [COLOR lightblue][B]Adryanlist TP[/B] [/COLOR]][/COLOR][COLOR lightslategray][B]   [/B] [/COLOR] </title>
+<link>NA</link>2
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/tecno.m3u</externallink>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/tp.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
 			<item>
-		<title>[COLOR lime]•  [/COLOR][COLOR skyblue][B]TotalPlay[/B] [/COLOR] [COLOR lightslategray][ Opcion [COLOR lightblue][B]Regio[/B] [/COLOR]][/COLOR][COLOR lightslategray][B]  [/B] [/COLOR] </title>
+		<title>[COLOR lime]•  [/COLOR][COLOR skyblue][B]TotalPlay[/B] [/COLOR] [COLOR lightslategray][ Opcion [COLOR lightblue][B]SrRegio[/B] [/COLOR]][/COLOR][COLOR lightslategray][B]  [/B] [/COLOR] </title>
 <link>NA</link>
 <externallink>http://srregio.xyz/regiotv.m3u</externallink>
  			<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/tp.jpg</thumbnail>
 <fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
 
-
+<item>
+<title>[COLOR lime]•  [/COLOR][COLOR skyblue][B]TotalPlay[/B] [/COLOR] [COLOR lightslategray][ Opcion [COLOR lightblue][B]Geantsat[/B] [/COLOR]][/COLOR][COLOR lightslategray][B]  [/B] [/COLOR] </title>
+<link>NA</link>
+<externallink>http://www.geantsat.com/freeiptv/sr9.m3u</externallink>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/tp.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart></item>
 
 
 
@@ -247,7 +259,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-			 <tem>
+<tem>
 
 <link>$doregex[makelist]</link>
 <regex>
