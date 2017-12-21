@@ -107,6 +107,28 @@
 <info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
 [COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 
+
+<item>
+<title>[COLOR aquamarine][B]Television 24/7[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param2]</title>
+<link>https://hls.vaughnsoft.net/ord/live/live_[makelist.param1]/chunklist.m3u8</link>
+<thumbnail>http://cdn.vaughnsoft.com/vaughnsoft/vaughn/img_profiles/[makelist.param2]_320.jpg</thumbnail>
+]]></listrepeat>
+<expres>a href="/(.*?)"[\w\W\s]{0,22}browseTxt">(.*?)<</expres>
+<page>https://vaughnlive.tv/browse/espanol&amp;a=mvn</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/247.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+
+
 <item>
 <title>[COLOR white]IPTV [/COLOR][COLOR lightslategray][World Servers Updated Daily][/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/iptv.png</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
